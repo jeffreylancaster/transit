@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<!-- from: https://bl.ocks.org/Andrew-Reid/0aedd5f3fb8b099e3e10690bd38bd458 -->
+  <head>
+    <title>Subway Maps</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Subway Maps: City">
+    <meta name="keywords" content="Subway Maps">
+    <meta name="author" content="Jeffrey Lancaster">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+    <style>
+      /*.axis .domain {
+        display: none;
+      }
+      .timestamp{
+        fill: black;
+      }*/
+      body{
+        font-family: "Helvetica Neue";
+        /*padding-top: 35px;*/
+      }
+      header{
+        margin: 15px;
+      }
+      /*header img {
+        height: 0;
+        margin-top: 0;
+      }*/
+      header h1 > span{
+        font-weight: 300;
+        font-size: 50px;
+      }
+      header h3 > span{
+        font-weight: 400;
+        font-size: 20px;
+        padding-right: 20px;
+      }
+      #cta{
+        color: #999;
+        font-style: italic;
+        font-size: 0.8em;
+      }
+      #description{
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 15px;
+        color: #999;
+        font-size: 0.8em;
+      }
+      #description a{
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <!-- <img> -->
+        <span></span>
+      </h1>
+      <h3></h3>
+    </header>
+    <div id="description">
+      <p>Code and data for this project are on <a href="https://github.com/jeffreylancaster/" target="_blank">github</a>. Comments and suggestions are welcome on github or <a href="mailto: jeffrey@jeffreylancaster.com" target="_blank">here</a>.</p>
+    </div>
+    <svg></svg>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <script src="jquery.min.js"></script>
+    <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+    <script>
+
+/* HELPFUL FUNCTIONS */
+
+// to convert scene start/end times into seconds
+// function sec(timeString){
+//   var sec = 0;
+//   if (timeString.length == 0) return sec;
+//   var splitArray = timeString.split(":");
+//   sec = 3600*parseFloat(splitArray[0])+60*parseFloat(splitArray[1])+parseFloat(splitArray[2]);
+//   return sec;
+// }
+
+// to convert seconds into hh:mm:ss
+// function secondsToHMS(d) {
+//   var date = new Date(null);
+//   date.setSeconds(d); // specify value for SECONDS here
+//   return date.toISOString().substr(11, 8);
+// }
+
+// to dedpulicate an array
+function onlyUnique(value, index, self) { 
+  return self.indexOf(value) === index;
+}
+
+
+/* VARIABLES AND CONFIGURATION */
+var maps = [];
+
+/* IMPORT DATA */
+$.when(
+
+  $.getJSON("singapore.json", function(data) {
+    singaporeData = data;
+    maps.push("Singapore");
+    console.log("singapore.json loaded");
+  }).fail(function() {console.error("singapore.json not loaded");}),
+
+  $.getJSON("amtrak.json", function(data) {
+    amtrakData = data;
+    maps.push("Amtrak");
+    console.log("amtrak.json loaded");
+  }).fail(function() {console.error("amtrak.json not loaded");}),
+
+  $.getJSON("london.json", function(data) {
+    londonData = data;
+    maps.push("London");
+    console.log("london.json loaded");
+  }).fail(function() {console.error("london.json not loaded");}),
+
+  $.getJSON("chicago.json", function(data) {
+    chicagoData = data;
+    maps.push("Chicago");
+    console.log("chicago.json loaded");
+  }).fail(function() {console.error("chicago.json not loaded");})/*,
+
+  $.getJSON("newyork.json", function(data) {
+    newyorkData = data;
+    maps.push("New York");
+    console.log("newyork.json loaded");
+  }).fail(function() {console.error("newyork.json not loaded");})*/
+
+
+/* DO STUFF WITH THE DATA */
+).then(function() {
+  console.log("now that the files are loaded... do magic.");
+
+  maps = maps.sort();
+
+  function drawMap(data){
+
+    /* CONFIG SETUP */
+    
+    /* change the title */
+    $("h1 > span").html(data.map + " Transit Map");
+    
+    /* show the list of cities */
+    var mapList = "";
+    for(var i in maps){
+      mapList += "<span>" + maps[i] + "</span>";
+    }
+    $("h3").html(mapList);
+
+    /* set up the svg size */
+    $("svg").attr({width: data.svgConfig.width, height: data.svgConfig.height});
+    
+    /* END CONFIG SETUP */
+
+    /* BUILD THE NODES AND EDGES */
+    data.nodes = [];
+    data.links = [];
+    data.nodesObject = {};
+
+    // build nodes list
+    for(var i in data.lines){
+      for(var j in data.lines[i].stations){
+        data.nodesObject[data.lines[i].stations[j].name] = data.lines[i].stations[j];
+      }
+    }
+    // convert object to array
+    data.nodes = Object.values(data.nodesObject);
+
+    // sort the array of nodes (unnecessary?)
+    // data.nodes.sort(function(a,b){
+    //   var aName = a.name.toLowerCase();
+    //   var bName = b.name.toLowerCase();
+    //   return ((aName < bName) ? -1 : ((aName > bName) ? 1 : 0));
+    // });
+
+    // build edges list
+    for(var i in data.lines){
+      for(j=0; j<data.lines[i].stations.length-1; j++){
+        data.links.push({
+          // names of the connected stations
+          "source":data.lines[i].stations[j].name,
+          "target":data.lines[i].stations[j+1].name,
+          // add style information of the line
+          "color": data.lines[i].style.color,
+          "outline": data.lines[i].style.outline,
+          "stroke": data.lines[i].style.stroke
+        })
+      }
+    }
+
+    /* END BUILD THE NODES AND EDGES */
+
+    /* BUILD THE VISUALIZATION */
+
+
+
+    /* END BUILD THE VISUALIZATION */
+
+    console.log(data);
+
+    /* build the menu of cities */
+    $("h3 > span").click(function(){
+      console.log($(this).html());
+      console.log($(this).html().toLowerCase().replace(/\s/g, '') + "Data");
+      drawMap(eval($(this).html().toLowerCase().replace(/\s/g, '') + "Data"));
+    });
+
+  }
+
+  /* the first map to draw */
+  drawMap(singaporeData);
+
+});
+
+    </script>
+  </body>
+</html>

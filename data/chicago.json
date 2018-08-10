@@ -1,0 +1,314 @@
+{
+  "map":"Chicago",
+  "svgConfig":{
+  	"width":1200,
+  	"height":1200
+  },
+  "lines": [{
+      "name": "Blue",
+      "style": {
+      	"color": "blue",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+				{"name": "O'Hare","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Rosemont","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Cumberland","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Harlem [n]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Jefferson Park","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Montrose [b]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Irving Park [b]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Addison [b]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Belmont [b]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Logan Square","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "California [b]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Western [n]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Damen [b]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Division","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Chicago [b]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Grand [b]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Clinton [n]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Clark/Lake","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Washington","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Monroe [b]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Jackson","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "LaSalle","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Clinton [s]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "UIC-Halsted","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Racine","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Illinois Medical District","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Western [s]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Kedzie-Homan","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Pulaski [b]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Cicero [b]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Austin [b]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Oak Park [b]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Harlem [s]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Forest Park","icon": ["park", "accessible"],"symbol": "circle","label": "name"}
+			]
+		},
+		{
+      "name": "Yellow",
+      "style": {
+      	"color": "yellow",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+				{"name": "Dempster-Skokie","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Oakton-Skokie","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Howard","icon": ["park", "accessible"],"symbol": "circle","label": "name"}
+			]
+		},
+		{
+      "name": "Green",
+      "style": {
+      	"color": "green",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+				{"name": "Harlem/Lake","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Oak Park [g]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Ridgeland","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Austin [g]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Central","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Laramie","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Cicero [g]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Pulaski [g]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Conservatory - Central Park Drive","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Kedzie [g]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "California [g]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Ashland","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Morgan [g]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Clinton","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Clark/Lake","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "State/Lake","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Randolph/Wabash","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Adams/Wabash","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Roosevelt","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Cermak - McCormick Place","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "35th - Bronzeville - IIT","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Indiana","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "43rd","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "47th [g]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "51st","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Garfield [g]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "King Drive","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Cottage Grove","icon": ["park", "accessible"],"symbol": "circle","label": "name"}
+			]
+		},
+		{
+      "name": "Green",
+      "style": {
+      	"color": "green",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+				{"name": "Garfield [g]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Halsted","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Ashland/63rd","icon": ["park", "accessible"],"symbol": "circle","label": "name"}
+			]
+		},
+		{
+      "name": "Brown",
+      "style": {
+      	"color": "brown",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+				{"name": "Kimball","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Kedzie [br]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Francisco","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Rockwell","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Western [br]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Damen [br]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Montrose [br]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Irving Park [br]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Addison [br]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Paulina","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Southport","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Belmont [mixed]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Wellington","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Diversey","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Fullerton","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Armitage","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Sedgwick","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Chicago [mixed]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Merchandise Mart","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Washington/Wells","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Quincy","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "LaSalle/Van Buren","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Harold Washington Library","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Adams/Wabash","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Randolph/Wabash","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "State/Lake","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Clark/Lake","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Merchandise Mart","icon": ["park", "accessible"],"symbol": "circle","label": "name"}
+			]
+		},
+		{
+      "name": "Navy",
+      "style": {
+      	"color": "navy",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+				{"name": "Linden","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Central","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Noyes","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Foster","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Davis","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Dempster","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Main","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "South Boulevard","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Howard","icon": ["park", "accessible"],"symbol": "circle","label": "name"}
+			]
+		},
+		{
+      "name": "Red",
+      "style": {
+      	"color": "red",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+				{"name": "Howard","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Jarvis","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Morse","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Loyola","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Granville","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Thorndale","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Bryn Mawr","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Berwyn","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Argyle","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Lawrence","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Wilson","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Sheridan","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Addison [r]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Belmont","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Clark/Division","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Chicago [r]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Grand [r]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Lake","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Monroe [r]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Jackson","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Harrison","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Roosevelt","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Cernak - Chinatown","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Sox - 35th","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "47th [r]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Garfield [r]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "63rd","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "69th","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "79th","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "87th","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "95th/Dan Ryan","icon": ["park", "accessible"],"symbol": "circle","label": "name"}
+			]
+		},
+		{
+      "name": "Dotted Navy",
+      "style": {
+      	"color": "navy",
+        "outline": "none",
+        "stroke": "dotted"
+      },
+      "stations": [
+				{"name": "Howard","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Jarvis","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Morse","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Loyola","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Granville","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Thorndale","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Bryn Mawr","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Berwyn","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Argyle","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Lawrence","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Wilson","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Sheridan","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Addison [r]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Belmont","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Wellington","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Diversey","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Fullerton","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Armitage","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Sedgwick","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Chicago [mixed]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Merchandise Mart","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Washington/Wells","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Quincy","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "LaSalle/Van Buren","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Harold Washington Library","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Adams/Wabash","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Randolph/Wabash","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "State/Lake","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Clark/Lake","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Merchandise Mart","icon": ["park", "accessible"],"symbol": "circle","label": "name"}
+			]
+		},
+		{
+      "name": "Pink",
+      "style": {
+      	"color": "pink",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+				{"name": "54th/Cermak","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Cicero [p]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Kostner","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Pulaski [p]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Central Park","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Kedzie [p]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "California [p]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Western [p]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Damen [p]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "18th","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Polk","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Ashland","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Morgan [p]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Clinton","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Washington/Wells","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Quincy","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "LaSalle/Van Buren","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Harold Washington Library","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Adams/Wabash","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Randolph/Wabash","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "State/Lake","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Clark/Lake","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Clinton","icon": ["park", "accessible"],"symbol": "circle","label": "name"}
+			]
+		},
+		{
+      "name": "Orange",
+      "style": {
+      	"color": "orange",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+				{"name": "Midway","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Pulaski [o]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Kedzie [o]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Western [o]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "35th/Archer","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Ashland [o]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Halsted","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Roosevelt","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Adams/Wabash","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Randolph/Wabash","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "State/Lake","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Clark/Lake","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Washington/Wells","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Quincy","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "LaSalle/Van Buren","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Harold Washington Library","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
+				{"name": "Roosevelt","icon": ["park", "accessible"],"symbol": "circle","label": "name"}
+			]
+		}
+	]
+}
