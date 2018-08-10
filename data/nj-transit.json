@@ -1,0 +1,416 @@
+{
+  "map":"NJ",
+  "svgConfig":{
+    "width":800,
+    "height":800
+  },
+  "lines": [{
+      "name": "Pascack Valley Line",
+      "style": {
+        "color": "purple",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+        {"name": "Spring Valley","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Nanuet","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Pearl River","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Montvale","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Park Ridge","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Woodcliff Lake","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Hillsdale","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Westwood","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Emerson","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Oradell","icon": [],"symbol": "circle","label": "name"},
+				{"name": "River Edge","icon": [],"symbol": "circle","label": "name"},
+				{"name": "New Bridge Landing","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Anderson St [Hackensack]","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Essex St [Hackensack]","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Teterboro [Williams Ave]","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Wood-Ridge","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Secaucus Junction [Frank R. Lautenberg]","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Hoboken","icon": ["accessible", "boat"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "Bergen County Line",
+      "style": {
+        "color": "light purple",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+        {"name": "Suffern","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Mahwah [Ramsey]","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Route 17","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Ramsey","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Allendale","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Waldwick Lake","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Ho-Ho-Kus","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Ridgewood","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Glen Rock [Boro Hall]","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Radburn [Fair Lawn]","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Broadway [Fair Lawn]","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Plauderville","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Garfield","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Westmont [Future Station]","icon": ["accessible"],"symbol": "circle","label": "name", "inService":false},
+				{"name": "Rutherford","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Secaucus Junction [Frank R. Lautenberg]","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Hoboken","icon": ["accessible", "boat"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "Main Line",
+      "style": {
+        "color": "yellow",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+        {"name": "Suffern","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Mahwah [Ramsey]","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Route 17","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Ramsey","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Allendale","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Waldwick Lake","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Ho-Ho-Kus","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Ridgewood","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Glen Rock [Main Line]","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Hawthorne","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Paterson","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Clifton","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Passaic","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Delawanna","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Lyndhurst","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Kingsland","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Secaucus Junction [Frank R. Lautenberg]","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Hoboken","icon": ["accessible", "boat"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "Meadowlands",
+      "style": {
+        "color": "white",
+        "outline": "black",
+        "stroke": "solid"
+      },
+      "stations": [
+				{"name": "Meadowlands [Meadowlands, Rail Line]","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Secaucus Junction [Frank R. Lautenberg]","icon": ["accessible"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "Montclair-Boonton Line",
+      "style": {
+        "color": "orange-red",
+        "outline": "none",
+        "stroke": "solid, dashed"
+      },
+      "stations": [
+        {"name": "Mount Olive","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Netcong","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Lake Hopatcong","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Mount Arlington","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Dover","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Denville","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Mountain Lakes","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Boonton","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Towaco","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Lincoln Park","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Mountain View Wayne","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Wayne Rt. 23","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Little Falls","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Montclair State University","icon": ["accessible"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "Montclair-Boonton Line",
+      "style": {
+        "color": "orange-red",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+        {"name": "Montclair State University","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Montclair Heights","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Mountain Ave","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Upper Montclair","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Watchung Ave","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Walnut St","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Bay St","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Glen Ridge","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Bloomfield","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Watsessing","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Newark Broad St","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Secaucus Junction [Frank R. Lautenberg]","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Penn Station New York [Long Island Rail Road, New York City Transit]","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "Montclair-Boonton Line",
+      "style": {
+        "color": "orange-red",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+        {"name": "Newark Broad St","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Hoboken","icon": ["accessible", "boat"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "Morristown Line",
+      "style": {
+        "color": "green",
+        "outline": "none",
+        "stroke": "solid, dashed"
+      },
+      "stations": [
+        {"name": "Mount Olive","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Netcong","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Lake Hopatcong","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Mount Arlington","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Dover","icon": ["accessible"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "Morristown Line",
+      "style": {
+        "color": "green",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+        {"name": "Dover","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Denville","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Mount Tabor","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Morris Plains","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Morristown","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Convent Station","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Madison","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Chatham","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Summit","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Short Hills","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Millburn","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Maplewood","icon": [],"symbol": "circle","label": "name"},
+        {"name": "South Orange","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Mountain Station","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Highland Ave","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Orange","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Brick Church","icon": [],"symbol": "circle","label": "name"},
+        {"name": "E. Orange","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Newark Broad St","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Secaucus Junction [Frank R. Lautenberg]","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Penn Station New York [Long Island Rail Road, New York City Transit]","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "Morristown Line",
+      "style": {
+        "color": "green",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+        {"name": "Newark Broad St","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Hoboken","icon": ["accessible", "boat"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "Gladstone Line",
+      "style": {
+        "color": "light green",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+        {"name": "Gladstone","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Peapack","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Far Hills","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Bernardsville","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Basking Ridge","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Lyons","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Millington","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Stirling","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Gillette","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Berkeley Heights","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Murray Hill","icon": [],"symbol": "circle","label": "name"},
+        {"name": "New Providence","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Summit","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Short Hills","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Millburn","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Maplewood","icon": [],"symbol": "circle","label": "name"},
+        {"name": "South Orange","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Mountain Station","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Highland Ave","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Orange","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Brick Church","icon": [],"symbol": "circle","label": "name"},
+        {"name": "E. Orange","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Newark Broad St","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Secaucus Junction [Frank R. Lautenberg]","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Penn Station New York [Long Island Rail Road, New York City Transit]","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "Gladstone Line",
+      "style": {
+        "color": "light green",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+        {"name": "Newark Broad St","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Hoboken","icon": ["accessible", "boat"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "Raritan Valley Line",
+      "style": {
+        "color": "orange",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+        {"name": "High Bridge","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Annandale","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Lebanon","icon": [],"symbol": "circle","label": "name"},
+        {"name": "White House","icon": [],"symbol": "circle","label": "name"},
+        {"name": "North Branch","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Raritan","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Somerville","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Bridgewater","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Bound Brook","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Dunellen","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Plainfield","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Netherwood","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Fanwood","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Westfield","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Garwood","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Cranford","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Roselle Park","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Union","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Newark Penn","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"},
+        {"name": "Secaucus Junction [Frank R. Lautenberg]","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Penn Station New York [Long Island Rail Road, New York City Transit]","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "Northeast Corridor",
+      "style": {
+        "color": "red",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+        {"name": "Trenton [Transit Center]","icon": ["accessible", "amtrak", "septa"],"symbol": "circle","label": "name"},
+        {"name": "Hamilton","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Princeton Junction","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"},
+        {"name": "Jersey Ave","icon": [],"symbol": "circle","label": "name"},
+        {"name": "New Brunswick","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"},
+        {"name": "Edison","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Metuchen","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Metropark","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"},
+        {"name": "Rahway","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Linden","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Elizabeth","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "N. Elizabeth","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Newark Liberty Int'l Airport","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"},
+        {"name": "Newark Penn","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"},
+        {"name": "Secaucus Junction [Frank R. Lautenberg]","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Penn Station New York [Long Island Rail Road, New York City Transit]","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "Princeton",
+      "style": {
+        "color": "white",
+        "outline": "black",
+        "stroke": "solid"
+      },
+      "stations": [
+        {"name": "Princeton Junction","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"},
+        {"name": "Princeton [Dinky Shuttle]","icon": ["accessible"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "North Jersey Coast Line",
+      "style": {
+        "color": "blue",
+        "outline": "none",
+        "stroke": "solid, dashed"
+      },
+      "stations": [
+        {"name": "Bay Head","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Point Pleasant Beach","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Manasquan","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Spring Lake","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Belmar","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Bradley Beach","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Asbury Park","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Allenhurst","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Elberon","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Long Branch","icon": ["accessible"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "North Jersey Coast Line",
+      "style": {
+        "color": "blue",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+        {"name": "Long Branch","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Monmouth Park [(seasonal service)]","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Little Silver","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Red Bank","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Middletown","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Hazlet","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Aberdeen-Matawan","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "South Amboy","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Perth Amboy","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Woodbridge","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Avenel","icon": [],"symbol": "circle","label": "name"},
+        {"name": "Rahway","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Linden","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Elizabeth","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "N. Elizabeth","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Newark Liberty Int'l Airport","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"},
+        {"name": "Newark Penn","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"},
+        {"name": "Secaucus Junction [Frank R. Lautenberg]","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Penn Station New York [Long Island Rail Road, New York City Transit]","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "North Jersey Coast Line",
+      "style": {
+        "color": "blue",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+        {"name": "Newark Penn","icon": ["accessible", "amtrak"],"symbol": "circle","label": "name"},
+        {"name": "Hoboken","icon": ["accessible", "boat"],"symbol": "circle","label": "name"}
+      ]
+    },
+    {
+      "name": "Atlantic City Line",
+      "style": {
+        "color": "navy",
+        "outline": "none",
+        "stroke": "solid"
+      },
+      "stations": [
+        {"name": "Philadelphia 30th Street Station [SEPTA Regional Rail, Market-Frankford Line, Trolley Route 10, 11, 13, 34, 36]","icon": ["accessible", "amtrak", "septa"],"symbol": "circle","label": "name"},
+        {"name": "Pennesauken [Transit Center]","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Lindenwold","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Atco","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Hammonton","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Egg Harbor City","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Absecon","icon": ["accessible"],"symbol": "circle","label": "name"},
+        {"name": "Atlantic City","icon": ["accessible"],"symbol": "circle","label": "name"}
+      ]
+    }
+  ]
+}
+

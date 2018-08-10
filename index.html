@@ -67,7 +67,7 @@
     <svg></svg>
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
-    <script src="jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
     <script>
 
@@ -101,35 +101,41 @@ var maps = [];
 /* IMPORT DATA */
 $.when(
 
-  $.getJSON("singapore.json", function(data) {
+  $.getJSON("data/singapore.json", function(data) {
     singaporeData = data;
     maps.push("Singapore");
     console.log("singapore.json loaded");
   }).fail(function() {console.error("singapore.json not loaded");}),
 
-  $.getJSON("amtrak.json", function(data) {
+  $.getJSON("data/amtrak.json", function(data) {
     amtrakData = data;
     maps.push("Amtrak");
     console.log("amtrak.json loaded");
   }).fail(function() {console.error("amtrak.json not loaded");}),
 
-  $.getJSON("london.json", function(data) {
+  $.getJSON("data/london.json", function(data) {
     londonData = data;
     maps.push("London");
     console.log("london.json loaded");
   }).fail(function() {console.error("london.json not loaded");}),
 
-  $.getJSON("chicago.json", function(data) {
+  $.getJSON("data/chicago.json", function(data) {
     chicagoData = data;
     maps.push("Chicago");
     console.log("chicago.json loaded");
-  }).fail(function() {console.error("chicago.json not loaded");})/*,
+  }).fail(function() {console.error("chicago.json not loaded");}),
 
-  $.getJSON("newyork.json", function(data) {
-    newyorkData = data;
-    maps.push("New York");
-    console.log("newyork.json loaded");
-  }).fail(function() {console.error("newyork.json not loaded");})*/
+  $.getJSON("data/new-york-city.json", function(data) {
+    newyorkcityData = data;
+    maps.push("New York City");
+    console.log("new-york-city.json loaded");
+  }).fail(function() {console.error("new-york-city.json not loaded");}),
+
+  $.getJSON("data/nj-transit.json", function(data) {
+    njtransitData = data;
+    maps.push("NJ Transit");
+    console.log("nj-transit.json loaded");
+  }).fail(function() {console.error("nj-transit.json not loaded");})
 
 
 /* DO STUFF WITH THE DATA */
