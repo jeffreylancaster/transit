@@ -1,335 +1,336 @@
 {
-  "map":"Singapore",
-  "svgConfig":{
-    "width":800,
-    "height":800
-  },
-  "lines": [{
-      "name": "East West Line",
-      "style": {
-        "color": "green",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
-        {"name": "Pasir Ris","marker": "code","code": "EW1","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Tampines [EW2]","marker": "code","code": "EW2","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Simei","marker": "code","code": "EW3","symbol": "roundedrect","label": "name"},
-        {"name": "Tanah Merah","marker": "code","code": "EW4","symbol": "roundedrect","label": "name"},
-        {"name": "Bedok","marker": "code","code": "EW5","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Kembangan","marker": "code","code": "EW6","symbol": "roundedrect","label": "name"},
-        {"name": "Eunos","marker": "code","code": "EW7","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Paya Lebar","marker": "code","code": "EW8","symbol": "roundedrect","label": "name"},
-        {"name": "Aljunied","marker": "code","code": "EW9","symbol": "roundedrect","label": "name"},
-        {"name": "Kallang","marker": "code","code": "EW10","symbol": "roundedrect","label": "name"},
-        {"name": "Lavender","marker": "code","code": "EW11","symbol": "roundedrect","label": "name"},
-        {"name": "Bugis","marker": "code","code": "EW12","symbol": "roundedrect","label": "name"},
-        {"name": "City Hall","marker": "code","code": "EW13","symbol": "roundedrect","label": "name"},
-        {"name": "Raffles Place","marker": "code","code": "EW14","symbol": "roundedrect","label": "name"},
-        {"name": "Tanjong Pagar","marker": "code","code": "EW15","symbol": "roundedrect","label": "name"},
-        {"name": "Outram Park","marker": "code","code": "EW16","symbol": "roundedrect","label": "name"},
-        {"name": "Tiong Bahru","marker": "code","code": "EW17","symbol": "roundedrect","label": "name"},
-        {"name": "Redhill","marker": "code","code": "EW18","symbol": "roundedrect","label": "name"},
-        {"name": "Queenstown","marker": "code","code": "EW19","symbol": "roundedrect","label": "name"},
-        {"name": "Commonwealth","marker": "code","code": "EW20","symbol": "roundedrect","label": "name"},
-        {"name": "Buona Vista","marker": "code","code": "EW21","symbol": "roundedrect","label": "name"},
-        {"name": "Dover","marker": "code","code": "EW22","symbol": "roundedrect","label": "name"},
-        {"name": "Clementi","marker": "code","code": "EW23","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Jurong East","marker": "code","code": "EW24","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Chinese Garden","marker": "code","code": "EW25","symbol": "roundedrect","label": "name"},
-        {"name": "Lakeside","marker": "code","code": "EW26","symbol": "roundedrect","label": "name"},
-        {"name": "Boon Lay","marker": "code","code": "EW27","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Pioneer","marker": "code","code": "EW28","symbol": "roundedrect","label": "name"},
-        {"name": "Joo Koon","marker": "code","code": "EW29","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Gul Circle","marker": "code","code": "EW30","symbol": "roundedrect","label": "name"},
-        {"name": "Tuas Crescent","marker": "code","code": "EW31","symbol": "roundedrect","label": "name"},
-        {"name": "Tuas West Road","marker": "code","code": "EW32","symbol": "roundedrect","label": "name"},
-        {"name": "Tuas Link","marker": "code","code": "EW33","symbol": "roundedrect","label": "name"}
-      ]
-    },
-    {
-      "name": "Changi Airport",
-      "style": {
-        "color": "white",
-        "outline": "green",
-        "stroke": "solid"
-      },
-      "stations": [
-        {"name": "Tanah Merah","marker": "code","code": "CG","symbol": "roundedrect","label": "name"},
-        {"name": "Expo","marker": "code","code": "CG1","symbol": "roundedrect","label": "name"},
-        {"name": "Changi Airport","marker": "code","code": "CG2","icon": ["airplane"],"symbol": "roundedrect","label": "name"}
-      ]
-    },
-    {
-      "name": "Public Area",
-      "style": {
-        "color": "black",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
-        {"name": "Tampines [EW2]","marker": "code","code": "EW2","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Tampines [DT32]","marker": "code","code": "DT32","icon": ["bus"],"symbol": "roundedrect","label": "name"}
-      ]
-    },
-    {
-      "name": "North South Line",
-      "style": {
-        "color": "red",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
-        {"name": "Jurong East","marker": "code","code": "NS1","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Bukit Batok","marker": "code","code": "NS2","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Bukit Gombak","marker": "code","code": "NS3","symbol": "roundedrect","label": "name"},
-        {"name": "Choa Chu Kang","marker": "code","code": "NS4","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Yew Tee","marker": "code","code": "NS5","symbol": "roundedrect","label": "name"},
-        {"name": "Kranji","marker": "code","code": "NS7","symbol": "roundedrect","label": "name"},
-        {"name": "Marsiling","marker": "code","code": "NS8","symbol": "roundedrect","label": "name"},
-        {"name": "Woodlands","marker": "code","code": "NS9","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Admiralty","marker": "code","code": "NS10","symbol": "roundedrect","label": "name"},
-        {"name": "Sembawang","marker": "code","code": "NS12","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Yishun","marker": "code","code": "NS13","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Khatib","marker": "code","code": "NS14","symbol": "roundedrect","label": "name"},
-        {"name": "Yio Chu Kang","marker": "code","code": "NS15","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Ang Mo Kio","marker": "code","code": "NS16","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Bishan","marker": "code","code": "NS17","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Braddell","marker": "code","code": "NS18","symbol": "roundedrect","label": "name"},
-        {"name": "Toa Payoh","marker": "code","code": "NS19","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Novena","marker": "code","code": "NS20","symbol": "roundedrect","label": "name"},
-        {"name": "Newton [NS21]","marker": "code","code": "NS21","symbol": "roundedrect","label": "name"},
-        {"name": "Orchard","marker": "code","code": "NS22","symbol": "roundedrect","label": "name"},
-        {"name": "Somerset","marker": "code","code": "NS23","symbol": "roundedrect","label": "name"},
-        {"name": "Dhoby Ghaut","marker": "code","code": "NS24","symbol": "roundedrect","label": "name"},
-        {"name": "City Hall","marker": "code","code": "NS25","symbol": "roundedrect","label": "name"},
-        {"name": "Raffles Place","marker": "code","code": "NS26","symbol": "roundedrect","label": "name"},
-        {"name": "Marina Bay","marker": "code","code": "NS27","symbol": "roundedrect","label": "name"},
-        {"name": "Marina South Pier","marker": "code","code": "NS28","icon": ["boat"],"symbol": "roundedrect","label": "name"}
-      ]
-    },
-    {
-      "name": "Public Area",
-      "style": {
-        "color": "black",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
-        {"name": "Newton [NS21]","marker": "code","code": "NS21","symbol": "roundedrect","label": "name"},
-        {"name": "Newton [DT11]","marker": "code","code": "DT11","symbol": "roundedrect","label": "name"}
-      ]
-    },
-    {
-      "name": "North East Line",
-      "style": {
-        "color": "purple",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
-        {"name": "HarbourFront","marker": "code","code": "NE1","icon": ["bus", "sentosa"],"symbol": "roundedrect","label": "name"},
-        {"name": "Outram Park","marker": "code","code": "NE3","symbol": "roundedrect","label": "name"},
-        {"name": "Chinatown","marker": "code","code": "NE4","symbol": "roundedrect","label": "name"},
-        {"name": "Clarke Quay","marker": "code","code": "NE5","icon": ["bus", "sentosa"],"symbol": "roundedrect","label": "name"},
-        {"name": "Dhoby Ghaut","marker": "code","code": "NE6","symbol": "roundedrect","label": "name"},
-        {"name": "Little India","marker": "code","code": "NE7","symbol": "roundedrect","label": "name"},
-        {"name": "Farrer Park","marker": "code","code": "NE8","symbol": "roundedrect","label": "name"},
-        {"name": "Boon Keng","marker": "code","code": "NE9","symbol": "roundedrect","label": "name"},
-        {"name": "Potong Pasir","marker": "code","code": "NE10","symbol": "roundedrect","label": "name"},
-        {"name": "Woodleigh","marker": "code","code": "NE11","symbol": "roundedrect","label": "name"},
-        {"name": "Serangoon","marker": "code","code": "NE12","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Kovan","marker": "code","code": "NE13","symbol": "roundedrect","label": "name"},
-        {"name": "Hougang","marker": "code","code": "NE14","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Buangkok","marker": "code","code": "NE15","symbol": "roundedrect","label": "name"},
-        {"name": "Sengkang","marker": "code","code": "NE16","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Punggol","marker": "code","code": "NE17","icon": ["bus"],"symbol": "roundedrect","label": "name"}
-      ]
-    },
-    {
-      "name": "Circle Line",
-      "style": {
-        "color": "yellow",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
-        {"name": "Dhoby Ghaut","marker": "code","code": "CC1","symbol": "roundedrect","label": "name"},
-        {"name": "Bras Basah","marker": "code","code": "CC2","symbol": "roundedrect","label": "name"},
-        {"name": "Esplanade","marker": "code","code": "CC3","symbol": "roundedrect","label": "name"},
-        {"name": "Promenade","marker": "code","code": "CC4","symbol": "roundedrect","label": "name"},
-        {"name": "Nicoll Highway","marker": "code","code": "CC5","symbol": "roundedrect","label": "name"},
-        {"name": "Stadium","marker": "code","code": "CC6","symbol": "roundedrect","label": "name"},
-        {"name": "Mountbatten","marker": "code","code": "CC7","symbol": "roundedrect","label": "name"},
-        {"name": "Dakota","marker": "code","code": "CC8","symbol": "roundedrect","label": "name"},
-        {"name": "Paya Lebar","marker": "code","code": "CC9","symbol": "roundedrect","label": "name"},
-        {"name": "MacPherson","marker": "code","code": "CC10","symbol": "roundedrect","label": "name"},
-        {"name": "Tai Seng","marker": "code","code": "CC11","symbol": "roundedrect","label": "name"},
-        {"name": "Bartley","marker": "code","code": "CC12","symbol": "roundedrect","label": "name"},
-        {"name": "Serangoon","marker": "code","code": "CC13","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Lorong Chuan","marker": "code","code": "CC14","symbol": "roundedrect","label": "name"},
-        {"name": "Bishan","marker": "code","code": "CC15","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Marymount","marker": "code","code": "CC16","symbol": "roundedrect","label": "name"},
-        {"name": "Caldecott","marker": "code","code": "CC17","symbol": "roundedrect","label": "name"},
-        {"name": "Botanic Gardens","marker": "code","code": "CC19","symbol": "roundedrect","label": "name"},
-        {"name": "Ferrer Road","marker": "code","code": "CC20","symbol": "roundedrect","label": "name"},
-        {"name": "Holland Village","marker": "code","code": "CC21","symbol": "roundedrect","label": "name"},
-        {"name": "Buona Vista","marker": "code","code": "CC22","symbol": "roundedrect","label": "name"},
-        {"name": "one-north","marker": "code","code": "CC23","symbol": "roundedrect","label": "name"},
-        {"name": "Kent Ridge","marker": "code","code": "CC24","symbol": "roundedrect","label": "name"},
-        {"name": "Haw Par Village","marker": "code","code": "CC25","symbol": "roundedrect","label": "name"},
-        {"name": "Pasir Panjang","marker": "code","code": "CC26","symbol": "roundedrect","label": "name"},
-        {"name": "Labrador Park","marker": "code","code": "CC27","symbol": "roundedrect","label": "name"},
-        {"name": "Telok Blangah","marker": "code","code": "CC28","symbol": "roundedrect","label": "name"},
-        {"name": "HarbourFront","marker": "code","code": "CC29","icon": ["bus", "sentosa"],"symbol": "roundedrect","label": "name"}
-      ]
-    },
-    {
-      "name": "Circle Line",
-      "style": {
-        "color": "yellow",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
-        {"name": "Promenade","marker": "code","code": "CC4","symbol": "roundedrect","label": "name"},
-        {"name": "Bayfront","marker": "code","code": "CE1","symbol": "roundedrect","label": "name"},
-        {"name": "Marina Bay","marker": "code","code": "CE2","symbol": "roundedrect","label": "name"}
-      ]
-    },
-    {
-      "name": "Public Area",
-      "style": {
-        "color": "black",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
-        {"name": "Bukit Panjang [BP6]","marker": "code","code": "BP6","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Bukit Panjang [DT1]","marker": "code","code": "DT1","icon": ["bus"],"symbol": "roundedrect","label": "name"}
-      ]
-    },
-    {
-      "name": "Downtown Line",
-      "style": {
-        "color": "blue",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
-        {"name": "Bukit Panjang [DT1]","marker": "code","code": "DT1","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Cashew","marker": "code","code": "DT2","symbol": "roundedrect","label": "name"},
-        {"name": "Hillview","marker": "code","code": "DT3","symbol": "roundedrect","label": "name"},
-        {"name": "Beauty World","marker": "code","code": "DT5","symbol": "roundedrect","label": "name"},
-        {"name": "King Albert Park","marker": "code","code": "DT6","symbol": "roundedrect","label": "name"},
-        {"name": "Sixth Avenue","marker": "code","code": "DT7","symbol": "roundedrect","label": "name"},
-        {"name": "Tan Kah Kee","marker": "code","code": "DT8","symbol": "roundedrect","label": "name"},
-        {"name": "Botanic Gardens","marker": "code","code": "DT9","symbol": "roundedrect","label": "name"},
-        {"name": "Stevens","marker": "code","code": "DT10","symbol": "roundedrect","label": "name"},
-        {"name": "Newton [DT11]","marker": "code","code": "DT11","symbol": "roundedrect","label": "name"},
-        {"name": "Little India","marker": "code","code": "DT12","symbol": "roundedrect","label": "name"},
-        {"name": "Rochor","marker": "code","code": "DT13","symbol": "roundedrect","label": "name"},
-        {"name": "Bugis","marker": "code","code": "DT14","symbol": "roundedrect","label": "name"},
-        {"name": "Promenade","marker": "code","code": "DT15","symbol": "roundedrect","label": "name"},
-        {"name": "Bayfront","marker": "code","code": "DT16","symbol": "roundedrect","label": "name"},
-        {"name": "Downtown","marker": "code","code": "DT17","symbol": "roundedrect","label": "name"},
-        {"name": "Telok Ayer","marker": "code","code": "DT18","symbol": "roundedrect","label": "name"},
-        {"name": "Chinatown","marker": "code","code": "DT19","symbol": "roundedrect","label": "name"},
-        {"name": "Fort Channing","marker": "code","code": "DT20","symbol": "roundedrect","label": "name"},
-        {"name": "Bencoolen","marker": "code","code": "DT21","symbol": "roundedrect","label": "name"},
-        {"name": "Jalan Besar","marker": "code","code": "DT22","symbol": "roundedrect","label": "name"},
-        {"name": "Bendemeer","marker": "code","code": "DT23","symbol": "roundedrect","label": "name"},
-        {"name": "Geylang Bahru","marker": "code","code": "DT24","symbol": "roundedrect","label": "name"},
-        {"name": "Mattar","marker": "code","code": "DT25","symbol": "roundedrect","label": "name"},
-        {"name": "MacPherson","marker": "code","code": "DT26","symbol": "roundedrect","label": "name"},
-        {"name": "Ubi","marker": "code","code": "DT27","symbol": "roundedrect","label": "name"},
-        {"name": "Kaki Bukit","marker": "code","code": "DT28","symbol": "roundedrect","label": "name"},
-        {"name": "Bedok North","marker": "code","code": "DT29","symbol": "roundedrect","label": "name"},
-        {"name": "Bedok Reservoir","marker": "code","code": "DT30","symbol": "roundedrect","label": "name"},
-        {"name": "Tampines West","marker": "code","code": "DT31","symbol": "roundedrect","label": "name"},
-        {"name": "Tampines [DT32]","marker": "code","code": "DT32","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Tampines East","marker": "code","code": "DT33","symbol": "roundedrect","label": "name"},
-        {"name": "Upper Changi","marker": "code","code": "DT34","symbol": "roundedrect","label": "name"},
-        {"name": "Changi Airport","marker": "code","code": "CG2","icon": ["airplane"],"symbol": "roundedrect","label": "name"}
-      ]
-    },
-    {
-      "name": "Bukit Panjang LRT",
-      "style": {
-        "color": "gray",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
-        {"name": "Choa Chu Kang","marker": "code","code": "BP1","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "South View","marker": "code","code": "BP2","symbol": "roundedrect","label": "name"},
-        {"name": "Keat Hong","marker": "code","code": "BP3","symbol": "roundedrect","label": "name"},
-        {"name": "Teck Whye","marker": "code","code": "BP4","symbol": "roundedrect","label": "name"},
-        {"name": "Phoenix","marker": "code","code": "BP5","symbol": "roundedrect","label": "name"},
-        {"name": "Bukit Panjang [BP6]","marker": "code","code": "BP6","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Petir","marker": "code","code": "BP7","symbol": "roundedrect","label": "name"},
-        {"name": "Pending","marker": "code","code": "BP8","symbol": "roundedrect","label": "name"},
-        {"name": "Bangkit","marker": "code","code": "BP9","symbol": "roundedrect","label": "name"},
-        {"name": "Fajar","marker": "code","code": "BP10","symbol": "roundedrect","label": "name"},
-        {"name": "Segar","marker": "code","code": "BP11","symbol": "roundedrect","label": "name"},
-        {"name": "Jelapang","marker": "code","code": "BP12","symbol": "roundedrect","label": "name"},
-        {"name": "Senja","marker": "code","code": "BP13","symbol": "roundedrect","label": "name"},
-        {"name": "Bukit Panjang [BP6]","marker": "code","code": "BP6","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Ten Mile Junction","marker": "code","code": "BP14","symbol": "roundedrect","label": "name"}
-      ]
-    },
-    {
-      "name": "Sengkang LRT",
-      "style": {
-        "color": "gray",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
-        {"name": "Sengkang","marker": "code","code": "STC","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Compassvale","marker": "code","code": "SE1","symbol": "roundedrect","label": "name"},
-        {"name": "Rumbia","marker": "code","code": "SE2","symbol": "roundedrect","label": "name"},
-        {"name": "Bakau","marker": "code","code": "SE3","symbol": "roundedrect","label": "name"},
-        {"name": "Kangkar","marker": "code","code": "SE4","symbol": "roundedrect","label": "name"},
-        {"name": "Ranggung","marker": "code","code": "SE5","symbol": "roundedrect","label": "name"},
-        {"name": "Sengkang","marker": "code","code": "STC","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Cheng Lim","marker": "code","code": "SW1","symbol": "roundedrect","label": "name"},
-        {"name": "Farmway","marker": "code","code": "SW2","symbol": "roundedrect","label": "name"},
-        {"name": "Kupang","marker": "code","code": "SW3","symbol": "roundedrect","label": "name"},
-        {"name": "Thanggam","marker": "code","code": "SW4","symbol": "roundedrect","label": "name"},
-        {"name": "Fernvale","marker": "code","code": "SW5","symbol": "roundedrect","label": "name"},
-        {"name": "Layar","marker": "code","code": "SW6","symbol": "roundedrect","label": "name"},
-        {"name": "Tongkang","marker": "code","code": "SW7","symbol": "roundedrect","label": "name"},
-        {"name": "Renjong","marker": "code","code": "SW8","symbol": "roundedrect","label": "name"},
-        {"name": "Sengkang","marker": "code","code": "STC","icon": ["bus"],"symbol": "roundedrect","label": "name"}
-      ]
-    },
-    {
-      "name": "Punggol LRT",
-      "style": {
-        "color": "gray",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
-        {"name": "Punggol","marker": "code","code": "PTC","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Cove","marker": "code","code": "PE1","symbol": "roundedrect","label": "name"},
-        {"name": "Meridian","marker": "code","code": "PE2","symbol": "roundedrect","label": "name"},
-        {"name": "Coral Edge","marker": "code","code": "PE3","symbol": "roundedrect","label": "name"},
-        {"name": "Riviera","marker": "code","code": "PE4","symbol": "roundedrect","label": "name"},
-        {"name": "Kadaloor","marker": "code","code": "PE5","symbol": "roundedrect","label": "name"},
-        {"name": "Oasis","marker": "code","code": "PE6","symbol": "roundedrect","label": "name"},
-        {"name": "Damai","marker": "code","code": "PE7","symbol": "roundedrect","label": "name"},
-        {"name": "Punggol","marker": "code","code": "PTC","icon": ["bus"],"symbol": "roundedrect","label": "name"},
-        {"name": "Sam Kee","marker": "code","code": "PW1","symbol": "roundedrect","label": "name"},
-        {"name": "Teck Lee","marker": "code","code": "PW2","symbol": "roundedrect","label": "name"},
-        {"name": "Punggol Point","marker": "code","code": "PW3","symbol": "roundedrect","label": "name"},
-        {"name": "Samudera","marker": "code","code": "PW4","symbol": "roundedrect","label": "name"},
-        {"name": "Nibong","marker": "code","code": "PW5","symbol": "roundedrect","label": "name"},
-        {"name": "Sumang","marker": "code","code": "PW6","symbol": "roundedrect","label": "name"},
-        {"name": "Soo Teck","marker": "code","code": "PW7","symbol": "roundedrect","label": "name"},
-        {"name": "Punggol","marker": "code","code": "PTC","icon": ["bus"],"symbol": "roundedrect","label": "name"}
-      ]
-    }
-  ]
+	"notes":"colors to hex",
+	"map":"Singapore",
+	"svgConfig":{
+		"width":800,
+		"height":800
+	},
+	"lines": [{
+			"name": "East West Line",
+			"style": {
+				"color": "green",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Pasir Ris","marker": "code","code": "EW1","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Tampines [EW2]","marker": "code","code": "EW2","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Simei","marker": "code","code": "EW3","symbol": "roundedrect","label": "name"},
+				{"name": "Tanah Merah","marker": "code","code": "EW4","symbol": "roundedrect","label": "name"},
+				{"name": "Bedok","marker": "code","code": "EW5","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Kembangan","marker": "code","code": "EW6","symbol": "roundedrect","label": "name"},
+				{"name": "Eunos","marker": "code","code": "EW7","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Paya Lebar","marker": "code","code": "EW8","symbol": "roundedrect","label": "name"},
+				{"name": "Aljunied","marker": "code","code": "EW9","symbol": "roundedrect","label": "name"},
+				{"name": "Kallang","marker": "code","code": "EW10","symbol": "roundedrect","label": "name"},
+				{"name": "Lavender","marker": "code","code": "EW11","symbol": "roundedrect","label": "name"},
+				{"name": "Bugis","marker": "code","code": "EW12","symbol": "roundedrect","label": "name"},
+				{"name": "City Hall","marker": "code","code": "EW13","symbol": "roundedrect","label": "name"},
+				{"name": "Raffles Place","marker": "code","code": "EW14","symbol": "roundedrect","label": "name"},
+				{"name": "Tanjong Pagar","marker": "code","code": "EW15","symbol": "roundedrect","label": "name"},
+				{"name": "Outram Park","marker": "code","code": "EW16","symbol": "roundedrect","label": "name"},
+				{"name": "Tiong Bahru","marker": "code","code": "EW17","symbol": "roundedrect","label": "name"},
+				{"name": "Redhill","marker": "code","code": "EW18","symbol": "roundedrect","label": "name"},
+				{"name": "Queenstown","marker": "code","code": "EW19","symbol": "roundedrect","label": "name"},
+				{"name": "Commonwealth","marker": "code","code": "EW20","symbol": "roundedrect","label": "name"},
+				{"name": "Buona Vista","marker": "code","code": "EW21","symbol": "roundedrect","label": "name"},
+				{"name": "Dover","marker": "code","code": "EW22","symbol": "roundedrect","label": "name"},
+				{"name": "Clementi","marker": "code","code": "EW23","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Jurong East","marker": "code","code": "EW24","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Chinese Garden","marker": "code","code": "EW25","symbol": "roundedrect","label": "name"},
+				{"name": "Lakeside","marker": "code","code": "EW26","symbol": "roundedrect","label": "name"},
+				{"name": "Boon Lay","marker": "code","code": "EW27","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Pioneer","marker": "code","code": "EW28","symbol": "roundedrect","label": "name"},
+				{"name": "Joo Koon","marker": "code","code": "EW29","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Gul Circle","marker": "code","code": "EW30","symbol": "roundedrect","label": "name"},
+				{"name": "Tuas Crescent","marker": "code","code": "EW31","symbol": "roundedrect","label": "name"},
+				{"name": "Tuas West Road","marker": "code","code": "EW32","symbol": "roundedrect","label": "name"},
+				{"name": "Tuas Link","marker": "code","code": "EW33","symbol": "roundedrect","label": "name"}
+			]
+		},
+		{
+			"name": "Changi Airport",
+			"style": {
+				"color": "white",
+				"outline": "green",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Tanah Merah","marker": "code","code": "CG","symbol": "roundedrect","label": "name"},
+				{"name": "Expo","marker": "code","code": "CG1","symbol": "roundedrect","label": "name"},
+				{"name": "Changi Airport","marker": "code","code": "CG2","icon": ["airplane"],"symbol": "roundedrect","label": "name"}
+			]
+		},
+		{
+			"name": "Public Area",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Tampines [EW2]","marker": "code","code": "EW2","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Tampines [DT32]","marker": "code","code": "DT32","icon": ["bus"],"symbol": "roundedrect","label": "name"}
+			]
+		},
+		{
+			"name": "North South Line",
+			"style": {
+				"color": "red",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Jurong East","marker": "code","code": "NS1","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Bukit Batok","marker": "code","code": "NS2","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Bukit Gombak","marker": "code","code": "NS3","symbol": "roundedrect","label": "name"},
+				{"name": "Choa Chu Kang","marker": "code","code": "NS4","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Yew Tee","marker": "code","code": "NS5","symbol": "roundedrect","label": "name"},
+				{"name": "Kranji","marker": "code","code": "NS7","symbol": "roundedrect","label": "name"},
+				{"name": "Marsiling","marker": "code","code": "NS8","symbol": "roundedrect","label": "name"},
+				{"name": "Woodlands","marker": "code","code": "NS9","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Admiralty","marker": "code","code": "NS10","symbol": "roundedrect","label": "name"},
+				{"name": "Sembawang","marker": "code","code": "NS12","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Yishun","marker": "code","code": "NS13","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Khatib","marker": "code","code": "NS14","symbol": "roundedrect","label": "name"},
+				{"name": "Yio Chu Kang","marker": "code","code": "NS15","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Ang Mo Kio","marker": "code","code": "NS16","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Bishan","marker": "code","code": "NS17","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Braddell","marker": "code","code": "NS18","symbol": "roundedrect","label": "name"},
+				{"name": "Toa Payoh","marker": "code","code": "NS19","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Novena","marker": "code","code": "NS20","symbol": "roundedrect","label": "name"},
+				{"name": "Newton [NS21]","marker": "code","code": "NS21","symbol": "roundedrect","label": "name"},
+				{"name": "Orchard","marker": "code","code": "NS22","symbol": "roundedrect","label": "name"},
+				{"name": "Somerset","marker": "code","code": "NS23","symbol": "roundedrect","label": "name"},
+				{"name": "Dhoby Ghaut","marker": "code","code": "NS24","symbol": "roundedrect","label": "name"},
+				{"name": "City Hall","marker": "code","code": "NS25","symbol": "roundedrect","label": "name"},
+				{"name": "Raffles Place","marker": "code","code": "NS26","symbol": "roundedrect","label": "name"},
+				{"name": "Marina Bay","marker": "code","code": "NS27","symbol": "roundedrect","label": "name"},
+				{"name": "Marina South Pier","marker": "code","code": "NS28","icon": ["boat"],"symbol": "roundedrect","label": "name"}
+			]
+		},
+		{
+			"name": "Public Area",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Newton [NS21]","marker": "code","code": "NS21","symbol": "roundedrect","label": "name"},
+				{"name": "Newton [DT11]","marker": "code","code": "DT11","symbol": "roundedrect","label": "name"}
+			]
+		},
+		{
+			"name": "North East Line",
+			"style": {
+				"color": "purple",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "HarbourFront","marker": "code","code": "NE1","icon": ["bus", "sentosa"],"symbol": "roundedrect","label": "name"},
+				{"name": "Outram Park","marker": "code","code": "NE3","symbol": "roundedrect","label": "name"},
+				{"name": "Chinatown","marker": "code","code": "NE4","symbol": "roundedrect","label": "name"},
+				{"name": "Clarke Quay","marker": "code","code": "NE5","icon": ["bus", "sentosa"],"symbol": "roundedrect","label": "name"},
+				{"name": "Dhoby Ghaut","marker": "code","code": "NE6","symbol": "roundedrect","label": "name"},
+				{"name": "Little India","marker": "code","code": "NE7","symbol": "roundedrect","label": "name"},
+				{"name": "Farrer Park","marker": "code","code": "NE8","symbol": "roundedrect","label": "name"},
+				{"name": "Boon Keng","marker": "code","code": "NE9","symbol": "roundedrect","label": "name"},
+				{"name": "Potong Pasir","marker": "code","code": "NE10","symbol": "roundedrect","label": "name"},
+				{"name": "Woodleigh","marker": "code","code": "NE11","symbol": "roundedrect","label": "name"},
+				{"name": "Serangoon","marker": "code","code": "NE12","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Kovan","marker": "code","code": "NE13","symbol": "roundedrect","label": "name"},
+				{"name": "Hougang","marker": "code","code": "NE14","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Buangkok","marker": "code","code": "NE15","symbol": "roundedrect","label": "name"},
+				{"name": "Sengkang","marker": "code","code": "NE16","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Punggol","marker": "code","code": "NE17","icon": ["bus"],"symbol": "roundedrect","label": "name"}
+			]
+		},
+		{
+			"name": "Circle Line",
+			"style": {
+				"color": "yellow",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Dhoby Ghaut","marker": "code","code": "CC1","symbol": "roundedrect","label": "name"},
+				{"name": "Bras Basah","marker": "code","code": "CC2","symbol": "roundedrect","label": "name"},
+				{"name": "Esplanade","marker": "code","code": "CC3","symbol": "roundedrect","label": "name"},
+				{"name": "Promenade","marker": "code","code": "CC4","symbol": "roundedrect","label": "name"},
+				{"name": "Nicoll Highway","marker": "code","code": "CC5","symbol": "roundedrect","label": "name"},
+				{"name": "Stadium","marker": "code","code": "CC6","symbol": "roundedrect","label": "name"},
+				{"name": "Mountbatten","marker": "code","code": "CC7","symbol": "roundedrect","label": "name"},
+				{"name": "Dakota","marker": "code","code": "CC8","symbol": "roundedrect","label": "name"},
+				{"name": "Paya Lebar","marker": "code","code": "CC9","symbol": "roundedrect","label": "name"},
+				{"name": "MacPherson","marker": "code","code": "CC10","symbol": "roundedrect","label": "name"},
+				{"name": "Tai Seng","marker": "code","code": "CC11","symbol": "roundedrect","label": "name"},
+				{"name": "Bartley","marker": "code","code": "CC12","symbol": "roundedrect","label": "name"},
+				{"name": "Serangoon","marker": "code","code": "CC13","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Lorong Chuan","marker": "code","code": "CC14","symbol": "roundedrect","label": "name"},
+				{"name": "Bishan","marker": "code","code": "CC15","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Marymount","marker": "code","code": "CC16","symbol": "roundedrect","label": "name"},
+				{"name": "Caldecott","marker": "code","code": "CC17","symbol": "roundedrect","label": "name"},
+				{"name": "Botanic Gardens","marker": "code","code": "CC19","symbol": "roundedrect","label": "name"},
+				{"name": "Ferrer Road","marker": "code","code": "CC20","symbol": "roundedrect","label": "name"},
+				{"name": "Holland Village","marker": "code","code": "CC21","symbol": "roundedrect","label": "name"},
+				{"name": "Buona Vista","marker": "code","code": "CC22","symbol": "roundedrect","label": "name"},
+				{"name": "one-north","marker": "code","code": "CC23","symbol": "roundedrect","label": "name"},
+				{"name": "Kent Ridge","marker": "code","code": "CC24","symbol": "roundedrect","label": "name"},
+				{"name": "Haw Par Village","marker": "code","code": "CC25","symbol": "roundedrect","label": "name"},
+				{"name": "Pasir Panjang","marker": "code","code": "CC26","symbol": "roundedrect","label": "name"},
+				{"name": "Labrador Park","marker": "code","code": "CC27","symbol": "roundedrect","label": "name"},
+				{"name": "Telok Blangah","marker": "code","code": "CC28","symbol": "roundedrect","label": "name"},
+				{"name": "HarbourFront","marker": "code","code": "CC29","icon": ["bus", "sentosa"],"symbol": "roundedrect","label": "name"}
+			]
+		},
+		{
+			"name": "Circle Line",
+			"style": {
+				"color": "yellow",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Promenade","marker": "code","code": "CC4","symbol": "roundedrect","label": "name"},
+				{"name": "Bayfront","marker": "code","code": "CE1","symbol": "roundedrect","label": "name"},
+				{"name": "Marina Bay","marker": "code","code": "CE2","symbol": "roundedrect","label": "name"}
+			]
+		},
+		{
+			"name": "Public Area",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Bukit Panjang [BP6]","marker": "code","code": "BP6","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Bukit Panjang [DT1]","marker": "code","code": "DT1","icon": ["bus"],"symbol": "roundedrect","label": "name"}
+			]
+		},
+		{
+			"name": "Downtown Line",
+			"style": {
+				"color": "blue",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Bukit Panjang [DT1]","marker": "code","code": "DT1","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Cashew","marker": "code","code": "DT2","symbol": "roundedrect","label": "name"},
+				{"name": "Hillview","marker": "code","code": "DT3","symbol": "roundedrect","label": "name"},
+				{"name": "Beauty World","marker": "code","code": "DT5","symbol": "roundedrect","label": "name"},
+				{"name": "King Albert Park","marker": "code","code": "DT6","symbol": "roundedrect","label": "name"},
+				{"name": "Sixth Avenue","marker": "code","code": "DT7","symbol": "roundedrect","label": "name"},
+				{"name": "Tan Kah Kee","marker": "code","code": "DT8","symbol": "roundedrect","label": "name"},
+				{"name": "Botanic Gardens","marker": "code","code": "DT9","symbol": "roundedrect","label": "name"},
+				{"name": "Stevens","marker": "code","code": "DT10","symbol": "roundedrect","label": "name"},
+				{"name": "Newton [DT11]","marker": "code","code": "DT11","symbol": "roundedrect","label": "name"},
+				{"name": "Little India","marker": "code","code": "DT12","symbol": "roundedrect","label": "name"},
+				{"name": "Rochor","marker": "code","code": "DT13","symbol": "roundedrect","label": "name"},
+				{"name": "Bugis","marker": "code","code": "DT14","symbol": "roundedrect","label": "name"},
+				{"name": "Promenade","marker": "code","code": "DT15","symbol": "roundedrect","label": "name"},
+				{"name": "Bayfront","marker": "code","code": "DT16","symbol": "roundedrect","label": "name"},
+				{"name": "Downtown","marker": "code","code": "DT17","symbol": "roundedrect","label": "name"},
+				{"name": "Telok Ayer","marker": "code","code": "DT18","symbol": "roundedrect","label": "name"},
+				{"name": "Chinatown","marker": "code","code": "DT19","symbol": "roundedrect","label": "name"},
+				{"name": "Fort Channing","marker": "code","code": "DT20","symbol": "roundedrect","label": "name"},
+				{"name": "Bencoolen","marker": "code","code": "DT21","symbol": "roundedrect","label": "name"},
+				{"name": "Jalan Besar","marker": "code","code": "DT22","symbol": "roundedrect","label": "name"},
+				{"name": "Bendemeer","marker": "code","code": "DT23","symbol": "roundedrect","label": "name"},
+				{"name": "Geylang Bahru","marker": "code","code": "DT24","symbol": "roundedrect","label": "name"},
+				{"name": "Mattar","marker": "code","code": "DT25","symbol": "roundedrect","label": "name"},
+				{"name": "MacPherson","marker": "code","code": "DT26","symbol": "roundedrect","label": "name"},
+				{"name": "Ubi","marker": "code","code": "DT27","symbol": "roundedrect","label": "name"},
+				{"name": "Kaki Bukit","marker": "code","code": "DT28","symbol": "roundedrect","label": "name"},
+				{"name": "Bedok North","marker": "code","code": "DT29","symbol": "roundedrect","label": "name"},
+				{"name": "Bedok Reservoir","marker": "code","code": "DT30","symbol": "roundedrect","label": "name"},
+				{"name": "Tampines West","marker": "code","code": "DT31","symbol": "roundedrect","label": "name"},
+				{"name": "Tampines [DT32]","marker": "code","code": "DT32","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Tampines East","marker": "code","code": "DT33","symbol": "roundedrect","label": "name"},
+				{"name": "Upper Changi","marker": "code","code": "DT34","symbol": "roundedrect","label": "name"},
+				{"name": "Changi Airport","marker": "code","code": "CG2","icon": ["airplane"],"symbol": "roundedrect","label": "name"}
+			]
+		},
+		{
+			"name": "Bukit Panjang LRT",
+			"style": {
+				"color": "gray",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Choa Chu Kang","marker": "code","code": "BP1","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "South View","marker": "code","code": "BP2","symbol": "roundedrect","label": "name"},
+				{"name": "Keat Hong","marker": "code","code": "BP3","symbol": "roundedrect","label": "name"},
+				{"name": "Teck Whye","marker": "code","code": "BP4","symbol": "roundedrect","label": "name"},
+				{"name": "Phoenix","marker": "code","code": "BP5","symbol": "roundedrect","label": "name"},
+				{"name": "Bukit Panjang [BP6]","marker": "code","code": "BP6","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Petir","marker": "code","code": "BP7","symbol": "roundedrect","label": "name"},
+				{"name": "Pending","marker": "code","code": "BP8","symbol": "roundedrect","label": "name"},
+				{"name": "Bangkit","marker": "code","code": "BP9","symbol": "roundedrect","label": "name"},
+				{"name": "Fajar","marker": "code","code": "BP10","symbol": "roundedrect","label": "name"},
+				{"name": "Segar","marker": "code","code": "BP11","symbol": "roundedrect","label": "name"},
+				{"name": "Jelapang","marker": "code","code": "BP12","symbol": "roundedrect","label": "name"},
+				{"name": "Senja","marker": "code","code": "BP13","symbol": "roundedrect","label": "name"},
+				{"name": "Bukit Panjang [BP6]","marker": "code","code": "BP6","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Ten Mile Junction","marker": "code","code": "BP14","symbol": "roundedrect","label": "name"}
+			]
+		},
+		{
+			"name": "Sengkang LRT",
+			"style": {
+				"color": "gray",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Sengkang","marker": "code","code": "STC","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Compassvale","marker": "code","code": "SE1","symbol": "roundedrect","label": "name"},
+				{"name": "Rumbia","marker": "code","code": "SE2","symbol": "roundedrect","label": "name"},
+				{"name": "Bakau","marker": "code","code": "SE3","symbol": "roundedrect","label": "name"},
+				{"name": "Kangkar","marker": "code","code": "SE4","symbol": "roundedrect","label": "name"},
+				{"name": "Ranggung","marker": "code","code": "SE5","symbol": "roundedrect","label": "name"},
+				{"name": "Sengkang","marker": "code","code": "STC","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Cheng Lim","marker": "code","code": "SW1","symbol": "roundedrect","label": "name"},
+				{"name": "Farmway","marker": "code","code": "SW2","symbol": "roundedrect","label": "name"},
+				{"name": "Kupang","marker": "code","code": "SW3","symbol": "roundedrect","label": "name"},
+				{"name": "Thanggam","marker": "code","code": "SW4","symbol": "roundedrect","label": "name"},
+				{"name": "Fernvale","marker": "code","code": "SW5","symbol": "roundedrect","label": "name"},
+				{"name": "Layar","marker": "code","code": "SW6","symbol": "roundedrect","label": "name"},
+				{"name": "Tongkang","marker": "code","code": "SW7","symbol": "roundedrect","label": "name"},
+				{"name": "Renjong","marker": "code","code": "SW8","symbol": "roundedrect","label": "name"},
+				{"name": "Sengkang","marker": "code","code": "STC","icon": ["bus"],"symbol": "roundedrect","label": "name"}
+			]
+		},
+		{
+			"name": "Punggol LRT",
+			"style": {
+				"color": "gray",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Punggol","marker": "code","code": "PTC","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Cove","marker": "code","code": "PE1","symbol": "roundedrect","label": "name"},
+				{"name": "Meridian","marker": "code","code": "PE2","symbol": "roundedrect","label": "name"},
+				{"name": "Coral Edge","marker": "code","code": "PE3","symbol": "roundedrect","label": "name"},
+				{"name": "Riviera","marker": "code","code": "PE4","symbol": "roundedrect","label": "name"},
+				{"name": "Kadaloor","marker": "code","code": "PE5","symbol": "roundedrect","label": "name"},
+				{"name": "Oasis","marker": "code","code": "PE6","symbol": "roundedrect","label": "name"},
+				{"name": "Damai","marker": "code","code": "PE7","symbol": "roundedrect","label": "name"},
+				{"name": "Punggol","marker": "code","code": "PTC","icon": ["bus"],"symbol": "roundedrect","label": "name"},
+				{"name": "Sam Kee","marker": "code","code": "PW1","symbol": "roundedrect","label": "name"},
+				{"name": "Teck Lee","marker": "code","code": "PW2","symbol": "roundedrect","label": "name"},
+				{"name": "Punggol Point","marker": "code","code": "PW3","symbol": "roundedrect","label": "name"},
+				{"name": "Samudera","marker": "code","code": "PW4","symbol": "roundedrect","label": "name"},
+				{"name": "Nibong","marker": "code","code": "PW5","symbol": "roundedrect","label": "name"},
+				{"name": "Sumang","marker": "code","code": "PW6","symbol": "roundedrect","label": "name"},
+				{"name": "Soo Teck","marker": "code","code": "PW7","symbol": "roundedrect","label": "name"},
+				{"name": "Punggol","marker": "code","code": "PTC","icon": ["bus"],"symbol": "roundedrect","label": "name"}
+			]
+		}
+	]
 }

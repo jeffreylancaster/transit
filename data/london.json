@@ -1,18 +1,18 @@
 {
-	"notes":"need to add icons, interchanges",
-  "map":"London",
-  "svgConfig":{
-  	"width":800,
-  	"height":800
-  },
-  "lines": [{
-     	"name": "Bakerloo Line",
-      "style": {
-        "color": "#B36305",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+	"notes":"need to add icons, interchanges, colors to hex",
+	"map":"London",
+	"svgConfig":{
+		"width":800,
+		"height":800
+	},
+	"lines": [{
+		 	"name": "Bakerloo Line",
+			"style": {
+				"color": "#B36305",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Harrow & Wealdstone", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Kenton", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"South Kenton", "symbol":"tick", "icon":[], "label":"name"},
@@ -42,12 +42,12 @@
 		},
 		{
 			"name": "Central Line",
-      "style": {
-        "color": "#E32017",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#E32017",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Epping", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Theydon Bois", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Debden", "symbol":"tick", "icon":[], "label":"name"},
@@ -84,12 +84,12 @@
 		},
 		{
 			"name": "Central Line",
-      "style": {
-        "color": "#E32017",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#E32017",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Woodford", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Roding Valley", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Chigwell", "symbol":"tick", "icon":[], "label":"name"},
@@ -106,12 +106,12 @@
 		},
 		{
 			"name": "Central Line",
-      "style": {
-        "color": "#E32017",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#E32017",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"North Acton", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Hanger Lane", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Perivale", "symbol":"tick", "icon":[], "label":"name"},
@@ -124,12 +124,12 @@
 		},
 		{
 			"name": "Circle Line",
-      "style": {
-        "color": "#FFD300",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#FFD300",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Hammersmith [H&C, C]", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Goldhawk Road", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Shepherd's Bush Market", "symbol":"tick", "icon":[], "label":"name"},
@@ -171,12 +171,12 @@
 		},
 		{
 			"name": "District Line",
-      "style": {
-        "color": "#00782A",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#00782A",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Ealing Broadway", "symbol":"interchange", "icon":[], "label":"name"},
 				{"name":"Ealing Common", "symbol":"interchange", "icon":[], "label":"name"},
 				{"name":"Acton Town", "symbol":"handicap-white", "icon":[], "label":"name"},
@@ -197,12 +197,12 @@
 		},
 		{
 			"name": "District Line",
-      "style": {
-        "color": "#00782A",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#00782A",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Earl's Court", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"West Brompton", "symbol":"interchange", "icon":[], "label":"name"},
 				{"name":"Fulham Broadway", "symbol":"handicap-white", "icon":[], "label":"name"},
@@ -213,15 +213,15 @@
 				{"name":"Wimbledon Park", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Wimbledon", "symbol":"handicap-white", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "District Line",
-      "style": {
-        "color": "#00782A",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#00782A",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Upminster", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Upminster Bridge", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Hornchurch", "symbol":"tick", "icon":[], "label":"name"},
@@ -259,12 +259,12 @@
 		},
 		{
 			"name": "District Line",
-      "style": {
-        "color": "#00782A",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#00782A",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Richmond", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Kew Gardens", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Gunnersbury", "symbol":"interchange", "icon":[], "label":"name"},
@@ -273,24 +273,24 @@
 		},
 		{
 			"name": "District Line",
-      "style": {
-        "color": "#00782A",
-        "outline": "none",
-        "stroke": "dotted"
-      },
-      "stations": [
+			"style": {
+				"color": "#00782A",
+				"outline": "none",
+				"stroke": "dotted"
+			},
+			"stations": [
 				{"name":"Earl's Court", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Kensington (Olympia)", "symbol":"handicap-white", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "Hammersmith & City Line",
-      "style": {
-        "color": "#F3A9BB",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#F3A9BB",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Hammersmith [H&C, C]", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Goldhawk Road", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Shepherd's Bush Market", "symbol":"tick", "icon":[], "label":"name"},
@@ -321,15 +321,15 @@
 				{"name":"East Ham", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Barking", "symbol":"handicap-white", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "Jubilee Line",
-      "style": {
-        "color": "#A0A5A9",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#A0A5A9",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Stanmore", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Canons Park", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Queensbury", "symbol":"tick", "icon":[], "label":"name"},
@@ -358,42 +358,42 @@
 				{"name":"West Ham", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Stratford", "symbol":"handicap-blue", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "Metropolitan Line",
-      "style": {
-        "color": "#9B0056",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#9B0056",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Amersham", "symbol":"interchange", "icon":[], "label":"name"},
 				{"name":"Chalfont & Latimer", "symbol":"handicap-blue", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "Metropolitan Line",
-      "style": {
-        "color": "#9B0056",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#9B0056",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Chesham", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Chalfont & Latimer", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Chorleywood", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Rickmansworth", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Moor Park", "symbol":"tick", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "Metropolitan Line",
-      "style": {
-        "color": "#9B0056",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#9B0056",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Watford", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Croxley", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Moor Park", "symbol":"tick", "icon":[], "label":"name"},
@@ -403,15 +403,15 @@
 				{"name":"North Harrow", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Harrow-on-the-Hill", "symbol":"interchange", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "Metropolitan Line",
-      "style": {
-        "color": "#9B0056",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#9B0056",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Uxbridge", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Hillingdon", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Ickenham", "symbol":"tick", "icon":[], "label":"name"},
@@ -435,15 +435,15 @@
 				{"name":"Liverpool Street", "symbol":"interchange", "icon":[], "label":"name"},
 				{"name":"Aldgate", "symbol":"tick", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "Northern Line",
-      "style": {
-        "color": "#000000",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#000000",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Edgware", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Burnt Oak", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Colindale", "symbol":"tick", "icon":[], "label":"name"},
@@ -476,27 +476,27 @@
 				{"name":"South Wimbledon", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Morden", "symbol":"handicap-blue", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "Northern Line",
-      "style": {
-        "color": "#000000",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#000000",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Mill Hill East", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Finchley Central", "symbol":"handicap-blue", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "Northern Line",
-      "style": {
-        "color": "#000000",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#000000",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"High Barnet", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Totteridge & Whetstone", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Woodside Park", "symbol":"handicap-white", "icon":[], "label":"name"},
@@ -519,28 +519,28 @@
 				{"name":"Elephant & Castle", "symbol":"interchange", "icon":[], "label":"name"},
 				{"name":"Kennington", "symbol":"tick", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "Piccadilly Line",
-      "style": {
-        "color": "#003688",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#003688",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Hatton Cross", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Heathrow Terminal 4", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Heathrow Terminals 1, 2, 3", "symbol":"handicap-blue", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "Piccadilly Line",
-      "style": {
-        "color": "#003688",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#003688",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Heathrow Terminal 5", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Heathrow Terminals 1, 2, 3", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Hatton Cross", "symbol":"tick", "icon":[], "label":"name"},
@@ -553,15 +553,15 @@
 				{"name":"South Ealing", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Acton Town", "symbol":"handicap-white", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "Piccadilly Line",
-      "style": {
-        "color": "#003688",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#003688",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Uxbridge", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Hillingdon", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Ickenham", "symbol":"tick", "icon":[], "label":"name"},
@@ -605,15 +605,15 @@
 				{"name":"Oakwood", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Cockfosters", "symbol":"tick", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "Victoria Line",
-      "style": {
-        "color": "#0098D4",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#0098D4",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Walthamstow Central", "symbol":"interchange", "icon":[], "label":"name"},
 				{"name":"Blackhorse Road", "symbol":"interchange", "icon":[], "label":"name"},
 				{"name":"Tottenham Hale", "symbol":"handicap-blue", "icon":[], "label":"name"},
@@ -631,27 +631,27 @@
 				{"name":"Stockwell", "symbol":"interchange", "icon":[], "label":"name"},
 				{"name":"Brixton", "symbol":"handicap-blue", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "Waterloo & City Line",
-      "style": {
-        "color": "#95CDBA",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "#95CDBA",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Bank", "symbol":"interchange", "note":"connected to Monument", "icon":[], "label":"name"},
 				{"name":"Waterloo", "symbol":"interchange", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "DLR",
-      "style": {
-        "color": "white",
-        "outline": "#00A4A7",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#00A4A7",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Stratford International", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Stratford", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Pudding Mill Lane", "symbol":"handicap-blue", "icon":[], "label":"name"},
@@ -665,39 +665,39 @@
 				{"name":"Shadwell", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Tower Gateway", "symbol":"handicap-blue", "note":"connected to Tower Hill", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "DLR",
-      "style": {
-        "color": "white",
-        "outline": "#00A4A7",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#00A4A7",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Shadwell", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Bank", "symbol":"handicap-blue", "note":"connected to Monument", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "DLR",
-      "style": {
-        "color": "white",
-        "outline": "#00A4A7",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#00A4A7",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Westferry", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"West India Quay", "symbol":"handicap-blue", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "DLR",
-      "style": {
-        "color": "white",
-        "outline": "#00A4A7",
-        "stroke": "solid"
-      },
-      "stations": [	
+			"style": {
+				"color": "white",
+				"outline": "#00A4A7",
+				"stroke": "solid"
+			},
+			"stations": [	
 				{"name":"Poplar", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"West India Quay", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Canary Wharf [DLR]", "symbol":"handicap-blue", "icon":[], "label":"name"},
@@ -712,15 +712,15 @@
 				{"name":"Elverson Road", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Lewisham", "symbol":"handicap-blue", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "DLR",
-      "style": {
-        "color": "white",
-        "outline": "#00A4A7",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#00A4A7",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Poplar", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Blackwall", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"East India", "symbol":"handicap-blue", "icon":[], "label":"name"},
@@ -731,15 +731,15 @@
 				{"name":"King George V", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Woolwich Arsenal", "symbol":"handicap-blue", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "DLR",
-      "style": {
-        "color": "white",
-        "outline": "#00A4A7",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#00A4A7",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Stratford", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Stratford High Street", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Abbey Road", "symbol":"handicap-blue", "icon":[], "label":"name"},
@@ -755,27 +755,27 @@
 				{"name":"Gallions Reach", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Beckton", "symbol":"handicap-blue", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "Emirates Air Line",
-      "style": {
-        "color": "white",
-        "outline": "#E21836",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#E21836",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Emirates Greenwich Peninsula", "symbol":"handicap-blue", "icon":[], "label":"name"},
 				{"name":"Emirates Royal Docks", "symbol":"handicap-blue", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "London Overground - North London Line",
-      "style": {
-        "color": "white",
-        "outline": "#EE7C0E",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#EE7C0E",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Richmond", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Kew Gardens", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Gunnersbury", "symbol":"interchange", "icon":[], "label":"name"},
@@ -800,15 +800,15 @@
 				{"name":"Hackney Wick", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Stratford", "symbol":"handicap-white", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "London Overground - West London Line",
-      "style": {
-        "color": "white",
-        "outline": "#EE7C0E",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#EE7C0E",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Willesden Junction", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Shepherd's Bush", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Kensington (Olympia)", "symbol":"handicap-white", "icon":[], "label":"name"},
@@ -816,15 +816,15 @@
 				{"name":"Imperial Wharf", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Clapham Junction", "symbol":"handicap-white", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "London Overground - East London Line",
-      "style": {
-        "color": "white",
-        "outline": "#EE7C0E",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#EE7C0E",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Highbury & Islington", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Canonbury", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Dalston Junction", "symbol":"handicap-blue", "icon":[], "label":"name"},
@@ -839,15 +839,15 @@
 				{"name":"Surrey Quays", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"New Cross", "symbol":"handicap-white", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "London Overground - East London Line",
-      "style": {
-        "color": "white",
-        "outline": "#EE7C0E",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#EE7C0E",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Surrey Quays", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"New Cross Gate", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Brockley", "symbol":"handicap-white", "icon":[], "label":"name"},
@@ -856,29 +856,29 @@
 				{"name":"Sydenham", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Crystal Palace", "symbol":"handicap-white", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "London Overground - East London Line",
-      "style": {
-        "color": "white",
-        "outline": "#EE7C0E",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#EE7C0E",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Sydenham", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Penge West", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Anerley", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Norwood Junction", "symbol":"interchange", "icon":[], "label":"name"},
 				{"name":"West Croydon", "symbol":"handicap-white", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "London Overground - South London Line",
-      "style": {
-        "color": "white",
-        "outline": "#EE7C0E",
-        "stroke": "solid"
-      },
+			"style": {
+				"color": "white",
+				"outline": "#EE7C0E",
+				"stroke": "solid"
+			},
 			"stations": [
 				{"name":"Surrey Quays", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Queens Road Peckham", "symbol":"handicap-white", "icon":[], "label":"name"},
@@ -891,12 +891,12 @@
 		},
 		{
 			"name": "London Overground - Watford DC Line",
-      "style": {
-        "color": "white",
-        "outline": "#EE7C0E",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#EE7C0E",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Euston", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"South Hampstead", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Kilburn High Road", "symbol":"tick", "icon":[], "label":"name"},
@@ -917,15 +917,15 @@
 				{"name":"Watford High Street", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Watford Junction", "symbol":"handicap-white", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "London Overground - Gospel Oak to Barking Line",
-      "style": {
-        "color": "white",
-        "outline": "#EE7C0E",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#EE7C0E",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Gospel Oak", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Upper Holloway", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Crouch Hill", "symbol":"tick", "icon":[], "label":"name"},
@@ -939,15 +939,15 @@
 				{"name":"Woodgrange Park", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Barking", "symbol":"handicap-white", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "London Overground - Lea Valley Lines",
-      "style": {
-        "color": "white",
-        "outline": "#EE7C0E",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#EE7C0E",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"London Liverpool Street", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Bethnal Green", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Cambridge Heath", "symbol":"tick", "icon":[], "label":"name"},
@@ -964,30 +964,30 @@
 				{"name":"Bush Hill Park", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Enfield Town", "symbol":"handicap-white", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "London Overground - Lea Valley Lines",
-      "style": {
-        "color": "white",
-        "outline": "#EE7C0E",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#EE7C0E",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Edmonton Green", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Southbury", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Turkey Street", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Theobalds Grove", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"Cheshunt", "symbol":"handicap-white", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "London Overground - Lea Valley Lines",
-      "style": {
-        "color": "white",
-        "outline": "#EE7C0E",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#EE7C0E",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Hackney Downs", "symbol":"interchange", "note":"connected to Hackney Central", "icon":[], "label":"name"},
 				{"name":"Clapton", "symbol":"tick", "icon":[], "label":"name"},
 				{"name":"St James Street", "symbol":"tick", "icon":[], "label":"name"},
@@ -996,28 +996,28 @@
 				{"name":"Highams Park", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Chingford", "symbol":"handicap-white", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "London Overground - Romford to Upminster Line",
-      "style": {
-        "color": "white",
-        "outline": "#EE7C0E",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#EE7C0E",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Romford", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Emerson Park", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Upminster", "symbol":"interchange", "icon":[], "label":"name"}
 			]
-    },
-    {
+		},
+		{
 			"name": "TfL Rail",
-      "style": {
-        "color": "white",
-        "outline": "#7156A5",
-        "stroke": "solid"
-      },
-      "stations": [
+			"style": {
+				"color": "white",
+				"outline": "#7156A5",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name":"Liverpool Street", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Stratford", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Maryland", "symbol":"tick", "icon":[], "label":"name"},
@@ -1033,6 +1033,6 @@
 				{"name":"Brentwood", "symbol":"handicap-white", "icon":[], "label":"name"},
 				{"name":"Shenfield", "symbol":"handicap-white", "icon":[], "label":"name"}
 			]
-    }
-  ]
+		}
+	]
 }

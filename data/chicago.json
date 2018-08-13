@@ -1,17 +1,18 @@
 {
-  "map":"Chicago",
-  "svgConfig":{
-  	"width":1200,
-  	"height":1200
-  },
-  "lines": [{
-      "name": "Blue",
-      "style": {
-      	"color": "blue",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+	"notes":"check icons, check interchanges, colors to hex",
+	"map":"Chicago",
+	"svgConfig":{
+		"width":1200,
+		"height":1200
+	},
+	"lines": [{
+			"name": "Blue",
+			"style": {
+				"color": "blue",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name": "O'Hare","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Rosemont","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Cumberland","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
@@ -49,26 +50,26 @@
 			]
 		},
 		{
-      "name": "Yellow",
-      "style": {
-      	"color": "yellow",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"name": "Yellow",
+			"style": {
+				"color": "yellow",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name": "Dempster-Skokie","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Oakton-Skokie","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Howard","icon": ["park", "accessible"],"symbol": "circle","label": "name"}
 			]
 		},
 		{
-      "name": "Green",
-      "style": {
-      	"color": "green",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"name": "Green",
+			"style": {
+				"color": "green",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name": "Harlem/Lake","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Oak Park [g]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Ridgeland","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
@@ -100,26 +101,26 @@
 			]
 		},
 		{
-      "name": "Green",
-      "style": {
-      	"color": "green",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"name": "Green",
+			"style": {
+				"color": "green",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name": "Garfield [g]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Halsted","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Ashland/63rd","icon": ["park", "accessible"],"symbol": "circle","label": "name"}
 			]
 		},
 		{
-      "name": "Brown",
-      "style": {
-      	"color": "brown",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"name": "Brown",
+			"style": {
+				"color": "brown",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name": "Kimball","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Kedzie [br]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Francisco","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
@@ -151,13 +152,13 @@
 			]
 		},
 		{
-      "name": "Navy",
-      "style": {
-      	"color": "navy",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"name": "Navy",
+			"style": {
+				"color": "navy",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name": "Linden","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Central","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Noyes","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
@@ -170,13 +171,13 @@
 			]
 		},
 		{
-      "name": "Red",
-      "style": {
-      	"color": "red",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"name": "Red",
+			"style": {
+				"color": "red",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name": "Howard","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Jarvis","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Morse","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
@@ -211,13 +212,13 @@
 			]
 		},
 		{
-      "name": "Dotted Navy",
-      "style": {
-      	"color": "navy",
-        "outline": "none",
-        "stroke": "dotted"
-      },
-      "stations": [
+			"name": "Dotted Navy",
+			"style": {
+				"color": "navy",
+				"outline": "none",
+				"stroke": "dotted"
+			},
+			"stations": [
 				{"name": "Howard","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Jarvis","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Morse","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
@@ -251,13 +252,13 @@
 			]
 		},
 		{
-      "name": "Pink",
-      "style": {
-      	"color": "pink",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"name": "Pink",
+			"style": {
+				"color": "pink",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name": "54th/Cermak","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Cicero [p]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Kostner","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
@@ -284,13 +285,13 @@
 			]
 		},
 		{
-      "name": "Orange",
-      "style": {
-      	"color": "orange",
-        "outline": "none",
-        "stroke": "solid"
-      },
-      "stations": [
+			"name": "Orange",
+			"style": {
+				"color": "orange",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
 				{"name": "Midway","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Pulaski [o]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
 				{"name": "Kedzie [o]","icon": ["park", "accessible"],"symbol": "circle","label": "name"},
