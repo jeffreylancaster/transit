@@ -4,13 +4,13 @@
 
 //* La Défense [A], La Défense [1], La Défense [2]
 //* Charles de Gaulle – Étoile [1, 2, 6], Charles de Gaulle – Étoile [A]
-// Châtelet, Les Halles, Châtelet - Les Halles
+//* Châtelet – Les Halles [A], Châtelet – Les Halles [B, D], Les Halles, Châtelet - Les Halles, Châtelet
 //* Nation [1, 6, 9, A], Nation [2]
 //* Porte de Vincennes [3b], Porte de Vincennes [1], Porte de Vincennes [3a]
 //* Pereire, Pereire Levalois
 //* Saint Augustin, Saint-Lazare, Haussmann, Havre Caumartin, Auber, Opéra
 //* La Chapelle, Gare du Nord, Magenta
-// Saint-Michel [4], Cluny – La Sorbonne
+//* Saint-Michel, St-Michel – Notre-Dame, Saint-Michel – Notre-Dame, Cluny – La Sorbonne
 //* Montparnasse - Bienvenüe [4, 12], Montparnasse - Bienvenüe [6, 13]
 //* Denfert-Rochereau [4, 6], Denfert-Rochereau [B]
 //* Gare d'Austerlitz [5, 10], Gare d'Austerlitz [C]
@@ -27,7 +27,7 @@
 //* Pont du Garigliano, Boulevard Victor
 
 {
-	"notes":"",
+	"notes":"https://upload.wikimedia.org/wikipedia/commons/2/2b/Carte_M%C3%A9tro_de_Paris.jpg",
 	"map":"Paris Metro",
 	"svgConfig":{
 		"width":1200,
@@ -180,7 +180,7 @@
 				{"name": "Les Halles [4] - interchange"},
 				{"name": "Châtelet - Les Halles - interchange"},
 				{"name": "Cité"},
-				{"name": "Saint-Michel [4] - interchange"},
+				{"name": "Saint-Michel - interchange"},
 				{"name": "Odéon - interchange"},
 				{"name": "Saint-Germain-des-Prés"},
 				{"name": "Saint-Sulpice"},
@@ -656,7 +656,7 @@
 				{"name": "La Défense [A] - handicap-white"},
 				{"name": "Charles de Gaulle–Étoile - handicap-white"},
 				{"name": "Auber - handicap-white"},
-				{"name": "Châtelet – Les Halles - handicap-white"},
+				{"name": "Châtelet – Les Halles [A] - handicap-white"},
 				{"name": "Gare de Lyon - handicap-white"},
 				{"name": "Nation - handicap-white"},
 				{"name": "Vincennes - handicap-blue"}
@@ -822,7 +822,7 @@
 				{"name": "La Courneuve – Aubervilliers - handicap-blue"},
 				{"name": "La Plaine – Stade de France - handicap-blue"},
 				{"name": "Gare du Nord - handicap-white"},
-				{"name": "Châtelet – Les Halles - handicap-white"},
+				{"name": "Châtelet – Les Halles [B, D] - handicap-white"},
 				{"name": "St-Michel – Notre-Dame - handicap-white"},
 				{"name": "Luxembourg - circle"},
 				{"name": "Port-Royal - handicap-blue"},
@@ -1064,7 +1064,7 @@
 				{"name": "Saint-Denis - interchange"},
 				{"name": "Stade de France – Saint-Denis - handicap-blue"},
 				{"name": "Gare du Nord - handicap-white"},
-				{"name": "Châtelet – Les Halles - handicap-white"},
+				{"name": "Châtelet – Les Halles [B, D] - handicap-white"},
 				{"name": "Gare de Lyon - handicap-white"},
 				{"name": "Maisons-Alfort – Alfortville - handicap-blue"},
 				{"name": "Le Vert de Maisons - circle"},
