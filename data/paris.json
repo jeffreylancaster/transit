@@ -1,0 +1,1372 @@
+// handicap white --> interchange and accessible icon
+// handicap blue --> accessible icon?
+// check RER names vs. Metro names on map
+
+//* La Défense [A], La Défense [1], La Défense [2]
+//* Charles de Gaulle – Étoile [1, 2, 6], Charles de Gaulle – Étoile [A]
+// Châtelet, Les Halles, Châtelet - Les Halles
+//* Nation [1, 6, 9, A], Nation [2]
+//* Porte de Vincennes [3b], Porte de Vincennes [1], Porte de Vincennes [3a]
+//* Pereire, Pereire Levalois
+//* Saint Augustin, Saint-Lazare, Haussmann, Havre Caumartin, Auber, Opéra
+//* La Chapelle, Gare du Nord, Magenta
+// Saint-Michel [4], Cluny – La Sorbonne
+//* Montparnasse - Bienvenüe [4, 12], Montparnasse - Bienvenüe [6, 13]
+//* Denfert-Rochereau [4, 6], Denfert-Rochereau [B]
+//* Gare d'Austerlitz [5, 10], Gare d'Austerlitz [C]
+//* Bir-Hakeim - Tour Eiffel, Champ de Mars
+//* Porte de la Villette [7], Porte de la Villette [3b]
+//* Invalides [8, 13], Invalides [C]
+//* Madeleine [8], Madeleine [14], Madeleine [12]
+//* Balard [8], Balard [3a]
+//* La Muette, Boulainvilliers
+//* Porte de la Chapelle [12], Porte de la Chapelle [3b]
+//* Porte de Versailles [12, 3a], Porte de Versailles [2]
+//* Basilique de Saint-Denis [13], Basilique de Saint-Denis [1]
+//* Asnières – Gennevilliers – Les Courtilles [13], Asnières – Gennevilliers – Les Courtilles [1]
+//* Pont du Garigliano, Boulevard Victor
+
+{
+	"notes":"",
+	"map":"Paris Metro",
+	"svgConfig":{
+		"width":1200,
+		"height":1200
+	},
+	"lines": [
+		{
+			"name": "1",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "La Défense [1] - interchange"},
+				{"name": "Esplanade de La Défense"},
+				{"name": "Pont de Neuilly"},
+				{"name": "Les Sablons"},
+				{"name": "Porte Maillot - interchange"},
+				{"name": "Argentine"},
+				{"name": "Charles de Gaulle – Étoile [1, 2, 6] - interchange"},
+				{"name": "George V"},
+				{"name": "Franklin D. Roosevelt - interchange"},
+				{"name": "Champs-Élysées – Clemenceau - interchange"},
+				{"name": "Concorde - interchange"},
+				{"name": "Tuileries"},
+				{"name": "Palais Royal - interchange"},
+				{"name": "Louvre – Rivoli"},
+				{"name": "Châtelet - interchange"},
+				{"name": "Hôtel de Ville - interchange"},
+				{"name": "Saint-Paul"},
+				{"name": "Bastille - interchange"},
+				{"name": "Gare de Lyon - interchange"},
+				{"name": "Reuilly – Diderot - interchange"},
+				{"name": "Nation [1, 6, 9, A] - interchange"},
+				{"name": "Porte de Vincennes [1] - interchange"},
+				{"name": "Saint-Mandé"},
+				{"name": "Bérault"},
+				{"name": "Château de Vincennes"}
+			]
+		},
+		{
+			"name": "2",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Porte Dauphine"},
+				{"name": "Victor Hugo"},
+				{"name": "Charles de Gaulle – Étoile [1, 2, 6] - interchange"},
+				{"name": "Ternes"},
+				{"name": "Courcelles"},
+				{"name": "Monceau"},
+				{"name": "Villiers - interchange"},
+				{"name": "Rome"},
+				{"name": "Place de Clichy - interchange"},
+				{"name": "Blanche"},
+				{"name": "Pigalle - interchange"},
+				{"name": "Anvers"},
+				{"name": "Barbès – Rochechouart - interchange"},
+				{"name": "La Chapelle - interchange"},
+				{"name": "Stalingrad - interchange"},
+				{"name": "Jaurès - interchange"},
+				{"name": "Colonel Fabien"},
+				{"name": "Belleville - interchange"},
+				{"name": "Couronnes"},
+				{"name": "Ménilmontant"},
+				{"name": "Père Lachaise - interchange"},
+				{"name": "Philippe Auguste"},
+				{"name": "Alexandre Dumas"},
+				{"name": "Avron"},
+				{"name": "Nation [2] - interchange"}
+			]
+		},
+		{
+			"name": "3",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Pont de Levallois - Bécon"},
+				{"name": "Anatole France"},
+				{"name": "Louise Michel"},
+				{"name": "Porte de Champerret"},
+				{"name": "Pereire - interchange"},
+				{"name": "Wagram"},
+				{"name": "Malesherbes"},
+				{"name": "Villiers - interchange"},
+				{"name": "Europe"},
+				{"name": "Saint-Lazare - interchange"},
+				{"name": "Havre - Caumartin - interchange"},
+				{"name": "Opéra - interchange"},
+				{"name": "Quatre-Septembre"},
+				{"name": "Bourse"},
+				{"name": "Sentier"},
+				{"name": "Réaumur - Sébastopol - interchange"},
+				{"name": "Arts et Métiers - interchange"},
+				{"name": "Temple"},
+				{"name": "République - interchange"},
+				{"name": "Parmentier"},
+				{"name": "Rue Saint-Maur"},
+				{"name": "Père Lachaise - interchange"},
+				{"name": "Gambetta - interchange"},
+				{"name": "Porte de Bagnolet - interchange"},
+				{"name": "Gallieni"}
+			]
+		},
+		{
+			"name": "3bis",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Porte des Lilas - interchange"},
+				{"name": "Saint-Fargeau"},
+				{"name": "Pelleport"},
+				{"name": "Gambetta - interchange"}
+			]
+		},
+		{
+			"name": "4",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Porte de Clignancourt"},
+				{"name": "Simplon"},
+				{"name": "Marcadet – Poissonniers - interchange"},
+				{"name": "Château Rouge"},
+				{"name": "Barbès – Rochechouart - interchange"},
+				{"name": "Gare du Nord - interchange"},
+				{"name": "Gare de l'Est - interchange"},
+				{"name": "Château d'Eau"},
+				{"name": "Strasbourg – Saint-Denis - interchange"},
+				{"name": "Réaumur – Sébastopol - interchange"},
+				{"name": "Étienne Marcel"},
+				{"name": "Les Halles [4] - interchange"},
+				{"name": "Châtelet - Les Halles - interchange"},
+				{"name": "Cité"},
+				{"name": "Saint-Michel [4] - interchange"},
+				{"name": "Odéon - interchange"},
+				{"name": "Saint-Germain-des-Prés"},
+				{"name": "Saint-Sulpice"},
+				{"name": "Saint-Placide"},
+				{"name": "Montparnasse - Bienvenüe [4, 12] - interchange"},
+				{"name": "Vavin"},
+				{"name": "Raspail - interchange"},
+				{"name": "Denfert-Rochereau [4, 6] - interchange"},
+				{"name": "Mouton-Duvernet"},
+				{"name": "Alésia"},
+				{"name": "Porte d'Orléans - interchange"},
+				{"name": "Mairie de Montrouge"}
+			]
+		},
+		{
+			"name": "5",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Bobigny – Pablo Picasso - interchange"},
+				{"name": "Bobigny – Pantin – Raymond Queneau"},
+				{"name": "Église de Pantin"},
+				{"name": "Hoche"},
+				{"name": "Porte de Pantin - interchange"},
+				{"name": "Ourcq"},
+				{"name": "Laumière"},
+				{"name": "Jaurès - interchange"},
+				{"name": "Stalingrad - interchange"},
+				{"name": "Gare du Nord - interchange"},
+				{"name": "Gare de l'Est - interchange"},
+				{"name": "Jacques Bonsergent"},
+				{"name": "République - interchange"},
+				{"name": "Oberkampf - interchange"},
+				{"name": "Richard-Lenoir"},
+				{"name": "Bréguet – Sabin"},
+				{"name": "Bastille - interchange"},
+				{"name": "Quai de la Rapée"},
+				{"name": "Gare d'Austerlitz [5, 10] - interchange"},
+				{"name": "Saint-Marcel"},
+				{"name": "Campo Formio"},
+				{"name": "Place d'Italie - interchange"}
+			]
+		},
+		{
+			"name": "6",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Charles de Gaulle – Étoile [1, 2, 6] - interchange"},
+				{"name": "Kléber"},
+				{"name": "Boissière"},
+				{"name": "Trocadéro - interchange"},
+				{"name": "Passy"},
+				{"name": "Bir-Hakeim - Tour Eiffel - interchange"},
+				{"name": "Dupleix"},
+				{"name": "La Motte-Picquet - Grenelle - interchange"},
+				{"name": "Cambronne"},
+				{"name": "Sèvres - Lecourbe"},
+				{"name": "Pasteur - interchange"},
+				{"name": "Montparnasse - Bienvenüe [6, 13] - interchange"},
+				{"name": "Edgar Quinet"},
+				{"name": "Raspail - interchange"},
+				{"name": "Denfert-Rochereau [4, 6] - interchange"},
+				{"name": "Saint-Jacques"},
+				{"name": "Glacière"},
+				{"name": "Corvisart"},
+				{"name": "Place d'Italie - interchange"},
+				{"name": "Nationale"},
+				{"name": "Chevaleret"},
+				{"name": "Quai de la Gare"},
+				{"name": "Bercy - interchange"},
+				{"name": "Dugommier"},
+				{"name": "Daumesnil - interchange"},
+				{"name": "Bel-Air"},
+				{"name": "Picpus"},
+				{"name": "Nation [1, 6, 9, A] - interchange"}
+			]
+		},
+		{
+			"name": "7",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "La Courneuve - 8 Mai 1945 - interchange"},
+				{"name": "Fort d'Aubervilliers"},
+				{"name": "Aubervilliers - Pantin - Quatre Chemins"},
+				{"name": "Porte de la Villette [7] - interchange"},
+				{"name": "Corentin Cariou - interchange"},
+				{"name": "Crimée"},
+				{"name": "Riquet"},
+				{"name": "Stalingrad - interchange"},
+				{"name": "Louis Blanc - interchange"},
+				{"name": "Château-Landon"},
+				{"name": "Gare de l'Est - interchange"},
+				{"name": "Poissonnière"},
+				{"name": "Cadet"},
+				{"name": "Le Peletier"},
+				{"name": "Chaussée d'Antin - La Fayette - interchange"},
+				{"name": "Opéra - interchange"},
+				{"name": "Pyramides - interchange"},
+				{"name": "Palais Royal - Musée du Louvre - interchange"},
+				{"name": "Pont Neuf"},
+				{"name": "Châtelet - interchange"},
+				{"name": "Pont Marie"},
+				{"name": "Sully - Morland"},
+				{"name": "Seine"},
+				{"name": "Jussieu - interchange"},
+				{"name": "Place Monge"},
+				{"name": "Censier - Daubenton"},
+				{"name": "Les Gobelins"},
+				{"name": "Place d'Italie - interchange"},
+				{"name": "Tolbiac"},
+				{"name": "Maison Blanche - interchange"},
+				{"name": "Porte d'Italie - interchange"},
+				{"name": "Porte de Choisy - interchange"},
+				{"name": "Porte d'Ivry - interchange"},
+				{"name": "Pierre et Marie Curie"},
+				{"name": "Mairie d'Ivry"}
+			]
+		},
+		{
+			"name": "7",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Maison Blanche - interchange"},
+				{"name": "Le Kremlin-Bicêtre"},
+				{"name": "Villejuif - Léo Lagrange"},
+				{"name": "Villejuif - Paul Vaillant-Couturier"},
+				{"name": "Villejuif - Louis Aragon"}
+			]
+		},
+		{
+			"name": "7bis",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Louis Blanc - interchange"},
+				{"name": "Jaurès - interchange"},
+				{"name": "Bolivar"},
+				{"name": "Buttes Chaumont"},
+				{"name": "Botzaris"},
+				{"name": "Place des Fêtes - interchange"},
+				{"name": "Pré Saint-Gervais"},
+				{"name": "Danube"},
+				{"name": "Botzaris"}
+			]
+		},
+		{
+			"name": "8",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Balard [8] - interchange"},
+				{"name": "Lourmel"},
+				{"name": "Boucicaut"},
+				{"name": "Félix Faure"},
+				{"name": "Commerce"},
+				{"name": "La Motte-Picquet – Grenelle - interchange"},
+				{"name": "École Militaire - interchange"},
+				{"name": "La Tour-Maubourg"},
+				{"name": "Invalides [8, 13] - interchange"},
+				{"name": "Concorde - interchange"},
+				{"name": "Madeleine [8] - interchange"},
+				{"name": "Opéra - interchange"},
+				{"name": "Richelieu – Drouot - interchange"},
+				{"name": "Grands Boulevards - interchange"},
+				{"name": "Bonne Nouvelle - interchange"},
+				{"name": "Strasbourg – Saint-Denis - interchange"},
+				{"name": "Saint-Martin"},
+				{"name": "République - interchange"},
+				{"name": "Filles du Calvaire"},
+				{"name": "Saint-Sébastien – Froissart"},
+				{"name": "Chemin Vert"},
+				{"name": "Bastille - interchange"},
+				{"name": "Ledru-Rollin"},
+				{"name": "Faidherbe – Chaligny"},
+				{"name": "Reuilly – Diderot - interchange"},
+				{"name": "Montgallet"},
+				{"name": "Daumesnil - interchange"},
+				{"name": "Michel Bizot"},
+				{"name": "Porte Dorée - interchange"},
+				{"name": "Porte de Charenton - interchange"},
+				{"name": "Liberté"},
+				{"name": "Charenton – Écoles"},
+				{"name": "École Vétérinaire de Maisons-Alfort"},
+				{"name": "Maisons-Alfort – Stade"},
+				{"name": "Maisons-Alfort – Les Juilliottes"},
+				{"name": "Créteil – L'Échat"},
+				{"name": "Créteil – Université"},
+				{"name": "Créteil – Préfecture"},
+				{"name": "Pointe du Lac"}
+			]
+		},
+		{
+			"name": "9",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Pont de Sèvres"},
+				{"name": "Billancourt"},
+				{"name": "Marcel Sembat"},
+				{"name": "Porte de Saint-Cloud"},
+				{"name": "Exelmans"},
+				{"name": "Porte d'Auteuil"},
+				{"name": "Michel-Ange - Molitor [10S] - interchange"},
+				{"name": "Michel-Ange - Auteuil [10N] - interchange"},
+				{"name": "Jasmin"},
+				{"name": "Ranelagh"},
+				{"name": "La Muette - interchange"},
+				{"name": "Rue de la Pompe"},
+				{"name": "Trocadéro - interchange"},
+				{"name": "Iéna"},
+				{"name": "Alma - Marceau"},
+				{"name": "Franklin D. Roosevelt - interchange"},
+				{"name": "Saint-Philippe du Roule"},
+				{"name": "Miromesnil - interchange"},
+				{"name": "Saint-Augustin - interchange"},
+				{"name": "Havre - Caumartin - interchange"},
+				{"name": "Chaussée d'Antin - La Fayette - interchange"},
+				{"name": "Richelieu - Drouot - interchange"},
+				{"name": "Grands Boulevards - interchange"},
+				{"name": "Bonne Nouvelle - interchange"},
+				{"name": "Strasbourg - Saint-Denis - interchange"},
+				{"name": "Saint-Martin"},
+				{"name": "République - interchange"},
+				{"name": "Oberkampf - interchange"},
+				{"name": "Saint-Ambroise"},
+				{"name": "Voltaire"},
+				{"name": "Charonne"},
+				{"name": "Rue des Boulets"},
+				{"name": "Nation [1, 6, 9, A] - interchange"},
+				{"name": "Buzenval"},
+				{"name": "Maraîchers"},
+				{"name": "Porte de Montreuil - interchange"},
+				{"name": "Robespierre"},
+				{"name": "Croix de Chavaux"},
+				{"name": "Mairie de Montreuil"}
+			]
+		},
+		{
+			"name": "10",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Boulogne – Pont de Saint-Cloud"},
+				{"name": "Boulogne – Jean Jaurès"},
+				{"name": "Michel-Ange – Molitor [10S] - interchange"},
+				{"name": "Chardon Lagache"},
+				{"name": "Mirabeau"},
+				{"name": "Javel – André Citroën"},
+				{"name": "Charles Michels"},
+				{"name": "Avenue Émile Zola"},
+				{"name": "La Motte-Picquet – Grenelle - interchange"},
+				{"name": "Paris MétroParis Métro Line 8 to Pointe du Lac"},
+				{"name": "Ségur"},
+				{"name": "Duroc - interchange"},
+				{"name": "Vaneau"},
+				{"name": "Sèvres – Babylone - interchange"},
+				{"name": "Mabillon"},
+				{"name": "Odéon - interchange"},
+				{"name": "Cluny – La Sorbonne - interchange"},
+				{"name": "Maubert – Mutualité"},
+				{"name": "Cardinal Lemoine"},
+				{"name": "Jussieu - interchange"},
+				{"name": "Gare d'Austerlitz [5, 10] - interchange"}
+			]
+		},
+		{
+			"name": "10",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Javel – André Citroën"},
+				{"name": "Église d'Auteuil"},
+				{"name": "Michel-Ange – Auteuil [10N] - interchange"},
+				{"name": "Porte d'Auteuil"},
+				{"name": "Boulogne – Jean Jaurès"}
+			]
+		},
+		{
+			"name": "11",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Mairie des Lilas"},
+				{"name": "Porte des Lilas - interchange"},
+				{"name": "Télégraphe"},
+				{"name": "Place des Fêtes - interchange"},
+				{"name": "Jourdain"},
+				{"name": "Pyrénées"},
+				{"name": "Belleville - interchange"},
+				{"name": "Goncourt"},
+				{"name": "République - interchange"},
+				{"name": "Arts et Métiers - interchange"},
+				{"name": "Rambuteau"},
+				{"name": "Hôtel de Ville - interchange"},
+				{"name": "Châtelet - interchange"}
+			]
+		},
+		{
+			"name": "12",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Front Populaire"},
+				{"name": "Porte de la Chapelle [12] - interchange"},
+				{"name": "Marx Dormoy"},
+				{"name": "Marcadet – Poissonniers - interchange"},
+				{"name": "Jules Joffrin"},
+				{"name": "Lamarck – Caulaincourt"},
+				{"name": "Abbesses"},
+				{"name": "Pigalle - interchange"},
+				{"name": "Saint-Georges"},
+				{"name": "Notre-Dame-de-Lorette"},
+				{"name": "Trinité – d'Estienne d'Orves"},
+				{"name": "Saint-Lazare - interchange"},
+				{"name": "Madeleine [12] - interchange"},
+				{"name": "Concorde - interchange"},
+				{"name": "Assemblée Nationale"},
+				{"name": "Solférino"},
+				{"name": "Rue du Bac"},
+				{"name": "Sèvres – Babylone - interchange"},
+				{"name": "Rennes"},
+				{"name": "Notre-Dame-des-Champs"},
+				{"name": "Montparnasse – Bienvenüe [4, 12] - interchange"},
+				{"name": "Falguière"},
+				{"name": "Pasteur - interchange"},
+				{"name": "Volontaires"},
+				{"name": "Vaugirard"},
+				{"name": "Convention"},
+				{"name": "Porte de Versailles [12, 3a] - interchange"},
+				{"name": "Corentin Celton"},
+				{"name": "Mairie d'Issy"}
+			]
+		},
+		{
+			"name": "13",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Saint-Denis - Université"},
+				{"name": "Basilique de Saint-Denis [13] - interchange"},
+				{"name": "Saint-Denis - Porte de Paris"},
+				{"name": "Carrefour Pleyel"},
+				{"name": "Mairie de Saint-Ouen"},
+				{"name": "Garibaldi"},
+				{"name": "Porte de Saint-Ouen"},
+				{"name": "Guy Môquet"},
+				{"name": "La Fourche - interchange"},
+				{"name": "Place de Clichy - interchange"},
+				{"name": "Liège"},
+				{"name": "Saint-Lazare - interchange"},
+				{"name": "Miromesnil - interchange"},
+				{"name": "Champs-Élysées – Clemenceau - interchange"},
+				{"name": "Invalides [8, 13] - interchange"},
+				{"name": "Varenne"},
+				{"name": "Saint-François-Xavier"},
+				{"name": "Duroc - interchange"},
+				{"name": "Montparnasse - Bienvenüe [6, 13] - interchange"},
+				{"name": "Gaîté"},
+				{"name": "Pernety"},
+				{"name": "Plaisance"},
+				{"name": "Porte de Vanves - interchange"},
+				{"name": "Malakoff - Plateau de Vanves"},
+				{"name": "Malakoff - Rue Étienne Dolet"},
+				{"name": "Châtillon - Montrouge"}
+			]
+		},
+		{
+			"name": "13",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Asnières – Gennevilliers – Les Courtilles [13]"},
+				{"name": "Les Agnettes"},
+				{"name": "Gabriel Péri"},
+				{"name": "Mairie de Clichy"},
+				{"name": "Porte de Clichy"},
+				{"name": "Brochant"},
+				{"name": "La Fourche - interchange"}
+			]
+		},
+		{
+			"name": "14",
+			"type": "metro",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Saint-Lazare - interchange"},
+				{"name": "Madeleine [14] - interchange"},
+				{"name": "Pyramides - interchange"},
+				{"name": "Châtelet - interchange"},
+				{"name": "Gare de Lyon - interchange"},
+				{"name": "Bercy - interchange"},
+				{"name": "Cour Saint-Émilion"},
+				{"name": "Bibliothèque François Mitterrand - interchange"},
+				{"name": "Olympiades"}
+			]
+		},
+		{
+			"name": "A1",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Saint Germain-en-Laye - handicap-blue"},
+				{"name": "Le Vésinet – Le Pecq - handicap-blue"},
+				{"name": "Le Vésinet – Centre - handicap-blue"},
+				{"name": "Chatou – Croissy - handicap-blue"},
+				{"name": "Rueil-Malmaison - handicap-blue"},
+				{"name": "Nanterre – Ville - handicap-blue"},
+				{"name": "Nanterre – Université - handicap-white"},
+				{"name": "Nanterre-Préfecture - handicap-blue"},
+				{"name": "La Défense [A] - handicap-white"},
+				{"name": "Charles de Gaulle–Étoile - handicap-white"},
+				{"name": "Auber - handicap-white"},
+				{"name": "Châtelet – Les Halles - handicap-white"},
+				{"name": "Gare de Lyon - handicap-white"},
+				{"name": "Nation - handicap-white"},
+				{"name": "Vincennes - handicap-blue"}
+			]
+		},
+		{
+			"name": "A2",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Vincennes - handicap-blue"},
+				{"name": "Fontenay-sous-Bois - handicap-blue"},
+				{"name": "Nogent-sur-Marne - handicap-blue"},
+				{"name": "Joinville-le-Pont - handicap-blue"},
+				{"name": "Saint-Maur – Créteil - handicap-blue"},
+				{"name": "Le Parc de Saint-Maur - handicap-blue"},
+				{"name": "Champigny - handicap-blue"},
+				{"name": "La Varenne – Chennevières - handicap-blue"},
+				{"name": "Sucy – Bonneuil - handicap-blue"},
+				{"name": "Boissy-Saint-Léger - handicap-blue"}
+			]
+		},
+		{
+			"name": "A3",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Cergy-le-Haut - handicap-white"},
+				{"name": "Cergy – Saint-Christophe - handicap-white"},
+				{"name": "Cergy – Préfecture - handicap-white"},
+				{"name": "Neuville – Université - handicap-white"},
+				{"name": "Conflans-Fin-d'Oise - handicap-white"},
+				{"name": "Achères – Ville - handicap-blue"},
+				{"name": "Maisons-Laffitte - handicap-blue"},
+				{"name": "Sartrouville - handicap-white"},
+				{"name": "Houilles – Carrières-sur-Seine - handicap-white"},
+				{"name": "Nanterre-Préfecture - handicap-blue"}
+			]
+		},
+		{
+			"name": "A4",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Vincennes - handicap-blue"},
+				{"name": "Val de Fontenay - handicap-white"},
+				{"name": "Neuilly-Plaisance - handicap-blue"},
+				{"name": "Bry-sur-Marne - handicap-blue"},
+				{"name": "Noisy-le-Grand – Mont d'Est - handicap-blue"},
+				{"name": "Noisy – Champs - handicap-blue"},
+				{"name": "Noisiel - handicap-blue"},
+				{"name": "Lognes - handicap-blue"},
+				{"name": "Torcy - handicap-blue"},
+				{"name": "Bussy-Saint-Georges - handicap-blue"},
+				{"name": "Val d'Europe - handicap-blue"},
+				{"name": "Marne-la-Vallée–Chessy - handicap-white"}
+			]
+		},
+		{
+			"name": "A5",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Poissy - handicap-white"},
+				{"name": "Achères – Grand Cormier - circle"},
+				{"name": "Maisons-Laffitte - handicap-blue"}
+			]
+		},
+		{
+			"name": "B2",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Bourg-la-Reine - handicap-white"},
+				{"name": "Sceaux - handicap-blue"},
+				{"name": "Fontenay-aux-Roses - handicap-blue"},
+				{"name": "Robinson - handicap-blue"}
+			]
+		},
+		{
+			"name": "B3",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Aéroport Charles de Gaulle 2 – TGV - handicap-white"},
+				{"name": "Aéroport Charles de Gaulle 1 - handicap-white"},
+				{"name": "Parc des Expositions - handicap-blue"},
+				{"name": "Villepinte - handicap-blue"},
+				{"name": "Sevran – Beaudottes - handicap-blue"},
+				{"name": "Aulnay-sous-Bois - handicap-white"}
+			]
+		},
+		{
+			"name": "B4",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Bourg-la-Reine - handicap-white"},
+				{"name": "Parc de Sceaux - handicap-blue"},
+				{"name": "La Croix de Berny - circle"},
+				{"name": "Antony - handicap-white"},
+				{"name": "Fontaine-Michalon - handicap-blue"},
+				{"name": "Les Baconnets - handicap-blue"},
+				{"name": "Massy – Verrières - handicap-white"},
+				{"name": "Massy – Palaiseau - handicap-white"},
+				{"name": "Palaiseau - handicap-blue"},
+				{"name": "Palaiseau – Villebon - handicap-blue"},
+				{"name": "Lozère - handicap-blue"},
+				{"name": "Le Guichet - handicap-blue"},
+				{"name": "Orsay – Ville - handicap-blue"},
+				{"name": "Bures-sur-Yvette - handicap-blue"},
+				{"name": "La Hacquinière - handicap-blue"},
+				{"name": "Gif-sur-Yvette - handicap-blue"},
+				{"name": "Courcelle-sur-Yvette - handicap-blue"},
+				{"name": "Saint-Rémy-lès-Chevreuse - handicap-blue"}
+			]
+		},
+		{
+			"name": "B5",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Mitry – Claye - handicap-white"},
+				{"name": "Villeparisis – Mitry-le-Neuf - handicap-blue"},
+				{"name": "Vert-Galant - handicap-blue"},
+				{"name": "Sevran – Livry - handicap-blue"},
+				{"name": "Aulnay-sous-Bois - handicap-white"},
+				{"name": "Le Blanc-Mesnil - handicap-blue"},
+				{"name": "Drancy - handicap-blue"},
+				{"name": "Le Bourget - handicap-white"},
+				{"name": "La Courneuve – Aubervilliers - handicap-blue"},
+				{"name": "La Plaine – Stade de France - handicap-blue"},
+				{"name": "Gare du Nord - handicap-white"},
+				{"name": "Châtelet – Les Halles - handicap-white"},
+				{"name": "St-Michel – Notre-Dame - handicap-white"},
+				{"name": "Luxembourg - circle"},
+				{"name": "Port-Royal - handicap-blue"},
+				{"name": "Denfert-Rochereau - handicap-white"},
+				{"name": "Cité Universitaire - handicap-white"},
+				{"name": "Gentilly - handicap-blue"},
+				{"name": "Laplace - handicap-blue"},
+				{"name": "Arcueil – Cachan - handicap-blue"},
+				{"name": "Bagneux - handicap-blue"},
+				{"name": "Bourg-la-Reine - handicap-white"}
+			]
+		},
+		{
+			"name": "C1",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Pontoise - interchange"},
+				{"name": "Saint-Ouen-l'Aumône - interchange"},
+				{"name": "Saint-Ouen-l'Aumône – Liesse - handicap-white"},
+				{"name": "Pierrelaye - interchange"},
+				{"name": "Montigny – Beauchamp - interchange"}
+			]
+		},
+		{
+			"name": "C2",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Choisy-le-Roi - circle"},
+				{"name": "Villeneuve-le-Roi - circle"},
+				{"name": "Ablon - circle"},
+				{"name": "Athis-Mons - circle"},
+				{"name": "Juvisy - interchange"},
+				{"name": "Savigny-sur-Orge - circle"},
+				{"name": "Épinay-sur-Orge - circle"},
+				{"name": "Sainte-Geneviève-des-Bois - circle"},
+				{"name": "Saint-Michel-sur-Orge - circle"},
+				{"name": "Brétigny - circle"}
+			]
+		},
+		{
+			"name": "C3",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Montigny – Beauchamp - interchange"},
+				{"name": "Franconville – Le Plessis-Bouchard - interchange"},
+				{"name": "Cernay - circle"},
+				{"name": "Ermont-Eaubonne - interchange"},
+				{"name": "Saint-Gratien - circle"},
+				{"name": "Épinay-sur-Seine - interchange"},
+				{"name": "Gennevilliers - interchange"},
+				{"name": "Les Grésillons - circle"},
+				{"name": "Saint-Ouen - handicap-blue"},
+				{"name": "Porte de Clichy - interchange"},
+				{"name": "Pereire – Levallois - interchange"},
+				{"name": "Neuilly – Porte Maillot - interchange"},
+				{"name": "Avenue Foch - circle"},
+				{"name": "Avenue Henri Martin - circle"},
+				{"name": "Boulainvilliers - interchange"},
+				{"name": "Avenue du Président Kennedy - circle"},
+				{"name": "Champ de Mars – Tour Eiffel - interchange"},
+				{"name": "Pont de l'Alma - circle"},
+				{"name": "Invalides - interchange"},
+				{"name": "Musée d'Orsay - interchange"},
+				{"name": "Saint-Michel – Notre-Dame - interchange"},
+				{"name": "Gare d'Austerlitz - interchange"},
+				{"name": "Bibliothèque François Mitterrand - handicap-white"},
+				{"name": "Masséna", "inService": false, "symbol": "circle"},
+				{"name": "Ivry-sur-Seine - circle"},
+				{"name": "Vitry-sur-Seine - circle"},
+				{"name": "Les Ardoines - circle"},
+				{"name": "Choisy-le-Roi - circle"}
+			]
+		},
+		{
+			"name": "C4",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Brétigny - circle"},
+				{"name": "La Norville - Saint-Germain-lès-Arpajon - circle"},
+				{"name": "Arpajon - circle"},
+				{"name": "Égly - circle"},
+				{"name": "Breuillet - Bruyères-le-Châtel - circle"},
+				{"name": "Breuillet - Village - circle"},
+				{"name": "Saint-Chéron - circle"},
+				{"name": "Sermaise - circle"},
+				{"name": "Dourdan - interchange"},
+				{"name": "Dourdan-la-Forêt - circle"}
+			]
+		},
+		{
+			"name": "C5",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Versailles-Château-Rive-Gauche - handicap-blue"},
+				{"name": "Porchefontaine - circle"},
+				{"name": "Viroflay – Rive-Gauche - interchange"},
+				{"name": "Chaville-Vélizy - circle"},
+				{"name": "Meudon – Val Fleury - circle"},
+				{"name": "Issy - circle"},
+				{"name": "Issy – Val de Seine - interchange"},
+				{"name": "Pont du Garigliano - handicap-blue"},
+				{"name": "Javel - circle"},
+				{"name": "Champ de Mars – Tour Eiffel - interchange"}
+			]
+		},
+		{
+			"name": "C6",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Brétigny - circle"},
+				{"name": "Marolles-en-Hurepoix - circle"},
+				{"name": "Bouray - circle"},
+				{"name": "Lardy - circle"},
+				{"name": "Chamarande - circle"},
+				{"name": "Étréchy - circle"},
+				{"name": "Étampes - interchange"},
+				{"name": "Saint-Martin-d'Étampes - circle"}
+			]
+		},
+		{
+			"name": "C7",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Saint-Quentin-en-Yvelines - interchange"},
+				{"name": "Saint-Cyr - interchange"},
+				{"name": "Versailles – Chantiers - interchange"},
+				{"name": "Versailles - Rive-Gauche - interchange"}
+			]
+		},
+		{
+			"name": "C8",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Versailles – Chantiers - interchange"},
+				{"name": "Petit Jouy - Les Loges - circle"},
+				{"name": "Jouy-en-Josas - circle"},
+				{"name": "Vauboyen - circle"},
+				{"name": "Bièvres - circle"},
+				{"name": "Igny - circle"},
+				{"name": "Massy – Palaiseau - interchange"}
+			]
+		},
+		{
+			"name": "C10",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Choisy-le-Roi - circle"},
+				{"name": "Les Saules - circle"},
+				{"name": "Orly-Ville - circle"},
+				{"name": "Pont de Rungis – Aéroport d'Orly - interchange"},
+				{"name": "Rungis – La Fraternelle - circle"},
+				{"name": "Chemin d'Antony - circle"},
+				{"name": "Massy-Verrières - interchange"},
+				{"name": "Massy – Palaiseau - interchange"}
+			]
+		},
+		{
+			"name": "C12",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Savigny-sur-Orge - circle"},
+				{"name": "Petit Vaux - circle"},
+				{"name": "Gravigny – Balizy - circle"},
+				{"name": "Chilly-Mazarin - circle"},
+				{"name": "Longjumeau - circle"},
+				{"name": "Massy – Palaiseau - interchange"}
+			]
+		},
+		{
+			"name": "D1",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Creil - interchange"},
+				{"name": "Chantilly-Gouvieux - circle"},
+				{"name": "Orry-la-Ville-Coye - interchange"},
+				{"name": "La Borne Blanche - circle"},
+				{"name": "Survilliers-Fosses - circle"},
+				{"name": "Louvres - circle"},
+				{"name": "Les Noues - circle"},
+				{"name": "Goussainville - circle"},
+				{"name": "Villiers-le-Bel – Gonesse – Arnouville - circle"},
+				{"name": "Garges – Sarcelles - interchange"},
+				{"name": "Pierrefitte – Stains - interchange"},
+				{"name": "Saint-Denis - interchange"},
+				{"name": "Stade de France – Saint-Denis - handicap-blue"},
+				{"name": "Gare du Nord - handicap-white"},
+				{"name": "Châtelet – Les Halles - handicap-white"},
+				{"name": "Gare de Lyon - handicap-white"},
+				{"name": "Maisons-Alfort – Alfortville - handicap-blue"},
+				{"name": "Le Vert de Maisons - circle"},
+				{"name": "Créteil-Pompadour - handicap-blue"},
+				{"name": "Villeneuve – Prairie", "inService":false, "symbol": "circle"},
+				{"name": "Villeneuve – Triage - circle"},
+				{"name": "Villeneuve-Saint-Georges - interchange"},
+				{"name": "Vigneux-sur-Seine - circle"},
+				{"name": "Juvisy - interchange"},
+				{"name": "Viry-Châtillon - circle"},
+				{"name": "Grigny – Centre- handicap-blue"},
+				{"name": "Orangis – Bois de l'Épine - circle"},
+				{"name": "Évry – Courcouronnes Centre - handicap-blue"},
+				{"name": "Le Bras-de-Fer - circle"},
+				{"name": "Corbeil-Essonnes - interchange"},
+				{"name": "Essonnes – Robinson - circle"},
+				{"name": "Villabé - circle"},
+				{"name": "Le Plessis – Chenet - circle"},
+				{"name": "Le Coudray Montceaux - circle"},
+				{"name": "Saint Fargeau - circle"},
+				{"name": "Ponthierry Pringy - circle"},
+				{"name": "Boissise le-Roi - circle"},
+				{"name": "Vosves - circle"},
+				{"name": "Melun - interchange"}
+			]
+		},
+		{
+			"name": "D2",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Villeneuve-Saint-Georges - interchange"},
+				{"name": "Montgeron – Crosne - circle"},
+				{"name": "Yerres - handicap-blue"},
+				{"name": "Brunoy - circle"},
+				{"name": "Boussy-Saint-Antoine - circle"},
+				{"name": "Combs-la-Ville – Quincy - handicap-blue"},
+				{"name": "Lieusaint – Moissy - circle"},
+				{"name": "Savigny-le-Temple – Nandy - circle"},
+				{"name": "Cesson - circle"},
+				{"name": "Le Mée-sur-Seine - circle"},
+				{"name": "Melun - interchange"}
+			]
+		},
+		{
+			"name": "D4",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Corbeil-Essonnes - interchange"},
+				{"name": "Moulin-Galant - circle"},
+				{"name": "Mennecy - circle"},
+				{"name": "Ballancourt - circle"},
+				{"name": "La Ferté-Alais - circle"},
+				{"name": "Boutigny - circle"},
+				{"name": "Maisse - circle"},
+				{"name": "Buno-Gironville - circle"},
+				{"name": "Boigneville - circle"},
+				{"name": "Malesherbes - circle"}
+			]
+		},
+		{
+			"name": "D6",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Viry-Châtillon - circle"},
+				{"name": "Ris-Orangis - circle"},
+				{"name": "Le Grand Bourg - circle"},
+				{"name": "Évry-Val-de-Seine - circle"},
+				{"name": "Corbeil-Essonnes - interchange"}
+			]
+		},
+		{
+			"name": "E1",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Haussmann – Saint-Lazare - handicap-white"},
+				{"name": "Magenta - handicap-white"},
+				{"name": "Rosa Parks - handicap-white"},
+				{"name": "Pantin - circle"},
+				{"name": "Noisy-le-Sec - handicap-white"}
+			]
+		},
+		{
+			"name": "E2",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Noisy-le-Sec - handicap-white"},
+				{"name": "Bondy - handicap-white"},
+				{"name": "Le Raincy – Villemomble – Montfermeil - circle"},
+				{"name": "Gagny - handicap-blue"},
+				{"name": "Le Chénay – Gagny - handicap-blue"},
+				{"name": "Chelles-Gournay - handicap-white"}
+			]
+		},
+		{
+			"name": "E4",
+			"type": "rer",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Noisy-le-Sec - handicap-white"},
+				{"name": "Rosny – Bois-Perrier - circle"},
+				{"name": "Rosny-sous-Bois - handicap-blue"},
+				{"name": "Val de Fontenay - interchange"},
+				{"name": "Nogent – Le Perreux - handicap-blue"},
+				{"name": "Les Boullereaux – Champigny - handicap-blue"},
+				{"name": "Villiers-sur-Marne – Le Plessis-Trévise - handicap-blue"},
+				{"name": "Les Yvris – Noisy-le-Grand - circle"},
+				{"name": "Émerainville – Pontault-Combault - handicap-blue"},
+				{"name": "Roissy-en-Brie - handicap-blue"},
+				{"name": "Ozoir-la-Ferrière - handicap-blue"},
+				{"name": "Gretz-Armainvilliers - circle"},
+				{"name": "Tournan - handicap-white"}
+			]
+		},
+		{
+			"name": "T1",
+			"type": "tram",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Asnières – Gennevilliers – Les Courtilles [1] - interchange"},
+				{"name": "Le Luth"},
+				{"name": "Le Village"},
+				{"name": "Timbaud"},
+				{"name": "Gennevilliers - interchange"},
+				{"name": "Parc des Chanteraines"},
+				{"name": "Chemin des Reniers"},
+				{"name": "La Noue"},
+				{"name": "Mairie de Villeneuve-la-Garenne"},
+				{"name": "L'Île-Saint-Denis"},
+				{"name": "Gare de Saint-Denis - interchange"},
+				{"name": "Théâtre Gérald Philipe"},
+				{"name": "Marché de Saint-Denis"},
+				{"name": "Basilique de Saint-Denis [1] - interchange"},
+				{"name": "Cimetière de Saint-Denis"},
+				{"name": "Hôpital Delafontaine"},
+				{"name": "Cosmonautes"},
+				{"name": "La Courneuve – Six Routes"},
+				{"name": "Hôtel de Ville de La Courneuve"},
+				{"name": "Stade Géo André"},
+				{"name": "Danton"},
+				{"name": "La Courneuve – 8 Mai 1945 - interchange"},
+				{"name": "Maurice Lachâtre"},
+				{"name": "Drancy – Avenir"},
+				{"name": "Hôpital Avicenne"},
+				{"name": "Gaston Roulaud"},
+				{"name": "Escadrille Normandie – Niémen"},
+				{"name": "La Ferme"},
+				{"name": "Libération"},
+				{"name": "Hôtel de Ville de Bobigny"},
+				{"name": "Bobigny – Pablo Picasso - interchange"},
+				{"name": "Jean Rostand"},
+				{"name": "Auguste Delaune"},
+				{"name": "Pont de Bondy"},
+				{"name": "Petit Noisy"},
+				{"name": "Noisy-le-Sec - interchange"},
+				{"name": "Carnot – Jaurès"},
+				{"name": "Mairie de Noisy"},
+				{"name": "Carrefour de La Vierge"},
+				{"name": "Place Carnot - interchange"},
+				{"name": "Collège Coubert"},
+				{"name": "Libre Pensée"},
+				{"name": "Route de Romainville"},
+				{"name": "Aristide Briande"},
+				{"name": "Rue de Rosny"},
+				{"name": "Théophile Sueur"},
+				{"name": "Côte de Nord"},
+				{"name": "Victor Hugo"},
+				{"name": "Faidheerbe"},
+				{"name": "Val de Fontenay"}
+			]
+		},
+		{
+			"name": "T2",
+			"type": "tram",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Pont de Bezons"},
+				{"name": "Parc Pierre Lagravère"},
+				{"name": "Victor Basch"},
+				{"name": "Jacqueline Auriol"},
+				{"name": "Charlebourg"},
+				{"name": "Les Fauvelles"},
+				{"name": "Faubourg de l'Arche"},
+				{"name": "La Défense [2] - interchange"},
+				{"name": "Puteaux"},
+				{"name": "Belvédère"},
+				{"name": "Suresnes - Longchamp"},
+				{"name": "Les Coteaux"},
+				{"name": "Les Milons"},
+				{"name": "Parc de Saint-Cloud"},
+				{"name": "Musée de Sèvres"},
+				{"name": "Brimborion"},
+				{"name": "Meudon-sur-Seine"},
+				{"name": "Les Moulineaux"},
+				{"name": "Jacques-Henri Lartigue"},
+				{"name": "Issy – Val de Seine - interchange"},
+				{"name": "Henri Farman"},
+				{"name": "Suzanne Lenglen"},
+				{"name": "Porte d'Issy"},
+				{"name": "Porte de Versailles [2] - interchange"}
+			]
+		},
+		{
+			"name": "T3a",
+			"type": "tram",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Porte de Vincennes [3a] - interchange"},
+				{"name": "Alexandra David-Néel"},
+				{"name": "Montempoivre"},
+				{"name": "Porte Dorée - interchange"},
+				{"name": "Porte de Charenton - interchange"},
+				{"name": "Baron Le Roy"},
+				{"name": "Avenue de France"},
+				{"name": "Maryse Bastié"},
+				{"name": "Porte d'Ivry - interchange"},
+				{"name": "Porte de Choisy - interchange"},
+				{"name": "Porte d'Italie - interchange"},
+				{"name": "Poterne des Peupliers"},
+				{"name": "Stade Charléty"},
+				{"name": "Cité Universitaire - interchange"},
+				{"name": "Montsouris"},
+				{"name": "Porte d'Orléans - interchange"},
+				{"name": "Jean Moulin"},
+				{"name": "Didot"},
+				{"name": "Porte de Vanves - interchange"},
+				{"name": "Brançion"},
+				{"name": "Georges Brassens"},
+				{"name": "Porte de Versailles [12, 3a] - interchange"},
+				{"name": "Desnouettes"},
+				{"name": "Balard [3a] - interchange"},
+				{"name": "Pont du Garigliano - interchange"}
+			]
+		},
+		{
+			"name": "T3b",
+			"type": "tram",
+			"style": {
+				"color": "black",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Porte de la Chapelle [3b] - interchange"},
+				{"name": "Colette Besson"},
+				{"name": "Porte d'Aubervilliers"},
+				{"name": "Rosa Parks"},
+				{"name": "Canal Saint-Denis"},
+				{"name": "Porte de la Villette [3b] - interchange"},
+				{"name": "Ella Fitzgerald"},
+				{"name": "Delphine Seyrig"},
+				{"name": "Porte de Pantin - interchange"},
+				{"name": "Butte du Chapeau Rouge"},
+				{"name": "Hôpital Robert Debré"},
+				{"name": "Porte des Lilas - interchange"},
+				{"name": "Adrienne Bolland"},
+				{"name": "Séverine"},
+				{"name": "Porte de Bagnolet - interchange"},
+				{"name": "Marie de Miribel"},
+				{"name": "Porte de Montreuil - interchange"},
+				{"name": "Porte de Vincennes [3b] - interchange"}
+			]
+		}
+	]
+}

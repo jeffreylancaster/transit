@@ -1,0 +1,73 @@
+{
+	"notes":"confirm station consistency (hash all data and check for consistency)",
+	"map":"PATH (Port Authority Trans-Hudson)",
+	"svgConfig":{
+		"width":800,
+		"height":800
+	},
+	"lines": [{
+			"name": "Red",
+			"style": {
+				"color": "#e93f33",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "World Trade Center","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Exchange Pl","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Grove St","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Journal Square","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Harrison","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Newark - Penn Station","icon": ["accessible"],"symbol": "circle","label": "name"}
+			]
+		},
+		{
+			"name": "Blue",
+			"style": {
+				"color": "#49acd5",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "33 St","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "23 St","icon": [],"symbol": "circle","label": "name"},
+				{"name": "14 St","icon": [],"symbol": "circle","label": "name"},
+				{"name": "9 St","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Christopher St","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Hoboken","icon": ["accessible"],"symbol": "circle","label": "name"}
+			]
+		},
+		{
+			"name": "Yellow",
+			"style": {
+				"color": "#f6b833",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "33 St","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "23 St","icon": [],"symbol": "circle","label": "name"},
+				{"name": "14 St","icon": [],"symbol": "circle","label": "name"},
+				{"name": "9 St","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Christopher St","icon": [],"symbol": "circle","label": "name"},
+				{"name": "Newport","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Grove St","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Journal Square","icon": ["accessible"],"symbol": "circle","label": "name"}
+			]
+		},
+		{
+			"name": "Green",
+			"style": {
+				"color": "#5cb558",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "World Trade Center","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Exchange Pl","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Newport","icon": ["accessible"],"symbol": "circle","label": "name"},
+				{"name": "Hoboken","icon": ["accessible"],"symbol": "circle","label": "name"}
+			]
+		}
+	]
+}

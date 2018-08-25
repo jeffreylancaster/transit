@@ -1,6 +1,6 @@
 {
-	"notes":"colors to hex",
-	"map":"Amtrak",
+	"notes":"confirm station consistency (hash all data and check for consistency)",
+	"map":"Amtrak National Rail",
 	"svgConfig":{
 		"width":800,
 		"height":800
@@ -8,7 +8,7 @@
 	"lines": [{
 			"name": "Acela Express",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -34,7 +34,7 @@
 		{
 			"name": "Adirondack",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -63,7 +63,7 @@
 		{
 			"name": "Amtrak Cascades",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -91,7 +91,7 @@
 		{
 			"name": "Auto Train",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -103,7 +103,7 @@
 		{
 			"name": "California Zephyr",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -147,7 +147,7 @@
 		{
 			"name": "Capitol Corridor",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -174,7 +174,7 @@
 		{
 			"name": "Capitol Limited",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -200,7 +200,7 @@
 		{
 			"name": "Cardinal",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -242,7 +242,7 @@
 		{
 			"name": "Carolinian / Piedmont",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -276,7 +276,7 @@
 		{
 			"name": "City of New Orleans",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -305,7 +305,7 @@
 		{
 			"name": "Coast Starlight",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -344,7 +344,7 @@
 		{
 			"name": "Crescent",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -387,7 +387,7 @@
 		{
 			"name": "Downeaster",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -409,7 +409,7 @@
 		{
 			"name": "Empire Builder",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -459,7 +459,7 @@
 		{
 			"name": "Empire Builder",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -476,7 +476,7 @@
 		{
 	 		"name": "Empire Service",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -502,7 +502,7 @@
 		{
 			"name": "Ethan Allen Express",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -524,7 +524,7 @@
 		{
 			"name": "Heartland Flyer",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -541,7 +541,7 @@
 		{
 			"name": "Hiawatha",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -556,7 +556,7 @@
 		{
 			"name": "Hoosier State",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -572,7 +572,7 @@
 		{
 			"name": "Illinois Service",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -612,7 +612,7 @@
 		{
 			"name": "Keystone",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -643,7 +643,7 @@
 		{
 			"name": "Lake Shore Limited",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -678,7 +678,7 @@
 		{
 			"name": "Maple Leaf",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -710,7 +710,7 @@
 		{
 			"name": "Michigan Services",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -733,7 +733,7 @@
 		{
 			"name": "Michigan Services",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -748,7 +748,7 @@
 		{
 			"name": "Michigan Services",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -767,7 +767,7 @@
 		{
 			"name": "Missouri River Runner",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -787,7 +787,7 @@
 		{
 			"name": "Northeast Regional",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -807,7 +807,7 @@
 		{
 			"name": "Northeast Regional",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -851,7 +851,7 @@
 		{
 			"name": "Northeast Regional",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -869,7 +869,7 @@
 		{
 			"name": "Northeast Regional",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -883,7 +883,7 @@
 		{
 			"name": "Pacific Surfliner",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -924,7 +924,7 @@
 		{
 			"name": "Pennsylvanian",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -952,7 +952,7 @@
 		{
 			"name": "San Joaquin",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -980,7 +980,7 @@
 		{
 			"name": "Silver Service / Palmetto",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -1022,7 +1022,7 @@
 		{
 			"name": "Silver Service / Palmetto",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -1049,7 +1049,7 @@
 		{
 			"name": "Silver Service / Palmetto",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -1070,7 +1070,7 @@
 		{
 			"name": "Southwest Chief",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -1113,7 +1113,7 @@
 		{
 			"name": "Sunset Limited",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -1145,7 +1145,7 @@
 		{
 			"name": "Texas Eagle",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -1197,7 +1197,7 @@
 		{
 			"name": "Vermonter",
 			"style": {
-				"color": "red",
+				"color": "#c5332a",
 				"outline": "none",
 				"stroke": "solid"
 			},

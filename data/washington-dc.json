@@ -1,0 +1,226 @@
+{
+	"notes":"confirm station consistency (hash all data and check for consistency)",
+	"map":"Washington, DC Metro",
+	"svgConfig":{
+		"width":800,
+		"height":800
+	},
+	"lines": [{
+			"name": "Red Line",
+			"style": {
+				"color": "#d14b52",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Shady Grove", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Rockville", "icon": ["accessible", "parking", "amtrak", "marc"], "symbol": "circle", "label": "name"},
+				{"name": "Twinbrook", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "White Flint", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Grosvenor-Strathmore", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Medical Center", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Bethesda", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Friendship Heights", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Tenleytown-AU", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Van Ness-UDC", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Cleveland Park", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Woodley Park [Zoo/Adams Morgan]", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Dupont Circle", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Farragut North", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Metro Center", "icon": ["accessible"], "symbol": "interchange", "label": "name"},
+				{"name": "Gallery Place [Chinatown]", "icon": ["accessible"], "symbol": "interchange", "label": "name"},
+				{"name": "Judiciary Square", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Union Station", "icon": ["accessible", "marc", "vre"], "symbol": "circle", "label": "name"},
+				{"name": "NoMa-Galludet U", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Rhode Island Ave [Brentwood]", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Brookland-CUA", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Fort Totten", "icon": ["accessible", "parking"], "symbol": "interchange", "label": "name"},
+				{"name": "Takoma", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Silver Spring", "icon": ["accessible", "parking", "marc"], "symbol": "circle", "label": "name"},
+				{"name": "Forest Glen", "icon": ["accessible", "parking", "hospital"], "symbol": "circle", "label": "name"},
+				{"name": "Wheaton", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Glenmont", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"}
+			]
+		},
+		{
+			"name": "Silver Line",
+			"style": {
+				"color": "#a4a6a3",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Wiehle-Reston East", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Spring Hill", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Greensboro", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Tysons Corner", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "McLean", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "East Falls Church", "icon": ["accessible", "parking"], "symbol": "interchange", "label": "name"},
+				{"name": "Ballston-MU", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Virginia Sq-GMU", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Clarendon", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Court House", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Rosslyn", "icon": ["accessible", "bus-to-airport"], "symbol": "interchange", "label": "name"},
+				{"name": "Foggy Bottom-GWU [Kennedy Center]", "icon": ["accessible", "hospital"], "symbol": "circle", "label": "name"},
+				{"name": "Farragut West", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "McPherson Sq", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Metro Center", "icon": ["accessible"], "symbol": "interchange", "label": "name"},
+				{"name": "Federal Triangle", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Smithsonian [National Mall]", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "L'Enfant Plaza", "icon": ["accessible", "bus-to-airport", "vre"], "symbol": "interchange", "label": "name"},
+				{"name": "Federal Center SW", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Capitol South", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Eastern Market", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Potomac Ave", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Stadium-Armory", "icon": ["accessible"], "symbol": "interchange", "label": "name"},
+				{"name": "Benning Rd", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Capitol Heights", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Addison Rd [Seat Pleasant]", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Morgan Blvd", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Largo Town Center", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"}
+			]
+		},
+		{
+			"name": "Orange Line",
+			"style": {
+				"color": "#eb9a46",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Vienna [Fairfax-GMU]", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Dunn Loring [Merrifield]", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "West Falls Church [VT/UVA]", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "East Falls Church", "icon": ["accessible", "parking"], "symbol": "interchange", "label": "name"},
+				{"name": "Ballston-MU", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Virginia Sq-GMU", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Clarendon", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Court House", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Rosslyn", "icon": ["accessible", "bus-to-airport"], "symbol": "interchange", "label": "name"},
+				{"name": "Foggy Bottom-GWU [Kennedy Center]", "icon": ["accessible", "hospital"], "symbol": "circle", "label": "name"},
+				{"name": "Farragut West", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "McPherson Sq", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Metro Center", "icon": ["accessible"], "symbol": "interchange", "label": "name"},
+				{"name": "Federal Triangle", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Smithsonian [National Mall]", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "L'Enfant Plaza", "icon": ["accessible", "bus-to-airport", "vre"], "symbol": "interchange", "label": "name"},
+				{"name": "Federal Center SW", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Capitol South", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Eastern Market", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Potomac Ave", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Stadium-Armory", "icon": ["accessible"], "symbol": "interchange", "label": "name"},
+				{"name": "Minnesota Ave", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Deanwood", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Cheverly", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Landover", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "New Carrollton", "icon": ["accessible", "parking", "amtrak", "marc"], "symbol": "circle", "label": "name"}
+			]
+		},
+		{
+			"name": "Blue Line",
+			"style": {
+				"color": "#2d7fbe",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Franconia-Springfield", "icon": ["accessible", "parking", "vre"], "symbol": "circle", "label": "name"},
+				{"name": "Van Dorn St", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "King St-Old Town", "icon": ["accessible", "vre", "amtrak"], "symbol": "interchange", "label": "name"},
+				{"name": "Braddock Rd", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Ronald Reagan Washington National Airport", "icon": ["accessible", "airport"], "symbol": "circle", "label": "name"},
+				{"name": "Crystal City", "icon": ["accessible", "vre"], "symbol": "circle", "label": "name"},
+				{"name": "Pentagon City", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Pentagon", "icon": ["accessible"], "symbol": "interchange", "label": "name"},
+				{"name": "Arlington Cemetery", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Rosslyn", "icon": ["accessible", "bus-to-airport"], "symbol": "interchange", "label": "name"},
+				{"name": "Foggy Bottom-GWU [Kennedy Center]", "icon": ["accessible", "hospital"], "symbol": "circle", "label": "name"},
+				{"name": "Farragut West", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "McPherson Sq", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Metro Center", "icon": ["accessible"], "symbol": "interchange", "label": "name"},
+				{"name": "Federal Triangle", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Smithsonian [National Mall]", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "L'Enfant Plaza", "icon": ["accessible", "bus-to-airport", "vre"], "symbol": "interchange", "label": "name"},
+				{"name": "Federal Center SW", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Capitol South", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Eastern Market", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Potomac Ave", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Stadium-Armory", "icon": ["accessible"], "symbol": "interchange", "label": "name"},
+				{"name": "Benning Rd", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Capitol Heights", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Addison Rd [Seat Pleasant]", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Morgan Blvd", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Largo Town Center", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"}
+			]
+		},
+		{
+			"name": "Yellow Line",
+			"style": {
+				"color": "#facf40",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Huntington", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Eisenhower Ave", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "King St-Old Town", "icon": ["accessible", "vre", "amtrak"], "symbol": "interchange", "label": "name"},
+				{"name": "Braddock Rd", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Ronald Reagan Washington National Airport", "icon": ["accessible", "airport"], "symbol": "circle", "label": "name"},
+				{"name": "Crystal City", "icon": ["accessible", "vre"], "symbol": "circle", "label": "name"},
+				{"name": "Pentagon City", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Pentagon", "icon": ["accessible"], "symbol": "interchange", "label": "name"},
+				{"name": "L'Enfant Plaza", "icon": ["accessible", "bus-to-airport", "vre"], "symbol": "interchange", "label": "name"},
+				{"name": "Archives [Navy Mem'l-Penn Quarter", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Gallery Place [Chinatown]", "icon": ["accessible"], "symbol": "interchange", "label": "name"},
+				{"name": "Mt Vernon Sq [7th St-Convention Center]", "icon": ["accessible"], "symbol": "circle", "label": "name"}
+			]
+		},
+		{
+			"name": "Yellow Line",
+			"style": {
+				"color": "#facf40",
+				"outline": "none",
+				"stroke": "dashed"
+			},
+			"stations": [
+				{"name": "Mt Vernon Sq [7th St-Convention Center]", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Shaw-Howard U", "icon": ["accessible", "hospital"], "symbol": "circle", "label": "name"},
+				{"name": "U St [African-Amer Civil War Mem'l/Cardozo", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Columbia Heights", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Georgia Ave-Petworth", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Fort Totten", "icon": ["accessible", "parking"], "symbol": "interchange", "label": "name"}
+			]
+		},
+		{
+			"name": "Green Line",
+			"style": {
+				"color": "#52a456",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name": "Branch Ave", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Suitland", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Naylor Rd", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Southern Ave", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Congress Heights", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Anacostia", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Navy Yard-Ballpark", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Waterfront", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "L'Enfant Plaza", "icon": ["accessible", "bus-to-airport", "vre"], "symbol": "interchange", "label": "name"},
+				{"name": "Archives [Navy Mem'l-Penn Quarter", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Gallery Place [Chinatown]", "icon": ["accessible"], "symbol": "interchange", "label": "name"},
+				{"name": "Mt Vernon Sq [7th St-Convention Center]", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Shaw-Howard U", "icon": ["accessible", "hospital"], "symbol": "circle", "label": "name"},
+				{"name": "U St [African-Amer Civil War Mem'l/Cardozo", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Columbia Heights", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Georgia Ave-Petworth", "icon": ["accessible"], "symbol": "circle", "label": "name"},
+				{"name": "Fort Totten", "icon": ["accessible", "parking"], "symbol": "interchange", "label": "name"},
+				{"name": "West Hyattsville", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "Prince George's Plaza", "icon": ["accessible", "parking"], "symbol": "circle", "label": "name"},
+				{"name": "College Park-U of Md", "icon": ["accessible", "parking", "marc"], "symbol": "circle", "label": "name"},
+				{"name": "Greenbelt", "icon": ["accessible", "parking", "marc", "bus-to-airport"], "symbol": "circle", "label": "name"}
+			]
+		}
+	]
+}

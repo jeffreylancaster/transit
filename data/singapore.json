@@ -1,6 +1,6 @@
 {
-	"notes":"colors to hex",
-	"map":"Singapore",
+	"notes":"confirm station consistency (hash all data and check for consistency)",
+	"map":"Singapore Mass Rapid Transit",
 	"svgConfig":{
 		"width":800,
 		"height":800
@@ -8,7 +8,7 @@
 	"lines": [{
 			"name": "East West Line",
 			"style": {
-				"color": "green",
+				"color": "#4c973e",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -52,7 +52,7 @@
 			"name": "Changi Airport",
 			"style": {
 				"color": "white",
-				"outline": "green",
+				"outline": "#4c973e",
 				"stroke": "solid"
 			},
 			"stations": [
@@ -76,7 +76,7 @@
 		{
 			"name": "North South Line",
 			"style": {
-				"color": "red",
+				"color": "#e33d32",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -124,7 +124,7 @@
 		{
 			"name": "North East Line",
 			"style": {
-				"color": "purple",
+				"color": "#a141b5",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -150,7 +150,7 @@
 		{
 			"name": "Circle Line",
 			"style": {
-				"color": "yellow",
+				"color": "#f29d33",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -188,7 +188,7 @@
 		{
 			"name": "Circle Line",
 			"style": {
-				"color": "yellow",
+				"color": "#f29d33",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -213,7 +213,7 @@
 		{
 			"name": "Downtown Line",
 			"style": {
-				"color": "blue",
+				"color": "#0056b7",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -257,7 +257,7 @@
 		{
 			"name": "Bukit Panjang LRT",
 			"style": {
-				"color": "gray",
+				"color": "#738573",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -282,7 +282,7 @@
 		{
 			"name": "Sengkang LRT",
 			"style": {
-				"color": "gray",
+				"color": "#738573",
 				"outline": "none",
 				"stroke": "solid"
 			},
@@ -308,7 +308,7 @@
 		{
 			"name": "Punggol LRT",
 			"style": {
-				"color": "gray",
+				"color": "#738573",
 				"outline": "none",
 				"stroke": "solid"
 			},

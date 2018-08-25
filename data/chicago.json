@@ -1,6 +1,6 @@
 {
-	"notes":"check icons, check interchanges, colors to hex",
-	"map":"Chicago",
+	"notes":"check icons, check interchanges, colors to hex, confirm station consistency (hash all data and check for consistency)",
+	"map":"Chicago \"L\"",
 	"svgConfig":{
 		"width":1200,
 		"height":1200

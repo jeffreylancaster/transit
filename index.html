@@ -135,7 +135,25 @@ $.when(
     njtransitData = data;
     maps.push("NJ Transit");
     console.log("nj-transit.json loaded");
-  }).fail(function() {console.error("nj-transit.json not loaded");})
+  }).fail(function() {console.error("nj-transit.json not loaded");}),
+
+  $.getJSON("data/berlin.json", function(data) {
+    berlinData = data;
+    maps.push("Berlin");
+    console.log("berlin.json loaded");
+  }).fail(function() {console.error("berlin.json not loaded");}),
+
+  $.getJSON("data/washington-dc.json", function(data) {
+    washingtondcData = data;
+    maps.push("Washington, DC");
+    console.log("washington-dc.json loaded");
+  }).fail(function() {console.error("washington-dc.json not loaded");}),
+
+  $.getJSON("data/path.json", function(data) {
+    pathData = data;
+    maps.push("PATH");
+    console.log("path.json loaded");
+  }).fail(function() {console.error("path.json not loaded");})
 
 
 /* DO STUFF WITH THE DATA */
@@ -212,8 +230,8 @@ $.when(
     /* build the menu of cities */
     $("h3 > span").click(function(){
       console.log($(this).html());
-      console.log($(this).html().toLowerCase().replace(/\s/g, '') + "Data");
-      drawMap(eval($(this).html().toLowerCase().replace(/\s/g, '') + "Data"));
+      console.log($(this).html().toLowerCase().replace(/\W+/g, '') + "Data");
+      drawMap(eval($(this).html().toLowerCase().replace(/\W+/g, '') + "Data"));
     });
 
   }

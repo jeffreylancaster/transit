@@ -1,6 +1,6 @@
 {
-	"notes":"colors to hex",
-  "map":"NJ Transit",
+	"notes":"colors to hex, confirm station consistency (hash all data and check for consistency)",
+	"map":"NJ Transit",
 	"svgConfig":{
 		"width":800,
 		"height":800
