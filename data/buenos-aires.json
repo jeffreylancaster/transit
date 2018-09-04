@@ -1,0 +1,302 @@
+{
+	"notes":"do hex codes for colors",
+	"map":"Buenos Aires Subte",
+	"svgConfig":{
+		"width":800,
+		"height":800
+	},
+	"lines": [
+		{
+			"name": "Línea A",
+			"style": {
+				"color": "",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Plaza de Mayo"},
+				{"name":"Perú", "symbol":"interchange"},
+				{"name":"Piedras"},
+				{"name":"Lima", "symbol":"interchange", "icon":["bus"]},
+				{"name":"Sáenz Peña"},
+				{"name":"Congreso"},
+				{"name":"Pasco"},
+				{"name":"Alberti"},
+				{"name":"Plaza Miserere", "symbol":"interchange", "icon":["train"]},
+				{"name":"Loria"},
+				{"name":"Castro Barros"},
+				{"name":"Río de Janeiro"},
+				{"name":"Acoyte"},
+				{"name":"Primera Junta", "icon":["train"]},
+				{"name":"Puán"},
+				{"name":"Carabobo"},
+				{"name":"San José de Flores", "icon":["train"]},
+				{"name":"San Pedrito"}
+			]
+		},
+		{
+			"name": "Línea B",
+			"style": {
+				"color": "",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Leandro N. Alem", "symbol":"interchange"},
+				{"name":"Florida"},
+				{"name":"Carlos Pellegrini", "symbol":"interchange", "icon":["bus"]},
+				{"name":"Uruguay"},
+				{"name":"Callao"},
+				{"name":"Pasteur - AMIA"},
+				{"name":"Pueyrredón [B]", "symbol":"interchange"},
+				{"name":"Carlos Gardel"},
+				{"name":"Medrano"},
+				{"name":"Ángel Gallardo"},
+				{"name":"Malabia - O. Pugliese"},
+				{"name":"Dorrego", "icon":["bus", "train"]},
+				{"name":"Federico Lacroze", "symbol":"interchange", "icon":["train"]},
+				{"name":"Tronador - Villa Ortúzar"},
+				{"name":"Los Incas - Parque Chas"},
+				{"name":"Echeverría"},
+				{"name":"J.M. de Rosas", "icon":["train"]}
+			]
+		},
+		{
+			"name": "Línea C",
+			"style": {
+				"color": "",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Retiro", "symbol":"interchange", "icon":["train"]},
+				{"name":"General San Martín"},
+				{"name":"Lavalle"},
+				{"name":"Diagonal Norte", "symbol":"interchange", "icon":["bus"]},
+				{"name":"Avenida de Mayo", "symbol":"interchange", "icon":["bus"]},
+				{"name":"Moreno", "icon":["bus"]},
+				{"name":"Independencia", "symbol":"interchange", "icon":["bus"]},
+				{"name":"San Juan"},
+				{"name":"Constitución", "icon":["bus", "train"]}
+			]
+		},
+		{
+			"name": "Línea D",
+			"style": {
+				"color": "",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Catedral", "symbol":"interchange"},
+				{"name":"9 de Julio", "symbol":"interchange", "icon":["bus"]},
+				{"name":"Tribunales"},
+				{"name":"Callao"},
+				{"name":"Facultad de Medicina"},
+				{"name":"Pueyrredón [D]", "symbol":"interchange"},
+				{"name":"Agüero"},
+				{"name":"Bulnes"},
+				{"name":"Scalabrini Ortiz"},
+				{"name":"Plaza Italia"},
+				{"name":"Palermo", "icon":["bus", "train"]},
+				{"name":"Ministro Carranza", "icon":["train"]},
+				{"name":"Olleros"},
+				{"name":"José Hernández"},
+				{"name":"Juramento"},
+				{"name":"Congreso de Tucumán", "icon":["bus"]}
+			]
+		},
+		{
+			"name": "Línea E",
+			"style": {
+				"color": "",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Retiro", "symbol":"interchange", "icon":["train"], "inService":false},
+				{"name":"Catalinas", "inService":false},
+				{"name":"Correo Central", "symbol":"interchange", "inService":false},
+				{"name":"Bolívar", "symbol":"interchange"},
+				{"name":"Belgrano"},
+				{"name":"Independencia", "symbol":"interchange", "icon":["bus"]},
+				{"name":"San José"},
+				{"name":"Entre Ríos - R. Walsh"},
+				{"name":"Pichincha"},
+				{"name":"Jujuy", "symbol":"interchange"},
+				{"name":"General Urquiza"},
+				{"name":"Boedo"},
+				{"name":"Avenida La Plata"},
+				{"name":"José María Moreno"},
+				{"name":"Emilio Mitre"},
+				{"name":"Medalla Milagrosa"},
+				{"name":"Varela"},
+				{"name":"Plaza de los Virreyes", "symbol":"interchange"}
+			]
+		},
+		{
+			"name": "Línea H",
+			"style": {
+				"color": "",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Retiro", "symbol":"interchange", "icon":["train"], "inService":false},
+				{"name":"Terminal de Ómnibus", "inService":false},
+				{"name":"Padre Mugica", "inService":false},
+				{"name":"Facultad de Derecho"},
+				{"name":"Las Heras"},
+				{"name":"Santa Fe - Carlos Jáuregui", "symbol":"interchange"},
+				{"name":"Córdoba"},
+				{"name":"Corrientes", "symbol":"interchange"},
+				{"name":"Once", "symbol":"interchange", "icon":["train"]},
+				{"name":"Venezuela"},
+				{"name":"Humberto I", "symbol":"interchange"},
+				{"name":"Inclán", "icon":["bus"]},
+				{"name":"Caseros"},
+				{"name":"Parque Patricios"},
+				{"name":"Hospitales", "icon":["bus"]},
+				{"name":"Sáenz", "icon":["train"], "inService":false}
+			]
+		},
+		{
+			"name": "Línea P",
+			"style": {
+				"color": "",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Intendente Saguier", "symbol":"interchange"},
+				{"name":"Balbastro"},
+				{"name":"Mariano Acosta"},
+				{"name":"Somellera"},
+				{"name":"Ana María Janer"},
+				{"name":"Fátima"},
+				{"name":"Fernández de la Cruz"},
+				{"name":"Presidente Illia", "icon":["bus", "train"]},
+				{"name":"Parque de la Ciudad", "icon":["bus"]},
+				{"name":"Cecilia Grierson"},
+				{"name":"Escalada"},
+				{"name":"Pola"},
+				{"name":"Ana Díaz"},
+				{"name":"Centro Cívico"},
+				{"name":"Larrazábal"},
+				{"name":"Nicolás Descalzi"},
+				{"name":"Gabino Ezeiza", "icon":["bus"]},
+				{"name":"General Savio", "icon":["bus"]}
+			]
+		},
+		{
+			"name": "Connection",
+			"style": {
+				"color": "white",
+				"outline": "black",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Intendente Saguier", "symbol":"interchange"},
+				{"name":"Plaza de los Virreyes", "symbol":"interchange"}
+			]
+		},
+		{
+			"name": "Connection",
+			"style": {
+				"color": "white",
+				"outline": "black",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Jujuy", "symbol":"interchange"},
+				{"name":"Humberto I", "symbol":"interchange"}
+			]
+		},
+		{
+			"name": "Connection",
+			"style": {
+				"color": "white",
+				"outline": "black",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Plaza Miserere", "symbol":"interchange", "icon":["train"]},
+				{"name":"Once", "symbol":"interchange", "icon":["train"]}
+			]
+		},
+		{
+			"name": "Connection",
+			"style": {
+				"color": "white",
+				"outline": "black",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Pueyrredón [B]", "symbol":"interchange"},
+				{"name":"Corrientes", "symbol":"interchange"}
+			]
+		},
+		{
+			"name": "Connection",
+			"style": {
+				"color": "white",
+				"outline": "black",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Pueyrredón [D]", "symbol":"interchange"},
+				{"name":"Santa Fe - Carlos Jáuregui", "symbol":"interchange"}
+			]
+		},
+		{
+			"name": "Connection",
+			"style": {
+				"color": "white",
+				"outline": "black",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Avenida de Mayo", "symbol":"interchange", "icon":["bus"]},
+				{"name":"Lima", "symbol":"interchange", "icon":["bus"]}
+			]
+		},
+		{
+			"name": "Connection",
+			"style": {
+				"color": "white",
+				"outline": "black",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Diagonal Norte", "symbol":"interchange", "icon":["bus"]},
+				{"name":"9 de Julio", "symbol":"interchange", "icon":["bus"]},
+				{"name":"Carlos Pellegrini", "symbol":"interchange", "icon":["bus"]}
+			]
+		},
+		{
+			"name": "Connection",
+			"style": {
+				"color": "white",
+				"outline": "black",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Bolívar", "symbol":"interchange"},
+				{"name":"Perú", "symbol":"interchange"},
+				{"name":"Catedral", "symbol":"interchange"}
+			]
+		},
+		{
+			"name": "Connection",
+			"style": {
+				"color": "white",
+				"outline": "black",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"name":"Correo Central", "symbol":"interchange", "inService":false},
+				{"name":"Leandro N. Alem", "symbol":"interchange"}
+			]
+		}
+	]
+}

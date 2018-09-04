@@ -1,0 +1,166 @@
+{
+	"notes":"do hex codes for colors",
+	"map":"São Paulo Metro",
+	"svgConfig":{
+		"width":800,
+		"height":800
+	},
+	"lines": [
+		{
+			"name": "Line 1",
+			"style": {
+				"color": "blue",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"code":"TUC", "name":"Tucuruvi"},
+				{"code":"PIG", "name":"Parada Inglesa", "icon":["bus"]},
+				{"code":"JPA", "name":"Jardim"},
+				{"code":"SAN", "name":"Santana", "icon":["bus"]},
+				{"code":"CDU", "name":"Carandiru"},
+				{"code":"TTE", "name":"Portuguesa-Tietê", "icon":["bus"]},
+				{"code":"PPQ", "name":"Armênia", "icon":["bus"]},
+				{"code":"TRD", "name":"Tiradentes"},
+				{"code":"LUZ", "name":"Luz", "symbol":"interchange", "icon":["train"]},
+				{"code":"BTO", "name":"São Bento"},
+				{"code":"PSE", "name":"Sé", "symbol":"interchange"},
+				{"code":"LIB", "name":"Liberdade"},
+				{"code":"JQM", "name":"São Joaquim", "symbol":"interchange"},
+				{"code":"VGO", "name":"Vergueiro"},
+				{"code":"PSO", "name":"Paraíso", "symbol":"interchange"},
+				{"code":"ANR", "name":"Ana Rosa", "symbol":"interchange", "icon":["bus"]},
+				{"code":"VMN", "name":"Vila Mariana", "icon":["bus"]},
+				{"code":"SCZ", "name":"Santa Cruz", "symbol":"interchange"},
+				{"code":"ARV", "name":"Praça da Árvore"},
+				{"code":"SAU", "name":"Saúde"},
+				{"code":"JUD", "name":"São Judas"},
+				{"code":"CON", "name":"Conceição"},
+				{"code":"JAB", "name":"Jabaquara", "icon":["bus"]}
+			]
+		},
+		{
+			"name": "Line 2",
+			"style": {
+				"color": "green",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"code":"VMD", "name":"Vila Madalena", "icon":["bus"]},
+				{"code":"SUM", "name":"Santuário Nossa Senhora de Fátima-Sumaré"},
+				{"code":"CLI", "name":"Clínicas"},
+				{"code":"CNS", "name":"Consolação", "symbol":"interchange"},
+				{"code":"TRI", "name":"Trianon-Masp"},
+				{"code":"BGD", "name":"Brigadeiro"},
+				{"code":"PSO", "name":"Paraíso", "symbol":"interchange"},
+				{"code":"ANR", "name":"Ana Rosa", "symbol":"interchange", "icon":["bus"]},
+				{"code":"CKB", "name":"Chácara Klabin", "symbol":"interchange"},
+				{"code":"IMG", "name":"Santos-Imigrantes"},
+				{"code":"AIP", "name":"Alto do Ipiranga"},
+				{"code":"SAC", "name":"Sacomã"},
+				{"code":"TTI", "name":"Tamanduateí", "symbol":"interchange", "icon":["train"]},
+				{"code":"VPT", "name":"Vila Prudente", "symbol":"interchange", "icon":["bus"]}
+			]
+		},
+		{
+			"name": "Line 3",
+			"style": {
+				"color": "red",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"code":"BFU", "name":"Palmeiras-Barra Funda", "symbol":"interchange", "icon":["bus", "train"]},
+				{"code":"DED", "name":"Marechal Deodoro"},
+				{"code":"CEC", "name":"Santa Cecília", "icon":["bus"]},
+				{"code":"REP", "name":"República", "symbol":"interchange"},
+				{"code":"GBU", "name":"Anhangabaú", "icon":["bus"]},
+				{"code":"PSE", "name":"Sé", "symbol":"interchange"},
+				{"code":"PDS", "name":"Pedro II", "icon":["bus"]},
+				{"code":"BAS", "name":"Brás", "symbol":"interchange", "icon":["train"]},
+				{"code":"BRE", "name":"Bresser-Mooca"},
+				{"code":"BEL", "name":"Belém"},
+				{"code":"TAT", "name":"Tatuapé", "icon":["train"]},
+				{"code":"CAR", "name":"Carrão", "icon":["bus"]},
+				{"code":"PEN", "name":"Penha", "icon":["bus"]},
+				{"code":"VTD", "name":"Vila Matilde", "icon":["bus"]},
+				{"code":"VPA", "name":"Guilhermina-Esperança", "icon":["bicycle"]},
+				{"code":"PCA", "name":"Patriarca", "icon":["bus"]},
+				{"code":"ART", "name":"Artur Alvim", "icon":["bus"]},
+				{"code":"ITQ", "name":"Corinthians-Itaquera", "icon":["bus", "train"]}
+			]
+		},
+		{
+			"name": "Line 4",
+			"style": {
+				"color": "yellow",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"code":"LUZ", "name":"Luz", "symbol":"interchange", "icon":["train"]},
+				{"code":"REP", "name":"República", "symbol":"interchange"},
+				{"code":"HIG", "name":"Higienopólis-Mackenzie"},
+				{"code":"PTA", "name":"Paulista", "symbol":"interchange"},
+				{"code":"FRE", "name":"Oscar Freire"},
+				{"code":"FRA", "name":"Fradique Coutinho"},
+				{"code":"FAL", "name":"Faria Lima", "icon":["bus"]},
+				{"code":"PIN", "name":"Pinheiros", "symbol":"interchange", "icon":["train"]},
+				{"code":"BUT", "name":"Butantã", "icon":["bus"]},
+				{"code":"MBI", "name":"São Paulo-Morumbi", "icon":["bus"]},
+				{"code":"VSO", "name":"Vila Sônia", "icon":["bus"]}
+			]
+		},
+		{
+			"name": "Line 5",
+			"style": {
+				"color": "lilac",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"code":"CPR", "name":"Capão Redondo", "symbol":"interchange", "icon":["bus"]},
+				{"code":"CPL", "name":"Campo Limpo", "icon":["bus"]},
+				{"code":"VBE", "name":"Vila das Belezas"},
+				{"code":"GGR", "name":"Giovanni Gronchi", "icon":["bus"]},
+				{"code":"STA", "name":"Santo Amaro", "symbol":"interchange", "icon":["train"]},
+				{"code":"LTR", "name":"Largo Treze", "icon":["bus"]},
+				{"code":"ADP", "name":"Adolfo Pinheiro"},
+				{"code":"ABV", "name":"Alto da Boa Vista"},
+				{"code":"BBG", "name":"Borba Gato"},
+				{"code":"BCB", "name":"Brooklin", "icon":["bus"]},
+				{"code":"IBP", "name":"Eucaliptos"},
+				{"code":"MOE", "name":"Moema"}
+			]
+		},
+		{
+			"name": "Line 15",
+			"style": {
+				"color": "silver",
+				"outline": "none",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"code":"VPM", "name":"Vila Prudente", "symbol":"interchange", "icon":["bus"]},
+				{"code":"ORT", "name":"Oratório"},
+				{"code":"SLU", "name":"São Lucas"},
+				{"code":"CAD", "name":"Camilo Haddad"},
+				{"code":"VTL", "name":"Vila Tolstói"},
+				{"code":"VUN", "name":"Vila União"}
+			]
+		},
+		{
+			"name": "Connection",
+			"style": {
+				"color": "white",
+				"outline": "black",
+				"stroke": "solid"
+			},
+			"stations": [
+				{"code":"PTA", "name":"Paulista", "symbol":"interchange"},
+				{"code":"CNS", "name":"Consolação", "symbol":"interchange"}
+			]
+		}
+	]
+}
