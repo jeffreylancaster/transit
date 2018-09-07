@@ -5,15 +5,19 @@
 		"width":800,
 		"height":800
 	},
-	"lines": [
+	"default":{
+		"label":"name",
+		"symbol":"circle"
+	},
+	"lines":[
 		{
-			"name": "Línea A",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Línea A",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Plaza de Mayo"},
 				{"name":"Perú", "symbol":"interchange"},
 				{"name":"Piedras"},
@@ -35,13 +39,13 @@
 			]
 		},
 		{
-			"name": "Línea B",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Línea B",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Leandro N. Alem", "symbol":"interchange"},
 				{"name":"Florida"},
 				{"name":"Carlos Pellegrini", "symbol":"interchange", "icon":["bus"]},
@@ -62,13 +66,13 @@
 			]
 		},
 		{
-			"name": "Línea C",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Línea C",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Retiro", "symbol":"interchange", "icon":["train"]},
 				{"name":"General San Martín"},
 				{"name":"Lavalle"},
@@ -81,13 +85,13 @@
 			]
 		},
 		{
-			"name": "Línea D",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Línea D",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Catedral", "symbol":"interchange"},
 				{"name":"9 de Julio", "symbol":"interchange", "icon":["bus"]},
 				{"name":"Tribunales"},
@@ -107,13 +111,13 @@
 			]
 		},
 		{
-			"name": "Línea E",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Línea E",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Retiro", "symbol":"interchange", "icon":["train"], "inService":false},
 				{"name":"Catalinas", "inService":false},
 				{"name":"Correo Central", "symbol":"interchange", "inService":false},
@@ -135,13 +139,13 @@
 			]
 		},
 		{
-			"name": "Línea H",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Línea H",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Retiro", "symbol":"interchange", "icon":["train"], "inService":false},
 				{"name":"Terminal de Ómnibus", "inService":false},
 				{"name":"Padre Mugica", "inService":false},
@@ -161,13 +165,13 @@
 			]
 		},
 		{
-			"name": "Línea P",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Línea P",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Intendente Saguier", "symbol":"interchange"},
 				{"name":"Balbastro"},
 				{"name":"Mariano Acosta"},
@@ -189,111 +193,111 @@
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Intendente Saguier", "symbol":"interchange"},
 				{"name":"Plaza de los Virreyes", "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Jujuy", "symbol":"interchange"},
 				{"name":"Humberto I", "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Plaza Miserere", "symbol":"interchange", "icon":["train"]},
 				{"name":"Once", "symbol":"interchange", "icon":["train"]}
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Pueyrredón [B]", "symbol":"interchange"},
 				{"name":"Corrientes", "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Pueyrredón [D]", "symbol":"interchange"},
 				{"name":"Santa Fe - Carlos Jáuregui", "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Avenida de Mayo", "symbol":"interchange", "icon":["bus"]},
 				{"name":"Lima", "symbol":"interchange", "icon":["bus"]}
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Diagonal Norte", "symbol":"interchange", "icon":["bus"]},
 				{"name":"9 de Julio", "symbol":"interchange", "icon":["bus"]},
 				{"name":"Carlos Pellegrini", "symbol":"interchange", "icon":["bus"]}
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Bolívar", "symbol":"interchange"},
 				{"name":"Perú", "symbol":"interchange"},
 				{"name":"Catedral", "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Correo Central", "symbol":"interchange", "inService":false},
 				{"name":"Leandro N. Alem", "symbol":"interchange"}
 			]

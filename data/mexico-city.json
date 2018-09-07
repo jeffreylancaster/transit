@@ -1,324 +1,328 @@
 {
 	"notes":"confirm interchanges have same name and >2 stations",
-	"map":"https://en.wikipedia.org/wiki/Mexico_City_Metro_lines",
+	"source":"https://en.wikipedia.org/wiki/Mexico_City_Metro_lines",
 	"map":"Mexico City Metro",
 	"svgConfig":{
 		"width":800,
 		"height":800
 	},
-	"lines": [{
-			"name": "1",
-			"style": {
-				"color": "#ed519d",
-				"outline": "none",
-				"stroke": "solid"
+	"default":{
+		"label":"name",
+		"symbol":"circle"
+	},
+	"lines":[{
+			"name":"1",
+			"style":{
+				"color":"#ed519d",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Observatorio", "logo":"Observatory", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Tacubaya", "logo":"Water bowl", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Juanacatlán", "logo":"Butterfly", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Chapultepec", "logo":"Grasshopper", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Sevilla", "logo":"Aqueduct", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Insurgentes", "logo":"Bell", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Cuauhtémoc", "logo":"Eagle head", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Balderas", "logo":"Cannon", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Salto del Agua", "logo":"Fountain", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Isabel la Católica", "logo":"Caravel", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Pino Suárez", "logo":"Ehécatl pyramid", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Merced", "logo":"Huacal (Wooden basket) with fruit", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Candelaria", "logo":"Duck", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"San Lázaro", "logo":"Steam locomotive", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Moctezuma", "logo":"Moctezuma plume headdress", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Balbuena", "logo":"Four flowers", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Boulevard Puerto Aéreo", "logo":"Bridge over the station", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Gómez Farías", "logo":"Constitution of 1857", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Zaragoza", "logo":"Silhouette of nearby statue of Ignacio Zaragoza nicknamed \"El Caballito\"", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Pantitlán", "logo":"Two flags", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Observatorio", "logo":"Observatory"},
+				{"name":"Tacubaya", "logo":"Water bowl", "symbol":"interchange"},
+				{"name":"Juanacatlán", "logo":"Butterfly"},
+				{"name":"Chapultepec", "logo":"Grasshopper"},
+				{"name":"Sevilla", "logo":"Aqueduct"},
+				{"name":"Insurgentes", "logo":"Bell"},
+				{"name":"Cuauhtémoc", "logo":"Eagle head"},
+				{"name":"Balderas", "logo":"Cannon", "symbol":"interchange"},
+				{"name":"Salto del Agua", "logo":"Fountain", "symbol":"interchange"},
+				{"name":"Isabel la Católica", "logo":"Caravel"},
+				{"name":"Pino Suárez", "logo":"Ehécatl pyramid", "symbol":"interchange"},
+				{"name":"Merced", "logo":"Huacal (Wooden basket) with fruit"},
+				{"name":"Candelaria", "logo":"Duck", "symbol":"interchange"},
+				{"name":"San Lázaro", "logo":"Steam locomotive", "symbol":"interchange"},
+				{"name":"Moctezuma", "logo":"Moctezuma plume headdress"},
+				{"name":"Balbuena", "logo":"Four flowers"},
+				{"name":"Boulevard Puerto Aéreo", "logo":"Bridge over the station"},
+				{"name":"Gómez Farías", "logo":"Constitution of 1857"},
+				{"name":"Zaragoza", "logo":"Silhouette of nearby statue of Ignacio Zaragoza nicknamed \"El Caballito\""},
+				{"name":"Pantitlán", "logo":"Two flags", "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "2",
-			"style": {
-				"color": "#006cbf",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"2",
+			"style":{
+				"color":"#006cbf",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Cuatro Caminos", "logo":"The \"Toreo de 4 caminos\" silhouette", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Panteones", "logo":"Grave", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Tacuba", "logo":"Flowers", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Cuitláhuac", "logo":"An Aztec shield", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Popotla", "logo":"The \"Night of Sorrows\" tree", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Colegio Militar", "logo":"the \"Colegio Militar\" coat of arms", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Normal", "logo":"The \"Casco de Santo Tomas\" bldg.", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"San Cosme", "logo":"The \"Casa de los Mascarones\" facade", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Revolución", "logo":"Revolution Memorial", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Hidalgo", "logo":"Miguel Hidalgo", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Bellas Artes", "logo":"Bellas Artes building", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Allende", "logo":"Ignacio Allende", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Zócalo", "logo":"Mexican coat of arms", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Pino Suárez", "logo":"An Aztec Shrine", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"San Antonio Abad", "logo":"San Antonio Abad", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Chabacano", "logo":"Apricot", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Viaducto", "logo":"Road intersection", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Xola", "logo":"Palm tree", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Villa de Cortés", "logo":"Conquistador helmet", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Nativitas", "logo":"Chinampa", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Portales", "logo":"Three arches", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Ermita", "logo":"Church", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"General Anaya", "logo":"A cannon and Pedro María Anaya", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Tasqueña", "logo":"Quarter moon", "symbol": "circle", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Cuatro Caminos", "logo":"The \"Toreo de 4 caminos\" silhouette"},
+				{"name":"Panteones", "logo":"Grave"},
+				{"name":"Tacuba", "logo":"Flowers", "symbol":"interchange"},
+				{"name":"Cuitláhuac", "logo":"An Aztec shield"},
+				{"name":"Popotla", "logo":"The \"Night of Sorrows\" tree"},
+				{"name":"Colegio Militar", "logo":"the \"Colegio Militar\" coat of arms"},
+				{"name":"Normal", "logo":"The \"Casco de Santo Tomas\" bldg."},
+				{"name":"San Cosme", "logo":"The \"Casa de los Mascarones\" facade"},
+				{"name":"Revolución", "logo":"Revolution Memorial"},
+				{"name":"Hidalgo", "logo":"Miguel Hidalgo", "symbol":"interchange"},
+				{"name":"Bellas Artes", "logo":"Bellas Artes building", "symbol":"interchange"},
+				{"name":"Allende", "logo":"Ignacio Allende"},
+				{"name":"Zócalo", "logo":"Mexican coat of arms"},
+				{"name":"Pino Suárez", "logo":"An Aztec Shrine", "symbol":"interchange"},
+				{"name":"San Antonio Abad", "logo":"San Antonio Abad"},
+				{"name":"Chabacano", "logo":"Apricot", "symbol":"interchange"},
+				{"name":"Viaducto", "logo":"Road intersection"},
+				{"name":"Xola", "logo":"Palm tree"},
+				{"name":"Villa de Cortés", "logo":"Conquistador helmet"},
+				{"name":"Nativitas", "logo":"Chinampa"},
+				{"name":"Portales", "logo":"Three arches"},
+				{"name":"Ermita", "logo":"Church", "symbol":"interchange"},
+				{"name":"General Anaya", "logo":"A cannon and Pedro María Anaya"},
+				{"name":"Tasqueña", "logo":"Quarter moon"}
 			]
 		},
 		{
-			"name": "3",
-			"style": {
-				"color": "#b69f00",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"3",
+			"style":{
+				"color":"#b69f00",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Indios Verdes", "logo":"\"Green Indians\" monument", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Deportivo 18 de Marzo", "logo":"Aztec ball game player", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Potrero", "logo":"Horse", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"La Raza", "logo":"Pyramid", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Tlatelolco", "logo":"The \"Banobras\" building silhouette", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Guerrero", "logo":"Vicente Guerrero silhouette", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Hidalgo", "logo":"Miguel Hidalgo", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Juárez", "logo":"Benito Juárez", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Balderas", "logo":"Cannon", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Niños Héroes", "logo":"a Kepi (military hat)", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Hospital General", "logo":"Cross", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Centro Médico", "logo":"a caduceus", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Etiopía/Plaza de la Transparencia", "logo":"Lion", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Eugenia", "logo":"A Stork", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"División del Norte", "logo":"Francisco Villa and horse", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Zapata", "logo":"Emiliano Zapata", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Coyoacán", "logo":"Coyote", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Viveros/Derechos Humanos", "logo":"the silhouette of a plant", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Miguel Ángel de Quevedo", "logo":"Tree", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Copilco", "logo":"Sun", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Universidad", "logo":"UNAM coat of arms", "symbol": "circle", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Indios Verdes", "logo":"\"Green Indians\" monument"},
+				{"name":"Deportivo 18 de Marzo", "logo":"Aztec ball game player", "symbol":"interchange"},
+				{"name":"Potrero", "logo":"Horse"},
+				{"name":"La Raza", "logo":"Pyramid", "symbol":"interchange"},
+				{"name":"Tlatelolco", "logo":"The \"Banobras\" building silhouette"},
+				{"name":"Guerrero", "logo":"Vicente Guerrero silhouette", "symbol":"interchange"},
+				{"name":"Hidalgo", "logo":"Miguel Hidalgo", "symbol":"interchange"},
+				{"name":"Juárez", "logo":"Benito Juárez"},
+				{"name":"Balderas", "logo":"Cannon", "symbol":"interchange"},
+				{"name":"Niños Héroes", "logo":"a Kepi (military hat)"},
+				{"name":"Hospital General", "logo":"Cross"},
+				{"name":"Centro Médico", "logo":"a caduceus", "symbol":"interchange"},
+				{"name":"Etiopía/Plaza de la Transparencia", "logo":"Lion"},
+				{"name":"Eugenia", "logo":"A Stork"},
+				{"name":"División del Norte", "logo":"Francisco Villa and horse"},
+				{"name":"Zapata", "logo":"Emiliano Zapata", "symbol":"interchange"},
+				{"name":"Coyoacán", "logo":"Coyote"},
+				{"name":"Viveros/Derechos Humanos", "logo":"the silhouette of a plant"},
+				{"name":"Miguel Ángel de Quevedo", "logo":"Tree"},
+				{"name":"Copilco", "logo":"Sun"},
+				{"name":"Universidad", "logo":"UNAM coat of arms"}
 			]
 		},
 		{
-			"name": "4",
-			"style": {
-				"color": "#4abab0",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"4",
+			"style":{
+				"color":"#4abab0",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Martín Carrera", "logo":"Martín Carrera", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Talismán", "logo":"Mammoth", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Bondojito", "logo":"Nopal", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Consulado", "logo":"A transversal section of a water duct", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Canal del Norte", "logo":"A transversal section of a waterway", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Morelos", "logo":"José María Morelos", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Candelaria", "logo":"Duck", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Fray Servando", "logo":"Servando Teresa de Mier", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Jamaica", "logo":"An ear of corn", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Santa Anita", "logo":"A man sailing in a canoe", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Martín Carrera", "logo":"Martín Carrera", "symbol":"interchange"},
+				{"name":"Talismán", "logo":"Mammoth"},
+				{"name":"Bondojito", "logo":"Nopal"},
+				{"name":"Consulado", "logo":"A transversal section of a water duct", "symbol":"interchange"},
+				{"name":"Canal del Norte", "logo":"A transversal section of a waterway"},
+				{"name":"Morelos", "logo":"José María Morelos", "symbol":"interchange"},
+				{"name":"Candelaria", "logo":"Duck", "symbol":"interchange"},
+				{"name":"Fray Servando", "logo":"Servando Teresa de Mier"},
+				{"name":"Jamaica", "logo":"An ear of corn", "symbol":"interchange"},
+				{"name":"Santa Anita", "logo":"A man sailing in a canoe", "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "5",
-			"style": {
-				"color": "#ffd300",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"5",
+			"style":{
+				"color":"#ffd300",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Politécnico", "logo":"IPN coat of arms", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Instituto del Petróleo", "logo":"A petroleum tower", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Autobuses del Norte", "logo":"Motor coach", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"La Raza", "logo":"Pyramid", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Misterios", "logo":"a \"Misterios\" Monument", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Valle Gómez", "logo":"Agave plant", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Consulado", "logo":"Transversal section of a water duct", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Eduardo Molina", "logo":"Hands holding water", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Aragón", "logo":"Squirrel", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Oceanía", "logo":"Kangaroo", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Terminal Aérea", "logo":"Aerial control tower and a plane", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Hangares", "logo":"Biplane", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Pantitlán", "logo":"Two flags", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Politécnico", "logo":"IPN coat of arms"},
+				{"name":"Instituto del Petróleo", "logo":"A petroleum tower", "symbol":"interchange"},
+				{"name":"Autobuses del Norte", "logo":"Motor coach"},
+				{"name":"La Raza", "logo":"Pyramid", "symbol":"interchange"},
+				{"name":"Misterios", "logo":"a \"Misterios\" Monument"},
+				{"name":"Valle Gómez", "logo":"Agave plant"},
+				{"name":"Consulado", "logo":"Transversal section of a water duct", "symbol":"interchange"},
+				{"name":"Eduardo Molina", "logo":"Hands holding water"},
+				{"name":"Aragón", "logo":"Squirrel"},
+				{"name":"Oceanía", "logo":"Kangaroo", "symbol":"interchange"},
+				{"name":"Terminal Aérea", "logo":"Aerial control tower and a plane"},
+				{"name":"Hangares", "logo":"Biplane"},
+				{"name":"Pantitlán", "logo":"Two flags", "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "6",
-			"style": {
-				"color": "#f31d00",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"6",
+			"style":{
+				"color":"#f31d00",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"El Rosario", "logo":"A Rosary", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Tezozómoc", "logo":"Tezozomoc", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Azcapotzalco", "logo":"An ant", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Ferrería/Arena Ciudad de México", "logo":"The Arena Ciudad de México building", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Norte 45", "logo":"A windrose", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Vallejo", "logo":"A factory", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Instituto del Petróleo", "logo":"A petroleum tower", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Lindavista", "logo":"San Cayetano church", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Deportivo 18 de Marzo", "logo":"Aztec ball game player", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"La Villa-Basílica", "logo":"Basílica de Guadalupe and Guadalupe virgin", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Martín Carrera", "logo":"Martín Carrera", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"El Rosario", "logo":"A Rosary", "symbol":"interchange"},
+				{"name":"Tezozómoc", "logo":"Tezozomoc"},
+				{"name":"Azcapotzalco", "logo":"An ant"},
+				{"name":"Ferrería/Arena Ciudad de México", "logo":"The Arena Ciudad de México building"},
+				{"name":"Norte 45", "logo":"A windrose"},
+				{"name":"Vallejo", "logo":"A factory"},
+				{"name":"Instituto del Petróleo", "logo":"A petroleum tower", "symbol":"interchange"},
+				{"name":"Lindavista", "logo":"San Cayetano church"},
+				{"name":"Deportivo 18 de Marzo", "logo":"Aztec ball game player", "symbol":"interchange"},
+				{"name":"La Villa-Basílica", "logo":"Basílica de Guadalupe and Guadalupe virgin"},
+				{"name":"Martín Carrera", "logo":"Martín Carrera", "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "7",
-			"style": {
-				"color": "#fd7800",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"7",
+			"style":{
+				"color":"#fd7800",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"El Rosario", "logo":"A Rosary", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Aquiles Serdán", "logo":"Aquiles Serdán", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Camarones", "logo":"A shrimp", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Refinería", "logo":"A PEMEX refinery container", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Tacuba", "logo":"Flowers", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"San Joaquín", "logo":"Bridge", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Polanco", "logo":"A Clock Tower", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Auditorio", "logo":"Auditorio building", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Constituyentes", "logo":"A book, ink and a Feather", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Tacubaya", "logo":"A Water bowl", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"San Pedro de los Pinos", "logo":"Two Pines", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"San Antonio", "logo":"San Antonio and a kid", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Mixcoac", "logo":"A snake", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Barranca del Muerto", "logo":"Two Eagles", "symbol": "circle", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"El Rosario", "logo":"A Rosary", "symbol":"interchange"},
+				{"name":"Aquiles Serdán", "logo":"Aquiles Serdán"},
+				{"name":"Camarones", "logo":"A shrimp"},
+				{"name":"Refinería", "logo":"A PEMEX refinery container"},
+				{"name":"Tacuba", "logo":"Flowers", "symbol":"interchange"},
+				{"name":"San Joaquín", "logo":"Bridge"},
+				{"name":"Polanco", "logo":"A Clock Tower"},
+				{"name":"Auditorio", "logo":"Auditorio building"},
+				{"name":"Constituyentes", "logo":"A book, ink and a Feather"},
+				{"name":"Tacubaya", "logo":"A Water bowl", "symbol":"interchange"},
+				{"name":"San Pedro de los Pinos", "logo":"Two Pines"},
+				{"name":"San Antonio", "logo":"San Antonio and a kid"},
+				{"name":"Mixcoac", "logo":"A snake", "symbol":"interchange"},
+				{"name":"Barranca del Muerto", "logo":"Two Eagles"}
 			]
 		},
 		{
-			"name": "8",
-			"style": {
-				"color": "#1fa254",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"8",
+			"style":{
+				"color":"#1fa254",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Garibaldi / Lagunilla", "logo":"A guitar and a sarape", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Bellas Artes", "logo":"Bellas Artes building", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"San Juan de Letrán", "logo":"Latinoamerican Tower", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Salto del Agua", "logo":"Fountain", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Doctores", "logo":"Two doctors", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Obrera", "logo":"A helmet and two gears", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Chabacano", "logo":"Apricot", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"La Viga", "logo":"Two fish", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Santa Anita", "logo":"A man sailing in a canoe", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Coyuya", "logo":"A foot", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Iztacalco", "logo":"San Matias Church", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Apatlaco", "logo":"An Aztec temple with boiling water", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Aculco", "logo":"A wave", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Escuadrón 201", "logo":"Escuadrón 201 logo", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Atlalilco", "logo":"A water well", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Iztapalapa", "logo":"A sun", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Cerro de la Estrella", "logo":"A hill with three crosses and a star", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"UAM-I", "logo":"UAM coat of arms", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Constitución de 1917", "logo":"Pergamin with a quill pen writing \"1917\"", "symbol": "circle", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Garibaldi / Lagunilla", "logo":"A guitar and a sarape", "symbol":"interchange"},
+				{"name":"Bellas Artes", "logo":"Bellas Artes building", "symbol":"interchange"},
+				{"name":"San Juan de Letrán", "logo":"Latinoamerican Tower"},
+				{"name":"Salto del Agua", "logo":"Fountain", "symbol":"interchange"},
+				{"name":"Doctores", "logo":"Two doctors"},
+				{"name":"Obrera", "logo":"A helmet and two gears"},
+				{"name":"Chabacano", "logo":"Apricot", "symbol":"interchange"},
+				{"name":"La Viga", "logo":"Two fish"},
+				{"name":"Santa Anita", "logo":"A man sailing in a canoe", "symbol":"interchange"},
+				{"name":"Coyuya", "logo":"A foot"},
+				{"name":"Iztacalco", "logo":"San Matias Church"},
+				{"name":"Apatlaco", "logo":"An Aztec temple with boiling water"},
+				{"name":"Aculco", "logo":"A wave"},
+				{"name":"Escuadrón 201", "logo":"Escuadrón 201 logo"},
+				{"name":"Atlalilco", "logo":"A water well"},
+				{"name":"Iztapalapa", "logo":"A sun"},
+				{"name":"Cerro de la Estrella", "logo":"A hill with three crosses and a star"},
+				{"name":"UAM-I", "logo":"UAM coat of arms"},
+				{"name":"Constitución de 1917", "logo":"Pergamin with a quill pen writing \"1917\""}
 			]
 		},
 		{
-			"name": "9",
-			"style": {
-				"color": "#66251e",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"9",
+			"style":{
+				"color":"#66251e",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Tacubaya", "logo":"A Water bowl", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Patriotismo", "logo":"The Mexican flag", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Chilpancingo", "logo":"A wasp", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Centro Médico", "logo":"A caduceus", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Lázaro Cárdenas", "logo":"Lázaro Cárdenas", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Chabacano", "logo":"Apricot", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Jamaica", "logo":"An ear of corn", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Mixiuhca", "logo":"A woman with a baby", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Velódromo", "logo":"A bicyclist", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Ciudad Deportiva", "logo":"Another version of the Aztec ball game player", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Puebla", "logo":"Two angles carrying Puebla coat of arms", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Pantitlán", "logo":"Two flags", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Tacubaya", "logo":"A Water bowl", "symbol":"interchange"},
+				{"name":"Patriotismo", "logo":"The Mexican flag"},
+				{"name":"Chilpancingo", "logo":"A wasp"},
+				{"name":"Centro Médico", "logo":"A caduceus", "symbol":"interchange"},
+				{"name":"Lázaro Cárdenas", "logo":"Lázaro Cárdenas"},
+				{"name":"Chabacano", "logo":"Apricot", "symbol":"interchange"},
+				{"name":"Jamaica", "logo":"An ear of corn", "symbol":"interchange"},
+				{"name":"Mixiuhca", "logo":"A woman with a baby"},
+				{"name":"Velódromo", "logo":"A bicyclist"},
+				{"name":"Ciudad Deportiva", "logo":"Another version of the Aztec ball game player"},
+				{"name":"Puebla", "logo":"Two angles carrying Puebla coat of arms"},
+				{"name":"Pantitlán", "logo":"Two flags", "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "A",
-			"style": {
-				"color": "#8b297e",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"A",
+			"style":{
+				"color":"#8b297e",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Pantitlán", "logo":"Two flags", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Agrícola Oriental", "logo":"Two ears of wheat", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Canal de San Juan", "logo":"An Aztec canoe in a canal", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Tepalcates", "logo":"A clay pot", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Guelatao", "logo":"The head of Benito Juárez", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Peñón Viejo", "logo":"The Aztec representation of a promontory", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Acatitla", "logo":"A sugarcane", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Santa Marta", "logo":"Santa Marta with a jar", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Los Reyes", "logo":"Three crowns", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"La Paz", "logo":"A dove", "symbol": "circle", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Pantitlán", "logo":"Two flags", "symbol":"interchange"},
+				{"name":"Agrícola Oriental", "logo":"Two ears of wheat"},
+				{"name":"Canal de San Juan", "logo":"An Aztec canoe in a canal"},
+				{"name":"Tepalcates", "logo":"A clay pot"},
+				{"name":"Guelatao", "logo":"The head of Benito Juárez"},
+				{"name":"Peñón Viejo", "logo":"The Aztec representation of a promontory"},
+				{"name":"Acatitla", "logo":"A sugarcane"},
+				{"name":"Santa Marta", "logo":"Santa Marta with a jar"},
+				{"name":"Los Reyes", "logo":"Three crowns"},
+				{"name":"La Paz", "logo":"A dove"}
 			]
 		},
 		{
-			"name": "B",
-			"style": {
-				"color": "#b2b4b3",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"B",
+			"style":{
+				"color":"#b2b4b3",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Ciudad Azteca", "logo":"Aztec symbol of Tenochtitlan", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Plaza Aragón", "logo":"A stand", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Olímpica", "logo":"The Olympic rings", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Ecatepec", "logo":"The Ecatepec symbol", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Múzquiz", "logo":"Melchor Muzquiz", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Río de los Remedios", "logo":"A ship with a crown", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Impulsora", "logo":"A cart", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Nezahualcóyotl", "logo":"The Nezahualcoyotl symbol", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Villa de Aragón", "logo":"Some houses", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Bosque de Aragón", "logo":"Three trees", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Deportivo Oceanía", "logo":"A koala hugging a soccer ball", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Oceanía", "logo":"Kangaroo", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Romero Rubio", "logo":"Romero Rubio", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Ricardo Flores Magón", "logo":"Ricardo Flores Magón", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"San Lázaro", "logo":"A steam locomotive", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Morelos", "logo":"José María Morelos", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Tepito", "logo":"A boxing glove", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Lagunilla", "logo":"A swan", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Garibaldi / Lagunilla", "logo":"A guitar and a sarape", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Guerrero", "logo":"Vicente Guerrero", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Buenavista", "logo":"The front of a diesel locomotive", "symbol": "circle", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Ciudad Azteca", "logo":"Aztec symbol of Tenochtitlan"},
+				{"name":"Plaza Aragón", "logo":"A stand"},
+				{"name":"Olímpica", "logo":"The Olympic rings"},
+				{"name":"Ecatepec", "logo":"The Ecatepec symbol"},
+				{"name":"Múzquiz", "logo":"Melchor Muzquiz"},
+				{"name":"Río de los Remedios", "logo":"A ship with a crown"},
+				{"name":"Impulsora", "logo":"A cart"},
+				{"name":"Nezahualcóyotl", "logo":"The Nezahualcoyotl symbol"},
+				{"name":"Villa de Aragón", "logo":"Some houses"},
+				{"name":"Bosque de Aragón", "logo":"Three trees"},
+				{"name":"Deportivo Oceanía", "logo":"A koala hugging a soccer ball"},
+				{"name":"Oceanía", "logo":"Kangaroo", "symbol":"interchange"},
+				{"name":"Romero Rubio", "logo":"Romero Rubio"},
+				{"name":"Ricardo Flores Magón", "logo":"Ricardo Flores Magón"},
+				{"name":"San Lázaro", "logo":"A steam locomotive", "symbol":"interchange"},
+				{"name":"Morelos", "logo":"José María Morelos", "symbol":"interchange"},
+				{"name":"Tepito", "logo":"A boxing glove"},
+				{"name":"Lagunilla", "logo":"A swan"},
+				{"name":"Garibaldi / Lagunilla", "logo":"A guitar and a sarape", "symbol":"interchange"},
+				{"name":"Guerrero", "logo":"Vicente Guerrero", "symbol":"interchange"},
+				{"name":"Buenavista", "logo":"The front of a diesel locomotive"}
 			]
 		},
 		{
-			"name": "12",
-			"style": {
-				"color": "#c39f2e",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"12",
+			"style":{
+				"color":"#c39f2e",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Mixcoac", "logo":"A snake", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Insurgentes Sur", "logo":"Miguel Hidalgo and Jose Maria Morelos", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"20 de Noviembre", "logo":"The structure of the cover of Medical Center 20 de Noviembre", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Zapata", "logo":"Emiliano Zapata", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Parque de los Venados", "logo":"The silhouette of two deer", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Eje Central", "logo":"A trolleybus", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Ermita", "logo":"A church", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Mexicaltzingo", "logo":"The Mexicaltzingo symbol", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Atlalilco", "logo":"A water well", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name":"Culhuacán", "logo":"A mountain with a curved top", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"San Andrés Tomatlán", "logo":"The San Andres Church", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Lomas Estrella", "logo":"A mountain system with a star on top", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Calle 11", "logo":"A mountain with a fire symbol over a vase with water", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Periférico Oriente", "logo":"A surveillance tower", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Tezonco", "logo":"Candy skull traditional of the Day of the Dead", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Olivos", "logo":"An olive plant", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Nopalera", "logo":"A flower from nopal", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Zapotitlán", "logo":"A sapote tree", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Tlaltenco", "logo":"A stone arc", "symbol": "circle", "icon":[], "label":"name"},
-				{"name":"Tláhuac", "logo":"A seaweed from the region", "symbol": "circle", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Mixcoac", "logo":"A snake", "symbol":"interchange"},
+				{"name":"Insurgentes Sur", "logo":"Miguel Hidalgo and Jose Maria Morelos"},
+				{"name":"20 de Noviembre", "logo":"The structure of the cover of Medical Center 20 de Noviembre"},
+				{"name":"Zapata", "logo":"Emiliano Zapata", "symbol":"interchange"},
+				{"name":"Parque de los Venados", "logo":"The silhouette of two deer"},
+				{"name":"Eje Central", "logo":"A trolleybus"},
+				{"name":"Ermita", "logo":"A church", "symbol":"interchange"},
+				{"name":"Mexicaltzingo", "logo":"The Mexicaltzingo symbol"},
+				{"name":"Atlalilco", "logo":"A water well", "symbol":"interchange"},
+				{"name":"Culhuacán", "logo":"A mountain with a curved top"},
+				{"name":"San Andrés Tomatlán", "logo":"The San Andres Church"},
+				{"name":"Lomas Estrella", "logo":"A mountain system with a star on top"},
+				{"name":"Calle 11", "logo":"A mountain with a fire symbol over a vase with water"},
+				{"name":"Periférico Oriente", "logo":"A surveillance tower"},
+				{"name":"Tezonco", "logo":"Candy skull traditional of the Day of the Dead"},
+				{"name":"Olivos", "logo":"An olive plant"},
+				{"name":"Nopalera", "logo":"A flower from nopal"},
+				{"name":"Zapotitlán", "logo":"A sapote tree"},
+				{"name":"Tlaltenco", "logo":"A stone arc"},
+				{"name":"Tláhuac", "logo":"A seaweed from the region"}
 			]
 		}
 	]

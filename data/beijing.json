@@ -5,15 +5,19 @@
 		"width":1200,
 		"height":1200
 	},
-	"lines": [
+	"default":{
+		"label":"name",
+		"symbol":"circle"
+	},
+	"lines":[
 		{
-			"name": "Line 1",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 1",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"code":"103", "name":"Pingguoyuan", "name-cn":"苹果园", "symbol":"interchange"},
 				{"code":"104", "name":"Gucheng", "name-cn":"古城"},
 				{"code":"105", "name":"Bajiao Amusement Park", "name-cn":"八角游乐园"},
@@ -40,13 +44,13 @@
 			]
 		},
 		{
-			"name": "Line 2",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 2",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"code":"201", "name":"Xizhimen", "name-cn":"西直门", "symbol":"interchange", "icon":["train"]},
 				{"code":"202", "name":"Chegongzhuang", "name-cn":"车公庄", "symbol":"interchange"},
 				{"code":"203", "name":"Fuchengmen", "name-cn":"阜成门"},
@@ -69,13 +73,13 @@
 			]
 		},
 		{
-			"name": "Line 4",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 4",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Anheqiao North", "name-cn":"安河桥北"},
 				{"name":"Beigongmen", "name-cn":"北宫门"},
 				{"name":"Xiyuan", "name-cn":"西苑", "symbol":"interchange"},
@@ -103,13 +107,13 @@
 			]
 		},
 		{
-			"name": "Line 5",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 5",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Tiantongyuan North", "name-cn":"天通苑北"},
 				{"name":"Tiantongyuan", "name-cn":"天通苑"},
 				{"name":"Tiantongyuan South", "name-cn":"天通苑南"},
@@ -136,13 +140,13 @@
 			]
 		},
 		{
-			"name": "Line 6",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 6",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Jin'anqiao", "name-cn":"金安桥", "symbol":"interchange", "inService":false},
 				{"name":"Pingguoyuan", "name-cn":"苹果园", "symbol":"interchange", "inService":false},
 				{"name":"Yangzhuang", "name-cn":"杨庄", "inService":false},
@@ -181,13 +185,13 @@
 			]
 		},
 		{
-			"name": "Line 7",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 7",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Beijing West Railway Station", "name-cn":"北京西站", "symbol":"interchange", "icon":["train"]},
 				{"name":"Wanzi", "name-cn":"湾子"},
 				{"name":"Daguanying", "name-cn":"达官营"},
@@ -212,13 +216,13 @@
 			]
 		},
 		{
-			"name": "Line 8",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 8",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Zhuxinzhuang", "name-cn":"朱辛庄", "symbol":"interchange"},
 				{"name":"Yuzhilu", "name-cn":"育知路"},
 				{"name":"Pingxifu", "name-cn":"平西府"},
@@ -257,13 +261,13 @@
 			]
 		},
 		{
-			"name": "Line 9",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 9",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"National Library", "name-cn":"国家图书馆", "symbol":"interchange"},
 				{"name":"Baishiqiao South", "name-cn":"白石桥南", "symbol":"interchange"},
 				{"name":"Baiduizi", "name-cn":"白堆子"},
@@ -280,13 +284,13 @@
 			]
 		},
 		{
-			"name": "Line 10",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 10",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Bagou", "name-cn":"巴沟", "symbol":"interchange"},
 				{"name":"Suzhoujie", "name-cn":"苏州街"},
 				{"name":"Haidianhuangzhuang", "name-cn":"海淀黄庄", "symbol":"interchange"},
@@ -336,13 +340,13 @@
 			]
 		},
 		{
-			"name": "Line 13",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 13",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"code":"1301", "name":"Xizhimen", "name-cn":"西直门", "symbol":"interchange", "icon":["train"]},
 				{"code":"1302", "name":"Dazhongsi", "name-cn":"大钟寺"},
 				{"code":"1303", "name":"Zhichunlu", "name-cn":"知春路", "symbol":"interchange"},
@@ -365,13 +369,13 @@
 			]
 		},
 		{
-			"name": "Line 14",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 14",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Zhangguozhuang", "name-cn":"张郭庄"},
 				{"name":"Garden Expo Park", "name-cn":"园博园"},
 				{"name":"Dawayao", "name-cn":"大瓦窑"},
@@ -411,13 +415,13 @@
 			]
 		},
 		{
-			"name": "Line 15",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 15",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Qinghuadongluxikou", "name-cn":"清华东路西口"},
 				{"name":"Liudaokou", "name-cn":"六道口"},
 				{"name":"Beishatan", "name-cn":"北沙滩"},
@@ -441,13 +445,13 @@
 			]
 		},
 		{
-			"name": "Line 16",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 16",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Bei'anhe", "name-cn":"北安河"},
 				{"name":"Wenyanglu", "name-cn":"温阳路"},
 				{"name":"Daoxianghulu", "name-cn":"稻香湖路"},
@@ -479,13 +483,13 @@
 			]
 		},
 		{
-			"name": "Batong Line",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Batong Line",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"code":"BT01", "name":"Sihui", "name-cn":"四惠", "symbol":"interchange"},
 				{"code":"BT02", "name":"Sihui East", "name-cn":"四惠东", "symbol":"interchange"},
 				{"code":"BT03", "name":"Gaobeidian", "name-cn":"高碑店"},
@@ -504,13 +508,13 @@
 			]
 		},
 		{
-			"name": "ChangpingLine",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"ChangpingLine",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Xi'erqi", "name-cn":"西二旗", "symbol":"interchange"},
 				{"name":"Life Science Park", "name-cn":"生命科学园"},
 				{"name":"Zhuxinzhuang", "name-cn":"朱辛庄", "symbol":"interchange"},
@@ -526,13 +530,13 @@
 			]
 		},
 		{
-			"name": "DaxingLine",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"DaxingLine",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Gongyixiqiao", "name-cn":"公益西桥"},
 				{"name":"Xingong", "name-cn":"新宫"},
 				{"name":"Xihongmen", "name-cn":"西红门"},
@@ -548,13 +552,13 @@
 			]
 		},
 		{
-			"name": "Fangshan Line",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Fangshan Line",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Fengyiqiao South", "name-cn":"丰益桥南", "symbol":"interchange", "inService":false},
 				{"name":"Shoujingmao", "name-cn":"首经贸", "symbol":"interchange", "inService":false},
 				{"name":"Sihuanlu", "name-cn":"四环路", "inService":false},
@@ -574,13 +578,13 @@
 			]
 		},
 		{
-			"name": "Yanfang Line",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Yanfang Line",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Yancun East", "name-cn":"阎村东", "symbol":"interchange"},
 				{"name":"Zicaowu", "name-cn":"紫草坞"},
 				{"name":"Yancun", "name-cn":"阎村"},
@@ -593,13 +597,13 @@
 			]
 		},
 		{
-			"name": "Yanfang Line",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Yanfang Line",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Raolefu", "name-cn":"饶乐府"},
 				{"name":"Laochengqu", "name-cn":"老城区", "inService":false},
 				{"name":"Guce", "name-cn":"顾册", "inService":false},
@@ -607,13 +611,13 @@
 			]
 		},
 		{
-			"name": "Yizhuang Line",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Yizhuang Line",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Songjiazhuang", "name-cn":"宋家庄", "symbol":"interchange"},
 				{"name":"Xiaocun", "name-cn":"肖村"},
 				{"name":"Xiaohongmen", "name-cn":"小红门"},
@@ -631,13 +635,13 @@
 			]
 		},
 		{
-			"name": "S1 Line",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S1 Line",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Shichang", "name-cn":"石厂"},
 				{"name":"Xiaoyuan", "name-cn":"小园"},
 				{"name":"Liyuanzhuang", "name-cn":"栗园庄"},
@@ -649,13 +653,13 @@
 			]
 		},
 		{
-			"name": "Airport Express",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Airport Express",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Beixinqiao", "name-cn":"北新桥", "symbol":"interchange", "inService":false},
 				{"name":"Dongzhimen", "name-cn":"东直门", "symbol":"interchange"},
 				{"name":"Sanyuanqiao", "name-cn":"三元桥", "symbol":"interchange"},
@@ -665,13 +669,13 @@
 			]
 		},
 		{
-			"name": "Xijiao Line",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Xijiao Line",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Fragrant Hills", "name-cn":"香山"},
 				{"name":"Botanical Garden", "name-cn":"植物园"},
 				{"name":"Wan'an", "name-cn":"万安"},

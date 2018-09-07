@@ -5,15 +5,19 @@
 		"width":800,
 		"height":800
 	},
-	"lines": [
+	"default":{
+		"label":"name",
+		"symbol":"circle"
+	},
+	"lines":[
 		{
-			"name": "Line 1",
-			"style": {
-				"color": "blue",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 1",
+			"style":{
+				"color":"blue",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"code":"TUC", "name":"Tucuruvi"},
 				{"code":"PIG", "name":"Parada Inglesa", "icon":["bus"]},
 				{"code":"JPA", "name":"Jardim"},
@@ -40,13 +44,13 @@
 			]
 		},
 		{
-			"name": "Line 2",
-			"style": {
-				"color": "green",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 2",
+			"style":{
+				"color":"green",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"code":"VMD", "name":"Vila Madalena", "icon":["bus"]},
 				{"code":"SUM", "name":"Santuário Nossa Senhora de Fátima-Sumaré"},
 				{"code":"CLI", "name":"Clínicas"},
@@ -64,13 +68,13 @@
 			]
 		},
 		{
-			"name": "Line 3",
-			"style": {
-				"color": "red",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 3",
+			"style":{
+				"color":"red",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"code":"BFU", "name":"Palmeiras-Barra Funda", "symbol":"interchange", "icon":["bus", "train"]},
 				{"code":"DED", "name":"Marechal Deodoro"},
 				{"code":"CEC", "name":"Santa Cecília", "icon":["bus"]},
@@ -92,13 +96,13 @@
 			]
 		},
 		{
-			"name": "Line 4",
-			"style": {
-				"color": "yellow",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 4",
+			"style":{
+				"color":"yellow",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"code":"LUZ", "name":"Luz", "symbol":"interchange", "icon":["train"]},
 				{"code":"REP", "name":"República", "symbol":"interchange"},
 				{"code":"HIG", "name":"Higienopólis-Mackenzie"},
@@ -113,13 +117,13 @@
 			]
 		},
 		{
-			"name": "Line 5",
-			"style": {
-				"color": "lilac",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 5",
+			"style":{
+				"color":"lilac",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"code":"CPR", "name":"Capão Redondo", "symbol":"interchange", "icon":["bus"]},
 				{"code":"CPL", "name":"Campo Limpo", "icon":["bus"]},
 				{"code":"VBE", "name":"Vila das Belezas"},
@@ -135,13 +139,13 @@
 			]
 		},
 		{
-			"name": "Line 15",
-			"style": {
-				"color": "silver",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 15",
+			"style":{
+				"color":"silver",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"code":"VPM", "name":"Vila Prudente", "symbol":"interchange", "icon":["bus"]},
 				{"code":"ORT", "name":"Oratório"},
 				{"code":"SLU", "name":"São Lucas"},
@@ -151,13 +155,13 @@
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"code":"PTA", "name":"Paulista", "symbol":"interchange"},
 				{"code":"CNS", "name":"Consolação", "symbol":"interchange"}
 			]

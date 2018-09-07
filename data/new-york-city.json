@@ -5,1040 +5,1044 @@
 		"width":800,
 		"height":800
 	},
-	"lines": [{
-			"name": "1",
-			"style": {
-				"color": "#dc5451",
-				"outline": "none",
-				"stroke": "solid"
-			},
-			"stations": [
-				{"name":"Van Cortlandt Park-242 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"238 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"231 St [1]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Marble Hill-225 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"215 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"207 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Dyckman St [1]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"191 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"181 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"168 St [1AC]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"157 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"145 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"137 St-City College [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"125 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"116 St-Columbia University [1]", "icon":["airport"], "symbol":"local", "label":"name"},
-				{"name":"Cathedral Pkwy-110 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"103 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"96 St [123]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"86 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"79 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"72 St [123]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"66 St-Lincoln Center [1]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"59 St-Columbus Circle [1ABCD]", "icon":["accessible", "police"], "symbol":"interchange", "label":"name"},
-				{"name":"50 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Times Sq-42 St / 42 St [1237ACENQRSW]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"34 St-Penn Station [123]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"28 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"23 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"18 St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"14 St / 6 Av [123FLM]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Christopher St-Sheridan Sq [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Houston St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Canal St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Franklin St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Chambers St [123]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Cortlandt St [1]", "icon":[], "symbol":"local", "label":"name", "inService":false},
-				{"name":"Rector St [1]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"South Ferry / Whitehall St [1RW]", "icon":["boat"], "symbol":"local", "label":"name"}
-			]
-		},
-		{
-			"name": "2",
-			"style": {
-				"color": "#dc5451",
-				"outline": "none",
-				"stroke": "solid"
-			},
-			"stations": [
-				{"name":"Wakefield-241 St [2]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Nereid Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"233 St [25]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"225 St [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"219 St [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Gun Hill Rd [25]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Burke Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Allerton Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Pelham Pkwy [25]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Bronx Park East [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"East 180 St [25]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"West Farms Sq-East Tremont Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"174 St [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Freeman St [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Simpson St [25]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Intervale Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Prospect Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Jackson Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"3 Av-149 St [25]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"149 St-Grand Concourse [245]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"135 St [23]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"125 St [23]", "icon":["airport"], "symbol":"local", "label":"name"},
-				{"name":"116 St [23]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Central Park North-110 St [23]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"96 St [123]", "icon":["accessible"], "symbol":"interchange", "label":"name"}
-			]
-		},
-		{
-			"name": "2",
-			"style": {
-				"color": "#dc5451",
-				"outline": "none",
-				"stroke": "solid"
-			},
-			"stations": [
-				{"name":"Chambers St [123]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Chambers St / WTC / Park Place [23ACE]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Fulton St [2345ACJZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Wall St [23]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Clark St [23]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Court St / Borough Hall [2345R]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Hoyt St [23]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Nevins St [2345]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Atlantic Av / Pacific St [2345BDNQR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Bergen St [23]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Grand Army Plaza [23]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Eastern Pkwy-Brooklyn Museum [23]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Franklin Av / Botanic Garden [2345S]", "icon":["police"], "symbol":"interchange", "label":"name"},
-				{"name":"President St [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Sterling St [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Winthrop St [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Church Av [25]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Beverly Rd [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Newkirk Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Flatbush Av-Brooklyn College [25]", "icon":["accessible"], "symbol":"local", "label":"name"}
-			]
-		},
-		{
-			"name": "3",
-			"style": {
-				"color": "#dc5451",
-				"outline": "none",
-				"stroke": "solid"
-			},
-			"stations": [
-				{"name":"Harlem-148 St [3]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"145 St [3]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"135 St [23]", "icon":["accessible"], "symbol":"local", "label":"name"}
-			]
-		},
-		{
-			"name": "3",
-			"style": {
-				"color": "#dc5451",
-				"outline": "none",
-				"stroke": "solid"
-			},
-			"stations": [
-				{"name":"Franklin Av / Botanic Garden [2345S]", "icon":["police"], "symbol":"interchange", "label":"name"},
-				{"name":"Nostrand Av [3]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Kingston Av [3]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Crown Heights-Utica Av [34]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Sutter Av-Rutland Rd [3]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Saratoga Av [3]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Rockaway Av [3]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Junius St [3]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Pennsylvania Av [3]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Van Siclen Av [3]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"New Lots Av [3]", "icon":["airport"], "symbol":"local", "label":"name"}
-			]
-		},
-		{
-			"name": "4",
-			"style": {
-				"color": "#4a9655",
-				"outline": "none",
-				"stroke": "solid"
-			},
-			"stations": [
-				{"name":"Woodlawn [4]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Mosholu Pkwy [4]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Bedford Park Blvd-Lehman College [4]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Kingsbridge Rd [4]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Fordham Rd [4]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"183 St [4]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Burnside Av [4]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"176 St [4]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Mt Eden Av [4]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"170 St [4]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"167 St [4]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"161 St-Yankee Stadium [4BD]", "icon":["accessible", "police"], "symbol":"local", "label":"name"},
-				{"name":"149 St-Grand Concourse [245]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"138 St-Grand Concourse [45]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"125 St [456]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"}
-			]
-		},
-		{
-			"name": "4",
-			"style": {
-				"color": "#4a9655",
-				"outline": "none",
-				"stroke": "solid"
-			},
-			"stations": [
-				{"name":"Brooklyn Bridge-City Hall / Chambers St [456JZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Fulton St [2345ACJZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Wall St [45]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Bowling Green [45]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Court St / Borough Hall [2345R]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Hoyt St [23]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Nevins St [2345]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Atlantic Av / Pacific St [2345BDNQR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Bergen St [23]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Grand Army Plaza [23]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Eastern Pkwy-Brooklyn Museum [23]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Franklin Av / Botanic Garden [2345S]", "icon":["police"], "symbol":"interchange", "label":"name"},
-				{"name":"Nostrand Av [3]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Kingston Av [3]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Crown Heights-Utica Av [34]", "icon":["accessible"], "symbol":"interchange", "label":"name"}
-			]
-		},
-		{
-			"name": "5",
-			"style": {
-				"color": "#4a9655",
-				"outline": "none",
-				"stroke": "solid"
-			},
-			"stations": [
-				{"name":"Eastchester-Dyre Av [5]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Baychester Av [5]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Gun Hill Rd [5]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Pelham Pkwy [5]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Morris Park [5]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"East 180 St [25]", "icon":["accessible", "police"], "symbol":"local", "label":"name"}
-			]
-		},
-		{
-			"name": "5",
-			"style": {
-				"color": "#4a9655",
-				"outline": "none",
-				"stroke": "dashed"
-			},
-			"stations": [
-				{"name":"Nereid Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"233 St [25]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"225 St [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"219 St [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Gun Hill Rd [25]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Burke Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Allerton Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Pelham Pkwy [25]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Bronx Park East [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"East 180 St [25]", "icon":["accessible", "police"], "symbol":"interchange", "label":"name"}
-			]
-		},
-		{
-			"name": "5",
-			"style": {
-				"color": "#4a9655",
-				"outline": "none",
-				"stroke": "solid"
-			},
-			"stations": [
-				{"name":"East 180 St [25]", "icon":["accessible", "police"], "symbol":"interchange", "label":"name"},
-				{"name":"West Farms Sq-East Tremont Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"174 St [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Freeman St [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Simpson St [25]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Intervale Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Prospect Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Jackson Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"3 Av-149 St [25]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"149 St-Grand Concourse [245]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"138 St-Grand Concourse [45]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"125 St [456]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"}
-			]
-		},
-		{
-			"name": "5",
-			"style": {
-				"color": "#4a9655",
-				"outline": "none",
-				"stroke": "solid"
-			},
-			"stations": [
-				{"name":"Franklin Av / Botanic Garden [2345S]", "icon":["police"], "symbol":"interchange", "label":"name"},
-				{"name":"President St [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Sterling St [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Winthrop St [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Church Av [25]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Beverly Rd [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Newkirk Av [25]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Flatbush Av-Brooklyn College [25]", "icon":["accessible"], "symbol":"local", "label":"name"}
-			]
-		},
-		{
-			"name": "6",
-			"style": {
-				"color": "#4a9655",
-				"outline": "none",
-				"stroke": "solid"
-			},
-			"stations": [
-				{"name":"Pelham Bay Park [6]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Buhre Av [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Middletown Rd [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Westchester Sq-East Tremont Av [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Zerega Av [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Castle Hill Av [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Parkchester [6]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"St Lawrence Av [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Morrison Av-Soundview [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Elder Av [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Whitlock Av [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Hunts Point Av [6]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Longwood Av [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"East 149 St [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"East 143 St-St Mary's St [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Cypress Av [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Brook Av [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"3 Av-138 St [6]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"125 St [456]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"116 St [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"110 St [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"103 St [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"96 St [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"86 St [456]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"77 St [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"68 St-Hunter College [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Lexington Av / 59 St [456NRW]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Lexington Av-53 St / 51 St [6EM]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Grand Central-42 St [4567S]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"33 St [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"28 St [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"23 St [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"14 St-Union Sq [456LNQRW]", "icon":["accessible", "police"], "symbol":"interchange", "label":"name"},
-				{"name":"Astor Place [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Broadway-Lafayette St / Bleecker St [6BDFM]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Spring St [6]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Canal St [6JNQRWZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Brooklyn Bridge-City Hall / Chambers St [456JZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"}
-			]
-		},
-		{
-			"name": "7",
-			"style": {
-				"color": "#8f4f96",
-				"outline": "none",
-				"stroke": "solid"
-			},
-			"stations": [
-				{"name":"Flushing-Main St [7]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"Mets-Willets Point [7]", "icon":["airport"], "symbol":"interchange", "label":"name"},
-				{"name":"111 St [7]", "icon":["airport"], "symbol":"local", "label":"name"},
-				{"name":"103 St-Corona Plaza [7]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Junction Blvd [7]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"90 St-Elmhurst Av [7]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"82 St-Jackson Hts [7]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"74-Bway / Jackson Hts-Roosevelt Av [7EFMR]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"69 St [7]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Woodside-61 St [7]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"52 St [7]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"46 St-Bliss St [7]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"40 St-Lowery St [7]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"33 St-Rawson St [7]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Queensboro Plaza [7NW]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"45 Rd-Court House Sq [7]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Hunters Point Av [7]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Vernon Blvd-Jackson Av [7]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Grand Central-42 St [4567S]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"42 St-Bryant Pk / 5 Av [7BDFM]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Times Sq-42 St / 42 St [1237ACENQRSW]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"34 St-Hudson Yards [7]", "icon":["accessible"], "symbol":"local", "label":"name"}
-			]
-		},
-		{
-			"name": "A",
-			"style": {
-				"color": "#2370b3",
-				"outline": "none",
-				"stroke": "solid"
-			},
-			"stations": [
-				{"name":"Inwood-207 St [A]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Dyckman St [A]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"190 St [A]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"181 St [A]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"175 St [A]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"168 St [1AC]", "icon":["accessible"], "symbol":"interchange", "label":"name"}
-			]
-		},
-		{
-			"name": "A",
-			"style": {
-				"color": "#2370b3",
-				"outline": "none",
-				"stroke": "solid"
-			},
-			"stations": [
-				{"name":"Euclid Av [AC]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Grant Av [A]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"80 St [A]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"88 St [A]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Rockaway Blvd [A]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"104 St [A]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"111 St [A]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Ozone Park Lefferts Blvd [A]", "icon":["accessible", "airport"], "symbol":"local", "label":"name"}
-			]
-		},
-		{
-			"name": "A",
-			"style": {
-				"color": "#2370b3",
-				"outline": "none",
-				"stroke": "solid"
+	"default":{
+		"label":"name",
+		"symbol":"circle"
+	},
+	"lines":[{
+			"name":"1",
+			"style":{
+				"color":"#dc5451",
+				"outline":"none",
+				"stroke":"solid"
 			},
 			"stations":[
-				{"name":"Rockaway Blvd [A]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Aqueduct-North Conduit Av [A]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Aqueduct Racetrack [A]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Rockaway Blvd [A]", "icon":[], "symbol":"local", "label":"name"}
+				{"name":"Van Cortlandt Park-242 St [1]"},
+				{"name":"238 St [1]"},
+				{"name":"231 St [1]", "icon":["accessible"]},
+				{"name":"Marble Hill-225 St [1]"},
+				{"name":"215 St [1]"},
+				{"name":"207 St [1]"},
+				{"name":"Dyckman St [1]", "icon":["accessible"]},
+				{"name":"191 St [1]"},
+				{"name":"181 St [1]"},
+				{"name":"168 St [1AC]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"157 St [1]"},
+				{"name":"145 St [1]"},
+				{"name":"137 St-City College [1]"},
+				{"name":"125 St [1]"},
+				{"name":"116 St-Columbia University [1]", "icon":["airport"]},
+				{"name":"Cathedral Pkwy-110 St [1]"},
+				{"name":"103 St [1]"},
+				{"name":"96 St [123]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"86 St [1]"},
+				{"name":"79 St [1]"},
+				{"name":"72 St [123]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"66 St-Lincoln Center [1]", "icon":["accessible"]},
+				{"name":"59 St-Columbus Circle [1ABCD]", "icon":["accessible", "police"], "symbol":"interchange"},
+				{"name":"50 St [1]"},
+				{"name":"Times Sq-42 St / 42 St [1237ACENQRSW]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"34 St-Penn Station [123]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"28 St [1]"},
+				{"name":"23 St [1]"},
+				{"name":"18 St [1]"},
+				{"name":"14 St / 6 Av [123FLM]", "symbol":"interchange"},
+				{"name":"Christopher St-Sheridan Sq [1]"},
+				{"name":"Houston St [1]"},
+				{"name":"Canal St [1]"},
+				{"name":"Franklin St [1]"},
+				{"name":"Chambers St [123]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Cortlandt St [1]", "inService":false},
+				{"name":"Rector St [1]"},
+				{"name":"South Ferry / Whitehall St [1RW]", "icon":["boat"]}
 			]
 		},
 		{
-			"name": "A",
-			"style": {
-				"color": "#2370b3",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"2",
+			"style":{
+				"color":"#dc5451",
+				"outline":"none",
+				"stroke":"solid"
 			},
 			"stations":[
-				{"name":"Aqueduct-North Conduit Av [A]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Howard Beach-JFK Airport [A]", "icon":["accessible", "airport"], "symbol":"local", "label":"name"},
-				{"name":"Broad Channel [A]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Beach 90 St [AS]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Beach 98 St [AS]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Beach 105 St [AS]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Rockaway Park-Beach 116 St [AS]", "icon":["accessible", "police"], "symbol":"local", "label":"name"}
+				{"name":"Wakefield-241 St [2]"},
+				{"name":"Nereid Av [25]"},
+				{"name":"233 St [25]", "icon":["accessible"]},
+				{"name":"225 St [25]"},
+				{"name":"219 St [25]"},
+				{"name":"Gun Hill Rd [25]", "icon":["accessible"]},
+				{"name":"Burke Av [25]"},
+				{"name":"Allerton Av [25]"},
+				{"name":"Pelham Pkwy [25]", "icon":["accessible"]},
+				{"name":"Bronx Park East [25]"},
+				{"name":"East 180 St [25]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"West Farms Sq-East Tremont Av [25]"},
+				{"name":"174 St [25]"},
+				{"name":"Freeman St [25]"},
+				{"name":"Simpson St [25]", "icon":["accessible"]},
+				{"name":"Intervale Av [25]"},
+				{"name":"Prospect Av [25]"},
+				{"name":"Jackson Av [25]"},
+				{"name":"3 Av-149 St [25]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"149 St-Grand Concourse [245]", "symbol":"interchange"},
+				{"name":"135 St [23]", "icon":["accessible"]},
+				{"name":"125 St [23]", "icon":["airport"]},
+				{"name":"116 St [23]"},
+				{"name":"Central Park North-110 St [23]"},
+				{"name":"96 St [123]", "icon":["accessible"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "B",
-			"style": {
-				"color": "#e6873b",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"2",
+			"style":{
+				"color":"#dc5451",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Bedford Park Blvd [BD]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Kingsbridge Rd [BD]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Fordham Rd [BD]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"182-183 Sts [BD]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Tremont Av [BD]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"174-175 Sts [BD]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"170 St [BD]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"167 St [BD]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"161 St-Yankee Stadium [4BD]", "icon":["accessible", "police"], "symbol":"local", "label":"name"},
-				{"name":"155 St [BD]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"145 St [ABCD]", "icon":["police"], "symbol":"interchange", "label":"name"},
-				{"name":"135 St [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"125 St [ABCD]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"116 St [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Cathedral Pkwy-110 St [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"103 St [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"96 St [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"86 St [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"81 St-Museum of Natural History [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"72 St [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"59 St-Columbus Circle [1ABCD]", "icon":["accessible", "police"], "symbol":"interchange", "label":"name"},
-				{"name":"7 Av [BDE]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"47-50 Sts-Rockefeller Center [BDFM]", "icon":["accessible"], "symbol":"interchange", "label":"name"}
+			"stations":[
+				{"name":"Chambers St [123]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Chambers St / WTC / Park Place [23ACE]", "symbol":"interchange"},
+				{"name":"Fulton St [2345ACJZ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Wall St [23]"},
+				{"name":"Clark St [23]"},
+				{"name":"Court St / Borough Hall [2345R]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Hoyt St [23]"},
+				{"name":"Nevins St [2345]", "symbol":"interchange"},
+				{"name":"Atlantic Av / Pacific St [2345BDNQR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Bergen St [23]"},
+				{"name":"Grand Army Plaza [23]"},
+				{"name":"Eastern Pkwy-Brooklyn Museum [23]"},
+				{"name":"Franklin Av / Botanic Garden [2345S]", "icon":["police"], "symbol":"interchange"},
+				{"name":"President St [25]"},
+				{"name":"Sterling St [25]"},
+				{"name":"Winthrop St [25]"},
+				{"name":"Church Av [25]", "icon":["accessible"]},
+				{"name":"Beverly Rd [25]"},
+				{"name":"Newkirk Av [25]"},
+				{"name":"Flatbush Av-Brooklyn College [25]", "icon":["accessible"]}
 			]
 		},
 		{
-			"name": "B",
-			"style": {
-				"color": "#e6873b",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"3",
+			"style":{
+				"color":"#dc5451",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Broadway-Lafayette St / Bleecker St [6BDFM]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Grand St [BD]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"DeKalb Av [BQR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Atlantic Av / Pacific St [2345BDNQR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"7 Av [BQ]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Prospect Park [BQS]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Parkside Av [BQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Church Av [BQ]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Beverley Rd [BQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Cortelyou Rd [BQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Newkirk Av [BQ]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Avenue H [BQ]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Avenue J [BQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Avenue M [BQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Kings Hwy [BQ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Avenue U [BQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Neck Rd [BQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Sheepshead Bay [BQ]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Brighton Beach [BQ]", "icon":[], "symbol":"interchange", "label":"name"}
+			"stations":[
+				{"name":"Harlem-148 St [3]"},
+				{"name":"145 St [3]"},
+				{"name":"135 St [23]", "icon":["accessible"]}
 			]
 		},
 		{
-			"name": "C",
-			"style": {
-				"color": "#2370b3",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"3",
+			"style":{
+				"color":"#dc5451",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"168 St [1AC]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"163 St-Amsterdam Av [C]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"155 St [C]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"145 St [ABCD]", "icon":["police"], "symbol":"interchange", "label":"name"},
-				{"name":"135 St [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"125 St [ABCD]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"116 St [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Cathedral Pkwy-110 St [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"103 St [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"96 St [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"86 St [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"81 St-Museum of Natural History [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"72 St [BC]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"59 St-Columbus Circle [1ABCD]", "icon":["accessible", "police"], "symbol":"interchange", "label":"name"},
-				{"name":"50 St [CE]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Times Sq-42 St / 42 St [1237ACENQRSW]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"34 St-Penn Station [ACE]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"23 St [CE]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"14 St / 8 Av [ACEL]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"West 4 St-Washington Sq [ABCDEFM]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Spring St [CE]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Canal St [ACE]", "icon":["police"], "symbol":"interchange", "label":"name"},
-				{"name":"Chambers St / WTC / Park Place [23ACE]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Fulton St [2345ACJZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"High St [AC]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Jay St-MetroTech [ACFR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Hoyt-Schermerhorn Sts [ACG]", "icon":["police"], "symbol":"interchange", "label":"name"},
-				{"name":"Lafayette Av [C]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Clinton-Washington Avs [C]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Franklin Av [CS]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Nostrand Av [AC]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Kingston-Throop Avs [C]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Utica Av [AC]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Ralph Av [C]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Rockaway Av [C]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Broadway Junction [ACJLZ]", "icon":["police"], "symbol":"interchange", "label":"name"},
-				{"name":"Liberty Av [C]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Van Siclen Av [C]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Shepherd Av [C]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Euclid Av [AC]", "icon":["accessible"], "symbol":"interchange", "label":"name"}
+			"stations":[
+				{"name":"Franklin Av / Botanic Garden [2345S]", "icon":["police"], "symbol":"interchange"},
+				{"name":"Nostrand Av [3]"},
+				{"name":"Kingston Av [3]"},
+				{"name":"Crown Heights-Utica Av [34]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Sutter Av-Rutland Rd [3]"},
+				{"name":"Saratoga Av [3]"},
+				{"name":"Rockaway Av [3]"},
+				{"name":"Junius St [3]"},
+				{"name":"Pennsylvania Av [3]"},
+				{"name":"Van Siclen Av [3]"},
+				{"name":"New Lots Av [3]", "icon":["airport"]}
 			]
 		},
 		{
-			"name": "D",
-			"style": {
-				"color": "#e6873b",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"4",
+			"style":{
+				"color":"#4a9655",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Norwood-205 St [D]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Bedford Park Blvd [BD]", "icon":[], "symbol":"interchange", "label":"name"}
+			"stations":[
+				{"name":"Woodlawn [4]"},
+				{"name":"Mosholu Pkwy [4]"},
+				{"name":"Bedford Park Blvd-Lehman College [4]"},
+				{"name":"Kingsbridge Rd [4]"},
+				{"name":"Fordham Rd [4]", "icon":["accessible"]},
+				{"name":"183 St [4]"},
+				{"name":"Burnside Av [4]"},
+				{"name":"176 St [4]"},
+				{"name":"Mt Eden Av [4]"},
+				{"name":"170 St [4]"},
+				{"name":"167 St [4]"},
+				{"name":"161 St-Yankee Stadium [4BD]", "icon":["accessible", "police"]},
+				{"name":"149 St-Grand Concourse [245]", "symbol":"interchange"},
+				{"name":"138 St-Grand Concourse [45]"},
+				{"name":"125 St [456]", "icon":["accessible", "airport"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "D",
-			"style": {
-				"color": "#e6873b",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"4",
+			"style":{
+				"color":"#4a9655",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Atlantic Av / Pacific St [2345BDNQR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Union St [R]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"4 Av / 9 St [FGR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Prospect Av [R]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"25 St [R]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"36 St [DNR]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"9 Av [D]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Fort Hamilton Pkwy [D]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"50 St [D]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"55 St [D]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"New Utrecht Av / 62 St [DN]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"71 St [D]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"79 St [D]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"18 Av [D]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"20 Av [D]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Bay Pkwy [D]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"25 Av [D]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Bay 50 St [D]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Coney Island-Stillwell Av [DFNQ]", "icon":["accessible", "police"], "symbol":"interchange", "label":"name"}
+			"stations":[
+				{"name":"Brooklyn Bridge-City Hall / Chambers St [456JZ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Fulton St [2345ACJZ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Wall St [45]", "symbol":"interchange"},
+				{"name":"Bowling Green [45]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Court St / Borough Hall [2345R]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Hoyt St [23]"},
+				{"name":"Nevins St [2345]", "symbol":"interchange"},
+				{"name":"Atlantic Av / Pacific St [2345BDNQR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Bergen St [23]"},
+				{"name":"Grand Army Plaza [23]"},
+				{"name":"Eastern Pkwy-Brooklyn Museum [23]"},
+				{"name":"Franklin Av / Botanic Garden [2345S]", "icon":["police"], "symbol":"interchange"},
+				{"name":"Nostrand Av [3]"},
+				{"name":"Kingston Av [3]"},
+				{"name":"Crown Heights-Utica Av [34]", "icon":["accessible"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "E",
-			"style": {
-				"color": "#2370b3",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"5",
+			"style":{
+				"color":"#4a9655",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Jamaica Center-Parsons-Archer [EJZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Sutphin Blvd-Archer Av-JFK Airport [EJZ]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"Jamaica-Van Wyck [E]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Briarwood-Van Wyck Blvd [EF]", "icon":["police"], "symbol":"local", "label":"name"},
-				{"name":"Kew Gardens-Union Turnpike [EF]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"75 Av [EF]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Forest Hills-71 Av [EFMR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"67 Av [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"63 Dr-Rego Park [MR]", "icon":["airport"], "symbol":"local", "label":"name"},
-				{"name":"Woodhaven Blvd [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Grand Av-Newtown [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Elmhurst Av [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"74-Bway / Jackson Hts-Roosevelt Av [7EFMR]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"65 St [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Northern Blvd [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"46 St [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Steinway St [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"36 St [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Queens Plaza [EMR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"23 St-Ely Av / Long Island City-Court Sq [EGM]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Lexington Av-53 St / 51 St [6EM]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"5 Av-53 St [EM]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"7 Av [BDE]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"50 St [CE]", "icon":["accessible"], "symbol":"local", "label":"name"}
+			"stations":[
+				{"name":"Eastchester-Dyre Av [5]"},
+				{"name":"Baychester Av [5]"},
+				{"name":"Gun Hill Rd [5]"},
+				{"name":"Pelham Pkwy [5]"},
+				{"name":"Morris Park [5]"},
+				{"name":"East 180 St [25]", "icon":["accessible", "police"]}
 			]
 		},
 		{
-			"name": "E",
-			"style": {
-				"color": "#2370b3",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"5",
+			"style":{
+				"color":"#4a9655",
+				"outline":"none",
+				"stroke":"dashed"
 			},
-			"stations": [
-				{"name":"Canal St [ACE]", "icon":["police"], "symbol":"interchange", "label":"name"},
-				{"name":"Chambers St / WTC / Park Place [23ACE]", "icon":["accessible"], "symbol":"local", "label":"name"}
+			"stations":[
+				{"name":"Nereid Av [25]"},
+				{"name":"233 St [25]", "icon":["accessible"]},
+				{"name":"225 St [25]"},
+				{"name":"219 St [25]"},
+				{"name":"Gun Hill Rd [25]", "icon":["accessible"]},
+				{"name":"Burke Av [25]"},
+				{"name":"Allerton Av [25]"},
+				{"name":"Pelham Pkwy [25]", "icon":["accessible"]},
+				{"name":"Bronx Park East [25]"},
+				{"name":"East 180 St [25]", "icon":["accessible", "police"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "F",
-			"style": {
-				"color": "#e6873b",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"5",
+			"style":{
+				"color":"#4a9655",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Jamaica-179 St [F]", "icon":["accessible", "airport"], "symbol":"local", "label":"name"},
-				{"name":"169 St [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Parsons Blvd [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Sutphin Blvd [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Briarwood-Van Wyck Blvd [EF]", "icon":["police"], "symbol":"local", "label":"name"},
-				{"name":"Kew Gardens-Union Turnpike [EF]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"75 Av [EF]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Forest Hills-71 Av [EFMR]", "icon":["accessible"], "symbol":"interchange", "label":"name"}
+			"stations":[
+				{"name":"East 180 St [25]", "icon":["accessible", "police"], "symbol":"interchange"},
+				{"name":"West Farms Sq-East Tremont Av [25]"},
+				{"name":"174 St [25]"},
+				{"name":"Freeman St [25]"},
+				{"name":"Simpson St [25]", "icon":["accessible"]},
+				{"name":"Intervale Av [25]"},
+				{"name":"Prospect Av [25]"},
+				{"name":"Jackson Av [25]"},
+				{"name":"3 Av-149 St [25]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"149 St-Grand Concourse [245]", "symbol":"interchange"},
+				{"name":"138 St-Grand Concourse [45]"},
+				{"name":"125 St [456]", "icon":["accessible", "airport"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "F",
-			"style": {
-				"color": "#e6873b",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"5",
+			"style":{
+				"color":"#4a9655",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"36 St [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"21 St-Queensbridge [F]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Roosevelt Island [F]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Lexington Av-63 St [FQ]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"57 St [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"47-50 Sts-Rockefeller Center [BDFM]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"42 St-Bryant Pk / 5 Av [7BDFM]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"34 St-Herald Square [BDFMNQRW]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"23 St [FM]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"14 St / 6 Av [123FLM]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"West 4 St-Washington Sq [ABCDEFM]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Broadway-Lafayette St / Bleecker St [6BDFM]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"2 Av [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Delancey St / Essex St [FJMZ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"East Broadway [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"York St [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Jay St-MetroTech [ACFR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Bergen St [FG]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Carroll St [FG]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Smith-9 Sts [FG]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"4 Av / 9 St [FGR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"7 Av [FG]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"15 St-Prospect Park [FG]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Fort Hamilton Pkwy [FG]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Church Av [FG]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Ditmas Av [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"18 Av [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Avenue I [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Bay Pkwy [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Avenue N [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Avenue P [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Kings Hwy [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Avenue U [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Avenue X [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Neptune Av [F]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"West 8 St-New York Aquarium [FQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Coney Island-Stillwell Av [DFNQ]", "icon":["accessible", "police"], "symbol":"interchange", "label":"name"}
+			"stations":[
+				{"name":"Franklin Av / Botanic Garden [2345S]", "icon":["police"], "symbol":"interchange"},
+				{"name":"President St [25]"},
+				{"name":"Sterling St [25]"},
+				{"name":"Winthrop St [25]"},
+				{"name":"Church Av [25]", "icon":["accessible"]},
+				{"name":"Beverly Rd [25]"},
+				{"name":"Newkirk Av [25]"},
+				{"name":"Flatbush Av-Brooklyn College [25]", "icon":["accessible"]}
 			]
 		},
 		{
-			"name": "G",
-			"style": {
-				"color": "#91ba45",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"6",
+			"style":{
+				"color":"#4a9655",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"23 St-Ely Av / Long Island City-Court Sq [EGM]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"21 St [G]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Greenpoint Av [G]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Nassau Av [G]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Lorimer St / Metropolitan Av [GL]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Broadway [G]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Flushing Av [G]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Myrtle-Willoughby Avs [G]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Bedford-Nostrand Avs [G]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Classon Av [G]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Clinton-Washington Avs [G]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Fulton St [G]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Hoyt-Schermerhorn Sts [ACG]", "icon":["police"], "symbol":"interchange", "label":"name"},
-				{"name":"Bergen St [FG]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Carroll St [FG]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Smith-9 Sts [FG]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"4 Av / 9 St [FGR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"7 Av [FG]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"15 St-Prospect Park [FG]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Fort Hamilton Pkwy [FG]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Church Av [FG]", "icon":["accessible"], "symbol":"local", "label":"name"}
+			"stations":[
+				{"name":"Pelham Bay Park [6]", "icon":["accessible"]},
+				{"name":"Buhre Av [6]"},
+				{"name":"Middletown Rd [6]"},
+				{"name":"Westchester Sq-East Tremont Av [6]"},
+				{"name":"Zerega Av [6]"},
+				{"name":"Castle Hill Av [6]"},
+				{"name":"Parkchester [6]", "symbol":"interchange"},
+				{"name":"St Lawrence Av [6]"},
+				{"name":"Morrison Av-Soundview [6]"},
+				{"name":"Elder Av [6]"},
+				{"name":"Whitlock Av [6]"},
+				{"name":"Hunts Point Av [6]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Longwood Av [6]"},
+				{"name":"East 149 St [6]"},
+				{"name":"East 143 St-St Mary's St [6]"},
+				{"name":"Cypress Av [6]"},
+				{"name":"Brook Av [6]"},
+				{"name":"3 Av-138 St [6]", "symbol":"interchange"},
+				{"name":"125 St [456]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"116 St [6]"},
+				{"name":"110 St [6]"},
+				{"name":"103 St [6]"},
+				{"name":"96 St [6]"},
+				{"name":"86 St [456]", "symbol":"interchange"},
+				{"name":"77 St [6]"},
+				{"name":"68 St-Hunter College [6]"},
+				{"name":"Lexington Av / 59 St [456NRW]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Lexington Av-53 St / 51 St [6EM]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Grand Central-42 St [4567S]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"33 St [6]"},
+				{"name":"28 St [6]"},
+				{"name":"23 St [6]"},
+				{"name":"14 St-Union Sq [456LNQRW]", "icon":["accessible", "police"], "symbol":"interchange"},
+				{"name":"Astor Place [6]"},
+				{"name":"Broadway-Lafayette St / Bleecker St [6BDFM]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Spring St [6]"},
+				{"name":"Canal St [6JNQRWZ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Brooklyn Bridge-City Hall / Chambers St [456JZ]", "icon":["accessible"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "J",
-			"style": {
-				"color": "#a87325",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"7",
+			"style":{
+				"color":"#8f4f96",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Jamaica Center-Parsons-Archer [EJZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Sutphin Blvd-Archer Av-JFK Airport [EJZ]", "icon":["accessible", "airport"], "symbol":"interchange", "label":"name"},
-				{"name":"121 St [JZ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"111 St [J]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"104 St [JZ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Woodhaven Blvd [JZ]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"85 St-Forest Pkwy [J]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"75 St-Elderts Ln [JZ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Cypress Hills [J]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Crescent St [JZ]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Norwood Av [JZ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Cleveland St [J]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Van Siclen Av [JZ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Alabama Av [J]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Broadway Junction [ACJLZ]", "icon":["police"], "symbol":"interchange", "label":"name"},
-				{"name":"Chauncey St [JZ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Halsey St [J]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Gates Av [JZ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Kosciuszko St [J]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Myrtle Av [JMZ]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Flushing Av [JM]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Lorimer St [JM]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Hewes St [JM]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Marcy Av [JMZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Delancey St / Essex St [FJMZ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Bowery [JZ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Canal St [6JNQRWZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Brooklyn Bridge-City Hall / Chambers St [456JZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Fulton St [2345ACJZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Broad St [JZ]", "icon":[], "symbol":"local", "label":"name"}
+			"stations":[
+				{"name":"Flushing-Main St [7]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"Mets-Willets Point [7]", "icon":["airport"], "symbol":"interchange"},
+				{"name":"111 St [7]", "icon":["airport"]},
+				{"name":"103 St-Corona Plaza [7]"},
+				{"name":"Junction Blvd [7]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"90 St-Elmhurst Av [7]"},
+				{"name":"82 St-Jackson Hts [7]"},
+				{"name":"74-Bway / Jackson Hts-Roosevelt Av [7EFMR]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"69 St [7]"},
+				{"name":"Woodside-61 St [7]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"52 St [7]"},
+				{"name":"46 St-Bliss St [7]"},
+				{"name":"40 St-Lowery St [7]"},
+				{"name":"33 St-Rawson St [7]"},
+				{"name":"Queensboro Plaza [7NW]", "symbol":"interchange"},
+				{"name":"45 Rd-Court House Sq [7]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Hunters Point Av [7]"},
+				{"name":"Vernon Blvd-Jackson Av [7]"},
+				{"name":"Grand Central-42 St [4567S]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"42 St-Bryant Pk / 5 Av [7BDFM]", "symbol":"interchange"},
+				{"name":"Times Sq-42 St / 42 St [1237ACENQRSW]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"34 St-Hudson Yards [7]", "icon":["accessible"]}
 			]
 		},
 		{
-			"name": "L",
-			"style": {
-				"color": "#939598",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"A",
+			"style":{
+				"color":"#2370b3",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"14 St / 8 Av [ACEL]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"14 St / 6 Av [123FLM]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"14 St-Union Sq [456LNQRW]", "icon":["accessible", "police"], "symbol":"interchange", "label":"name"},
-				{"name":"3 Av [L]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"1 Av [L]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Bedford Av [L]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Lorimer St / Metropolitan Av [GL]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Graham Av [L]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Grand St [L]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Montrose Av [L]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Morgan Av [L]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Jefferson St [L]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"DeKalb Av [L]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Myrtle-Wyckoff Avs [LM]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Halsey St [L]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Wilson Av [L]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Bushwick Av-Aberdeen St [L]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Broadway Junction [ACJLZ]", "icon":["police"], "symbol":"interchange", "label":"name"},
-				{"name":"Atlantic Av [L]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Sutter Av [L]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Livonia Av [L]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"New Lots Av [L]", "icon":["airport"], "symbol":"local", "label":"name"},
-				{"name":"East 105 St [L]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Canarsie-Rockaway Pkwy [L]", "icon":["accessible"], "symbol":"local", "label":"name"}
+			"stations":[
+				{"name":"Inwood-207 St [A]", "icon":["accessible"]},
+				{"name":"Dyckman St [A]"},
+				{"name":"190 St [A]"},
+				{"name":"181 St [A]"},
+				{"name":"175 St [A]", "icon":["accessible"]},
+				{"name":"168 St [1AC]", "icon":["accessible"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "M",
-			"style": {
-				"color": "#e6873b",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"A",
+			"style":{
+				"color":"#2370b3",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Forest Hills-71 Av [EFMR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"67 Av [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"63 Dr-Rego Park [MR]", "icon":["airport"], "symbol":"local", "label":"name"},
-				{"name":"Woodhaven Blvd [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Grand Av-Newtown [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Elmhurst Av [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"74-Bway / Jackson Hts-Roosevelt Av [7EFMR]", "icon":["accessible", "police"], "symbol":"interchange", "label":"name"},
-				{"name":"65 St [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Northern Blvd [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"46 St [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Steinway St [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"36 St [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Queens Plaza [EMR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"23 St-Ely Av / Long Island City-Court Sq [EGM]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Lexington Av-53 St / 51 St [6EM]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"5 Av-53 St [EM]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"47-50 Sts-Rockefeller Center [BDFM]", "icon":["accessible"], "symbol":"interchange", "label":"name"}
+			"stations":[
+				{"name":"Euclid Av [AC]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Grant Av [A]"},
+				{"name":"80 St [A]"},
+				{"name":"88 St [A]"},
+				{"name":"Rockaway Blvd [A]"},
+				{"name":"104 St [A]"},
+				{"name":"111 St [A]"},
+				{"name":"Ozone Park Lefferts Blvd [A]", "icon":["accessible", "airport"]}
 			]
 		},
 		{
-			"name": "M",
-			"style": {
-				"color": "#e6873b",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"A",
+			"style":{
+				"color":"#2370b3",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Broadway-Lafayette St / Bleecker St [6BDFM]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Delancey St / Essex St [FJMZ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Marcy Av [JMZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Hewes St [JM]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Lorimer St [JM]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Flushing Av [JM]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Myrtle Av [JMZ]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Central Av [M]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Knickerbocker Av [M]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Myrtle-Wyckoff Avs [LM]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Seneca Av [M]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Forest Av [M]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Fresh Pond Rd [M]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Middle Village-Metropolitan Av [M]", "icon":["accessible"], "symbol":"local", "label":"name"}
+			"stations":[
+				{"name":"Rockaway Blvd [A]"},
+				{"name":"Aqueduct-North Conduit Av [A]"},
+				{"name":"Aqueduct Racetrack [A]", "icon":["accessible"]},
+				{"name":"Rockaway Blvd [A]"}
 			]
 		},
 		{
-			"name": "N",
-			"style": {
-				"color": "#fad03d",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"A",
+			"style":{
+				"color":"#2370b3",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Astoria-Ditmars Blvd [NW]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Astoria Blvd [NW]", "icon":["airport"], "symbol":"local", "label":"name"},
-				{"name":"30 Av [NW]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Broadway [NW]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"36 Av [NW]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"39 Av [NW]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Queensboro Plaza [7NW]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Lexington Av / 59 St [456NRW]", "icon":[], "symbol":"interchange", "label":"name"}
+			"stations":[
+				{"name":"Aqueduct-North Conduit Av [A]"},
+				{"name":"Howard Beach-JFK Airport [A]", "icon":["accessible", "airport"]},
+				{"name":"Broad Channel [A]"},
+				{"name":"Beach 90 St [AS]"},
+				{"name":"Beach 98 St [AS]"},
+				{"name":"Beach 105 St [AS]"},
+				{"name":"Rockaway Park-Beach 116 St [AS]", "icon":["accessible", "police"]}
 			]
 		},
 		{
-			"name": "N",
-			"style": {
-				"color": "#fad03d",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"B",
+			"style":{
+				"color":"#e6873b",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Canal St [6JNQRWZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Atlantic Av / Pacific St [2345BDNQR]", "icon":["accessible"], "symbol":"interchange", "label":"name"}
+			"stations":[
+				{"name":"Bedford Park Blvd [BD]", "symbol":"interchange"},
+				{"name":"Kingsbridge Rd [BD]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Fordham Rd [BD]", "symbol":"interchange"},
+				{"name":"182-183 Sts [BD]"},
+				{"name":"Tremont Av [BD]", "symbol":"interchange"},
+				{"name":"174-175 Sts [BD]"},
+				{"name":"170 St [BD]"},
+				{"name":"167 St [BD]"},
+				{"name":"161 St-Yankee Stadium [4BD]", "icon":["accessible", "police"]},
+				{"name":"155 St [BD]"},
+				{"name":"145 St [ABCD]", "icon":["police"], "symbol":"interchange"},
+				{"name":"135 St [BC]"},
+				{"name":"125 St [ABCD]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"116 St [BC]"},
+				{"name":"Cathedral Pkwy-110 St [BC]"},
+				{"name":"103 St [BC]"},
+				{"name":"96 St [BC]"},
+				{"name":"86 St [BC]"},
+				{"name":"81 St-Museum of Natural History [BC]"},
+				{"name":"72 St [BC]"},
+				{"name":"59 St-Columbus Circle [1ABCD]", "icon":["accessible", "police"], "symbol":"interchange"},
+				{"name":"7 Av [BDE]", "symbol":"interchange"},
+				{"name":"47-50 Sts-Rockefeller Center [BDFM]", "icon":["accessible"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "N",
-			"style": {
-				"color": "#fad03d",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"B",
+			"style":{
+				"color":"#e6873b",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"59 St [NR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"8 Av [N]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Fort Hamilton Pkwy [N]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"New Utrecht Av / 62 St [DN]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"18 Av [N]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"20 Av [N]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Bay Pkwy [N]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Kings Hwy [N]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Avenue U [N]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"86 St [N]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Coney Island-Stillwell Av [DFNQ]", "icon":["accessible", "police"], "symbol":"interchange", "label":"name"}
+			"stations":[
+				{"name":"Broadway-Lafayette St / Bleecker St [6BDFM]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Grand St [BD]", "symbol":"interchange"},
+				{"name":"DeKalb Av [BQR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Atlantic Av / Pacific St [2345BDNQR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"7 Av [BQ]", "symbol":"interchange"},
+				{"name":"Prospect Park [BQS]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Parkside Av [BQ]"},
+				{"name":"Church Av [BQ]", "symbol":"interchange"},
+				{"name":"Beverley Rd [BQ]"},
+				{"name":"Cortelyou Rd [BQ]"},
+				{"name":"Newkirk Av [BQ]", "symbol":"interchange"},
+				{"name":"Avenue H [BQ]", "icon":["accessible"]},
+				{"name":"Avenue J [BQ]"},
+				{"name":"Avenue M [BQ]"},
+				{"name":"Kings Hwy [BQ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Avenue U [BQ]"},
+				{"name":"Neck Rd [BQ]"},
+				{"name":"Sheepshead Bay [BQ]", "symbol":"interchange"},
+				{"name":"Brighton Beach [BQ]", "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "Q",
-			"style": {
-				"color": "#fad03d",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"C",
+			"style":{
+				"color":"#2370b3",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"96 St [Q]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"86 St [Q]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"72 St [Q]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Lexington Av-63 St [FQ]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"57 St-7 Av [NQRW]", "icon":[], "symbol":"interchange", "label":"name"}
+			"stations":[
+				{"name":"168 St [1AC]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"163 St-Amsterdam Av [C]"},
+				{"name":"155 St [C]"},
+				{"name":"145 St [ABCD]", "icon":["police"], "symbol":"interchange"},
+				{"name":"135 St [BC]"},
+				{"name":"125 St [ABCD]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"116 St [BC]"},
+				{"name":"Cathedral Pkwy-110 St [BC]"},
+				{"name":"103 St [BC]"},
+				{"name":"96 St [BC]"},
+				{"name":"86 St [BC]"},
+				{"name":"81 St-Museum of Natural History [BC]"},
+				{"name":"72 St [BC]"},
+				{"name":"59 St-Columbus Circle [1ABCD]", "icon":["accessible", "police"], "symbol":"interchange"},
+				{"name":"50 St [CE]", "icon":["accessible"]},
+				{"name":"Times Sq-42 St / 42 St [1237ACENQRSW]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"34 St-Penn Station [ACE]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"23 St [CE]"},
+				{"name":"14 St / 8 Av [ACEL]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"West 4 St-Washington Sq [ABCDEFM]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Spring St [CE]"},
+				{"name":"Canal St [ACE]", "icon":["police"], "symbol":"interchange"},
+				{"name":"Chambers St / WTC / Park Place [23ACE]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Fulton St [2345ACJZ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"High St [AC]", "symbol":"interchange"},
+				{"name":"Jay St-MetroTech [ACFR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Hoyt-Schermerhorn Sts [ACG]", "icon":["police"], "symbol":"interchange"},
+				{"name":"Lafayette Av [C]"},
+				{"name":"Clinton-Washington Avs [C]"},
+				{"name":"Franklin Av [CS]", "icon":["accessible"]},
+				{"name":"Nostrand Av [AC]", "symbol":"interchange"},
+				{"name":"Kingston-Throop Avs [C]"},
+				{"name":"Utica Av [AC]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Ralph Av [C]"},
+				{"name":"Rockaway Av [C]"},
+				{"name":"Broadway Junction [ACJLZ]", "icon":["police"], "symbol":"interchange"},
+				{"name":"Liberty Av [C]"},
+				{"name":"Van Siclen Av [C]"},
+				{"name":"Shepherd Av [C]"},
+				{"name":"Euclid Av [AC]", "icon":["accessible"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "Q",
-			"style": {
-				"color": "#fad03d",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"D",
+			"style":{
+				"color":"#e6873b",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Canal St [6JNQRWZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"DeKalb Av [BQR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Atlantic Av / Pacific St [2345BDNQR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"7 Av [BQ]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Prospect Park [BQS]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Parkside Av [BQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Church Av [BQ]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Beverley Rd [BQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Cortelyou Rd [BQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Newkirk Av [BQ]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Avenue H [BQ]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Avenue J [BQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Avenue M [BQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Kings Hwy [BQ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Avenue U [BQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Neck Rd [BQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Sheepshead Bay [BQ]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Brighton Beach [BQ]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"Ocean Pkwy [Q]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"West 8 St-New York Aquarium [FQ]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Coney Island-Stillwell Av [DFNQ]", "icon":["accessible", "police"], "symbol":"interchange", "label":"name"}
+			"stations":[
+				{"name":"Norwood-205 St [D]", "symbol":"interchange"},
+				{"name":"Bedford Park Blvd [BD]", "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "R",
-			"style": {
-				"color": "#fad03d",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"D",
+			"style":{
+				"color":"#e6873b",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Forest Hills-71 Av [EFMR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"67 Av [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"63 Dr-Rego Park [MR]", "icon":["airport"], "symbol":"local", "label":"name"},
-				{"name":"Woodhaven Blvd [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Grand Av-Newtown [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Elmhurst Av [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"74-Bway / Jackson Hts-Roosevelt Av [7EFMR]", "icon":["accessible", "police"], "symbol":"interchange", "label":"name"},
-				{"name":"65 St [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Northern Blvd [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"46 St [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Steinway St [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"36 St [MR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Queens Plaza [EMR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Lexington Av / 59 St [456NRW]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"5 Av-59 St [NRW]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"57 St-7 Av [NQRW]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"49 St [NRW]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Times Sq-42 St / 42 St [1237ACENQRSW]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"34 St-Herald Square [BDFMNQRW]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"28 St [RW]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"23 St [RW]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"14 St-Union Sq [456LNQRW]", "icon":["accessible", "police"], "symbol":"interchange", "label":"name"},
-				{"name":"8 St-New York University [RW]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Prince St [RW]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Canal St [6JNQRWZ]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"City Hall [RW]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Cortlandt St [RW]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Rector St [RW]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"South Ferry / Whitehall St [1RW]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Court St / Borough Hall [2345R]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Jay St-MetroTech [ACFR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"DeKalb Av [BQR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Atlantic Av / Pacific St [2345BDNQR]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Union St [R]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"4 Av / 9 St [FGR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Prospect Av [R]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"25 St [R]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"36 St [DNR]", "icon":[], "symbol":"interchange", "label":"name"},
-				{"name":"45 St [R]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"53 St [R]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"59 St [NR]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Bay Ridge Av [R]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"77 St [R]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"86 St [R]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Bay Ridge-95 St [R]", "icon":[], "symbol":"local", "label":"name"}
+			"stations":[
+				{"name":"Atlantic Av / Pacific St [2345BDNQR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Union St [R]"},
+				{"name":"4 Av / 9 St [FGR]"},
+				{"name":"Prospect Av [R]"},
+				{"name":"25 St [R]"},
+				{"name":"36 St [DNR]", "symbol":"interchange"},
+				{"name":"9 Av [D]"},
+				{"name":"Fort Hamilton Pkwy [D]"},
+				{"name":"50 St [D]"},
+				{"name":"55 St [D]"},
+				{"name":"New Utrecht Av / 62 St [DN]"},
+				{"name":"71 St [D]"},
+				{"name":"79 St [D]"},
+				{"name":"18 Av [D]"},
+				{"name":"20 Av [D]"},
+				{"name":"Bay Pkwy [D]", "icon":["accessible"]},
+				{"name":"25 Av [D]"},
+				{"name":"Bay 50 St [D]"},
+				{"name":"Coney Island-Stillwell Av [DFNQ]", "icon":["accessible", "police"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S",
-			"style": {
-				"color": "#6d6e71",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"E",
+			"style":{
+				"color":"#2370b3",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Times Sq-42 St / 42 St [1237ACENQRSW]", "icon":["accessible"], "symbol":"interchange", "label":"name"},
-				{"name":"Grand Central-42 St [4567S]", "icon":["accessible", "police"], "symbol":"interchange", "label":"name"}
+			"stations":[
+				{"name":"Jamaica Center-Parsons-Archer [EJZ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Sutphin Blvd-Archer Av-JFK Airport [EJZ]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"Jamaica-Van Wyck [E]", "icon":["accessible"]},
+				{"name":"Briarwood-Van Wyck Blvd [EF]", "icon":["police"]},
+				{"name":"Kew Gardens-Union Turnpike [EF]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"75 Av [EF]"},
+				{"name":"Forest Hills-71 Av [EFMR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"67 Av [MR]"},
+				{"name":"63 Dr-Rego Park [MR]", "icon":["airport"]},
+				{"name":"Woodhaven Blvd [MR]"},
+				{"name":"Grand Av-Newtown [MR]"},
+				{"name":"Elmhurst Av [MR]"},
+				{"name":"74-Bway / Jackson Hts-Roosevelt Av [7EFMR]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"65 St [MR]"},
+				{"name":"Northern Blvd [MR]"},
+				{"name":"46 St [MR]"},
+				{"name":"Steinway St [MR]"},
+				{"name":"36 St [MR]"},
+				{"name":"Queens Plaza [EMR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"23 St-Ely Av / Long Island City-Court Sq [EGM]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Lexington Av-53 St / 51 St [6EM]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"5 Av-53 St [EM]", "symbol":"interchange"},
+				{"name":"7 Av [BDE]", "symbol":"interchange"},
+				{"name":"50 St [CE]", "icon":["accessible"]}
 			]
 		},
 		{
-			"name": "S",
-			"style": {
-				"color": "#6d6e71",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"E",
+			"style":{
+				"color":"#2370b3",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Franklin Av [CS]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Park Pl [S]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Franklin Av / Botanic Garden [2345S]", "icon":["police"], "symbol":"interchange", "label":"name"},
-				{"name":"Prospect Park [BQS]", "icon":["accessible"], "symbol":"interchange", "label":"name"}
+			"stations":[
+				{"name":"Canal St [ACE]", "icon":["police"], "symbol":"interchange"},
+				{"name":"Chambers St / WTC / Park Place [23ACE]", "icon":["accessible"]}
 			]
 		},
 		{
-			"name": "S",
-			"style": {
-				"color": "#6d6e71",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"F",
+			"style":{
+				"color":"#e6873b",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Far Rockaway Mott Av [S]", "icon":["accessible"], "symbol":"local", "label":"name"},
-				{"name":"Beach 25 St [S]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Beach 36 St [S]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Beach 44 St [S]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Beach 60 St [S]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Beach 67 St [S]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Beach 90 St [AS]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Beach 98 St [AS]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Beach 105 St [AS]", "icon":[], "symbol":"local", "label":"name"},
-				{"name":"Rockaway Park-Beach 116 St [AS]", "icon":["accessible", "police"], "symbol":"local", "label":"name"}
+			"stations":[
+				{"name":"Jamaica-179 St [F]", "icon":["accessible", "airport"]},
+				{"name":"169 St [F]"},
+				{"name":"Parsons Blvd [F]"},
+				{"name":"Sutphin Blvd [F]"},
+				{"name":"Briarwood-Van Wyck Blvd [EF]", "icon":["police"]},
+				{"name":"Kew Gardens-Union Turnpike [EF]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"75 Av [EF]"},
+				{"name":"Forest Hills-71 Av [EFMR]", "icon":["accessible"], "symbol":"interchange"}
+			]
+		},
+		{
+			"name":"F",
+			"style":{
+				"color":"#e6873b",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"36 St [MR]"},
+				{"name":"21 St-Queensbridge [F]", "icon":["accessible"]},
+				{"name":"Roosevelt Island [F]", "icon":["accessible"]},
+				{"name":"Lexington Av-63 St [FQ]", "icon":["accessible"]},
+				{"name":"57 St [F]"},
+				{"name":"47-50 Sts-Rockefeller Center [BDFM]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"42 St-Bryant Pk / 5 Av [7BDFM]", "symbol":"interchange"},
+				{"name":"34 St-Herald Square [BDFMNQRW]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"23 St [FM]"},
+				{"name":"14 St / 6 Av [123FLM]", "symbol":"interchange"},
+				{"name":"West 4 St-Washington Sq [ABCDEFM]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Broadway-Lafayette St / Bleecker St [6BDFM]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"2 Av [F]"},
+				{"name":"Delancey St / Essex St [FJMZ]"},
+				{"name":"East Broadway [F]"},
+				{"name":"York St [F]"},
+				{"name":"Jay St-MetroTech [ACFR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Bergen St [FG]"},
+				{"name":"Carroll St [FG]"},
+				{"name":"Smith-9 Sts [FG]"},
+				{"name":"4 Av / 9 St [FGR]"},
+				{"name":"7 Av [FG]"},
+				{"name":"15 St-Prospect Park [FG]"},
+				{"name":"Fort Hamilton Pkwy [FG]"},
+				{"name":"Church Av [FG]", "icon":["accessible"]},
+				{"name":"Ditmas Av [F]"},
+				{"name":"18 Av [F]"},
+				{"name":"Avenue I [F]"},
+				{"name":"Bay Pkwy [F]"},
+				{"name":"Avenue N [F]"},
+				{"name":"Avenue P [F]"},
+				{"name":"Kings Hwy [F]"},
+				{"name":"Avenue U [F]"},
+				{"name":"Avenue X [F]"},
+				{"name":"Neptune Av [F]"},
+				{"name":"West 8 St-New York Aquarium [FQ]"},
+				{"name":"Coney Island-Stillwell Av [DFNQ]", "icon":["accessible", "police"], "symbol":"interchange"}
+			]
+		},
+		{
+			"name":"G",
+			"style":{
+				"color":"#91ba45",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"23 St-Ely Av / Long Island City-Court Sq [EGM]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"21 St [G]"},
+				{"name":"Greenpoint Av [G]"},
+				{"name":"Nassau Av [G]"},
+				{"name":"Lorimer St / Metropolitan Av [GL]"},
+				{"name":"Broadway [G]"},
+				{"name":"Flushing Av [G]"},
+				{"name":"Myrtle-Willoughby Avs [G]"},
+				{"name":"Bedford-Nostrand Avs [G]"},
+				{"name":"Classon Av [G]"},
+				{"name":"Clinton-Washington Avs [G]"},
+				{"name":"Fulton St [G]"},
+				{"name":"Hoyt-Schermerhorn Sts [ACG]", "icon":["police"], "symbol":"interchange"},
+				{"name":"Bergen St [FG]"},
+				{"name":"Carroll St [FG]"},
+				{"name":"Smith-9 Sts [FG]"},
+				{"name":"4 Av / 9 St [FGR]"},
+				{"name":"7 Av [FG]"},
+				{"name":"15 St-Prospect Park [FG]"},
+				{"name":"Fort Hamilton Pkwy [FG]"},
+				{"name":"Church Av [FG]", "icon":["accessible"]}
+			]
+		},
+		{
+			"name":"J",
+			"style":{
+				"color":"#a87325",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"Jamaica Center-Parsons-Archer [EJZ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Sutphin Blvd-Archer Av-JFK Airport [EJZ]", "icon":["accessible", "airport"], "symbol":"interchange"},
+				{"name":"121 St [JZ]"},
+				{"name":"111 St [J]"},
+				{"name":"104 St [JZ]"},
+				{"name":"Woodhaven Blvd [JZ]", "symbol":"interchange"},
+				{"name":"85 St-Forest Pkwy [J]"},
+				{"name":"75 St-Elderts Ln [JZ]"},
+				{"name":"Cypress Hills [J]"},
+				{"name":"Crescent St [JZ]", "symbol":"interchange"},
+				{"name":"Norwood Av [JZ]"},
+				{"name":"Cleveland St [J]"},
+				{"name":"Van Siclen Av [JZ]"},
+				{"name":"Alabama Av [J]", "symbol":"interchange"},
+				{"name":"Broadway Junction [ACJLZ]", "icon":["police"], "symbol":"interchange"},
+				{"name":"Chauncey St [JZ]"},
+				{"name":"Halsey St [J]"},
+				{"name":"Gates Av [JZ]"},
+				{"name":"Kosciuszko St [J]"},
+				{"name":"Myrtle Av [JMZ]", "symbol":"interchange"},
+				{"name":"Flushing Av [JM]", "icon":["accessible"]},
+				{"name":"Lorimer St [JM]"},
+				{"name":"Hewes St [JM]"},
+				{"name":"Marcy Av [JMZ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Delancey St / Essex St [FJMZ]"},
+				{"name":"Bowery [JZ]"},
+				{"name":"Canal St [6JNQRWZ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Brooklyn Bridge-City Hall / Chambers St [456JZ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Fulton St [2345ACJZ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Broad St [JZ]"}
+			]
+		},
+		{
+			"name":"L",
+			"style":{
+				"color":"#939598",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"14 St / 8 Av [ACEL]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"14 St / 6 Av [123FLM]", "symbol":"interchange"},
+				{"name":"14 St-Union Sq [456LNQRW]", "icon":["accessible", "police"], "symbol":"interchange"},
+				{"name":"3 Av [L]"},
+				{"name":"1 Av [L]"},
+				{"name":"Bedford Av [L]"},
+				{"name":"Lorimer St / Metropolitan Av [GL]"},
+				{"name":"Graham Av [L]"},
+				{"name":"Grand St [L]"},
+				{"name":"Montrose Av [L]"},
+				{"name":"Morgan Av [L]"},
+				{"name":"Jefferson St [L]"},
+				{"name":"DeKalb Av [L]"},
+				{"name":"Myrtle-Wyckoff Avs [LM]", "icon":["accessible"]},
+				{"name":"Halsey St [L]"},
+				{"name":"Wilson Av [L]", "icon":["accessible"]},
+				{"name":"Bushwick Av-Aberdeen St [L]"},
+				{"name":"Broadway Junction [ACJLZ]", "icon":["police"], "symbol":"interchange"},
+				{"name":"Atlantic Av [L]"},
+				{"name":"Sutter Av [L]"},
+				{"name":"Livonia Av [L]"},
+				{"name":"New Lots Av [L]", "icon":["airport"]},
+				{"name":"East 105 St [L]"},
+				{"name":"Canarsie-Rockaway Pkwy [L]", "icon":["accessible"]}
+			]
+		},
+		{
+			"name":"M",
+			"style":{
+				"color":"#e6873b",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"Forest Hills-71 Av [EFMR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"67 Av [MR]"},
+				{"name":"63 Dr-Rego Park [MR]", "icon":["airport"]},
+				{"name":"Woodhaven Blvd [MR]"},
+				{"name":"Grand Av-Newtown [MR]"},
+				{"name":"Elmhurst Av [MR]"},
+				{"name":"74-Bway / Jackson Hts-Roosevelt Av [7EFMR]", "icon":["accessible", "police"], "symbol":"interchange"},
+				{"name":"65 St [MR]"},
+				{"name":"Northern Blvd [MR]"},
+				{"name":"46 St [MR]"},
+				{"name":"Steinway St [MR]"},
+				{"name":"36 St [MR]"},
+				{"name":"Queens Plaza [EMR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"23 St-Ely Av / Long Island City-Court Sq [EGM]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Lexington Av-53 St / 51 St [6EM]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"5 Av-53 St [EM]", "symbol":"interchange"},
+				{"name":"47-50 Sts-Rockefeller Center [BDFM]", "icon":["accessible"], "symbol":"interchange"}
+			]
+		},
+		{
+			"name":"M",
+			"style":{
+				"color":"#e6873b",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"Broadway-Lafayette St / Bleecker St [6BDFM]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Delancey St / Essex St [FJMZ]"},
+				{"name":"Marcy Av [JMZ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Hewes St [JM]"},
+				{"name":"Lorimer St [JM]"},
+				{"name":"Flushing Av [JM]", "icon":["accessible"]},
+				{"name":"Myrtle Av [JMZ]", "symbol":"interchange"},
+				{"name":"Central Av [M]"},
+				{"name":"Knickerbocker Av [M]"},
+				{"name":"Myrtle-Wyckoff Avs [LM]", "icon":["accessible"]},
+				{"name":"Seneca Av [M]"},
+				{"name":"Forest Av [M]"},
+				{"name":"Fresh Pond Rd [M]"},
+				{"name":"Middle Village-Metropolitan Av [M]", "icon":["accessible"]}
+			]
+		},
+		{
+			"name":"N",
+			"style":{
+				"color":"#fad03d",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"Astoria-Ditmars Blvd [NW]"},
+				{"name":"Astoria Blvd [NW]", "icon":["airport"]},
+				{"name":"30 Av [NW]"},
+				{"name":"Broadway [NW]"},
+				{"name":"36 Av [NW]"},
+				{"name":"39 Av [NW]"},
+				{"name":"Queensboro Plaza [7NW]", "symbol":"interchange"},
+				{"name":"Lexington Av / 59 St [456NRW]", "symbol":"interchange"}
+			]
+		},
+		{
+			"name":"N",
+			"style":{
+				"color":"#fad03d",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"Canal St [6JNQRWZ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Atlantic Av / Pacific St [2345BDNQR]", "icon":["accessible"], "symbol":"interchange"}
+			]
+		},
+		{
+			"name":"N",
+			"style":{
+				"color":"#fad03d",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"59 St [NR]"},
+				{"name":"8 Av [N]"},
+				{"name":"Fort Hamilton Pkwy [N]"},
+				{"name":"New Utrecht Av / 62 St [DN]"},
+				{"name":"18 Av [N]"},
+				{"name":"20 Av [N]"},
+				{"name":"Bay Pkwy [N]"},
+				{"name":"Kings Hwy [N]"},
+				{"name":"Avenue U [N]"},
+				{"name":"86 St [N]"},
+				{"name":"Coney Island-Stillwell Av [DFNQ]", "icon":["accessible", "police"], "symbol":"interchange"}
+			]
+		},
+		{
+			"name":"Q",
+			"style":{
+				"color":"#fad03d",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"96 St [Q]", "icon":["accessible"]},
+				{"name":"86 St [Q]", "icon":["accessible"]},
+				{"name":"72 St [Q]", "icon":["accessible"]},
+				{"name":"Lexington Av-63 St [FQ]", "icon":["accessible"]},
+				{"name":"57 St-7 Av [NQRW]", "symbol":"interchange"}
+			]
+		},
+		{
+			"name":"Q",
+			"style":{
+				"color":"#fad03d",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"Canal St [6JNQRWZ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"DeKalb Av [BQR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Atlantic Av / Pacific St [2345BDNQR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"7 Av [BQ]", "symbol":"interchange"},
+				{"name":"Prospect Park [BQS]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Parkside Av [BQ]"},
+				{"name":"Church Av [BQ]", "symbol":"interchange"},
+				{"name":"Beverley Rd [BQ]"},
+				{"name":"Cortelyou Rd [BQ]"},
+				{"name":"Newkirk Av [BQ]", "symbol":"interchange"},
+				{"name":"Avenue H [BQ]", "icon":["accessible"]},
+				{"name":"Avenue J [BQ]"},
+				{"name":"Avenue M [BQ]"},
+				{"name":"Kings Hwy [BQ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Avenue U [BQ]"},
+				{"name":"Neck Rd [BQ]"},
+				{"name":"Sheepshead Bay [BQ]", "symbol":"interchange"},
+				{"name":"Brighton Beach [BQ]", "symbol":"interchange"},
+				{"name":"Ocean Pkwy [Q]"},
+				{"name":"West 8 St-New York Aquarium [FQ]"},
+				{"name":"Coney Island-Stillwell Av [DFNQ]", "icon":["accessible", "police"], "symbol":"interchange"}
+			]
+		},
+		{
+			"name":"R",
+			"style":{
+				"color":"#fad03d",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"Forest Hills-71 Av [EFMR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"67 Av [MR]"},
+				{"name":"63 Dr-Rego Park [MR]", "icon":["airport"]},
+				{"name":"Woodhaven Blvd [MR]"},
+				{"name":"Grand Av-Newtown [MR]"},
+				{"name":"Elmhurst Av [MR]"},
+				{"name":"74-Bway / Jackson Hts-Roosevelt Av [7EFMR]", "icon":["accessible", "police"], "symbol":"interchange"},
+				{"name":"65 St [MR]"},
+				{"name":"Northern Blvd [MR]"},
+				{"name":"46 St [MR]"},
+				{"name":"Steinway St [MR]"},
+				{"name":"36 St [MR]"},
+				{"name":"Queens Plaza [EMR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Lexington Av / 59 St [456NRW]", "symbol":"interchange"},
+				{"name":"5 Av-59 St [NRW]"},
+				{"name":"57 St-7 Av [NQRW]", "symbol":"interchange"},
+				{"name":"49 St [NRW]", "icon":["accessible"]},
+				{"name":"Times Sq-42 St / 42 St [1237ACENQRSW]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"34 St-Herald Square [BDFMNQRW]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"28 St [RW]"},
+				{"name":"23 St [RW]"},
+				{"name":"14 St-Union Sq [456LNQRW]", "icon":["accessible", "police"], "symbol":"interchange"},
+				{"name":"8 St-New York University [RW]"},
+				{"name":"Prince St [RW]"},
+				{"name":"Canal St [6JNQRWZ]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"City Hall [RW]"},
+				{"name":"Cortlandt St [RW]", "icon":["accessible"]},
+				{"name":"Rector St [RW]"},
+				{"name":"South Ferry / Whitehall St [1RW]"},
+				{"name":"Court St / Borough Hall [2345R]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Jay St-MetroTech [ACFR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"DeKalb Av [BQR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Atlantic Av / Pacific St [2345BDNQR]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Union St [R]"},
+				{"name":"4 Av / 9 St [FGR]"},
+				{"name":"Prospect Av [R]"},
+				{"name":"25 St [R]"},
+				{"name":"36 St [DNR]", "symbol":"interchange"},
+				{"name":"45 St [R]"},
+				{"name":"53 St [R]"},
+				{"name":"59 St [NR]"},
+				{"name":"Bay Ridge Av [R]"},
+				{"name":"77 St [R]"},
+				{"name":"86 St [R]"},
+				{"name":"Bay Ridge-95 St [R]"}
+			]
+		},
+		{
+			"name":"S",
+			"style":{
+				"color":"#6d6e71",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"Times Sq-42 St / 42 St [1237ACENQRSW]", "icon":["accessible"], "symbol":"interchange"},
+				{"name":"Grand Central-42 St [4567S]", "icon":["accessible", "police"], "symbol":"interchange"}
+			]
+		},
+		{
+			"name":"S",
+			"style":{
+				"color":"#6d6e71",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"Franklin Av [CS]", "icon":["accessible"]},
+				{"name":"Park Pl [S]", "icon":["accessible"]},
+				{"name":"Franklin Av / Botanic Garden [2345S]", "icon":["police"], "symbol":"interchange"},
+				{"name":"Prospect Park [BQS]", "icon":["accessible"], "symbol":"interchange"}
+			]
+		},
+		{
+			"name":"S",
+			"style":{
+				"color":"#6d6e71",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"Far Rockaway Mott Av [S]", "icon":["accessible"]},
+				{"name":"Beach 25 St [S]"},
+				{"name":"Beach 36 St [S]"},
+				{"name":"Beach 44 St [S]"},
+				{"name":"Beach 60 St [S]"},
+				{"name":"Beach 67 St [S]"},
+				{"name":"Beach 90 St [AS]"},
+				{"name":"Beach 98 St [AS]"},
+				{"name":"Beach 105 St [AS]"},
+				{"name":"Rockaway Park-Beach 116 St [AS]", "icon":["accessible", "police"]}
 			]
 		}
 	]

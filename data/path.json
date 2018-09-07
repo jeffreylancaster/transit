@@ -5,68 +5,72 @@
 		"width":800,
 		"height":800
 	},
-	"lines": [{
-			"name": "Red",
-			"style": {
-				"color": "#e93f33",
-				"outline": "none",
-				"stroke": "solid"
+	"default":{
+		"label":"name",
+		"symbol":"circle"
+	},
+	"lines":[{
+			"name":"Red",
+			"style":{
+				"color":"#e93f33",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "World Trade Center","icon": ["accessible"],"symbol": "circle","label": "name"},
-				{"name": "Exchange Pl","icon": ["accessible"],"symbol": "circle","label": "name"},
-				{"name": "Grove St","icon": ["accessible"],"symbol": "circle","label": "name"},
-				{"name": "Journal Square","icon": ["accessible"],"symbol": "circle","label": "name"},
-				{"name": "Harrison","icon": [],"symbol": "circle","label": "name"},
-				{"name": "Newark - Penn Station","icon": ["accessible"],"symbol": "circle","label": "name"}
+			"stations":[
+				{"name":"World Trade Center","icon":["accessible"]},
+				{"name":"Exchange Pl","icon":["accessible"]},
+				{"name":"Grove St","icon":["accessible"]},
+				{"name":"Journal Square","icon":["accessible"]},
+				{"name":"Harrison"},
+				{"name":"Newark - Penn Station","icon":["accessible"]}
 			]
 		},
 		{
-			"name": "Blue",
-			"style": {
-				"color": "#49acd5",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Blue",
+			"style":{
+				"color":"#49acd5",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "33 St","icon": ["accessible"],"symbol": "circle","label": "name"},
-				{"name": "23 St","icon": [],"symbol": "circle","label": "name"},
-				{"name": "14 St","icon": [],"symbol": "circle","label": "name"},
-				{"name": "9 St","icon": [],"symbol": "circle","label": "name"},
-				{"name": "Christopher St","icon": [],"symbol": "circle","label": "name"},
-				{"name": "Hoboken","icon": ["accessible"],"symbol": "circle","label": "name"}
+			"stations":[
+				{"name":"33 St","icon":["accessible"]},
+				{"name":"23 St"},
+				{"name":"14 St"},
+				{"name":"9 St"},
+				{"name":"Christopher St"},
+				{"name":"Hoboken","icon":["accessible"]}
 			]
 		},
 		{
-			"name": "Yellow",
-			"style": {
-				"color": "#f6b833",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Yellow",
+			"style":{
+				"color":"#f6b833",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "33 St","icon": ["accessible"],"symbol": "circle","label": "name"},
-				{"name": "23 St","icon": [],"symbol": "circle","label": "name"},
-				{"name": "14 St","icon": [],"symbol": "circle","label": "name"},
-				{"name": "9 St","icon": [],"symbol": "circle","label": "name"},
-				{"name": "Christopher St","icon": [],"symbol": "circle","label": "name"},
-				{"name": "Newport","icon": ["accessible"],"symbol": "circle","label": "name"},
-				{"name": "Grove St","icon": ["accessible"],"symbol": "circle","label": "name"},
-				{"name": "Journal Square","icon": ["accessible"],"symbol": "circle","label": "name"}
+			"stations":[
+				{"name":"33 St","icon":["accessible"]},
+				{"name":"23 St"},
+				{"name":"14 St"},
+				{"name":"9 St"},
+				{"name":"Christopher St"},
+				{"name":"Newport","icon":["accessible"]},
+				{"name":"Grove St","icon":["accessible"]},
+				{"name":"Journal Square","icon":["accessible"]}
 			]
 		},
 		{
-			"name": "Green",
-			"style": {
-				"color": "#5cb558",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Green",
+			"style":{
+				"color":"#5cb558",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "World Trade Center","icon": ["accessible"],"symbol": "circle","label": "name"},
-				{"name": "Exchange Pl","icon": ["accessible"],"symbol": "circle","label": "name"},
-				{"name": "Newport","icon": ["accessible"],"symbol": "circle","label": "name"},
-				{"name": "Hoboken","icon": ["accessible"],"symbol": "circle","label": "name"}
+			"stations":[
+				{"name":"World Trade Center","icon":["accessible"]},
+				{"name":"Exchange Pl","icon":["accessible"]},
+				{"name":"Newport","icon":["accessible"]},
+				{"name":"Hoboken","icon":["accessible"]}
 			]
 		}
 	]

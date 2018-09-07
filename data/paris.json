@@ -1,6 +1,7 @@
 // handicap white --> interchange and accessible icon
 // handicap blue --> accessible icon?
 // check RER names vs. Metro names on map
+// replace , "symbol":"" and , "icon":[]
 
 //* La Défense [A], La Défense [1], La Défense [2]
 //* Charles de Gaulle – Étoile [1, 2, 6], Charles de Gaulle – Étoile [A]
@@ -28,7 +29,7 @@
 
 
 
-// {"name":"Harrow & Wealdstone", "symbol": "handicap-white", "icon":["national-rail"], "label":"name", "symbol": "", "icon":[], "label":"name"},
+// {"name":"Harrow & Wealdstone", "symbol":"handicap-white", "icon":["national-rail"], "symbol":"", "icon":[]},
 {
 	"notes":"https://upload.wikimedia.org/wikipedia/commons/2/2b/Carte_M%C3%A9tro_de_Paris.jpg",
 	"map":"Paris Metro",
@@ -36,1339 +37,1343 @@
 		"width":1200,
 		"height":1200
 	},
-	"lines": [
+	"default":{
+		"label":"name",
+		"symbol":"circle"
+	},
+	"lines":[
 		{
-			"name": "1",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"1",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "La Défense [1]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Esplanade de La Défense", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Pont de Neuilly", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Les Sablons", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte Maillot", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Argentine", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Charles de Gaulle – Étoile [1, 2, 6]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "George V", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Franklin D. Roosevelt", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Champs-Élysées – Clemenceau", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Concorde", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Tuileries", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Palais Royal", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Louvre – Rivoli", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Châtelet", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Hôtel de Ville", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Paul", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bastille", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Gare de Lyon", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Reuilly – Diderot", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Nation [1, 6, 9, A]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Porte de Vincennes [1]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Mandé", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bérault", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Château de Vincennes", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"La Défense [1]", "symbol":"interchange", "icon":[]},
+				{"name":"Esplanade de La Défense", "symbol":"", "icon":[]},
+				{"name":"Pont de Neuilly", "symbol":"", "icon":[]},
+				{"name":"Les Sablons", "symbol":"", "icon":[]},
+				{"name":"Porte Maillot", "symbol":"interchange", "icon":[]},
+				{"name":"Argentine", "symbol":"", "icon":[]},
+				{"name":"Charles de Gaulle – Étoile [1, 2, 6]", "symbol":"interchange", "icon":[]},
+				{"name":"George V", "symbol":"", "icon":[]},
+				{"name":"Franklin D. Roosevelt", "symbol":"interchange", "icon":[]},
+				{"name":"Champs-Élysées – Clemenceau", "symbol":"interchange", "icon":[]},
+				{"name":"Concorde", "symbol":"interchange", "icon":[]},
+				{"name":"Tuileries", "symbol":"", "icon":[]},
+				{"name":"Palais Royal", "symbol":"interchange", "icon":[]},
+				{"name":"Louvre – Rivoli", "symbol":"", "icon":[]},
+				{"name":"Châtelet", "symbol":"interchange", "icon":[]},
+				{"name":"Hôtel de Ville", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Paul", "symbol":"", "icon":[]},
+				{"name":"Bastille", "symbol":"interchange", "icon":[]},
+				{"name":"Gare de Lyon", "symbol":"interchange", "icon":[]},
+				{"name":"Reuilly – Diderot", "symbol":"interchange", "icon":[]},
+				{"name":"Nation [1, 6, 9, A]", "symbol":"interchange", "icon":[]},
+				{"name":"Porte de Vincennes [1]", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Mandé", "symbol":"", "icon":[]},
+				{"name":"Bérault", "symbol":"", "icon":[]},
+				{"name":"Château de Vincennes", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "2",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"2",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Porte Dauphine", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Victor Hugo", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Charles de Gaulle – Étoile [1, 2, 6]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Ternes", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Courcelles", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Monceau", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Villiers", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Rome", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Place de Clichy", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Blanche", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Pigalle", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Anvers", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Barbès – Rochechouart", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "La Chapelle", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Stalingrad", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Jaurès", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Colonel Fabien", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Belleville", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Couronnes", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Ménilmontant", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Père Lachaise", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Philippe Auguste", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Alexandre Dumas", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Avron", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Nation [2]", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Porte Dauphine", "symbol":"", "icon":[]},
+				{"name":"Victor Hugo", "symbol":"", "icon":[]},
+				{"name":"Charles de Gaulle – Étoile [1, 2, 6]", "symbol":"interchange", "icon":[]},
+				{"name":"Ternes", "symbol":"", "icon":[]},
+				{"name":"Courcelles", "symbol":"", "icon":[]},
+				{"name":"Monceau", "symbol":"", "icon":[]},
+				{"name":"Villiers", "symbol":"interchange", "icon":[]},
+				{"name":"Rome", "symbol":"", "icon":[]},
+				{"name":"Place de Clichy", "symbol":"interchange", "icon":[]},
+				{"name":"Blanche", "symbol":"", "icon":[]},
+				{"name":"Pigalle", "symbol":"interchange", "icon":[]},
+				{"name":"Anvers", "symbol":"", "icon":[]},
+				{"name":"Barbès – Rochechouart", "symbol":"interchange", "icon":[]},
+				{"name":"La Chapelle", "symbol":"interchange", "icon":[]},
+				{"name":"Stalingrad", "symbol":"interchange", "icon":[]},
+				{"name":"Jaurès", "symbol":"interchange", "icon":[]},
+				{"name":"Colonel Fabien", "symbol":"", "icon":[]},
+				{"name":"Belleville", "symbol":"interchange", "icon":[]},
+				{"name":"Couronnes", "symbol":"", "icon":[]},
+				{"name":"Ménilmontant", "symbol":"", "icon":[]},
+				{"name":"Père Lachaise", "symbol":"interchange", "icon":[]},
+				{"name":"Philippe Auguste", "symbol":"", "icon":[]},
+				{"name":"Alexandre Dumas", "symbol":"", "icon":[]},
+				{"name":"Avron", "symbol":"", "icon":[]},
+				{"name":"Nation [2]", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "3",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"3",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Pont de Levallois - Bécon", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Anatole France", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Louise Michel", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de Champerret", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Pereire", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Wagram", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Malesherbes", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Villiers", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Europe", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Saint-Lazare", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Havre - Caumartin", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Opéra", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Quatre-Septembre", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bourse", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Sentier", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Réaumur - Sébastopol", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Arts et Métiers", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Temple", "symbol": "", "icon":[], "label":"name"},
-				{"name": "République", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Parmentier", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Rue Saint-Maur", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Père Lachaise", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Gambetta", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Porte de Bagnolet", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Gallieni", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Pont de Levallois - Bécon", "symbol":"", "icon":[]},
+				{"name":"Anatole France", "symbol":"", "icon":[]},
+				{"name":"Louise Michel", "symbol":"", "icon":[]},
+				{"name":"Porte de Champerret", "symbol":"", "icon":[]},
+				{"name":"Pereire", "symbol":"interchange", "icon":[]},
+				{"name":"Wagram", "symbol":"", "icon":[]},
+				{"name":"Malesherbes", "symbol":"", "icon":[]},
+				{"name":"Villiers", "symbol":"interchange", "icon":[]},
+				{"name":"Europe", "symbol":"", "icon":[]},
+				{"name":"Saint-Lazare", "symbol":"interchange", "icon":[]},
+				{"name":"Havre - Caumartin", "symbol":"interchange", "icon":[]},
+				{"name":"Opéra", "symbol":"interchange", "icon":[]},
+				{"name":"Quatre-Septembre", "symbol":"", "icon":[]},
+				{"name":"Bourse", "symbol":"", "icon":[]},
+				{"name":"Sentier", "symbol":"", "icon":[]},
+				{"name":"Réaumur - Sébastopol", "symbol":"interchange", "icon":[]},
+				{"name":"Arts et Métiers", "symbol":"interchange", "icon":[]},
+				{"name":"Temple", "symbol":"", "icon":[]},
+				{"name":"République", "symbol":"interchange", "icon":[]},
+				{"name":"Parmentier", "symbol":"", "icon":[]},
+				{"name":"Rue Saint-Maur", "symbol":"", "icon":[]},
+				{"name":"Père Lachaise", "symbol":"interchange", "icon":[]},
+				{"name":"Gambetta", "symbol":"interchange", "icon":[]},
+				{"name":"Porte de Bagnolet", "symbol":"interchange", "icon":[]},
+				{"name":"Gallieni", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "3bis",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"3bis",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Porte des Lilas", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Fargeau", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Pelleport", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gambetta", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Porte des Lilas", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Fargeau", "symbol":"", "icon":[]},
+				{"name":"Pelleport", "symbol":"", "icon":[]},
+				{"name":"Gambetta", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "4",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"4",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Porte de Clignancourt", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Simplon", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Marcadet – Poissonniers", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Château Rouge", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Barbès – Rochechouart", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Gare du Nord", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Gare de l'Est", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Château d'Eau", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Strasbourg – Saint-Denis", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Réaumur – Sébastopol", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Étienne Marcel", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Les Halles [4]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Châtelet - Les Halles", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Cité", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Saint-Michel", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Odéon", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Germain-des-Prés", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Saint-Sulpice", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Saint-Placide", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Montparnasse - Bienvenüe [4, 12]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Vavin", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Raspail", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Denfert-Rochereau [4, 6]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Mouton-Duvernet", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Alésia", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte d'Orléans", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Mairie de Montrouge", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Porte de Clignancourt", "symbol":"", "icon":[]},
+				{"name":"Simplon", "symbol":"", "icon":[]},
+				{"name":"Marcadet – Poissonniers", "symbol":"interchange", "icon":[]},
+				{"name":"Château Rouge", "symbol":"", "icon":[]},
+				{"name":"Barbès – Rochechouart", "symbol":"interchange", "icon":[]},
+				{"name":"Gare du Nord", "symbol":"interchange", "icon":[]},
+				{"name":"Gare de l'Est", "symbol":"interchange", "icon":[]},
+				{"name":"Château d'Eau", "symbol":"", "icon":[]},
+				{"name":"Strasbourg – Saint-Denis", "symbol":"interchange", "icon":[]},
+				{"name":"Réaumur – Sébastopol", "symbol":"interchange", "icon":[]},
+				{"name":"Étienne Marcel", "symbol":"", "icon":[]},
+				{"name":"Les Halles [4]", "symbol":"interchange", "icon":[]},
+				{"name":"Châtelet - Les Halles", "symbol":"interchange", "icon":[]},
+				{"name":"Cité", "symbol":"", "icon":[]},
+				{"name":"Saint-Michel", "symbol":"interchange", "icon":[]},
+				{"name":"Odéon", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Germain-des-Prés", "symbol":"", "icon":[]},
+				{"name":"Saint-Sulpice", "symbol":"", "icon":[]},
+				{"name":"Saint-Placide", "symbol":"", "icon":[]},
+				{"name":"Montparnasse - Bienvenüe [4, 12]", "symbol":"interchange", "icon":[]},
+				{"name":"Vavin", "symbol":"", "icon":[]},
+				{"name":"Raspail", "symbol":"interchange", "icon":[]},
+				{"name":"Denfert-Rochereau [4, 6]", "symbol":"interchange", "icon":[]},
+				{"name":"Mouton-Duvernet", "symbol":"", "icon":[]},
+				{"name":"Alésia", "symbol":"", "icon":[]},
+				{"name":"Porte d'Orléans", "symbol":"interchange", "icon":[]},
+				{"name":"Mairie de Montrouge", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "5",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"5",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Bobigny – Pablo Picasso", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Bobigny – Pantin – Raymond Queneau", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Église de Pantin", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Hoche", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de Pantin", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Ourcq", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Laumière", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Jaurès", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Stalingrad", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Gare du Nord", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Gare de l'Est", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Jacques Bonsergent", "symbol": "", "icon":[], "label":"name"},
-				{"name": "République", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Oberkampf", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Richard-Lenoir", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bréguet – Sabin", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bastille", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Quai de la Rapée", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gare d'Austerlitz [5, 10]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Marcel", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Campo Formio", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Place d'Italie", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Bobigny – Pablo Picasso", "symbol":"interchange", "icon":[]},
+				{"name":"Bobigny – Pantin – Raymond Queneau", "symbol":"", "icon":[]},
+				{"name":"Église de Pantin", "symbol":"", "icon":[]},
+				{"name":"Hoche", "symbol":"", "icon":[]},
+				{"name":"Porte de Pantin", "symbol":"interchange", "icon":[]},
+				{"name":"Ourcq", "symbol":"", "icon":[]},
+				{"name":"Laumière", "symbol":"", "icon":[]},
+				{"name":"Jaurès", "symbol":"interchange", "icon":[]},
+				{"name":"Stalingrad", "symbol":"interchange", "icon":[]},
+				{"name":"Gare du Nord", "symbol":"interchange", "icon":[]},
+				{"name":"Gare de l'Est", "symbol":"interchange", "icon":[]},
+				{"name":"Jacques Bonsergent", "symbol":"", "icon":[]},
+				{"name":"République", "symbol":"interchange", "icon":[]},
+				{"name":"Oberkampf", "symbol":"interchange", "icon":[]},
+				{"name":"Richard-Lenoir", "symbol":"", "icon":[]},
+				{"name":"Bréguet – Sabin", "symbol":"", "icon":[]},
+				{"name":"Bastille", "symbol":"interchange", "icon":[]},
+				{"name":"Quai de la Rapée", "symbol":"", "icon":[]},
+				{"name":"Gare d'Austerlitz [5, 10]", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Marcel", "symbol":"", "icon":[]},
+				{"name":"Campo Formio", "symbol":"", "icon":[]},
+				{"name":"Place d'Italie", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "6",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"6",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Charles de Gaulle – Étoile [1, 2, 6]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Kléber", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Boissière", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Trocadéro", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Passy", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bir-Hakeim - Tour Eiffel", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Dupleix", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Motte-Picquet - Grenelle", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Cambronne", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Sèvres - Lecourbe", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Pasteur", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Montparnasse - Bienvenüe [6, 13]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Edgar Quinet", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Raspail", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Denfert-Rochereau [4, 6]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Jacques", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Glacière", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Corvisart", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Place d'Italie", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Nationale", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Chevaleret", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Quai de la Gare", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bercy", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Dugommier", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Daumesnil", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Bel-Air", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Picpus", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Nation [1, 6, 9, A]", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Charles de Gaulle – Étoile [1, 2, 6]", "symbol":"interchange", "icon":[]},
+				{"name":"Kléber", "symbol":"", "icon":[]},
+				{"name":"Boissière", "symbol":"", "icon":[]},
+				{"name":"Trocadéro", "symbol":"interchange", "icon":[]},
+				{"name":"Passy", "symbol":"", "icon":[]},
+				{"name":"Bir-Hakeim - Tour Eiffel", "symbol":"interchange", "icon":[]},
+				{"name":"Dupleix", "symbol":"", "icon":[]},
+				{"name":"La Motte-Picquet - Grenelle", "symbol":"interchange", "icon":[]},
+				{"name":"Cambronne", "symbol":"", "icon":[]},
+				{"name":"Sèvres - Lecourbe", "symbol":"", "icon":[]},
+				{"name":"Pasteur", "symbol":"interchange", "icon":[]},
+				{"name":"Montparnasse - Bienvenüe [6, 13]", "symbol":"interchange", "icon":[]},
+				{"name":"Edgar Quinet", "symbol":"", "icon":[]},
+				{"name":"Raspail", "symbol":"interchange", "icon":[]},
+				{"name":"Denfert-Rochereau [4, 6]", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Jacques", "symbol":"", "icon":[]},
+				{"name":"Glacière", "symbol":"", "icon":[]},
+				{"name":"Corvisart", "symbol":"", "icon":[]},
+				{"name":"Place d'Italie", "symbol":"interchange", "icon":[]},
+				{"name":"Nationale", "symbol":"", "icon":[]},
+				{"name":"Chevaleret", "symbol":"", "icon":[]},
+				{"name":"Quai de la Gare", "symbol":"", "icon":[]},
+				{"name":"Bercy", "symbol":"interchange", "icon":[]},
+				{"name":"Dugommier", "symbol":"", "icon":[]},
+				{"name":"Daumesnil", "symbol":"interchange", "icon":[]},
+				{"name":"Bel-Air", "symbol":"", "icon":[]},
+				{"name":"Picpus", "symbol":"", "icon":[]},
+				{"name":"Nation [1, 6, 9, A]", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "7",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"7",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "La Courneuve - 8 Mai 1945", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Fort d'Aubervilliers", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Aubervilliers - Pantin - Quatre Chemins", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de la Villette [7]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Corentin Cariou", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Crimée", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Riquet", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Stalingrad", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Louis Blanc", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Château-Landon", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gare de l'Est", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Poissonnière", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Cadet", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Peletier", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Chaussée d'Antin - La Fayette", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Opéra", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Pyramides", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Palais Royal - Musée du Louvre", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Pont Neuf", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Châtelet", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Pont Marie", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Sully - Morland", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Seine", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Jussieu", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Place Monge", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Censier - Daubenton", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Les Gobelins", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Place d'Italie", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Tolbiac", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Maison Blanche", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Porte d'Italie", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Porte de Choisy", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Porte d'Ivry", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Pierre et Marie Curie", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Mairie d'Ivry", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"La Courneuve - 8 Mai 1945", "symbol":"interchange", "icon":[]},
+				{"name":"Fort d'Aubervilliers", "symbol":"", "icon":[]},
+				{"name":"Aubervilliers - Pantin - Quatre Chemins", "symbol":"", "icon":[]},
+				{"name":"Porte de la Villette [7]", "symbol":"interchange", "icon":[]},
+				{"name":"Corentin Cariou", "symbol":"interchange", "icon":[]},
+				{"name":"Crimée", "symbol":"", "icon":[]},
+				{"name":"Riquet", "symbol":"", "icon":[]},
+				{"name":"Stalingrad", "symbol":"interchange", "icon":[]},
+				{"name":"Louis Blanc", "symbol":"interchange", "icon":[]},
+				{"name":"Château-Landon", "symbol":"", "icon":[]},
+				{"name":"Gare de l'Est", "symbol":"interchange", "icon":[]},
+				{"name":"Poissonnière", "symbol":"", "icon":[]},
+				{"name":"Cadet", "symbol":"", "icon":[]},
+				{"name":"Le Peletier", "symbol":"", "icon":[]},
+				{"name":"Chaussée d'Antin - La Fayette", "symbol":"interchange", "icon":[]},
+				{"name":"Opéra", "symbol":"interchange", "icon":[]},
+				{"name":"Pyramides", "symbol":"interchange", "icon":[]},
+				{"name":"Palais Royal - Musée du Louvre", "symbol":"interchange", "icon":[]},
+				{"name":"Pont Neuf", "symbol":"", "icon":[]},
+				{"name":"Châtelet", "symbol":"interchange", "icon":[]},
+				{"name":"Pont Marie", "symbol":"", "icon":[]},
+				{"name":"Sully - Morland", "symbol":"", "icon":[]},
+				{"name":"Seine", "symbol":"", "icon":[]},
+				{"name":"Jussieu", "symbol":"interchange", "icon":[]},
+				{"name":"Place Monge", "symbol":"", "icon":[]},
+				{"name":"Censier - Daubenton", "symbol":"", "icon":[]},
+				{"name":"Les Gobelins", "symbol":"", "icon":[]},
+				{"name":"Place d'Italie", "symbol":"interchange", "icon":[]},
+				{"name":"Tolbiac", "symbol":"", "icon":[]},
+				{"name":"Maison Blanche", "symbol":"interchange", "icon":[]},
+				{"name":"Porte d'Italie", "symbol":"interchange", "icon":[]},
+				{"name":"Porte de Choisy", "symbol":"interchange", "icon":[]},
+				{"name":"Porte d'Ivry", "symbol":"interchange", "icon":[]},
+				{"name":"Pierre et Marie Curie", "symbol":"", "icon":[]},
+				{"name":"Mairie d'Ivry", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "7",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"7",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Maison Blanche", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Le Kremlin-Bicêtre", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Villejuif - Léo Lagrange", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Villejuif - Paul Vaillant-Couturier", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Villejuif - Louis Aragon", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Maison Blanche", "symbol":"interchange", "icon":[]},
+				{"name":"Le Kremlin-Bicêtre", "symbol":"", "icon":[]},
+				{"name":"Villejuif - Léo Lagrange", "symbol":"", "icon":[]},
+				{"name":"Villejuif - Paul Vaillant-Couturier", "symbol":"", "icon":[]},
+				{"name":"Villejuif - Louis Aragon", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "7bis",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"7bis",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Louis Blanc", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Jaurès", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Bolivar", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Buttes Chaumont", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Botzaris", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Place des Fêtes", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Pré Saint-Gervais", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Danube", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Botzaris", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Louis Blanc", "symbol":"interchange", "icon":[]},
+				{"name":"Jaurès", "symbol":"interchange", "icon":[]},
+				{"name":"Bolivar", "symbol":"", "icon":[]},
+				{"name":"Buttes Chaumont", "symbol":"", "icon":[]},
+				{"name":"Botzaris", "symbol":"", "icon":[]},
+				{"name":"Place des Fêtes", "symbol":"interchange", "icon":[]},
+				{"name":"Pré Saint-Gervais", "symbol":"", "icon":[]},
+				{"name":"Danube", "symbol":"", "icon":[]},
+				{"name":"Botzaris", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "8",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"8",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Balard [8]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Lourmel", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Boucicaut", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Félix Faure", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Commerce", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Motte-Picquet – Grenelle", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "École Militaire", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "La Tour-Maubourg", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Invalides [8, 13]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Concorde", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Madeleine [8]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Opéra", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Richelieu – Drouot", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Grands Boulevards", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Bonne Nouvelle", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Strasbourg – Saint-Denis", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Martin", "symbol": "", "icon":[], "label":"name"},
-				{"name": "République", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Filles du Calvaire", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Saint-Sébastien – Froissart", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Chemin Vert", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bastille", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Ledru-Rollin", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Faidherbe – Chaligny", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Reuilly – Diderot", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Montgallet", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Daumesnil", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Michel Bizot", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte Dorée", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Porte de Charenton", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Liberté", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Charenton – Écoles", "symbol": "", "icon":[], "label":"name"},
-				{"name": "École Vétérinaire de Maisons-Alfort", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Maisons-Alfort – Stade", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Maisons-Alfort – Les Juilliottes", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Créteil – L'Échat", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Créteil – Université", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Créteil – Préfecture", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Pointe du Lac", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Balard [8]", "symbol":"interchange", "icon":[]},
+				{"name":"Lourmel", "symbol":"", "icon":[]},
+				{"name":"Boucicaut", "symbol":"", "icon":[]},
+				{"name":"Félix Faure", "symbol":"", "icon":[]},
+				{"name":"Commerce", "symbol":"", "icon":[]},
+				{"name":"La Motte-Picquet – Grenelle", "symbol":"interchange", "icon":[]},
+				{"name":"École Militaire", "symbol":"interchange", "icon":[]},
+				{"name":"La Tour-Maubourg", "symbol":"", "icon":[]},
+				{"name":"Invalides [8, 13]", "symbol":"interchange", "icon":[]},
+				{"name":"Concorde", "symbol":"interchange", "icon":[]},
+				{"name":"Madeleine [8]", "symbol":"interchange", "icon":[]},
+				{"name":"Opéra", "symbol":"interchange", "icon":[]},
+				{"name":"Richelieu – Drouot", "symbol":"interchange", "icon":[]},
+				{"name":"Grands Boulevards", "symbol":"interchange", "icon":[]},
+				{"name":"Bonne Nouvelle", "symbol":"interchange", "icon":[]},
+				{"name":"Strasbourg – Saint-Denis", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Martin", "symbol":"", "icon":[]},
+				{"name":"République", "symbol":"interchange", "icon":[]},
+				{"name":"Filles du Calvaire", "symbol":"", "icon":[]},
+				{"name":"Saint-Sébastien – Froissart", "symbol":"", "icon":[]},
+				{"name":"Chemin Vert", "symbol":"", "icon":[]},
+				{"name":"Bastille", "symbol":"interchange", "icon":[]},
+				{"name":"Ledru-Rollin", "symbol":"", "icon":[]},
+				{"name":"Faidherbe – Chaligny", "symbol":"", "icon":[]},
+				{"name":"Reuilly – Diderot", "symbol":"interchange", "icon":[]},
+				{"name":"Montgallet", "symbol":"", "icon":[]},
+				{"name":"Daumesnil", "symbol":"interchange", "icon":[]},
+				{"name":"Michel Bizot", "symbol":"", "icon":[]},
+				{"name":"Porte Dorée", "symbol":"interchange", "icon":[]},
+				{"name":"Porte de Charenton", "symbol":"interchange", "icon":[]},
+				{"name":"Liberté", "symbol":"", "icon":[]},
+				{"name":"Charenton – Écoles", "symbol":"", "icon":[]},
+				{"name":"École Vétérinaire de Maisons-Alfort", "symbol":"", "icon":[]},
+				{"name":"Maisons-Alfort – Stade", "symbol":"", "icon":[]},
+				{"name":"Maisons-Alfort – Les Juilliottes", "symbol":"", "icon":[]},
+				{"name":"Créteil – L'Échat", "symbol":"", "icon":[]},
+				{"name":"Créteil – Université", "symbol":"", "icon":[]},
+				{"name":"Créteil – Préfecture", "symbol":"", "icon":[]},
+				{"name":"Pointe du Lac", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "9",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"9",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Pont de Sèvres", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Billancourt", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Marcel Sembat", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de Saint-Cloud", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Exelmans", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte d'Auteuil", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Michel-Ange - Molitor [10S]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Michel-Ange - Auteuil [10N]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Jasmin", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Ranelagh", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Muette", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Rue de la Pompe", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Trocadéro", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Iéna", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Alma - Marceau", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Franklin D. Roosevelt", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Philippe du Roule", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Miromesnil", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Augustin", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Havre - Caumartin", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Chaussée d'Antin - La Fayette", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Richelieu - Drouot", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Grands Boulevards", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Bonne Nouvelle", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Strasbourg - Saint-Denis", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Martin", "symbol": "", "icon":[], "label":"name"},
-				{"name": "République", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Oberkampf", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Ambroise", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Voltaire", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Charonne", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Rue des Boulets", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Nation [1, 6, 9, A]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Buzenval", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Maraîchers", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de Montreuil", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Robespierre", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Croix de Chavaux", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Mairie de Montreuil", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Pont de Sèvres", "symbol":"", "icon":[]},
+				{"name":"Billancourt", "symbol":"", "icon":[]},
+				{"name":"Marcel Sembat", "symbol":"", "icon":[]},
+				{"name":"Porte de Saint-Cloud", "symbol":"", "icon":[]},
+				{"name":"Exelmans", "symbol":"", "icon":[]},
+				{"name":"Porte d'Auteuil", "symbol":"", "icon":[]},
+				{"name":"Michel-Ange - Molitor [10S]", "symbol":"interchange", "icon":[]},
+				{"name":"Michel-Ange - Auteuil [10N]", "symbol":"interchange", "icon":[]},
+				{"name":"Jasmin", "symbol":"", "icon":[]},
+				{"name":"Ranelagh", "symbol":"", "icon":[]},
+				{"name":"La Muette", "symbol":"interchange", "icon":[]},
+				{"name":"Rue de la Pompe", "symbol":"", "icon":[]},
+				{"name":"Trocadéro", "symbol":"interchange", "icon":[]},
+				{"name":"Iéna", "symbol":"", "icon":[]},
+				{"name":"Alma - Marceau", "symbol":"", "icon":[]},
+				{"name":"Franklin D. Roosevelt", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Philippe du Roule", "symbol":"", "icon":[]},
+				{"name":"Miromesnil", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Augustin", "symbol":"interchange", "icon":[]},
+				{"name":"Havre - Caumartin", "symbol":"interchange", "icon":[]},
+				{"name":"Chaussée d'Antin - La Fayette", "symbol":"interchange", "icon":[]},
+				{"name":"Richelieu - Drouot", "symbol":"interchange", "icon":[]},
+				{"name":"Grands Boulevards", "symbol":"interchange", "icon":[]},
+				{"name":"Bonne Nouvelle", "symbol":"interchange", "icon":[]},
+				{"name":"Strasbourg - Saint-Denis", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Martin", "symbol":"", "icon":[]},
+				{"name":"République", "symbol":"interchange", "icon":[]},
+				{"name":"Oberkampf", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Ambroise", "symbol":"", "icon":[]},
+				{"name":"Voltaire", "symbol":"", "icon":[]},
+				{"name":"Charonne", "symbol":"", "icon":[]},
+				{"name":"Rue des Boulets", "symbol":"", "icon":[]},
+				{"name":"Nation [1, 6, 9, A]", "symbol":"interchange", "icon":[]},
+				{"name":"Buzenval", "symbol":"", "icon":[]},
+				{"name":"Maraîchers", "symbol":"", "icon":[]},
+				{"name":"Porte de Montreuil", "symbol":"interchange", "icon":[]},
+				{"name":"Robespierre", "symbol":"", "icon":[]},
+				{"name":"Croix de Chavaux", "symbol":"", "icon":[]},
+				{"name":"Mairie de Montreuil", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "10",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"10",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Boulogne – Pont de Saint-Cloud", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Boulogne – Jean Jaurès", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Michel-Ange – Molitor [10S]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Chardon Lagache", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Mirabeau", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Javel – André Citroën", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Charles Michels", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Avenue Émile Zola", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Motte-Picquet – Grenelle", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Paris MétroParis Métro Line 8 to Pointe du Lac", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Ségur", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Duroc", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Vaneau", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Sèvres – Babylone", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Mabillon", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Odéon", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Cluny – La Sorbonne", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Maubert – Mutualité", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Cardinal Lemoine", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Jussieu", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Gare d'Austerlitz [5, 10]", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Boulogne – Pont de Saint-Cloud", "symbol":"", "icon":[]},
+				{"name":"Boulogne – Jean Jaurès", "symbol":"", "icon":[]},
+				{"name":"Michel-Ange – Molitor [10S]", "symbol":"interchange", "icon":[]},
+				{"name":"Chardon Lagache", "symbol":"", "icon":[]},
+				{"name":"Mirabeau", "symbol":"", "icon":[]},
+				{"name":"Javel – André Citroën", "symbol":"", "icon":[]},
+				{"name":"Charles Michels", "symbol":"", "icon":[]},
+				{"name":"Avenue Émile Zola", "symbol":"", "icon":[]},
+				{"name":"La Motte-Picquet – Grenelle", "symbol":"interchange", "icon":[]},
+				{"name":"Paris MétroParis Métro Line 8 to Pointe du Lac", "symbol":"", "icon":[]},
+				{"name":"Ségur", "symbol":"", "icon":[]},
+				{"name":"Duroc", "symbol":"interchange", "icon":[]},
+				{"name":"Vaneau", "symbol":"", "icon":[]},
+				{"name":"Sèvres – Babylone", "symbol":"interchange", "icon":[]},
+				{"name":"Mabillon", "symbol":"", "icon":[]},
+				{"name":"Odéon", "symbol":"interchange", "icon":[]},
+				{"name":"Cluny – La Sorbonne", "symbol":"interchange", "icon":[]},
+				{"name":"Maubert – Mutualité", "symbol":"", "icon":[]},
+				{"name":"Cardinal Lemoine", "symbol":"", "icon":[]},
+				{"name":"Jussieu", "symbol":"interchange", "icon":[]},
+				{"name":"Gare d'Austerlitz [5, 10]", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "10",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"10",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Javel – André Citroën", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Église d'Auteuil", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Michel-Ange – Auteuil [10N]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Porte d'Auteuil", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Boulogne – Jean Jaurès", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Javel – André Citroën", "symbol":"", "icon":[]},
+				{"name":"Église d'Auteuil", "symbol":"", "icon":[]},
+				{"name":"Michel-Ange – Auteuil [10N]", "symbol":"interchange", "icon":[]},
+				{"name":"Porte d'Auteuil", "symbol":"", "icon":[]},
+				{"name":"Boulogne – Jean Jaurès", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "11",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"11",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Mairie des Lilas", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte des Lilas", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Télégraphe", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Place des Fêtes", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Jourdain", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Pyrénées", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Belleville", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Goncourt", "symbol": "", "icon":[], "label":"name"},
-				{"name": "République", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Arts et Métiers", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Rambuteau", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Hôtel de Ville", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Châtelet", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Mairie des Lilas", "symbol":"", "icon":[]},
+				{"name":"Porte des Lilas", "symbol":"interchange", "icon":[]},
+				{"name":"Télégraphe", "symbol":"", "icon":[]},
+				{"name":"Place des Fêtes", "symbol":"interchange", "icon":[]},
+				{"name":"Jourdain", "symbol":"", "icon":[]},
+				{"name":"Pyrénées", "symbol":"", "icon":[]},
+				{"name":"Belleville", "symbol":"interchange", "icon":[]},
+				{"name":"Goncourt", "symbol":"", "icon":[]},
+				{"name":"République", "symbol":"interchange", "icon":[]},
+				{"name":"Arts et Métiers", "symbol":"interchange", "icon":[]},
+				{"name":"Rambuteau", "symbol":"", "icon":[]},
+				{"name":"Hôtel de Ville", "symbol":"interchange", "icon":[]},
+				{"name":"Châtelet", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "12",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"12",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Front Populaire", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de la Chapelle [12]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Marx Dormoy", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Marcadet – Poissonniers", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Jules Joffrin", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Lamarck – Caulaincourt", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Abbesses", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Pigalle", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Georges", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Notre-Dame-de-Lorette", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Trinité – d'Estienne d'Orves", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Saint-Lazare", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Madeleine [12]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Concorde", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Assemblée Nationale", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Solférino", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Rue du Bac", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Sèvres – Babylone", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Rennes", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Notre-Dame-des-Champs", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Montparnasse – Bienvenüe [4, 12]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Falguière", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Pasteur", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Volontaires", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Vaugirard", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Convention", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de Versailles [12, 3a]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Corentin Celton", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Mairie d'Issy", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Front Populaire", "symbol":"", "icon":[]},
+				{"name":"Porte de la Chapelle [12]", "symbol":"interchange", "icon":[]},
+				{"name":"Marx Dormoy", "symbol":"", "icon":[]},
+				{"name":"Marcadet – Poissonniers", "symbol":"interchange", "icon":[]},
+				{"name":"Jules Joffrin", "symbol":"", "icon":[]},
+				{"name":"Lamarck – Caulaincourt", "symbol":"", "icon":[]},
+				{"name":"Abbesses", "symbol":"", "icon":[]},
+				{"name":"Pigalle", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Georges", "symbol":"", "icon":[]},
+				{"name":"Notre-Dame-de-Lorette", "symbol":"", "icon":[]},
+				{"name":"Trinité – d'Estienne d'Orves", "symbol":"", "icon":[]},
+				{"name":"Saint-Lazare", "symbol":"interchange", "icon":[]},
+				{"name":"Madeleine [12]", "symbol":"interchange", "icon":[]},
+				{"name":"Concorde", "symbol":"interchange", "icon":[]},
+				{"name":"Assemblée Nationale", "symbol":"", "icon":[]},
+				{"name":"Solférino", "symbol":"", "icon":[]},
+				{"name":"Rue du Bac", "symbol":"", "icon":[]},
+				{"name":"Sèvres – Babylone", "symbol":"interchange", "icon":[]},
+				{"name":"Rennes", "symbol":"", "icon":[]},
+				{"name":"Notre-Dame-des-Champs", "symbol":"", "icon":[]},
+				{"name":"Montparnasse – Bienvenüe [4, 12]", "symbol":"interchange", "icon":[]},
+				{"name":"Falguière", "symbol":"", "icon":[]},
+				{"name":"Pasteur", "symbol":"interchange", "icon":[]},
+				{"name":"Volontaires", "symbol":"", "icon":[]},
+				{"name":"Vaugirard", "symbol":"", "icon":[]},
+				{"name":"Convention", "symbol":"", "icon":[]},
+				{"name":"Porte de Versailles [12, 3a]", "symbol":"interchange", "icon":[]},
+				{"name":"Corentin Celton", "symbol":"", "icon":[]},
+				{"name":"Mairie d'Issy", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "13",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"13",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Saint-Denis - Université", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Basilique de Saint-Denis [13]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Denis - Porte de Paris", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Carrefour Pleyel", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Mairie de Saint-Ouen", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Garibaldi", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de Saint-Ouen", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Guy Môquet", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Fourche", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Place de Clichy", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Liège", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Saint-Lazare", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Miromesnil", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Champs-Élysées – Clemenceau", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Invalides [8, 13]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Varenne", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Saint-François-Xavier", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Duroc", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Montparnasse - Bienvenüe [6, 13]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Gaîté", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Pernety", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Plaisance", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de Vanves", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Malakoff - Plateau de Vanves", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Malakoff - Rue Étienne Dolet", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Châtillon - Montrouge", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Saint-Denis - Université", "symbol":"", "icon":[]},
+				{"name":"Basilique de Saint-Denis [13]", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Denis - Porte de Paris", "symbol":"", "icon":[]},
+				{"name":"Carrefour Pleyel", "symbol":"", "icon":[]},
+				{"name":"Mairie de Saint-Ouen", "symbol":"", "icon":[]},
+				{"name":"Garibaldi", "symbol":"", "icon":[]},
+				{"name":"Porte de Saint-Ouen", "symbol":"", "icon":[]},
+				{"name":"Guy Môquet", "symbol":"", "icon":[]},
+				{"name":"La Fourche", "symbol":"interchange", "icon":[]},
+				{"name":"Place de Clichy", "symbol":"interchange", "icon":[]},
+				{"name":"Liège", "symbol":"", "icon":[]},
+				{"name":"Saint-Lazare", "symbol":"interchange", "icon":[]},
+				{"name":"Miromesnil", "symbol":"interchange", "icon":[]},
+				{"name":"Champs-Élysées – Clemenceau", "symbol":"interchange", "icon":[]},
+				{"name":"Invalides [8, 13]", "symbol":"interchange", "icon":[]},
+				{"name":"Varenne", "symbol":"", "icon":[]},
+				{"name":"Saint-François-Xavier", "symbol":"", "icon":[]},
+				{"name":"Duroc", "symbol":"interchange", "icon":[]},
+				{"name":"Montparnasse - Bienvenüe [6, 13]", "symbol":"interchange", "icon":[]},
+				{"name":"Gaîté", "symbol":"", "icon":[]},
+				{"name":"Pernety", "symbol":"", "icon":[]},
+				{"name":"Plaisance", "symbol":"", "icon":[]},
+				{"name":"Porte de Vanves", "symbol":"interchange", "icon":[]},
+				{"name":"Malakoff - Plateau de Vanves", "symbol":"", "icon":[]},
+				{"name":"Malakoff - Rue Étienne Dolet", "symbol":"", "icon":[]},
+				{"name":"Châtillon - Montrouge", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "13",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"13",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Asnières – Gennevilliers – Les Courtilles [13]", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Les Agnettes", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gabriel Péri", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Mairie de Clichy", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de Clichy", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Brochant", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Fourche", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Asnières – Gennevilliers – Les Courtilles [13]", "symbol":"", "icon":[]},
+				{"name":"Les Agnettes", "symbol":"", "icon":[]},
+				{"name":"Gabriel Péri", "symbol":"", "icon":[]},
+				{"name":"Mairie de Clichy", "symbol":"", "icon":[]},
+				{"name":"Porte de Clichy", "symbol":"", "icon":[]},
+				{"name":"Brochant", "symbol":"", "icon":[]},
+				{"name":"La Fourche", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "14",
-			"type": "metro",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"14",
+			"type":"metro",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Saint-Lazare", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Madeleine [14]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Pyramides", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Châtelet", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Gare de Lyon", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Bercy", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Cour Saint-Émilion", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bibliothèque François Mitterrand", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Olympiades", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Saint-Lazare", "symbol":"interchange", "icon":[]},
+				{"name":"Madeleine [14]", "symbol":"interchange", "icon":[]},
+				{"name":"Pyramides", "symbol":"interchange", "icon":[]},
+				{"name":"Châtelet", "symbol":"interchange", "icon":[]},
+				{"name":"Gare de Lyon", "symbol":"interchange", "icon":[]},
+				{"name":"Bercy", "symbol":"interchange", "icon":[]},
+				{"name":"Cour Saint-Émilion", "symbol":"", "icon":[]},
+				{"name":"Bibliothèque François Mitterrand", "symbol":"interchange", "icon":[]},
+				{"name":"Olympiades", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "A1",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"A1",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Saint Germain-en-Laye - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Vésinet – Le Pecq - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Vésinet – Centre - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Chatou – Croissy - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Rueil-Malmaison - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Nanterre – Ville - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Nanterre – Université - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Nanterre-Préfecture - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Défense [A] - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Charles de Gaulle–Étoile - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Auber - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Châtelet – Les Halles [A] - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gare de Lyon - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Nation - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Vincennes - handicap-blue", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Saint Germain-en-Laye - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Le Vésinet – Le Pecq - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Le Vésinet – Centre - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Chatou – Croissy - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Rueil-Malmaison - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Nanterre – Ville - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Nanterre – Université - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Nanterre-Préfecture - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"La Défense [A] - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Charles de Gaulle–Étoile - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Auber - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Châtelet – Les Halles [A] - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Gare de Lyon - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Nation - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Vincennes - handicap-blue", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "A2",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"A2",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Vincennes - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Fontenay-sous-Bois - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Nogent-sur-Marne - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Joinville-le-Pont - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Saint-Maur – Créteil - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Parc de Saint-Maur - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Champigny - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Varenne – Chennevières - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Sucy – Bonneuil - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Boissy-Saint-Léger - handicap-blue", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Vincennes - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Fontenay-sous-Bois - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Nogent-sur-Marne - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Joinville-le-Pont - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Saint-Maur – Créteil - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Le Parc de Saint-Maur - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Champigny - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"La Varenne – Chennevières - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Sucy – Bonneuil - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Boissy-Saint-Léger - handicap-blue", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "A3",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"A3",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Cergy-le-Haut - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Cergy – Saint-Christophe - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Cergy – Préfecture - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Neuville – Université - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Conflans-Fin-d'Oise - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Achères – Ville - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Maisons-Laffitte - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Sartrouville - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Houilles – Carrières-sur-Seine - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Nanterre-Préfecture - handicap-blue", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Cergy-le-Haut - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Cergy – Saint-Christophe - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Cergy – Préfecture - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Neuville – Université - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Conflans-Fin-d'Oise - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Achères – Ville - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Maisons-Laffitte - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Sartrouville - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Houilles – Carrières-sur-Seine - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Nanterre-Préfecture - handicap-blue", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "A4",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"A4",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Vincennes - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Val de Fontenay - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Neuilly-Plaisance - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bry-sur-Marne - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Noisy-le-Grand – Mont d'Est - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Noisy – Champs - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Noisiel - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Lognes - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Torcy - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bussy-Saint-Georges - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Val d'Europe - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Marne-la-Vallée–Chessy - handicap-white", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Vincennes - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Val de Fontenay - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Neuilly-Plaisance - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Bry-sur-Marne - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Noisy-le-Grand – Mont d'Est - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Noisy – Champs - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Noisiel - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Lognes - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Torcy - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Bussy-Saint-Georges - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Val d'Europe - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Marne-la-Vallée–Chessy - handicap-white", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "A5",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"A5",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Poissy - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Achères – Grand Cormier - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Maisons-Laffitte - handicap-blue", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Poissy - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Achères – Grand Cormier - circle", "symbol":"", "icon":[]},
+				{"name":"Maisons-Laffitte - handicap-blue", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "B2",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"B2",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Bourg-la-Reine - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Sceaux - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Fontenay-aux-Roses - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Robinson - handicap-blue", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Bourg-la-Reine - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Sceaux - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Fontenay-aux-Roses - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Robinson - handicap-blue", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "B3",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"B3",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Aéroport Charles de Gaulle 2 – TGV - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Aéroport Charles de Gaulle 1 - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Parc des Expositions - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Villepinte - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Sevran – Beaudottes - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Aulnay-sous-Bois - handicap-white", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Aéroport Charles de Gaulle 2 – TGV - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Aéroport Charles de Gaulle 1 - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Parc des Expositions - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Villepinte - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Sevran – Beaudottes - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Aulnay-sous-Bois - handicap-white", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "B4",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"B4",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Bourg-la-Reine - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Parc de Sceaux - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Croix de Berny - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Antony - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Fontaine-Michalon - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Les Baconnets - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Massy – Verrières - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Massy – Palaiseau - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Palaiseau - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Palaiseau – Villebon - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Lozère - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Guichet - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Orsay – Ville - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bures-sur-Yvette - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Hacquinière - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gif-sur-Yvette - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Courcelle-sur-Yvette - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Saint-Rémy-lès-Chevreuse - handicap-blue", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Bourg-la-Reine - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Parc de Sceaux - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"La Croix de Berny - circle", "symbol":"", "icon":[]},
+				{"name":"Antony - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Fontaine-Michalon - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Les Baconnets - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Massy – Verrières - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Massy – Palaiseau - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Palaiseau - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Palaiseau – Villebon - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Lozère - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Le Guichet - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Orsay – Ville - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Bures-sur-Yvette - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"La Hacquinière - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Gif-sur-Yvette - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Courcelle-sur-Yvette - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Saint-Rémy-lès-Chevreuse - handicap-blue", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "B5",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"B5",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Mitry – Claye - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Villeparisis – Mitry-le-Neuf - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Vert-Galant - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Sevran – Livry - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Aulnay-sous-Bois - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Blanc-Mesnil - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Drancy - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Bourget - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Courneuve – Aubervilliers - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Plaine – Stade de France - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gare du Nord - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Châtelet – Les Halles [B, D] - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "St-Michel – Notre-Dame - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Luxembourg - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Port-Royal - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Denfert-Rochereau - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Cité Universitaire - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gentilly - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Laplace - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Arcueil – Cachan - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bagneux - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bourg-la-Reine - handicap-white", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Mitry – Claye - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Villeparisis – Mitry-le-Neuf - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Vert-Galant - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Sevran – Livry - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Aulnay-sous-Bois - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Le Blanc-Mesnil - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Drancy - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Le Bourget - handicap-white", "symbol":"", "icon":[]},
+				{"name":"La Courneuve – Aubervilliers - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"La Plaine – Stade de France - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Gare du Nord - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Châtelet – Les Halles [B, D] - handicap-white", "symbol":"", "icon":[]},
+				{"name":"St-Michel – Notre-Dame - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Luxembourg - circle", "symbol":"", "icon":[]},
+				{"name":"Port-Royal - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Denfert-Rochereau - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Cité Universitaire - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Gentilly - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Laplace - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Arcueil – Cachan - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Bagneux - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Bourg-la-Reine - handicap-white", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "C1",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"C1",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Pontoise", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Ouen-l'Aumône", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Ouen-l'Aumône – Liesse - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Pierrelaye", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Montigny – Beauchamp", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Pontoise", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Ouen-l'Aumône", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Ouen-l'Aumône – Liesse - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Pierrelaye", "symbol":"interchange", "icon":[]},
+				{"name":"Montigny – Beauchamp", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "C2",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"C2",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Choisy-le-Roi - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Villeneuve-le-Roi - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Ablon - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Athis-Mons - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Juvisy", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Savigny-sur-Orge - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Épinay-sur-Orge - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Sainte-Geneviève-des-Bois - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Saint-Michel-sur-Orge - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Brétigny - circle", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Choisy-le-Roi - circle", "symbol":"", "icon":[]},
+				{"name":"Villeneuve-le-Roi - circle", "symbol":"", "icon":[]},
+				{"name":"Ablon - circle", "symbol":"", "icon":[]},
+				{"name":"Athis-Mons - circle", "symbol":"", "icon":[]},
+				{"name":"Juvisy", "symbol":"interchange", "icon":[]},
+				{"name":"Savigny-sur-Orge - circle", "symbol":"", "icon":[]},
+				{"name":"Épinay-sur-Orge - circle", "symbol":"", "icon":[]},
+				{"name":"Sainte-Geneviève-des-Bois - circle", "symbol":"", "icon":[]},
+				{"name":"Saint-Michel-sur-Orge - circle", "symbol":"", "icon":[]},
+				{"name":"Brétigny - circle", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "C3",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"C3",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Montigny – Beauchamp", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Franconville – Le Plessis-Bouchard", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Cernay - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Ermont-Eaubonne", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Gratien - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Épinay-sur-Seine", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Gennevilliers", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Les Grésillons - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Saint-Ouen - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de Clichy", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Pereire – Levallois", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Neuilly – Porte Maillot", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Avenue Foch - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Avenue Henri Martin - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Boulainvilliers", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Avenue du Président Kennedy - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Champ de Mars – Tour Eiffel", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Pont de l'Alma - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Invalides", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Musée d'Orsay", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Michel – Notre-Dame", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Gare d'Austerlitz", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Bibliothèque François Mitterrand - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Masséna", "inService": false, "symbol": "circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Ivry-sur-Seine - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Vitry-sur-Seine - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Les Ardoines - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Choisy-le-Roi - circle", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Montigny – Beauchamp", "symbol":"interchange", "icon":[]},
+				{"name":"Franconville – Le Plessis-Bouchard", "symbol":"interchange", "icon":[]},
+				{"name":"Cernay - circle", "symbol":"", "icon":[]},
+				{"name":"Ermont-Eaubonne", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Gratien - circle", "symbol":"", "icon":[]},
+				{"name":"Épinay-sur-Seine", "symbol":"interchange", "icon":[]},
+				{"name":"Gennevilliers", "symbol":"interchange", "icon":[]},
+				{"name":"Les Grésillons - circle", "symbol":"", "icon":[]},
+				{"name":"Saint-Ouen - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Porte de Clichy", "symbol":"interchange", "icon":[]},
+				{"name":"Pereire – Levallois", "symbol":"interchange", "icon":[]},
+				{"name":"Neuilly – Porte Maillot", "symbol":"interchange", "icon":[]},
+				{"name":"Avenue Foch - circle", "symbol":"", "icon":[]},
+				{"name":"Avenue Henri Martin - circle", "symbol":"", "icon":[]},
+				{"name":"Boulainvilliers", "symbol":"interchange", "icon":[]},
+				{"name":"Avenue du Président Kennedy - circle", "symbol":"", "icon":[]},
+				{"name":"Champ de Mars – Tour Eiffel", "symbol":"interchange", "icon":[]},
+				{"name":"Pont de l'Alma - circle", "symbol":"", "icon":[]},
+				{"name":"Invalides", "symbol":"interchange", "icon":[]},
+				{"name":"Musée d'Orsay", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Michel – Notre-Dame", "symbol":"interchange", "icon":[]},
+				{"name":"Gare d'Austerlitz", "symbol":"interchange", "icon":[]},
+				{"name":"Bibliothèque François Mitterrand - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Masséna", "inService": false, "symbol":"circle", "symbol":"", "icon":[]},
+				{"name":"Ivry-sur-Seine - circle", "symbol":"", "icon":[]},
+				{"name":"Vitry-sur-Seine - circle", "symbol":"", "icon":[]},
+				{"name":"Les Ardoines - circle", "symbol":"", "icon":[]},
+				{"name":"Choisy-le-Roi - circle", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "C4",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"C4",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Brétigny - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Norville - Saint-Germain-lès-Arpajon - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Arpajon - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Égly - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Breuillet - Bruyères-le-Châtel - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Breuillet - Village - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Saint-Chéron - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Sermaise - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Dourdan", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Dourdan-la-Forêt - circle", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Brétigny - circle", "symbol":"", "icon":[]},
+				{"name":"La Norville - Saint-Germain-lès-Arpajon - circle", "symbol":"", "icon":[]},
+				{"name":"Arpajon - circle", "symbol":"", "icon":[]},
+				{"name":"Égly - circle", "symbol":"", "icon":[]},
+				{"name":"Breuillet - Bruyères-le-Châtel - circle", "symbol":"", "icon":[]},
+				{"name":"Breuillet - Village - circle", "symbol":"", "icon":[]},
+				{"name":"Saint-Chéron - circle", "symbol":"", "icon":[]},
+				{"name":"Sermaise - circle", "symbol":"", "icon":[]},
+				{"name":"Dourdan", "symbol":"interchange", "icon":[]},
+				{"name":"Dourdan-la-Forêt - circle", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "C5",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"C5",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Versailles-Château-Rive-Gauche - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porchefontaine - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Viroflay – Rive-Gauche", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Chaville-Vélizy - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Meudon – Val Fleury - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Issy - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Issy – Val de Seine", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Pont du Garigliano - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Javel - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Champ de Mars – Tour Eiffel", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Versailles-Château-Rive-Gauche - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Porchefontaine - circle", "symbol":"", "icon":[]},
+				{"name":"Viroflay – Rive-Gauche", "symbol":"interchange", "icon":[]},
+				{"name":"Chaville-Vélizy - circle", "symbol":"", "icon":[]},
+				{"name":"Meudon – Val Fleury - circle", "symbol":"", "icon":[]},
+				{"name":"Issy - circle", "symbol":"", "icon":[]},
+				{"name":"Issy – Val de Seine", "symbol":"interchange", "icon":[]},
+				{"name":"Pont du Garigliano - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Javel - circle", "symbol":"", "icon":[]},
+				{"name":"Champ de Mars – Tour Eiffel", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "C6",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"C6",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Brétigny - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Marolles-en-Hurepoix - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bouray - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Lardy - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Chamarande - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Étréchy - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Étampes", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Martin-d'Étampes - circle", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Brétigny - circle", "symbol":"", "icon":[]},
+				{"name":"Marolles-en-Hurepoix - circle", "symbol":"", "icon":[]},
+				{"name":"Bouray - circle", "symbol":"", "icon":[]},
+				{"name":"Lardy - circle", "symbol":"", "icon":[]},
+				{"name":"Chamarande - circle", "symbol":"", "icon":[]},
+				{"name":"Étréchy - circle", "symbol":"", "icon":[]},
+				{"name":"Étampes", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Martin-d'Étampes - circle", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "C7",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"C7",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Saint-Quentin-en-Yvelines", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Cyr", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Versailles – Chantiers", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Versailles - Rive-Gauche", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Saint-Quentin-en-Yvelines", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Cyr", "symbol":"interchange", "icon":[]},
+				{"name":"Versailles – Chantiers", "symbol":"interchange", "icon":[]},
+				{"name":"Versailles - Rive-Gauche", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "C8",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"C8",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Versailles – Chantiers", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Petit Jouy - Les Loges - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Jouy-en-Josas - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Vauboyen - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bièvres - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Igny - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Massy – Palaiseau", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Versailles – Chantiers", "symbol":"interchange", "icon":[]},
+				{"name":"Petit Jouy - Les Loges - circle", "symbol":"", "icon":[]},
+				{"name":"Jouy-en-Josas - circle", "symbol":"", "icon":[]},
+				{"name":"Vauboyen - circle", "symbol":"", "icon":[]},
+				{"name":"Bièvres - circle", "symbol":"", "icon":[]},
+				{"name":"Igny - circle", "symbol":"", "icon":[]},
+				{"name":"Massy – Palaiseau", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "C10",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"C10",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Choisy-le-Roi - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Les Saules - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Orly-Ville - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Pont de Rungis – Aéroport d'Orly", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Rungis – La Fraternelle - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Chemin d'Antony - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Massy-Verrières", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Massy – Palaiseau", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Choisy-le-Roi - circle", "symbol":"", "icon":[]},
+				{"name":"Les Saules - circle", "symbol":"", "icon":[]},
+				{"name":"Orly-Ville - circle", "symbol":"", "icon":[]},
+				{"name":"Pont de Rungis – Aéroport d'Orly", "symbol":"interchange", "icon":[]},
+				{"name":"Rungis – La Fraternelle - circle", "symbol":"", "icon":[]},
+				{"name":"Chemin d'Antony - circle", "symbol":"", "icon":[]},
+				{"name":"Massy-Verrières", "symbol":"interchange", "icon":[]},
+				{"name":"Massy – Palaiseau", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "C12",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"C12",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Savigny-sur-Orge - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Petit Vaux - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gravigny – Balizy - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Chilly-Mazarin - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Longjumeau - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Massy – Palaiseau", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Savigny-sur-Orge - circle", "symbol":"", "icon":[]},
+				{"name":"Petit Vaux - circle", "symbol":"", "icon":[]},
+				{"name":"Gravigny – Balizy - circle", "symbol":"", "icon":[]},
+				{"name":"Chilly-Mazarin - circle", "symbol":"", "icon":[]},
+				{"name":"Longjumeau - circle", "symbol":"", "icon":[]},
+				{"name":"Massy – Palaiseau", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "D1",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"D1",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Creil", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Chantilly-Gouvieux - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Orry-la-Ville-Coye", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "La Borne Blanche - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Survilliers-Fosses - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Louvres - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Les Noues - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Goussainville - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Villiers-le-Bel – Gonesse – Arnouville - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Garges – Sarcelles", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Pierrefitte – Stains", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Saint-Denis", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Stade de France – Saint-Denis - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gare du Nord - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Châtelet – Les Halles [B, D] - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gare de Lyon - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Maisons-Alfort – Alfortville - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Vert de Maisons - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Créteil-Pompadour - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Villeneuve – Prairie", "inService":false, "symbol": "circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Villeneuve – Triage - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Villeneuve-Saint-Georges", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Vigneux-sur-Seine - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Juvisy", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Viry-Châtillon - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Grigny – Centre- handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Orangis – Bois de l'Épine - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Évry – Courcouronnes Centre - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Bras-de-Fer - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Corbeil-Essonnes", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Essonnes – Robinson - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Villabé - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Plessis – Chenet - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Coudray Montceaux - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Saint Fargeau - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Ponthierry Pringy - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Boissise le-Roi - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Vosves - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Melun", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Creil", "symbol":"interchange", "icon":[]},
+				{"name":"Chantilly-Gouvieux - circle", "symbol":"", "icon":[]},
+				{"name":"Orry-la-Ville-Coye", "symbol":"interchange", "icon":[]},
+				{"name":"La Borne Blanche - circle", "symbol":"", "icon":[]},
+				{"name":"Survilliers-Fosses - circle", "symbol":"", "icon":[]},
+				{"name":"Louvres - circle", "symbol":"", "icon":[]},
+				{"name":"Les Noues - circle", "symbol":"", "icon":[]},
+				{"name":"Goussainville - circle", "symbol":"", "icon":[]},
+				{"name":"Villiers-le-Bel – Gonesse – Arnouville - circle", "symbol":"", "icon":[]},
+				{"name":"Garges – Sarcelles", "symbol":"interchange", "icon":[]},
+				{"name":"Pierrefitte – Stains", "symbol":"interchange", "icon":[]},
+				{"name":"Saint-Denis", "symbol":"interchange", "icon":[]},
+				{"name":"Stade de France – Saint-Denis - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Gare du Nord - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Châtelet – Les Halles [B, D] - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Gare de Lyon - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Maisons-Alfort – Alfortville - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Le Vert de Maisons - circle", "symbol":"", "icon":[]},
+				{"name":"Créteil-Pompadour - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Villeneuve – Prairie", "inService":false, "symbol":"circle", "symbol":"", "icon":[]},
+				{"name":"Villeneuve – Triage - circle", "symbol":"", "icon":[]},
+				{"name":"Villeneuve-Saint-Georges", "symbol":"interchange", "icon":[]},
+				{"name":"Vigneux-sur-Seine - circle", "symbol":"", "icon":[]},
+				{"name":"Juvisy", "symbol":"interchange", "icon":[]},
+				{"name":"Viry-Châtillon - circle", "symbol":"", "icon":[]},
+				{"name":"Grigny – Centre- handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Orangis – Bois de l'Épine - circle", "symbol":"", "icon":[]},
+				{"name":"Évry – Courcouronnes Centre - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Le Bras-de-Fer - circle", "symbol":"", "icon":[]},
+				{"name":"Corbeil-Essonnes", "symbol":"interchange", "icon":[]},
+				{"name":"Essonnes – Robinson - circle", "symbol":"", "icon":[]},
+				{"name":"Villabé - circle", "symbol":"", "icon":[]},
+				{"name":"Le Plessis – Chenet - circle", "symbol":"", "icon":[]},
+				{"name":"Le Coudray Montceaux - circle", "symbol":"", "icon":[]},
+				{"name":"Saint Fargeau - circle", "symbol":"", "icon":[]},
+				{"name":"Ponthierry Pringy - circle", "symbol":"", "icon":[]},
+				{"name":"Boissise le-Roi - circle", "symbol":"", "icon":[]},
+				{"name":"Vosves - circle", "symbol":"", "icon":[]},
+				{"name":"Melun", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "D2",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"D2",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Villeneuve-Saint-Georges", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Montgeron – Crosne - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Yerres - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Brunoy - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Boussy-Saint-Antoine - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Combs-la-Ville – Quincy - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Lieusaint – Moissy - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Savigny-le-Temple – Nandy - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Cesson - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Mée-sur-Seine - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Melun", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Villeneuve-Saint-Georges", "symbol":"interchange", "icon":[]},
+				{"name":"Montgeron – Crosne - circle", "symbol":"", "icon":[]},
+				{"name":"Yerres - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Brunoy - circle", "symbol":"", "icon":[]},
+				{"name":"Boussy-Saint-Antoine - circle", "symbol":"", "icon":[]},
+				{"name":"Combs-la-Ville – Quincy - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Lieusaint – Moissy - circle", "symbol":"", "icon":[]},
+				{"name":"Savigny-le-Temple – Nandy - circle", "symbol":"", "icon":[]},
+				{"name":"Cesson - circle", "symbol":"", "icon":[]},
+				{"name":"Le Mée-sur-Seine - circle", "symbol":"", "icon":[]},
+				{"name":"Melun", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "D4",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"D4",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Corbeil-Essonnes", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Moulin-Galant - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Mennecy - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Ballancourt - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Ferté-Alais - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Boutigny - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Maisse - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Buno-Gironville - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Boigneville - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Malesherbes - circle", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Corbeil-Essonnes", "symbol":"interchange", "icon":[]},
+				{"name":"Moulin-Galant - circle", "symbol":"", "icon":[]},
+				{"name":"Mennecy - circle", "symbol":"", "icon":[]},
+				{"name":"Ballancourt - circle", "symbol":"", "icon":[]},
+				{"name":"La Ferté-Alais - circle", "symbol":"", "icon":[]},
+				{"name":"Boutigny - circle", "symbol":"", "icon":[]},
+				{"name":"Maisse - circle", "symbol":"", "icon":[]},
+				{"name":"Buno-Gironville - circle", "symbol":"", "icon":[]},
+				{"name":"Boigneville - circle", "symbol":"", "icon":[]},
+				{"name":"Malesherbes - circle", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "D6",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"D6",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Viry-Châtillon - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Ris-Orangis - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Grand Bourg - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Évry-Val-de-Seine - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Corbeil-Essonnes", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Viry-Châtillon - circle", "symbol":"", "icon":[]},
+				{"name":"Ris-Orangis - circle", "symbol":"", "icon":[]},
+				{"name":"Le Grand Bourg - circle", "symbol":"", "icon":[]},
+				{"name":"Évry-Val-de-Seine - circle", "symbol":"", "icon":[]},
+				{"name":"Corbeil-Essonnes", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "E1",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"E1",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Haussmann – Saint-Lazare - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Magenta - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Rosa Parks - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Pantin - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Noisy-le-Sec - handicap-white", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Haussmann – Saint-Lazare - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Magenta - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Rosa Parks - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Pantin - circle", "symbol":"", "icon":[]},
+				{"name":"Noisy-le-Sec - handicap-white", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "E2",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"E2",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Noisy-le-Sec - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bondy - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Raincy – Villemomble – Montfermeil - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gagny - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Chénay – Gagny - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Chelles-Gournay - handicap-white", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Noisy-le-Sec - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Bondy - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Le Raincy – Villemomble – Montfermeil - circle", "symbol":"", "icon":[]},
+				{"name":"Gagny - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Le Chénay – Gagny - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Chelles-Gournay - handicap-white", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "E4",
-			"type": "rer",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"E4",
+			"type":"rer",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Noisy-le-Sec - handicap-white", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Rosny – Bois-Perrier - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Rosny-sous-Bois - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Val de Fontenay", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Nogent – Le Perreux - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Les Boullereaux – Champigny - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Villiers-sur-Marne – Le Plessis-Trévise - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Les Yvris – Noisy-le-Grand - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Émerainville – Pontault-Combault - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Roissy-en-Brie - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Ozoir-la-Ferrière - handicap-blue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gretz-Armainvilliers - circle", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Tournan - handicap-white", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Noisy-le-Sec - handicap-white", "symbol":"", "icon":[]},
+				{"name":"Rosny – Bois-Perrier - circle", "symbol":"", "icon":[]},
+				{"name":"Rosny-sous-Bois - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Val de Fontenay", "symbol":"interchange", "icon":[]},
+				{"name":"Nogent – Le Perreux - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Les Boullereaux – Champigny - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Villiers-sur-Marne – Le Plessis-Trévise - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Les Yvris – Noisy-le-Grand - circle", "symbol":"", "icon":[]},
+				{"name":"Émerainville – Pontault-Combault - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Roissy-en-Brie - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Ozoir-la-Ferrière - handicap-blue", "symbol":"", "icon":[]},
+				{"name":"Gretz-Armainvilliers - circle", "symbol":"", "icon":[]},
+				{"name":"Tournan - handicap-white", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "T1",
-			"type": "tram",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"T1",
+			"type":"tram",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Asnières – Gennevilliers – Les Courtilles [1]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Le Luth", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Le Village", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Timbaud", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gennevilliers", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Parc des Chanteraines", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Chemin des Reniers", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Noue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Mairie de Villeneuve-la-Garenne", "symbol": "", "icon":[], "label":"name"},
-				{"name": "L'Île-Saint-Denis", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gare de Saint-Denis", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Théâtre Gérald Philipe", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Marché de Saint-Denis", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Basilique de Saint-Denis [1]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Cimetière de Saint-Denis", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Hôpital Delafontaine", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Cosmonautes", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Courneuve – Six Routes", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Hôtel de Ville de La Courneuve", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Stade Géo André", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Danton", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Courneuve – 8 Mai 1945", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Maurice Lachâtre", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Drancy – Avenir", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Hôpital Avicenne", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Gaston Roulaud", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Escadrille Normandie – Niémen", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Ferme", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Libération", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Hôtel de Ville de Bobigny", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Bobigny – Pablo Picasso", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Jean Rostand", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Auguste Delaune", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Pont de Bondy", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Petit Noisy", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Noisy-le-Sec", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Carnot – Jaurès", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Mairie de Noisy", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Carrefour de La Vierge", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Place Carnot", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Collège Coubert", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Libre Pensée", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Route de Romainville", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Aristide Briande", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Rue de Rosny", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Théophile Sueur", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Côte de Nord", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Victor Hugo", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Faidheerbe", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Val de Fontenay", "symbol": "", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Asnières – Gennevilliers – Les Courtilles [1]", "symbol":"interchange", "icon":[]},
+				{"name":"Le Luth", "symbol":"", "icon":[]},
+				{"name":"Le Village", "symbol":"", "icon":[]},
+				{"name":"Timbaud", "symbol":"", "icon":[]},
+				{"name":"Gennevilliers", "symbol":"interchange", "icon":[]},
+				{"name":"Parc des Chanteraines", "symbol":"", "icon":[]},
+				{"name":"Chemin des Reniers", "symbol":"", "icon":[]},
+				{"name":"La Noue", "symbol":"", "icon":[]},
+				{"name":"Mairie de Villeneuve-la-Garenne", "symbol":"", "icon":[]},
+				{"name":"L'Île-Saint-Denis", "symbol":"", "icon":[]},
+				{"name":"Gare de Saint-Denis", "symbol":"interchange", "icon":[]},
+				{"name":"Théâtre Gérald Philipe", "symbol":"", "icon":[]},
+				{"name":"Marché de Saint-Denis", "symbol":"", "icon":[]},
+				{"name":"Basilique de Saint-Denis [1]", "symbol":"interchange", "icon":[]},
+				{"name":"Cimetière de Saint-Denis", "symbol":"", "icon":[]},
+				{"name":"Hôpital Delafontaine", "symbol":"", "icon":[]},
+				{"name":"Cosmonautes", "symbol":"", "icon":[]},
+				{"name":"La Courneuve – Six Routes", "symbol":"", "icon":[]},
+				{"name":"Hôtel de Ville de La Courneuve", "symbol":"", "icon":[]},
+				{"name":"Stade Géo André", "symbol":"", "icon":[]},
+				{"name":"Danton", "symbol":"", "icon":[]},
+				{"name":"La Courneuve – 8 Mai 1945", "symbol":"interchange", "icon":[]},
+				{"name":"Maurice Lachâtre", "symbol":"", "icon":[]},
+				{"name":"Drancy – Avenir", "symbol":"", "icon":[]},
+				{"name":"Hôpital Avicenne", "symbol":"", "icon":[]},
+				{"name":"Gaston Roulaud", "symbol":"", "icon":[]},
+				{"name":"Escadrille Normandie – Niémen", "symbol":"", "icon":[]},
+				{"name":"La Ferme", "symbol":"", "icon":[]},
+				{"name":"Libération", "symbol":"", "icon":[]},
+				{"name":"Hôtel de Ville de Bobigny", "symbol":"", "icon":[]},
+				{"name":"Bobigny – Pablo Picasso", "symbol":"interchange", "icon":[]},
+				{"name":"Jean Rostand", "symbol":"", "icon":[]},
+				{"name":"Auguste Delaune", "symbol":"", "icon":[]},
+				{"name":"Pont de Bondy", "symbol":"", "icon":[]},
+				{"name":"Petit Noisy", "symbol":"", "icon":[]},
+				{"name":"Noisy-le-Sec", "symbol":"interchange", "icon":[]},
+				{"name":"Carnot – Jaurès", "symbol":"", "icon":[]},
+				{"name":"Mairie de Noisy", "symbol":"", "icon":[]},
+				{"name":"Carrefour de La Vierge", "symbol":"", "icon":[]},
+				{"name":"Place Carnot", "symbol":"interchange", "icon":[]},
+				{"name":"Collège Coubert", "symbol":"", "icon":[]},
+				{"name":"Libre Pensée", "symbol":"", "icon":[]},
+				{"name":"Route de Romainville", "symbol":"", "icon":[]},
+				{"name":"Aristide Briande", "symbol":"", "icon":[]},
+				{"name":"Rue de Rosny", "symbol":"", "icon":[]},
+				{"name":"Théophile Sueur", "symbol":"", "icon":[]},
+				{"name":"Côte de Nord", "symbol":"", "icon":[]},
+				{"name":"Victor Hugo", "symbol":"", "icon":[]},
+				{"name":"Faidheerbe", "symbol":"", "icon":[]},
+				{"name":"Val de Fontenay", "symbol":"", "icon":[]}
 			]
 		},
 		{
-			"name": "T2",
-			"type": "tram",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"T2",
+			"type":"tram",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Pont de Bezons", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Parc Pierre Lagravère", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Victor Basch", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Jacqueline Auriol", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Charlebourg", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Les Fauvelles", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Faubourg de l'Arche", "symbol": "", "icon":[], "label":"name"},
-				{"name": "La Défense [2]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Puteaux", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Belvédère", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Suresnes - Longchamp", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Les Coteaux", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Les Milons", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Parc de Saint-Cloud", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Musée de Sèvres", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Brimborion", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Meudon-sur-Seine", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Les Moulineaux", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Jacques-Henri Lartigue", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Issy – Val de Seine", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Henri Farman", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Suzanne Lenglen", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte d'Issy", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de Versailles [2]", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Pont de Bezons", "symbol":"", "icon":[]},
+				{"name":"Parc Pierre Lagravère", "symbol":"", "icon":[]},
+				{"name":"Victor Basch", "symbol":"", "icon":[]},
+				{"name":"Jacqueline Auriol", "symbol":"", "icon":[]},
+				{"name":"Charlebourg", "symbol":"", "icon":[]},
+				{"name":"Les Fauvelles", "symbol":"", "icon":[]},
+				{"name":"Faubourg de l'Arche", "symbol":"", "icon":[]},
+				{"name":"La Défense [2]", "symbol":"interchange", "icon":[]},
+				{"name":"Puteaux", "symbol":"", "icon":[]},
+				{"name":"Belvédère", "symbol":"", "icon":[]},
+				{"name":"Suresnes - Longchamp", "symbol":"", "icon":[]},
+				{"name":"Les Coteaux", "symbol":"", "icon":[]},
+				{"name":"Les Milons", "symbol":"", "icon":[]},
+				{"name":"Parc de Saint-Cloud", "symbol":"", "icon":[]},
+				{"name":"Musée de Sèvres", "symbol":"", "icon":[]},
+				{"name":"Brimborion", "symbol":"", "icon":[]},
+				{"name":"Meudon-sur-Seine", "symbol":"", "icon":[]},
+				{"name":"Les Moulineaux", "symbol":"", "icon":[]},
+				{"name":"Jacques-Henri Lartigue", "symbol":"", "icon":[]},
+				{"name":"Issy – Val de Seine", "symbol":"interchange", "icon":[]},
+				{"name":"Henri Farman", "symbol":"", "icon":[]},
+				{"name":"Suzanne Lenglen", "symbol":"", "icon":[]},
+				{"name":"Porte d'Issy", "symbol":"", "icon":[]},
+				{"name":"Porte de Versailles [2]", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "T3a",
-			"type": "tram",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"T3a",
+			"type":"tram",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Porte de Vincennes [3a]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Alexandra David-Néel", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Montempoivre", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte Dorée", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Porte de Charenton", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Baron Le Roy", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Avenue de France", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Maryse Bastié", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte d'Ivry", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Porte de Choisy", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Porte d'Italie", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Poterne des Peupliers", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Stade Charléty", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Cité Universitaire", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Montsouris", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte d'Orléans", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Jean Moulin", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Didot", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de Vanves", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Brançion", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Georges Brassens", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de Versailles [12, 3a]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Desnouettes", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Balard [3a]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Pont du Garigliano", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Porte de Vincennes [3a]", "symbol":"interchange", "icon":[]},
+				{"name":"Alexandra David-Néel", "symbol":"", "icon":[]},
+				{"name":"Montempoivre", "symbol":"", "icon":[]},
+				{"name":"Porte Dorée", "symbol":"interchange", "icon":[]},
+				{"name":"Porte de Charenton", "symbol":"interchange", "icon":[]},
+				{"name":"Baron Le Roy", "symbol":"", "icon":[]},
+				{"name":"Avenue de France", "symbol":"", "icon":[]},
+				{"name":"Maryse Bastié", "symbol":"", "icon":[]},
+				{"name":"Porte d'Ivry", "symbol":"interchange", "icon":[]},
+				{"name":"Porte de Choisy", "symbol":"interchange", "icon":[]},
+				{"name":"Porte d'Italie", "symbol":"interchange", "icon":[]},
+				{"name":"Poterne des Peupliers", "symbol":"", "icon":[]},
+				{"name":"Stade Charléty", "symbol":"", "icon":[]},
+				{"name":"Cité Universitaire", "symbol":"interchange", "icon":[]},
+				{"name":"Montsouris", "symbol":"", "icon":[]},
+				{"name":"Porte d'Orléans", "symbol":"interchange", "icon":[]},
+				{"name":"Jean Moulin", "symbol":"", "icon":[]},
+				{"name":"Didot", "symbol":"", "icon":[]},
+				{"name":"Porte de Vanves", "symbol":"interchange", "icon":[]},
+				{"name":"Brançion", "symbol":"", "icon":[]},
+				{"name":"Georges Brassens", "symbol":"", "icon":[]},
+				{"name":"Porte de Versailles [12, 3a]", "symbol":"interchange", "icon":[]},
+				{"name":"Desnouettes", "symbol":"", "icon":[]},
+				{"name":"Balard [3a]", "symbol":"interchange", "icon":[]},
+				{"name":"Pont du Garigliano", "symbol":"interchange", "icon":[]}
 			]
 		},
 		{
-			"name": "T3b",
-			"type": "tram",
-			"style": {
-				"color": "black",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"T3b",
+			"type":"tram",
+			"style":{
+				"color":"black",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name": "Porte de la Chapelle [3b]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Colette Besson", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte d'Aubervilliers", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Rosa Parks", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Canal Saint-Denis", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de la Villette [3b]", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Ella Fitzgerald", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Delphine Seyrig", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de Pantin", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Butte du Chapeau Rouge", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Hôpital Robert Debré", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte des Lilas", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Adrienne Bolland", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Séverine", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de Bagnolet", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Marie de Miribel", "symbol": "", "icon":[], "label":"name"},
-				{"name": "Porte de Montreuil", "symbol": "interchange", "icon":[], "label":"name"},
-				{"name": "Porte de Vincennes [3b]", "symbol": "interchange", "icon":[], "label":"name"}
+			"stations":[
+				{"name":"Porte de la Chapelle [3b]", "symbol":"interchange", "icon":[]},
+				{"name":"Colette Besson", "symbol":"", "icon":[]},
+				{"name":"Porte d'Aubervilliers", "symbol":"", "icon":[]},
+				{"name":"Rosa Parks", "symbol":"", "icon":[]},
+				{"name":"Canal Saint-Denis", "symbol":"", "icon":[]},
+				{"name":"Porte de la Villette [3b]", "symbol":"interchange", "icon":[]},
+				{"name":"Ella Fitzgerald", "symbol":"", "icon":[]},
+				{"name":"Delphine Seyrig", "symbol":"", "icon":[]},
+				{"name":"Porte de Pantin", "symbol":"interchange", "icon":[]},
+				{"name":"Butte du Chapeau Rouge", "symbol":"", "icon":[]},
+				{"name":"Hôpital Robert Debré", "symbol":"", "icon":[]},
+				{"name":"Porte des Lilas", "symbol":"interchange", "icon":[]},
+				{"name":"Adrienne Bolland", "symbol":"", "icon":[]},
+				{"name":"Séverine", "symbol":"", "icon":[]},
+				{"name":"Porte de Bagnolet", "symbol":"interchange", "icon":[]},
+				{"name":"Marie de Miribel", "symbol":"", "icon":[]},
+				{"name":"Porte de Montreuil", "symbol":"interchange", "icon":[]},
+				{"name":"Porte de Vincennes [3b]", "symbol":"interchange", "icon":[]}
 			]
 		}
 	]

@@ -5,15 +5,19 @@
 		"width":1200,
 		"height":1200
 	},
-	"lines": [
+	"default":{
+		"label":"name",
+		"symbol":"circle"
+	},
+	"lines":[
 		{
-			"name": "Line 1",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 1",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Xinzhuang", "name-cn":"莘庄"},
 				{"name":"Waihuanlu", "name-cn":"外环路"},
 				{"name":"Lianhua Road", "name-cn":"莲花路"},
@@ -45,13 +49,13 @@
 			]
 		},
 		{
-			"name": "Line 2",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 2",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"East Xujing", "name-cn":"徐泾东"},
 				{"name":"Hongqiao Railway Station", "name-cn":"虹桥火车站"},
 				{"name":"Hongqiao Airport Terminal 2", "name-cn":"虹桥2号航站楼"},
@@ -85,13 +89,13 @@
 			]
 		},
 		{
-			"name": "Line 3",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 3",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Shanghai South Railway Station", "name-cn":"上海南站"},
 				{"name":"Shilong Road", "name-cn":"石龙路"},
 				{"name":"Longcao Road", "name-cn":"龙漕路"},
@@ -124,13 +128,13 @@
 			]
 		},
 		{
-			"name": "Line 4",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 4",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Yishan Road", "name-cn":"宜山路"},
 				{"name":"Hongqiao Road", "name-cn":"虹桥路"},
 				{"name":"West Yan'an Road", "name-cn":"延安西路"},
@@ -161,13 +165,13 @@
 			]
 		},
 		{
-			"name": "Line 5",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 5",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Xinzhuang", "name-cn":"莘庄"},
 				{"name":"Chunshen Road", "name-cn":"春申路"},
 				{"name":"Yindu Road", "name-cn":"银都路"},
@@ -182,13 +186,13 @@
 			]
 		},
 		{
-			"name": "Line 5",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 5",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Dongchuan Road", "name-cn":"东川路"},
 				{"name":"Jiangchuan Road", "name-cn":"江川路"},
 				{"name":"Xidu", "name-cn":"西渡"},
@@ -202,13 +206,13 @@
 			]
 		},
 		{
-			"name": "Line 6",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 6",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Gangcheng Road", "name-cn":"港城路"},
 				{"name":"North Waigaoqiao Free Trade Zone", "name-cn":"外高桥保税区北"},
 				{"name":"Hangjin Road", "name-cn":"航津路"},
@@ -240,13 +244,13 @@
 			]
 		},
 		{
-			"name": "Line 7",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 7",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Meilan Lake", "name-cn":"美兰湖"},
 				{"name":"Luonan Xincun", "name-cn":"罗南新村"},
 				{"name":"Panguang Road", "name-cn":"潘广路"},
@@ -283,13 +287,13 @@
 			]
 		},
 		{
-			"name": "Line 8",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 8",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Shiguang Road", "name-cn":"市光路"},
 				{"name":"Nenjiang Road", "name-cn":"嫩江路"},
 				{"name":"Xiangyin Road", "name-cn":"翔殷路"},
@@ -323,13 +327,13 @@
 			]
 		},
 		{
-			"name": "Line 9",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 9",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Songjiang South Railway Station", "name-cn":"松江南站"},
 				{"name":"Zuibaichi Park", "name-cn":"醉白池"},
 				{"name":"Songjiang Sports Center", "name-cn":"松江体育中心"},
@@ -368,13 +372,13 @@
 			]
 		},
 		{
-			"name": "Line 10",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 10",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"code":"L10/01", "name":"Hongqiao Railway Station", "name-cn":"虹桥火车站"},
 				{"code":"L10/02", "name":"Hongqiao Airport Terminal 2", "name-cn":"虹桥2号航站楼"},
 				{"code":"L10/03", "name":"Hongqiao Airport Terminal 1", "name-cn":"虹桥1号航站楼"},
@@ -383,13 +387,13 @@
 			]
 		},
 		{
-			"name": "Line 10",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 10",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"code":"L10/05-3", "name":"Hangzhong Road", "name-cn":"航中路"},
 				{"code":"L10/05-2", "name":"Ziteng Road", "name-cn":"紫藤路"},
 				{"code":"L10/05-1", "name":"Longbai Xincun", "name-cn":"龙柏新村"},
@@ -426,13 +430,13 @@
 			]
 		},
 		{
-			"name": "Line 11",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 11",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Disney Resort", "name-cn":"迪士尼"},
 				{"name":"Kangxin Highway", "name-cn":"康新公路"},
 				{"name":"Xiuyan Road", "name-cn":"秀沿路"},
@@ -469,13 +473,13 @@
 			]
 		},
 		{
-			"name": "Line 11",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 11",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Jiading Xincheng", "name-cn":"嘉定新城"},
 				{"name":"Shanghai Circuit", "name-cn":"上海赛车场"},
 				{"name":"East Changji Road", "name-cn":"昌吉东路"},
@@ -487,13 +491,13 @@
 			]
 		},
 		{
-			"name": "Line 12",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 12",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Qixin Road", "name-cn":"七莘路"},
 				{"name":"Hongxin Road", "name-cn":"虹莘路"},
 				{"name":"Gudai Road", "name-cn":"顾戴路"},
@@ -529,13 +533,13 @@
 			]
 		},
 		{
-			"name": "Line 13",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 13",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Jinyun Road", "name-cn":"金运路"},
 				{"name":"West Jinshajiang Road", "name-cn":"金沙江西路"},
 				{"name":"Fengzhuang", "name-cn":"丰庄"},
@@ -570,13 +574,13 @@
 			]
 		},
 		{
-			"name": "Line 16",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 16",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Longyang Road", "name-cn":"龙阳路"},
 				{"name":"Middle Huaxia Road", "name-cn":"华夏中路"},
 				{"name":"Luoshan Road", "name-cn":"罗山路"},
@@ -593,13 +597,13 @@
 			]
 		},
 		{
-			"name": "Line 17",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Line 17",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Hongqiao Railway Station", "name-cn":"虹桥火车站"},
 				{"name":"Zhuguang Road", "name-cn":"诸光路"},
 				{"name":"Panlong Road", "name-cn":"蟠龙路"},
@@ -616,13 +620,13 @@
 			]
 		},
 		{
-			"name": "Pujiang Line",
-			"style": {
-				"color": "",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"Pujiang Line",
+			"style":{
+				"color":"",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 				{"name":"Shendu Highway", "name-cn":"沈杜公路"},
 				{"name":"Sanlu Highway", "name-cn":"三鲁公路"},
 				{"name":"Minrui Road", "name-cn":"闵瑞路"},

@@ -5,835 +5,839 @@
 		"width":1200,
 		"height":1200
 	},
-	"lines": [{
-			"name": "S1",
-			"style": {
-				"color": "#dd6ba6",
-				"outline": "none",
-				"stroke": "solid"
+	"default":{
+		"label":"name",
+		"symbol":"tick"
+	},
+	"lines":[{
+			"name":"S1",
+			"style":{
+				"color":"#dd6ba6",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Wannsee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Nikolassee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Schlachtensee", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Mexikoplatz", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Zehlendorf", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Sundgauer Straße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Lichterfelde West", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Botanischer Garten", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Rathaus Steglitz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Feuerbachstraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Friedenau", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Schöneberg", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Julius-Leber-Brücke", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Yorckstraße [Großgörschenstraße]", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Anhalter Bahnhof", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Potsdamer Platz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Brandenburger Tor", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Friedrichstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Oranienburger Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Nordbahnhof", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Humboldthain", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Gesundbrunnen", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"},
-				{"name":"Bornholmer Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Wollankstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Schönholz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Wilhelmsruh", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Wittenau", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Waidmannslust", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hermsdorf", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Frohnau", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Hohen Neuendorf", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Birkenwerder", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Borgsdorf", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Lehnitz", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Oranienburg", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Wannsee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Nikolassee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Schlachtensee", "icon":["elevator"]},
+				{"name":"Mexikoplatz", "icon":["elevator"]},
+				{"name":"Zehlendorf", "icon":["elevator"]},
+				{"name":"Sundgauer Straße", "icon":["elevator"]},
+				{"name":"Lichterfelde West", "icon":["elevator"]},
+				{"name":"Botanischer Garten", "icon":["elevator"]},
+				{"name":"Rathaus Steglitz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Feuerbachstraße", "icon":["elevator"]},
+				{"name":"Friedenau", "icon":["elevator"]},
+				{"name":"Schöneberg", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Julius-Leber-Brücke", "icon":["elevator"]},
+				{"name":"Yorckstraße [Großgörschenstraße]", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Anhalter Bahnhof", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Potsdamer Platz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Brandenburger Tor", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Friedrichstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Oranienburger Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Nordbahnhof", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Humboldthain", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Gesundbrunnen", "icon":["elevator", "train"], "symbol":"interchange"},
+				{"name":"Bornholmer Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Wollankstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Schönholz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Wilhelmsruh", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Wittenau", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Waidmannslust", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hermsdorf", "icon":["elevator"]},
+				{"name":"Frohnau", "icon":["elevator"]},
+				{"name":"Hohen Neuendorf", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Birkenwerder", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Borgsdorf", "icon":["ramp"]},
+				{"name":"Lehnitz", "icon":["ramp"]},
+				{"name":"Oranienburg", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S2",
-			"style": {
-				"color": "#3d7c3e",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S2",
+			"style":{
+				"color":"#3d7c3e",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Blankenfelde", "icon": ["ramp"], "symbol": "interchange", "label": "name"},
-				{"name":"Mahlow", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Lichtenrade", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Schichauweg", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Buckower Chaussee", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Marienfelde", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Attilastraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Priesterweg", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Südkreuz", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"},
-				{"name":"Yorckstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Anhalter Bahnhof", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Potsdamer Platz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Brandenburger Tor", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Friedrichstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Oranienburger Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Nordbahnhof", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Humboldthain", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Gesundbrunnen", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"},
-				{"name":"Bornholmer Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Pankow", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Pankow-Heinersdorf", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Blankenburg", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Karow", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Buch", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Röntgental", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Zepernick", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Bernau-Friedenstal", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Bernau", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Blankenfelde", "icon":["ramp"], "symbol":"interchange"},
+				{"name":"Mahlow", "icon":["elevator"]},
+				{"name":"Lichtenrade", "icon":["ramp"]},
+				{"name":"Schichauweg", "icon":["elevator"]},
+				{"name":"Buckower Chaussee", "icon":["ramp"]},
+				{"name":"Marienfelde"},
+				{"name":"Attilastraße", "icon":["elevator"]},
+				{"name":"Priesterweg", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Südkreuz", "icon":["elevator", "train"], "symbol":"interchange"},
+				{"name":"Yorckstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Anhalter Bahnhof", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Potsdamer Platz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Brandenburger Tor", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Friedrichstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Oranienburger Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Nordbahnhof", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Humboldthain", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Gesundbrunnen", "icon":["elevator", "train"], "symbol":"interchange"},
+				{"name":"Bornholmer Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Pankow", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Pankow-Heinersdorf", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Blankenburg", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Karow", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Buch", "icon":["elevator"]},
+				{"name":"Röntgental", "icon":["elevator"]},
+				{"name":"Zepernick", "icon":["elevator"]},
+				{"name":"Bernau-Friedenstal", "icon":["elevator"]},
+				{"name":"Bernau", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S3",
-			"style": {
-				"color": "#1b66ad",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S3",
+			"style":{
+				"color":"#1b66ad",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Erkner", "icon": ["elevator", "ramp"], "symbol": "interchange", "label": "name"},
-				{"name":"Wilhelmshagen", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Rahnsdorf", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Friedrichshagen", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Hirschgarten", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Köpenick", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Wuhlheide", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Karlshorst", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Betriebsbahnhof Rummelsburg", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Rummelsburg", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Ostkreuz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Warschauer Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Ostbahnhof", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"},
-				{"name":"Jannowitzbrücke", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Alexanderplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hackescher Markt", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Friedrichstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hauptbahnhof", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"},
-				{"name":"Bellevue", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Tiergarten", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Zoologischer Garten", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Savignyplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Charlottenburg", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Westkreuz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Messe Süd", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Heerstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Olympiastadion", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Pichelsberg", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Stresow", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Spandau", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Erkner", "icon":["elevator", "ramp"], "symbol":"interchange"},
+				{"name":"Wilhelmshagen"},
+				{"name":"Rahnsdorf", "icon":["elevator"]},
+				{"name":"Friedrichshagen", "icon":["elevator"]},
+				{"name":"Hirschgarten"},
+				{"name":"Köpenick", "icon":["elevator"]},
+				{"name":"Wuhlheide", "icon":["elevator"]},
+				{"name":"Karlshorst", "icon":["elevator"]},
+				{"name":"Betriebsbahnhof Rummelsburg", "icon":["elevator"]},
+				{"name":"Rummelsburg", "icon":["elevator"]},
+				{"name":"Ostkreuz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Warschauer Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Ostbahnhof", "icon":["elevator", "train"], "symbol":"interchange"},
+				{"name":"Jannowitzbrücke", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Alexanderplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hackescher Markt", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Friedrichstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hauptbahnhof", "icon":["elevator", "train"], "symbol":"interchange"},
+				{"name":"Bellevue", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Tiergarten", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Zoologischer Garten", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Savignyplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Charlottenburg", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Westkreuz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Messe Süd", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Heerstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Olympiastadion", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Pichelsberg", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Stresow", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Spandau", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S4X",
-			"style": {
-				"color": "#cd9d54",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S4X",
+			"style":{
+				"color":"#cd9d54",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Südkreuz", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"},
-				{"name":"Schöneberg", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Innsbrucker Platz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Bundesplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Heidelberger Platz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hohenzollerndamm", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Halensee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Westkreuz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Messe Nord/ICC", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Westend", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Jungfernheide", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Beusselstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Westhafen", "icon": ["elevator"], "symbol": "ticinterchangek", "label": "name"},
-				{"name":"Wedding", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Gesundbrunnen", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"},
-				{"name":"Schönhauser Allee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Prenzlauer Allee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Greifswalder Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Landsberger Allee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Storkower Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Frankfurter Allee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Ostkreuz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Treptower Park", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Sonnenallee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Neukölln", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hermannstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Tempelhof", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Südkreuz", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Südkreuz", "icon":["elevator", "train"], "symbol":"interchange"},
+				{"name":"Schöneberg", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Innsbrucker Platz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Bundesplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Heidelberger Platz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hohenzollerndamm", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Halensee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Westkreuz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Messe Nord/ICC", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Westend", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Jungfernheide", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Beusselstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Westhafen", "icon":["elevator"], "symbol":"ticinterchangek"},
+				{"name":"Wedding", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Gesundbrunnen", "icon":["elevator", "train"], "symbol":"interchange"},
+				{"name":"Schönhauser Allee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Prenzlauer Allee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Greifswalder Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Landsberger Allee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Storkower Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Frankfurter Allee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Ostkreuz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Treptower Park", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Sonnenallee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Neukölln", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hermannstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Tempelhof", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Südkreuz", "icon":["elevator", "train"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S5",
-			"style": {
-				"color": "#ed7233",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S5",
+			"style":{
+				"color":"#ed7233",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Strausberg Nord", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Strausberg Stadt", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Hegermühle", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Strausberg", "icon": ["ramp"], "symbol": "interchange", "label": "name"},
-				{"name":"Petershagen Nord", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Fredersdorf", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Neuenhagen", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Hoppegarten", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Birkenstein", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Mahlsdorf", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Kaulsdorf", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Wuhletal", "icon": ["ramp"], "symbol": "interchange", "label": "name"},
-				{"name":"Biesdorf", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Friedrichsfelde Ost", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Lichtenberg", "icon": ["elevator", "ramp"], "symbol": "interchange", "label": "name"},
-				{"name":"Nöldnerplatz", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Ostkreuz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Warschauer Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Ostbahnhof", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"},
-				{"name":"Jannowitzbrücke", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Alexanderplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hackescher Markt", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Friedrichstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hauptbahnhof", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"},
-				{"name":"Bellevue", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Tiergarten", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Zoologischer Garten", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Savignyplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Charlottenburg", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Westkreuz", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Strausberg Nord", "icon":["ramp"]},
+				{"name":"Strausberg Stadt", "icon":["ramp"]},
+				{"name":"Hegermühle", "icon":["ramp"]},
+				{"name":"Strausberg", "icon":["ramp"], "symbol":"interchange"},
+				{"name":"Petershagen Nord", "icon":["ramp"]},
+				{"name":"Fredersdorf", "icon":["elevator"]},
+				{"name":"Neuenhagen", "icon":["ramp"]},
+				{"name":"Hoppegarten", "icon":["elevator"]},
+				{"name":"Birkenstein", "icon":["elevator"]},
+				{"name":"Mahlsdorf", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Kaulsdorf", "icon":["elevator"]},
+				{"name":"Wuhletal", "icon":["ramp"], "symbol":"interchange"},
+				{"name":"Biesdorf", "icon":["elevator"]},
+				{"name":"Friedrichsfelde Ost", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Lichtenberg", "icon":["elevator", "ramp"], "symbol":"interchange"},
+				{"name":"Nöldnerplatz", "symbol":"interchange"},
+				{"name":"Ostkreuz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Warschauer Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Ostbahnhof", "icon":["elevator", "train"], "symbol":"interchange"},
+				{"name":"Jannowitzbrücke", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Alexanderplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hackescher Markt", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Friedrichstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hauptbahnhof", "icon":["elevator", "train"], "symbol":"interchange"},
+				{"name":"Bellevue", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Tiergarten", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Zoologischer Garten", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Savignyplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Charlottenburg", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Westkreuz", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S7",
-			"style": {
-				"color": "#846caa",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S7",
+			"style":{
+				"color":"#846caa",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Ahrensfelde", "icon": ["ramp"], "symbol": "interchange", "label": "name"},
-				{"name":"Mehrower Allee", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Raoul-Wallenberg-Straße", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Marzahn", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Poelchaustraße", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Springpfuhl", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Friedrichsfelde Ost", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Lichtenberg", "icon": ["elevator", "ramp"], "symbol": "interchange", "label": "name"},
-				{"name":"Nöldnerplatz", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Ostkreuz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Warschauer Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Ostbahnhof", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"},
-				{"name":"Jannowitzbrücke", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Alexanderplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hackescher Markt", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Friedrichstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hauptbahnhof", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"},
-				{"name":"Bellevue", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Tiergarten", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Zoologischer Garten", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Savignyplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Charlottenburg", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Westkreuz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Grunewald", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Nikolassee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Wannsee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Griebnitzsee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Babelsberg", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Potsdam Hbf", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Ahrensfelde", "icon":["ramp"], "symbol":"interchange"},
+				{"name":"Mehrower Allee", "icon":["ramp"]},
+				{"name":"Raoul-Wallenberg-Straße", "icon":["ramp"]},
+				{"name":"Marzahn", "icon":["elevator"]},
+				{"name":"Poelchaustraße", "icon":["ramp"]},
+				{"name":"Springpfuhl", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Friedrichsfelde Ost", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Lichtenberg", "icon":["elevator", "ramp"], "symbol":"interchange"},
+				{"name":"Nöldnerplatz", "symbol":"interchange"},
+				{"name":"Ostkreuz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Warschauer Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Ostbahnhof", "icon":["elevator", "train"], "symbol":"interchange"},
+				{"name":"Jannowitzbrücke", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Alexanderplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hackescher Markt", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Friedrichstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hauptbahnhof", "icon":["elevator", "train"], "symbol":"interchange"},
+				{"name":"Bellevue", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Tiergarten", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Zoologischer Garten", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Savignyplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Charlottenburg", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Westkreuz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Grunewald", "icon":["elevator"]},
+				{"name":"Nikolassee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Wannsee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Griebnitzsee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Babelsberg", "icon":["elevator"]},
+				{"name":"Potsdam Hbf", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S8",
-			"style": {
-				"color": "#62ad2e",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S8",
+			"style":{
+				"color":"#62ad2e",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Zeuthen", "icon": ["ramp"], "symbol": "interchange", "label": "name"},
-				{"name":"Eichwalde", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Grünau", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Adlershof", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Betriebsbahnhof Schöneweide", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Schöneweide", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Baumschulenweg", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Plänterwald", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Treptower Park", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Ostkreuz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Frankfurter Allee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Storkower Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Landsberger Allee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Greifswalder Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Prenzlauer Allee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Schönhauser Allee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Bornholmer Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Pankow", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Pankow-Heinersdorf", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Blankenburg", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Mühlenbeck-Mönchmühle", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Schönfließ", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Bergfelde", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Hohen Neuendorf", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Birkenwerder", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Zeuthen", "icon":["ramp"], "symbol":"interchange"},
+				{"name":"Eichwalde", "symbol":"interchange"},
+				{"name":"Grünau", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Adlershof", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Betriebsbahnhof Schöneweide", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Schöneweide", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Baumschulenweg", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Plänterwald", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Treptower Park", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Ostkreuz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Frankfurter Allee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Storkower Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Landsberger Allee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Greifswalder Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Prenzlauer Allee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Schönhauser Allee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Bornholmer Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Pankow", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Pankow-Heinersdorf", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Blankenburg", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Mühlenbeck-Mönchmühle", "icon":["ramp"]},
+				{"name":"Schönfließ"},
+				{"name":"Bergfelde", "icon":["elevator"]},
+				{"name":"Hohen Neuendorf", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Birkenwerder", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S9",
-			"style": {
-				"color": "#9a2b49",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S9",
+			"style":{
+				"color":"#9a2b49",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Berlin Brandenburg Airport", "inService":false, "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Waßmannsdorf", "inService":false, "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Flughafen Berlin-Schönefeld", "icon": ["ramp", "airport"], "symbol": "interchange", "label": "name"},
-				{"name":"Grünbergallee", "icon": ["ramp"], "symbol": "interchange", "label": "name"},
-				{"name":"Altglienicke", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Adlershof", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Betriebsbahnhof Schöneweide", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Schöneweide", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Britzer Verbindungskanal", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Baumschulenweg", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Plänterwald", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Treptower Park", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Warschauer Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Ostbahnhof", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"},
-				{"name":"Jannowitzbrücke", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Alexanderplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hackescher Markt", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Friedrichstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hauptbahnhof", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"},
-				{"name":"Bellevue", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Tiergarten", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Zoologischer Garten", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Savignyplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Charlottenburg", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Westkreuz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Messe Süd", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Heerstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Olympiastadion", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Pichelsberg", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Stresow", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Spandau", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Berlin Brandenburg Airport", "inService":false, "symbol":"interchange"},
+				{"name":"Waßmannsdorf", "inService":false, "symbol":"interchange"},
+				{"name":"Flughafen Berlin-Schönefeld", "icon":["ramp", "airport"], "symbol":"interchange"},
+				{"name":"Grünbergallee", "icon":["ramp"], "symbol":"interchange"},
+				{"name":"Altglienicke", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Adlershof", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Betriebsbahnhof Schöneweide", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Schöneweide", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Britzer Verbindungskanal", "icon":["elevator"]},
+				{"name":"Baumschulenweg", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Plänterwald", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Treptower Park", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Warschauer Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Ostbahnhof", "icon":["elevator", "train"], "symbol":"interchange"},
+				{"name":"Jannowitzbrücke", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Alexanderplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hackescher Markt", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Friedrichstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hauptbahnhof", "icon":["elevator", "train"], "symbol":"interchange"},
+				{"name":"Bellevue", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Tiergarten", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Zoologischer Garten", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Savignyplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Charlottenburg", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Westkreuz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Messe Süd", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Heerstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Olympiastadion", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Pichelsberg", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Stresow", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Spandau", "icon":["elevator", "train"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S25",
-			"style": {
-				"color": "#3d7c3e",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S25",
+			"style":{
+				"color":"#3d7c3e",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Teltow Stadt", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Lichterfelde Süd", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Osdorfer Straße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Lichterfelde Ost", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Lankwitz", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Südende", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Priesterweg", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Teltow Stadt", "icon":["elevator"]},
+				{"name":"Lichterfelde Süd", "icon":["elevator"]},
+				{"name":"Osdorfer Straße", "icon":["elevator"]},
+				{"name":"Lichterfelde Ost", "icon":["elevator"]},
+				{"name":"Lankwitz", "icon":["ramp"]},
+				{"name":"Südende", "icon":["elevator"]},
+				{"name":"Priesterweg", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S25",
-			"style": {
-				"color": "#3d7c3e",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S25",
+			"style":{
+				"color":"#3d7c3e",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Bornholmer Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Wollankstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Schönholz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Alt-Reinickendorf", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Karl-Bonhoeffer-Nervenklinik", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Eichborndamm", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Tegel", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Schulzendorf", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Heiligensee", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Hennigsdorf", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Bornholmer Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Wollankstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Schönholz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Alt-Reinickendorf", "icon":["elevator"]},
+				{"name":"Karl-Bonhoeffer-Nervenklinik", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Eichborndamm", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Tegel", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Schulzendorf", "icon":["elevator"]},
+				{"name":"Heiligensee", "icon":["elevator"]},
+				{"name":"Hennigsdorf", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S26",
-			"style": {
-				"color": "#3d7c3e",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S26",
+			"style":{
+				"color":"#3d7c3e",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Schönholz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Wilhelmsruh", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Wittenau", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Waidmannslust", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Schönholz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Wilhelmsruh", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Wittenau", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Waidmannslust", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S45",
-			"style": {
-				"color": "#cd9d54",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S45",
+			"style":{
+				"color":"#cd9d54",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Berlin Brandenburg Airport", "inService":false, "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Waßmannsdorf", "inService":false, "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Flughafen Schönefeld", "icon": ["ramp", "airport"], "symbol": "interchange", "label": "name"},
-				{"name":"Grünbergallee", "icon": ["ramp"], "symbol": "interchange", "label": "name"},
-				{"name":"Altglienicke", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Adlershof", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Berlin Brandenburg Airport", "inService":false, "symbol":"interchange"},
+				{"name":"Waßmannsdorf", "inService":false, "symbol":"interchange"},
+				{"name":"Flughafen Schönefeld", "icon":["ramp", "airport"], "symbol":"interchange"},
+				{"name":"Grünbergallee", "icon":["ramp"], "symbol":"interchange"},
+				{"name":"Altglienicke", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Adlershof", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S46",
-			"style": {
-				"color": "#cd9d54",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S46",
+			"style":{
+				"color":"#cd9d54",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Königs Wusterhausen", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Wildau", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Zeuthen", "icon": ["ramp"], "symbol": "interchange", "label": "name"},
-				{"name":"Eichwalde", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Grünau", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Adlershof", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Betriebsbahnhof Schöneweide", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Schöneweide", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Baumschulenweg", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Köllnische Heide", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Neukölln", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hermannstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Tempelhof", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Südkreuz", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"},
-				{"name":"Schöneberg", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Innsbrucker Platz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Bundesplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Heidelberger Platz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hohenzollerndamm", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Halensee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Westkreuz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Messe Nord/ICC", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Westend", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Königs Wusterhausen", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Wildau", "icon":["elevator"]},
+				{"name":"Zeuthen", "icon":["ramp"], "symbol":"interchange"},
+				{"name":"Eichwalde", "symbol":"interchange"},
+				{"name":"Grünau", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Adlershof", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Betriebsbahnhof Schöneweide", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Schöneweide", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Baumschulenweg", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Köllnische Heide", "icon":["elevator"]},
+				{"name":"Neukölln", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hermannstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Tempelhof", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Südkreuz", "icon":["elevator", "train"], "symbol":"interchange"},
+				{"name":"Schöneberg", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Innsbrucker Platz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Bundesplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Heidelberger Platz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hohenzollerndamm", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Halensee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Westkreuz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Messe Nord/ICC", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Westend", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S47",
-			"style": {
-				"color": "#cd9d54",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S47",
+			"style":{
+				"color":"#cd9d54",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Spindlersfeld", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Oberspree", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Schöneweide", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Spindlersfeld", "icon":["ramp"]},
+				{"name":"Oberspree", "icon":["ramp"]},
+				{"name":"Schöneweide", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S75",
-			"style": {
-				"color": "#846caa",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S75",
+			"style":{
+				"color":"#846caa",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Wartenberg", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Hohenschönhausen", "icon": ["elevator", "ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Gehrenseestraße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Springpfuhl", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Wartenberg", "icon":["ramp"]},
+				{"name":"Hohenschönhausen", "icon":["elevator", "ramp"]},
+				{"name":"Gehrenseestraße"},
+				{"name":"Springpfuhl", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "S85",
-			"style": {
-				"color": "#62ad2e",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"S85",
+			"style":{
+				"color":"#62ad2e",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 			]
 		},
 		{
-			"name": "U1",
-			"style": {
-				"color": "#62ad2e",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"U1",
+			"style":{
+				"color":"#62ad2e",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Warschauer Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Schlesisches Tor", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Görlitzer Bahnhof", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Kottbusser Tor", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Prinzenstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hallesches Tor", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Möckernbrücke", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Gleisdreieck", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Kurfürstenstraße", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Nollendorfplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Wittenbergplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Kurfürstendamm", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Uhlandstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Warschauer Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Schlesisches Tor", "symbol":"interchange"},
+				{"name":"Görlitzer Bahnhof", "symbol":"interchange"},
+				{"name":"Kottbusser Tor", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Prinzenstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hallesches Tor", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Möckernbrücke", "symbol":"interchange"},
+				{"name":"Gleisdreieck", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Kurfürstenstraße", "symbol":"interchange"},
+				{"name":"Nollendorfplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Wittenbergplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Kurfürstendamm", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Uhlandstraße", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "U2",
-			"style": {
-				"color": "#e74f32",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"U2",
+			"style":{
+				"color":"#e74f32",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Pankow", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Vinetastraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Schönhauser Allee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Eberswalder Straße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Senefelderplatz", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Rosa-Luxemburg-Platz", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Alexanderplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Klosterstraße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Märkisches Museum", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Spittelmarkt", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Hausvogteiplatz", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Stadtmitte [U2]", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Mohrenstraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Potsdamer Platz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Mendelssohn-Bartholdy-Park", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Gleisdreieck", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Bülowstraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Nollendorfplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Wittenbergplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Zoologischer Garten", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Ernst-Reuter-Platz", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Deutsche Oper", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Bismarckstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Sophie-Charlotte-Platz", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Kaiserdamm", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Theodor-Heuss-Platz", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Neu-Westend", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Olympia-Stadion", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Ruhleben", "icon": ["elevator"], "symbol": "tick", "label": "name"}
+			"stations":[
+				{"name":"Pankow", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Vinetastraße", "icon":["elevator"]},
+				{"name":"Schönhauser Allee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Eberswalder Straße", "icon":["elevator"]},
+				{"name":"Senefelderplatz", "icon":["elevator"]},
+				{"name":"Rosa-Luxemburg-Platz"},
+				{"name":"Alexanderplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Klosterstraße"},
+				{"name":"Märkisches Museum", "icon":["elevator"]},
+				{"name":"Spittelmarkt", "icon":["elevator"]},
+				{"name":"Hausvogteiplatz"},
+				{"name":"Stadtmitte [U2]", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Mohrenstraße", "icon":["elevator"]},
+				{"name":"Potsdamer Platz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Mendelssohn-Bartholdy-Park", "icon":["elevator"]},
+				{"name":"Gleisdreieck", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Bülowstraße", "icon":["elevator"]},
+				{"name":"Nollendorfplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Wittenbergplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Zoologischer Garten", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Ernst-Reuter-Platz", "symbol":"interchange"},
+				{"name":"Deutsche Oper"},
+				{"name":"Bismarckstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Sophie-Charlotte-Platz"},
+				{"name":"Kaiserdamm", "symbol":"interchange"},
+				{"name":"Theodor-Heuss-Platz", "icon":["elevator"]},
+				{"name":"Neu-Westend"},
+				{"name":"Olympia-Stadion", "icon":["elevator"]},
+				{"name":"Ruhleben", "icon":["elevator"]}
 			]
 		},
 		{
-			"name": "U3",
-			"style": {
-				"color": "#4ca193",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"U3",
+			"style":{
+				"color":"#4ca193",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Warschauer Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Schlesisches Tor", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Görlitzer Bahnhof", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Kottbusser Tor", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Prinzenstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hallesches Tor", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Möckernbrücke", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Gleisdreieck", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Kurfürstenstraße", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Nollendorfplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Wittenbergplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Augsburger Straße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Spichernstraße", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Hohenzollernplatz", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Fehrbelliner Platz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Heidelberger Platz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Rüdesheimer Platz", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Breitenbachplatz", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Podbielskiallee", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Dahlem-Dorf", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Freie Universität [Thielplatz]", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Oskar-Helene-Heim", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Onkel Toms Hütte", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Krumme Lanke", "icon": ["elevator"], "symbol": "tick", "label": "name"}
+			"stations":[
+				{"name":"Warschauer Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Schlesisches Tor", "symbol":"interchange"},
+				{"name":"Görlitzer Bahnhof", "symbol":"interchange"},
+				{"name":"Kottbusser Tor", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Prinzenstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hallesches Tor", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Möckernbrücke", "symbol":"interchange"},
+				{"name":"Gleisdreieck", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Kurfürstenstraße", "symbol":"interchange"},
+				{"name":"Nollendorfplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Wittenbergplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Augsburger Straße"},
+				{"name":"Spichernstraße", "symbol":"interchange"},
+				{"name":"Hohenzollernplatz", "icon":["elevator"]},
+				{"name":"Fehrbelliner Platz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Heidelberger Platz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Rüdesheimer Platz"},
+				{"name":"Breitenbachplatz", "icon":["elevator"]},
+				{"name":"Podbielskiallee"},
+				{"name":"Dahlem-Dorf", "icon":["elevator"]},
+				{"name":"Freie Universität [Thielplatz]"},
+				{"name":"Oskar-Helene-Heim"},
+				{"name":"Onkel Toms Hütte"},
+				{"name":"Krumme Lanke", "icon":["elevator"]}
 			]
 		},
 		{
-			"name": "U4",
-			"style": {
-				"color": "#fbd533",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"U4",
+			"style":{
+				"color":"#fbd533",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Nollendorfplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Viktoria-Luise-Platz", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Bayerischer Platz", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Rathaus Schöneberg", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Innsbrucker Platz", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Nollendorfplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Viktoria-Luise-Platz"},
+				{"name":"Bayerischer Platz", "symbol":"interchange"},
+				{"name":"Rathaus Schöneberg"},
+				{"name":"Innsbrucker Platz", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "U5",
-			"style": {
-				"color": "#805238",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"U5",
+			"style":{
+				"color":"#805238",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Alexanderplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Schillingstraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Strausberger Platz", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Weberwiese", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Frankfurter Tor", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Samariterstraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Frankfurter Allee", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Magdalenenstraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Lichtenberg", "icon": ["elevator", "ramp"], "symbol": "interchange", "label": "name"},
-				{"name":"Friedrichsfelde", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Tierpark", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Biesdorf-Süd", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Elsterwerdaer Platz", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Wuhletal", "icon": ["ramp"], "symbol": "interchange", "label": "name"},
-				{"name":"Kaulsdorf-Nord", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Kienberg [Gärten der Welt]", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Cottbusser Platz", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Hellersdorf", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Louis-Lewin-Straße", "icon": ["ramp"], "symbol": "tick", "label": "name"},
-				{"name":"Hönow", "icon": ["ramp"], "symbol": "tick", "label": "name"}
+			"stations":[
+				{"name":"Alexanderplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Schillingstraße", "icon":["elevator"]},
+				{"name":"Strausberger Platz", "icon":["elevator"]},
+				{"name":"Weberwiese", "icon":["elevator"]},
+				{"name":"Frankfurter Tor", "icon":["elevator"]},
+				{"name":"Samariterstraße", "icon":["elevator"]},
+				{"name":"Frankfurter Allee", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Magdalenenstraße", "icon":["elevator"]},
+				{"name":"Lichtenberg", "icon":["elevator", "ramp"], "symbol":"interchange"},
+				{"name":"Friedrichsfelde", "icon":["elevator"]},
+				{"name":"Tierpark", "icon":["elevator"]},
+				{"name":"Biesdorf-Süd", "icon":["ramp"]},
+				{"name":"Elsterwerdaer Platz", "icon":["ramp"]},
+				{"name":"Wuhletal", "icon":["ramp"], "symbol":"interchange"},
+				{"name":"Kaulsdorf-Nord", "icon":["ramp"]},
+				{"name":"Kienberg [Gärten der Welt]", "icon":["elevator"]},
+				{"name":"Cottbusser Platz", "icon":["ramp"]},
+				{"name":"Hellersdorf", "icon":["ramp"]},
+				{"name":"Louis-Lewin-Straße", "icon":["ramp"]},
+				{"name":"Hönow", "icon":["ramp"]}
 			]
 		},
 		{
-			"name": "U6",
-			"style": {
-				"color": "#846caa",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"U6",
+			"style":{
+				"color":"#846caa",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Alt-Tegel", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Borsigwerke", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Holzhauser Straße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Otisstraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Scharnweberstraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Kurt-Schumacher-Platz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Afrikanische Straße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Rehberge", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Seestraße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Leopoldplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Wedding", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Reinickendorfer Straße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Schwartzkopffstraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Naturkundemuseum", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Oranienburger Tor", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Nord-Süd Tunnel", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Friedrichstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Französische Straße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Stadtmitte [U6]", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Kochstraße [Checkpoint Charlie]", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Hallesches Tor", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Landwehr Canal", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Mehringdamm", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Platz der Luftbrücke", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Paradestraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Tempelhof", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Ringbahn", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Alt-Tempelhof", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Kaiserin-Augusta-Straße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Ullsteinstraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Westphalweg", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Alt-Mariendorf", "icon": ["elevator"], "symbol": "tick", "label": "name"}
+			"stations":[
+				{"name":"Alt-Tegel", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Borsigwerke"},
+				{"name":"Holzhauser Straße"},
+				{"name":"Otisstraße", "icon":["elevator"]},
+				{"name":"Scharnweberstraße", "icon":["elevator"]},
+				{"name":"Kurt-Schumacher-Platz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Afrikanische Straße", "icon":["elevator"]},
+				{"name":"Rehberge", "icon":["elevator"]},
+				{"name":"Seestraße"},
+				{"name":"Leopoldplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Wedding", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Reinickendorfer Straße", "icon":["elevator"]},
+				{"name":"Schwartzkopffstraße", "icon":["elevator"]},
+				{"name":"Naturkundemuseum", "icon":["elevator"]},
+				{"name":"Oranienburger Tor", "icon":["elevator"]},
+				{"name":"Nord-Süd Tunnel", "icon":["elevator"]},
+				{"name":"Friedrichstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Französische Straße"},
+				{"name":"Stadtmitte [U6]", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Kochstraße [Checkpoint Charlie]", "icon":["elevator"]},
+				{"name":"Hallesches Tor", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Landwehr Canal", "icon":["elevator"]},
+				{"name":"Mehringdamm", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Platz der Luftbrücke"},
+				{"name":"Paradestraße", "icon":["elevator"]},
+				{"name":"Tempelhof", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Ringbahn", "icon":["elevator"]},
+				{"name":"Alt-Tempelhof"},
+				{"name":"Kaiserin-Augusta-Straße", "icon":["elevator"]},
+				{"name":"Ullsteinstraße", "icon":["elevator"]},
+				{"name":"Westphalweg"},
+				{"name":"Alt-Mariendorf", "icon":["elevator"]}
 			]
 		},
 		{
-			"name": "U7",
-			"style": {
-				"color": "#3c9bda",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"U7",
+			"style":{
+				"color":"#3c9bda",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Rathaus Spandau", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Altstadt Spandau", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Zitadelle", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Haselhorst", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Paulsternstraße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Rohrdamm", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Siemensdamm", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Halemweg", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Jakob-Kaiser-Platz", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Jungfernheide", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Mierendorffplatz", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Richard-Wagner-Platz", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Bismarckstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Wilmersdorfer Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Adenauerplatz", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Konstanzer Straße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Fehrbelliner Platz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Blissestraße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Berliner Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Bayerischer Platz", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Eisenacher Straße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Kleistpark", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Yorckstraße [Großgörschenstraße]", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Möckernbrücke", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Mehringdamm", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Gneisenaustraße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Südstern", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Hermannplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Rathaus Neukölln", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Karl-Marx-Straße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Neukölln", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Grenzallee", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Blaschkoallee", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Parchimer Allee", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Britz-Süd", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Johannisthaler Chaussee", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Britz Depot", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Lipschitzallee", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Wutzkyallee", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Zwickauer Damm", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Rudow", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Rathaus Spandau", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Altstadt Spandau"},
+				{"name":"Zitadelle", "icon":["elevator"]},
+				{"name":"Haselhorst", "icon":["elevator"]},
+				{"name":"Paulsternstraße"},
+				{"name":"Rohrdamm"},
+				{"name":"Siemensdamm", "icon":["elevator"]},
+				{"name":"Halemweg"},
+				{"name":"Jakob-Kaiser-Platz", "symbol":"interchange"},
+				{"name":"Jungfernheide", "icon":["elevator"]},
+				{"name":"Mierendorffplatz"},
+				{"name":"Richard-Wagner-Platz", "icon":["elevator"]},
+				{"name":"Bismarckstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Wilmersdorfer Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Adenauerplatz", "symbol":"interchange"},
+				{"name":"Konstanzer Straße"},
+				{"name":"Fehrbelliner Platz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Blissestraße"},
+				{"name":"Berliner Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Bayerischer Platz", "symbol":"interchange"},
+				{"name":"Eisenacher Straße"},
+				{"name":"Kleistpark", "icon":["elevator"]},
+				{"name":"Yorckstraße [Großgörschenstraße]", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Möckernbrücke", "symbol":"interchange"},
+				{"name":"Mehringdamm", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Gneisenaustraße"},
+				{"name":"Südstern", "icon":["elevator"]},
+				{"name":"Hermannplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Rathaus Neukölln", "icon":["elevator"]},
+				{"name":"Karl-Marx-Straße"},
+				{"name":"Neukölln", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Grenzallee"},
+				{"name":"Blaschkoallee", "icon":["elevator"]},
+				{"name":"Parchimer Allee"},
+				{"name":"Britz-Süd", "icon":["elevator"]},
+				{"name":"Johannisthaler Chaussee", "icon":["elevator"]},
+				{"name":"Britz Depot", "icon":["elevator"]},
+				{"name":"Lipschitzallee", "icon":["elevator"]},
+				{"name":"Wutzkyallee", "icon":["elevator"]},
+				{"name":"Zwickauer Damm"},
+				{"name":"Rudow", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "U8",
-			"style": {
-				"color": "#175a9a",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"U8",
+			"style":{
+				"color":"#175a9a",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Wittenau", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Rathaus Reinickendorf", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Karl-Bonhoeffer-Nervenklinik", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Lindauer Allee", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Paracelsus-Bad", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Residenzstraße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Franz-Neumann-Platz [Am Schäfersee]", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Osloer Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Pankstraße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Gesundbrunnen", "icon": ["elevator", "train"], "symbol": "interchange", "label": "name"},
-				{"name":"Voltastraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Bernauer Straße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Rosenthaler Platz", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Weinmeisterstraße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Alexanderplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Jannowitzbrücke", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Heinrich-Heine-Straße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Moritzplatz", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Kottbusser Tor", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Schönleinstraße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Hermannplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Boddinstraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Leinestraße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Hermannstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Wittenau", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Rathaus Reinickendorf", "icon":["elevator"]},
+				{"name":"Karl-Bonhoeffer-Nervenklinik", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Lindauer Allee", "icon":["elevator"]},
+				{"name":"Paracelsus-Bad", "icon":["elevator"]},
+				{"name":"Residenzstraße"},
+				{"name":"Franz-Neumann-Platz [Am Schäfersee]", "symbol":"interchange"},
+				{"name":"Osloer Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Pankstraße"},
+				{"name":"Gesundbrunnen", "icon":["elevator", "train"], "symbol":"interchange"},
+				{"name":"Voltastraße", "icon":["elevator"]},
+				{"name":"Bernauer Straße", "icon":["elevator"]},
+				{"name":"Rosenthaler Platz", "icon":["elevator"]},
+				{"name":"Weinmeisterstraße"},
+				{"name":"Alexanderplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Jannowitzbrücke", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Heinrich-Heine-Straße"},
+				{"name":"Moritzplatz"},
+				{"name":"Kottbusser Tor", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Schönleinstraße"},
+				{"name":"Hermannplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Boddinstraße", "icon":["elevator"]},
+				{"name":"Leinestraße", "icon":["elevator"]},
+				{"name":"Hermannstraße", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "U9",
-			"style": {
-				"color": "#ef8733",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"U9",
+			"style":{
+				"color":"#ef8733",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Osloer Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Nauener Platz", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Leopoldplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Amrumer Straße", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Westhafen", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Birkenstraße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Turmstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Hansaplatz", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Zoologischer Garten", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Kurfürstendamm", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Spichernstraße", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Güntzelstraße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Berliner Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Bundesplatz", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Friedrich-Wilhelm-Platz", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Walther-Schreiber-Platz", "icon": ["elevator"], "symbol": "tick", "label": "name"},
-				{"name":"Schloßstraße", "icon": [], "symbol": "tick", "label": "name"},
-				{"name":"Rathaus Steglitz", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Osloer Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Nauener Platz"},
+				{"name":"Leopoldplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Amrumer Straße", "icon":["elevator"]},
+				{"name":"Westhafen", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Birkenstraße"},
+				{"name":"Turmstraße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Hansaplatz", "icon":["elevator"]},
+				{"name":"Zoologischer Garten", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Kurfürstendamm", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Spichernstraße", "symbol":"interchange"},
+				{"name":"Güntzelstraße"},
+				{"name":"Berliner Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Bundesplatz", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Friedrich-Wilhelm-Platz", "icon":["elevator"]},
+				{"name":"Walther-Schreiber-Platz", "icon":["elevator"]},
+				{"name":"Schloßstraße"},
+				{"name":"Rathaus Steglitz", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "U55",
-			"style": {
-				"color": "#bfa28d",
-				"outline": "none",
-				"stroke": "solid"
+			"name":"U55",
+			"style":{
+				"color":"#bfa28d",
+				"outline":"none",
+				"stroke":"solid"
 			},
-			"stations": [
+			"stations":[
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Spandau", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Rathaus Spandau", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Spandau", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Rathaus Spandau", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Kaiserdamm", "icon": [], "symbol": "interchange", "label": "name"},
-				{"name":"Messe Nord/ICC", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Kaiserdamm", "symbol":"interchange"},
+				{"name":"Messe Nord/ICC", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Wilmersdorfer Straße", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Charlottenburg", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Wilmersdorfer Straße", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Charlottenburg", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Tegel", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Alt-Tegel", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Tegel", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Alt-Tegel", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Yorckstraße [Großgörschenstraße]", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Yorckstraße", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Yorckstraße [Großgörschenstraße]", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Yorckstraße", "icon":["elevator"], "symbol":"interchange"}
 			]
 		},
 		{
-			"name": "Connection",
-			"style": {
-				"color": "white",
-				"outline": "black",
-				"stroke": "solid"
+			"name":"Connection",
+			"style":{
+				"color":"white",
+				"outline":"black",
+				"stroke":"solid"
 			},
-			"stations": [
-				{"name":"Stadtmitte [U2]", "icon": ["elevator"], "symbol": "interchange", "label": "name"},
-				{"name":"Stadtmitte [U6]", "icon": ["elevator"], "symbol": "interchange", "label": "name"}
+			"stations":[
+				{"name":"Stadtmitte [U2]", "icon":["elevator"], "symbol":"interchange"},
+				{"name":"Stadtmitte [U6]", "icon":["elevator"], "symbol":"interchange"}
 			]
 		}
 	]
