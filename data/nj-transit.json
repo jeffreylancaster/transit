@@ -1,5 +1,5 @@
 {
-	"notes":"colors to hex, confirm station consistency (hash all data and check for consistency)",
+	"notes":"confirm station consistency (hash all data and check for consistency)",
 	"map":"NJ Transit",
 	"svgConfig":{
 		"width":800,
@@ -12,7 +12,7 @@
 	"lines":[{
 			"name":"Pascack Valley Line",
 			"style":{
-				"color":"purple",
+				"color":"#91307b",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -40,7 +40,7 @@
 		{
 			"name":"Bergen County Line",
 			"style":{
-				"color":"light purple",
+				"color":"#b9c5d5",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -67,7 +67,7 @@
 		{
 			"name":"Main Line",
 			"style":{
-				"color":"yellow",
+				"color":"#f9ca33",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -95,8 +95,8 @@
 		{
 			"name":"Meadowlands",
 			"style":{
-				"color":"white",
-				"outline":"black",
+				"color":"#ffffff",
+				"outline":"#000000",
 				"stroke":"solid"
 			},
 			"stations":[
@@ -107,7 +107,7 @@
 		{
 			"name":"Montclair-Boonton Line",
 			"style":{
-				"color":"orange-red",
+				"color":"#d86658",
 				"outline":"none",
 				"stroke":"solid, dashed"
 			},
@@ -131,7 +131,7 @@
 		{
 			"name":"Montclair-Boonton Line",
 			"style":{
-				"color":"orange-red",
+				"color":"#d86658",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -154,7 +154,7 @@
 		{
 			"name":"Montclair-Boonton Line",
 			"style":{
-				"color":"orange-red",
+				"color":"#d86658",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -166,7 +166,7 @@
 		{
 			"name":"Morristown Line",
 			"style":{
-				"color":"green",
+				"color":"#4f9e4d",
 				"outline":"none",
 				"stroke":"solid, dashed"
 			},
@@ -181,7 +181,7 @@
 		{
 			"name":"Morristown Line",
 			"style":{
-				"color":"green",
+				"color":"#4f9e4d",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -212,7 +212,7 @@
 		{
 			"name":"Morristown Line",
 			"style":{
-				"color":"green",
+				"color":"#4f9e4d",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -224,7 +224,7 @@
 		{
 			"name":"Gladstone Line",
 			"style":{
-				"color":"light green",
+				"color":"#9bcea3",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -259,7 +259,7 @@
 		{
 			"name":"Gladstone Line",
 			"style":{
-				"color":"light green",
+				"color":"#9bcea3",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -271,7 +271,7 @@
 		{
 			"name":"Raritan Valley Line",
 			"style":{
-				"color":"orange",
+				"color":"#eea03f",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -302,7 +302,7 @@
 		{
 			"name":"Northeast Corridor",
 			"style":{
-				"color":"red",
+				"color":"#db3c41",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -328,8 +328,8 @@
 		{
 			"name":"Princeton",
 			"style":{
-				"color":"white",
-				"outline":"black",
+				"color":"#ffffff",
+				"outline":"#000000",
 				"stroke":"solid"
 			},
 			"stations":[
@@ -340,7 +340,7 @@
 		{
 			"name":"North Jersey Coast Line",
 			"style":{
-				"color":"blue",
+				"color":"#3e9bcf",
 				"outline":"none",
 				"stroke":"solid, dashed"
 			},
@@ -360,7 +360,7 @@
 		{
 			"name":"North Jersey Coast Line",
 			"style":{
-				"color":"blue",
+				"color":"#3e9bcf",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -389,7 +389,7 @@
 		{
 			"name":"North Jersey Coast Line",
 			"style":{
-				"color":"blue",
+				"color":"#3e9bcf",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -401,7 +401,7 @@
 		{
 			"name":"Atlantic City Line",
 			"style":{
-				"color":"navy",
+				"color":"#135495",
 				"outline":"none",
 				"stroke":"solid"
 			},

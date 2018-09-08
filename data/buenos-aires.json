@@ -1,5 +1,5 @@
 {
-	"notes":"do hex codes for colors",
+	"notes":"confirm station consistency (hash all data and check for consistency)",
 	"map":"Buenos Aires Subte",
 	"svgConfig":{
 		"width":800,
@@ -13,7 +13,7 @@
 		{
 			"name":"Línea A",
 			"style":{
-				"color":"",
+				"color":"#4aafdc",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -41,7 +41,7 @@
 		{
 			"name":"Línea B",
 			"style":{
-				"color":"",
+				"color":"#e93f34",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -68,7 +68,7 @@
 		{
 			"name":"Línea C",
 			"style":{
-				"color":"",
+				"color":"#1b68b3",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -87,7 +87,7 @@
 		{
 			"name":"Línea D",
 			"style":{
-				"color":"",
+				"color":"#3d8167",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -113,7 +113,7 @@
 		{
 			"name":"Línea E",
 			"style":{
-				"color":"",
+				"color":"#6d2b80",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -141,7 +141,7 @@
 		{
 			"name":"Línea H",
 			"style":{
-				"color":"",
+				"color":"#fdde33",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -167,7 +167,7 @@
 		{
 			"name":"Línea P",
 			"style":{
-				"color":"",
+				"color":"#f6ba33",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -185,7 +185,18 @@
 				{"name":"Escalada"},
 				{"name":"Pola"},
 				{"name":"Ana Díaz"},
-				{"name":"Centro Cívico"},
+				{"name":"Centro Cívico"}
+			]
+		},
+		{
+			"name":"Línea P",
+			"style":{
+				"color":"#f6ba33",
+				"outline":"none",
+				"stroke":"solid"
+			},
+			"stations":[
+				{"name":"Pola"},
 				{"name":"Larrazábal"},
 				{"name":"Nicolás Descalzi"},
 				{"name":"Gabino Ezeiza", "icon":["bus"]},
@@ -195,8 +206,8 @@
 		{
 			"name":"Connection",
 			"style":{
-				"color":"white",
-				"outline":"black",
+				"color":"#ffffff",
+				"outline":"#000000",
 				"stroke":"solid"
 			},
 			"stations":[
@@ -207,8 +218,8 @@
 		{
 			"name":"Connection",
 			"style":{
-				"color":"white",
-				"outline":"black",
+				"color":"#ffffff",
+				"outline":"#000000",
 				"stroke":"solid"
 			},
 			"stations":[
@@ -219,8 +230,8 @@
 		{
 			"name":"Connection",
 			"style":{
-				"color":"white",
-				"outline":"black",
+				"color":"#ffffff",
+				"outline":"#000000",
 				"stroke":"solid"
 			},
 			"stations":[
@@ -231,8 +242,8 @@
 		{
 			"name":"Connection",
 			"style":{
-				"color":"white",
-				"outline":"black",
+				"color":"#ffffff",
+				"outline":"#000000",
 				"stroke":"solid"
 			},
 			"stations":[
@@ -243,8 +254,8 @@
 		{
 			"name":"Connection",
 			"style":{
-				"color":"white",
-				"outline":"black",
+				"color":"#ffffff",
+				"outline":"#000000",
 				"stroke":"solid"
 			},
 			"stations":[
@@ -255,8 +266,8 @@
 		{
 			"name":"Connection",
 			"style":{
-				"color":"white",
-				"outline":"black",
+				"color":"#ffffff",
+				"outline":"#000000",
 				"stroke":"solid"
 			},
 			"stations":[
@@ -267,8 +278,8 @@
 		{
 			"name":"Connection",
 			"style":{
-				"color":"white",
-				"outline":"black",
+				"color":"#ffffff",
+				"outline":"#000000",
 				"stroke":"solid"
 			},
 			"stations":[
@@ -280,8 +291,8 @@
 		{
 			"name":"Connection",
 			"style":{
-				"color":"white",
-				"outline":"black",
+				"color":"#ffffff",
+				"outline":"#000000",
 				"stroke":"solid"
 			},
 			"stations":[
@@ -293,8 +304,8 @@
 		{
 			"name":"Connection",
 			"style":{
-				"color":"white",
-				"outline":"black",
+				"color":"#ffffff",
+				"outline":"#000000",
 				"stroke":"solid"
 			},
 			"stations":[

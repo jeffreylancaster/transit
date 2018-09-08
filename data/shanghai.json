@@ -1,5 +1,5 @@
 {
-	"notes":"do hex codes for colors, add icons (bus, train), interchanges",
+	"notes":"add icons (bus, train), interchanges",
 	"map":"Shanghai Metro",
 	"svgConfig":{
 		"width":1200,
@@ -13,27 +13,27 @@
 		{
 			"name":"Line 1",
 			"style":{
-				"color":"",
+				"color":"#e33d32",
 				"outline":"none",
 				"stroke":"solid"
 			},
 			"stations":[
-				{"name":"Xinzhuang", "name-cn":"莘庄"},
+				{"name":"Xinzhuang", "name-cn":"莘庄", "symbol":"interchange"},
 				{"name":"Waihuanlu", "name-cn":"外环路"},
 				{"name":"Lianhua Road", "name-cn":"莲花路"},
 				{"name":"Jinjiang Park", "name-cn":"锦江乐园"},
-				{"name":"Shanghai South Railway Station", "name-cn":"上海南站"},
-				{"name":"Caobao Road", "name-cn":"漕宝路"},
-				{"name":"Shanghai Indoor Stadium", "name-cn":"上海体育馆"},
-				{"name":"Xujiahui", "name-cn":"徐家汇"},
+				{"name":"Shanghai South Railway Station", "name-cn":"上海南站", "symbol":"interchange", "icon":["train"]},
+				{"name":"Caobao Road", "name-cn":"漕宝路", "symbol":"interchange"},
+				{"name":"Shanghai Indoor Stadium", "name-cn":"上海体育馆", "symbol":"interchange"},
+				{"name":"Xujiahui", "name-cn":"徐家汇", "symbol":"interchange"},
 				{"name":"Hengshan Road", "name-cn":"衡山路"},
-				{"name":"Changshu Road", "name-cn":"常熟路"},
-				{"name":"South Shaanxi Road", "name-cn":"陕西南路"},
+				{"name":"Changshu Road", "name-cn":"常熟路", "symbol":"interchange"},
+				{"name":"South Shaanxi Road", "name-cn":"陕西南路", "symbol":"interchange"},
 				{"name":"South Huangpi Road", "name-cn":"黄陂南路"},
-				{"name":"People's Square", "name-cn":"人民广场"},
+				{"name":"People's Square", "name-cn":"人民广场", "symbol":"interchange"},
 				{"name":"Xinzha Road", "name-cn":"新闸路"},
-				{"name":"Hanzhong Road", "name-cn":"汉中路"},
-				{"name":"Shanghai Railway Station", "name-cn":"上海火车站"},
+				{"name":"Hanzhong Road", "name-cn":"汉中路", "symbol":"interchange"},
+				{"name":"Shanghai Railway Station", "name-cn":"上海火车站", "symbol":"interchange", "icon":["train"]},
 				{"name":"North Zhongshan Road", "name-cn":"中山北路"},
 				{"name":"Yanchang Road", "name-cn":"延长路"},
 				{"name":"Shanghai Circus World", "name-cn":"上海马戏城"},
@@ -51,30 +51,30 @@
 		{
 			"name":"Line 2",
 			"style":{
-				"color":"",
+				"color":"#98c813",
 				"outline":"none",
 				"stroke":"solid"
 			},
 			"stations":[
 				{"name":"East Xujing", "name-cn":"徐泾东"},
-				{"name":"Hongqiao Railway Station", "name-cn":"虹桥火车站"},
-				{"name":"Hongqiao Airport Terminal 2", "name-cn":"虹桥2号航站楼"},
+				{"name":"Hongqiao Railway Station", "name-cn":"虹桥火车站", "symbol":"interchange", "icon":["train"]},
+				{"name":"Hongqiao Airport Terminal 2", "name-cn":"虹桥2号航站楼", "symbol":"interchange", "icon":["airport"]},
 				{"name":"Songhong Road", "name-cn":"淞虹路"},
 				{"name":"Beixinjing", "name-cn":"北新泾"},
 				{"name":"Weining Road", "name-cn":"威宁路"},
 				{"name":"Loushanguan Road", "name-cn":"娄山关路"},
-				{"name":"Zhongshan Park", "name-cn":"中山公园"},
-				{"name":"Jiangsu Road", "name-cn":"江苏路"},
-				{"name":"Jing'an Temple", "name-cn":"静安寺"},
-				{"name":"West Nanjing Road", "name-cn":"南京西路"},
-				{"name":"People's Square", "name-cn":"人民广场"},
-				{"name":"East Nanjing Road", "name-cn":"南京东路"},
+				{"name":"Zhongshan Park", "name-cn":"中山公园", "symbol":"interchange"},
+				{"name":"Jiangsu Road", "name-cn":"江苏路", "symbol":"interchange"},
+				{"name":"Jing'an Temple", "name-cn":"静安寺", "symbol":"interchange"},
+				{"name":"West Nanjing Road", "name-cn":"南京西路", "symbol":"interchange"},
+				{"name":"People's Square", "name-cn":"人民广场", "symbol":"interchange"},
+				{"name":"East Nanjing Road", "name-cn":"南京东路", "symbol":"interchange"},
 				{"name":"Lujiazui", "name-cn":"陆家嘴"},
 				{"name":"Dongchang Road", "name-cn":"东昌路"},
-				{"name":"Century Avenue", "name-cn":"世纪大道"},
+				{"name":"Century Avenue", "name-cn":"世纪大道", "symbol":"interchange"},
 				{"name":"Shanghai Science and Technology Museum", "name-cn":"上海科技馆"},
 				{"name":"Century Park", "name-cn":"世纪公园"},
-				{"name":"Longyang Road", "name-cn":"龙阳路"},
+				{"name":"Longyang Road", "name-cn":"龙阳路", "symbol":"interchange"},
 				{"name":"Zhangjiang Hi-Tech Park", "name-cn":"张江高科"},
 				{"name":"Jinke Road", "name-cn":"金科路"},
 				{"name":"Guanglan Road", "name-cn":"广兰路"},
@@ -85,33 +85,33 @@
 				{"name":"Lingkong Road", "name-cn":"凌空路"},
 				{"name":"Yuandong Avenue", "name-cn":"远东大道"},
 				{"name":"Haitiansan Road", "name-cn":"海天三路"},
-				{"name":"Pudong International Airport", "name-cn":"浦东国际机场"}
+				{"name":"Pudong International Airport", "name-cn":"浦东国际机场", "icon":["airport"]}
 			]
 		},
 		{
 			"name":"Line 3",
 			"style":{
-				"color":"",
+				"color":"#f1d330",
 				"outline":"none",
 				"stroke":"solid"
 			},
 			"stations":[
-				{"name":"Shanghai South Railway Station", "name-cn":"上海南站"},
+				{"name":"Shanghai South Railway Station", "name-cn":"上海南站", "symbol":"interchange", "icon":["train"]},
 				{"name":"Shilong Road", "name-cn":"石龙路"},
-				{"name":"Longcao Road", "name-cn":"龙漕路"},
+				{"name":"Longcao Road", "name-cn":"龙漕路", "symbol":"interchange"},
 				{"name":"Caoxi Road", "name-cn":"漕溪路"},
-				{"name":"Yishan Road", "name-cn":"宜山路"},
-				{"name":"Hongqiao Road", "name-cn":"虹桥路"},
+				{"name":"Yishan Road", "name-cn":"宜山路", "symbol":"interchange"},
+				{"name":"Hongqiao Road", "name-cn":"虹桥路", "symbol":"interchange"},
 				{"name":"West Yan'an Road", "name-cn":"延安西路"},
-				{"name":"Zhongshan Park", "name-cn":"中山公园"},
-				{"name":"Jinshajiang Road", "name-cn":"金沙江路"},
-				{"name":"Caoyang Road", "name-cn":"曹杨路"},
-				{"name":"Zhenping Road", "name-cn":"镇坪路"},
+				{"name":"Zhongshan Park", "name-cn":"中山公园", "symbol":"interchange"},
+				{"name":"Jinshajiang Road", "name-cn":"金沙江路", "symbol":"interchange"},
+				{"name":"Caoyang Road", "name-cn":"曹杨路", "symbol":"interchange"},
+				{"name":"Zhenping Road", "name-cn":"镇坪路", "symbol":"interchange"},
 				{"name":"Zhongtan Road", "name-cn":"中潭路"},
-				{"name":"Shanghai Railway Station", "name-cn":"上海火车站"},
+				{"name":"Shanghai Railway Station", "name-cn":"上海火车站", "symbol":"interchange", "icon":["train"]},
 				{"name":"Baoshan Road", "name-cn":"宝山路"},
 				{"name":"Dongbaoxing Road", "name-cn":"东宝兴路"},
-				{"name":"Hongkou Football Stadium", "name-cn":"虹口足球场"},
+				{"name":"Hongkou Football Stadium", "name-cn":"虹口足球场", "symbol":"interchange"},
 				{"name":"Chifeng Road", "name-cn":"赤峰路"},
 				{"name":"Dabaishu", "name-cn":"大柏树"},
 				{"name":"Jiangwan Town", "name-cn":"江湾镇"},
@@ -127,10 +127,10 @@
 				{"name":"North Jiangyang Road", "name-cn":"江杨北路"}
 			]
 		},
-		{
+		{ // start from here
 			"name":"Line 4",
 			"style":{
-				"color":"",
+				"color":"#675ba4",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -167,7 +167,7 @@
 		{
 			"name":"Line 5",
 			"style":{
-				"color":"",
+				"color":"#94449b",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -188,7 +188,7 @@
 		{
 			"name":"Line 5",
 			"style":{
-				"color":"",
+				"color":"#94449b",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -208,7 +208,7 @@
 		{
 			"name":"Line 6",
 			"style":{
-				"color":"",
+				"color":"#df4064",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -246,7 +246,7 @@
 		{
 			"name":"Line 7",
 			"style":{
-				"color":"",
+				"color":"#e86d32",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -289,7 +289,7 @@
 		{
 			"name":"Line 8",
 			"style":{
-				"color":"",
+				"color":"#3495e3",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -329,7 +329,7 @@
 		{
 			"name":"Line 9",
 			"style":{
-				"color":"",
+				"color":"#93cce7",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -374,7 +374,7 @@
 		{
 			"name":"Line 10",
 			"style":{
-				"color":"",
+				"color":"#cdaed8",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -389,7 +389,7 @@
 		{
 			"name":"Line 10",
 			"style":{
-				"color":"",
+				"color":"#cdaed8",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -432,7 +432,7 @@
 		{
 			"name":"Line 11",
 			"style":{
-				"color":"",
+				"color":"#8f4842",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -475,7 +475,7 @@
 		{
 			"name":"Line 11",
 			"style":{
-				"color":"",
+				"color":"#8f4842",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -493,7 +493,7 @@
 		{
 			"name":"Line 12",
 			"style":{
-				"color":"",
+				"color":"#4b9b7a",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -535,7 +535,7 @@
 		{
 			"name":"Line 13",
 			"style":{
-				"color":"",
+				"color":"#de9ec3",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -576,7 +576,7 @@
 		{
 			"name":"Line 16",
 			"style":{
-				"color":"",
+				"color":"#9ad5c3",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -599,7 +599,7 @@
 		{
 			"name":"Line 17",
 			"style":{
-				"color":"",
+				"color":"#bf7069",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -622,7 +622,7 @@
 		{
 			"name":"Pujiang Line",
 			"style":{
-				"color":"",
+				"color":"#b8b8b8",
 				"outline":"none",
 				"stroke":"solid"
 			},

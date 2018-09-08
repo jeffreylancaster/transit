@@ -1,5 +1,5 @@
 {
-	"notes":"do hex codes for colors, check line overlap, add config file",
+	"notes":"check line overlap",
 	"map":"Beijing Subway",
 	"svgConfig":{
 		"width":1200,
@@ -13,7 +13,7 @@
 		{
 			"name":"Line 1",
 			"style":{
-				"color":"",
+				"color":"#a8353a",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -46,7 +46,7 @@
 		{
 			"name":"Line 2",
 			"style":{
-				"color":"",
+				"color":"#0e4a88",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -75,7 +75,7 @@
 		{
 			"name":"Line 4",
 			"style":{
-				"color":"",
+				"color":"#3c8a97",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -109,7 +109,7 @@
 		{
 			"name":"Line 5",
 			"style":{
-				"color":"",
+				"color":"#b13361",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -142,7 +142,7 @@
 		{
 			"name":"Line 6",
 			"style":{
-				"color":"",
+				"color":"#b78523",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -187,7 +187,7 @@
 		{
 			"name":"Line 7",
 			"style":{
-				"color":"",
+				"color":"#f8c66d",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -218,7 +218,7 @@
 		{
 			"name":"Line 8",
 			"style":{
-				"color":"",
+				"color":"#4a9979",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -263,7 +263,7 @@
 		{
 			"name":"Line 9",
 			"style":{
-				"color":"",
+				"color":"#94d60f",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -286,7 +286,7 @@
 		{
 			"name":"Line 10",
 			"style":{
-				"color":"",
+				"color":"#3990bf",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -342,7 +342,7 @@
 		{
 			"name":"Line 13",
 			"style":{
-				"color":"",
+				"color":"#f6da40",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -351,14 +351,14 @@
 				{"code":"1302", "name":"Dazhongsi", "name-cn":"大钟寺"},
 				{"code":"1303", "name":"Zhichunlu", "name-cn":"知春路", "symbol":"interchange"},
 				{"code":"1304", "name":"Wudaokou", "name-cn":"五道口"},
-				{"code":"", "name":"Qinghuadongluxikou", "name-cn":"清华东路西口", "symbol":"interchange", "inService":false},
+				{"name":"Qinghuadongluxikou", "name-cn":"清华东路西口", "symbol":"interchange", "inService":false},
 				{"code":"1305", "name":"Shangdi", "name-cn":"上地"},
-				{"code":"", "name":"Qinghe Railway Station", "name-cn":"清河站", "inService":false},
+				{"name":"Qinghe Railway Station", "name-cn":"清河站", "inService":false},
 				{"code":"1306", "name":"Xi'erqi", "name-cn":"西二旗", "symbol":"interchange"},
 				{"code":"1307", "name":"Longze", "name-cn":"龙泽"},
 				{"code":"1308", "name":"Huilongguan", "name-cn":"回龙观"},
 				{"code":"1309", "name":"Huoying", "name-cn":"霍营", "symbol":"interchange", "icon":["train"]},
-				{"code":"", "name":"Jiancaichengdonglu", "name-cn":"建材城东路", "inService":false},
+				{"name":"Jiancaichengdonglu", "name-cn":"建材城东路", "inService":false},
 				{"code":"1310", "name":"Lishuiqiao", "name-cn":"立水桥", "symbol":"interchange"},
 				{"code":"1311", "name":"Beiyuan", "name-cn":"北苑"},
 				{"code":"1312", "name":"Wangjing West", "name-cn":"望京西", "symbol":"interchange"},
@@ -371,7 +371,7 @@
 		{
 			"name":"Line 14",
 			"style":{
-				"color":"",
+				"color":"#cc9a8e",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -417,7 +417,7 @@
 		{
 			"name":"Line 15",
 			"style":{
-				"color":"",
+				"color":"#673278",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -447,7 +447,7 @@
 		{
 			"name":"Line 16",
 			"style":{
-				"color":"",
+				"color":"#6ba53a",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -485,7 +485,7 @@
 		{
 			"name":"Batong Line",
 			"style":{
-				"color":"",
+				"color":"#a8353a",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -503,14 +503,14 @@
 				{"code":"BT11", "name":"Liyuan", "name-cn":"梨园"},
 				{"code":"BT12", "name":"Linheli", "name-cn":"临河里"},
 				{"code":"BT13", "name":"Tuqiao", "name-cn":"土桥"},
-				{"code":"", "name":"Shiyuan", "name-cn":"施园", "inService":false},
-				{"code":"", "name":"Universal Studios", "name-cn":"环球影城", "inService":false}
+				{"name":"Shiyuan", "name-cn":"施园", "inService":false},
+				{"name":"Universal Studios", "name-cn":"环球影城", "inService":false}
 			]
 		},
 		{
-			"name":"ChangpingLine",
+			"name":"Changping Line",
 			"style":{
-				"color":"",
+				"color":"#de85bb",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -530,9 +530,9 @@
 			]
 		},
 		{
-			"name":"DaxingLine",
+			"name":"Daxing Line",
 			"style":{
-				"color":"",
+				"color":"#3c8a97",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -554,7 +554,7 @@
 		{
 			"name":"Fangshan Line",
 			"style":{
-				"color":"",
+				"color":"#dc612f",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -580,7 +580,7 @@
 		{
 			"name":"Yanfang Line",
 			"style":{
-				"color":"",
+				"color":"#dc612f",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -599,7 +599,7 @@
 		{
 			"name":"Yanfang Line",
 			"style":{
-				"color":"",
+				"color":"#dc612f",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -613,7 +613,7 @@
 		{
 			"name":"Yizhuang Line",
 			"style":{
-				"color":"",
+				"color":"#d73f6e",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -637,7 +637,7 @@
 		{
 			"name":"S1 Line",
 			"style":{
-				"color":"",
+				"color":"#a65a2a",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -655,7 +655,7 @@
 		{
 			"name":"Airport Express",
 			"style":{
-				"color":"",
+				"color":"#a292b3",
 				"outline":"none",
 				"stroke":"solid"
 			},
@@ -671,7 +671,7 @@
 		{
 			"name":"Xijiao Line",
 			"style":{
-				"color":"",
+				"color":"#e23d31",
 				"outline":"none",
 				"stroke":"solid"
 			},
