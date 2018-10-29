@@ -278,7 +278,7 @@
 				{"name":"Morgan [p]", "icon":["accessible"]},
 				{"name":"Clinton", "symbol":"interchange", "icon":["train", "accessible"]},
 				{"name":"Washington/Wells", "symbol":"interchange", "icon":["train", "accessible"]},
-				{"name":"Quincy", "icon":["train"},
+				{"name":"Quincy", "icon":["train"]},
 				{"name":"LaSalle/Van Buren", "icon":["train"]},
 				{"name":"Harold Washington Library", "symbol":"interchange", "icon":["accessible"]},
 				{"name":"Adams/Wabash", "symbol":"interchange", "icon":["train"]},
