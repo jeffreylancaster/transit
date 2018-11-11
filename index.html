@@ -52,6 +52,45 @@
       #description a{
         text-decoration: none;
       }
+      /* vis */
+
+      /*.link {
+        stroke-width: "16";
+      }
+      .node text {
+        pointer-events: none;
+        font: 10px sans-serif;
+      }*/
+
+      /* new vis */
+      .links line {
+        /*stroke: #999;*/
+        /*stroke-opacity: 0.6;*/
+      }
+
+      .nodes circle {
+        stroke: #fff;
+        stroke-width: 1px;
+      }
+      
+      .nodes circle.interchange {
+        stroke: #000;
+        fill: #FFF;
+        stroke-width: 1.5px;
+        fill-opacity: 1;
+      }
+      .underlay {
+        stroke-width: 6px;
+      }
+      .overlay {
+        stroke-width: 2px;
+      }
+
+      text {
+        font-family: sans-serif;
+        font-size: 10px;
+      }
+
     </style>
   </head>
   <body>
@@ -69,7 +108,7 @@
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
     <script src="js/jquery.min.js"></script>
-    <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
     <script>
 
 /* HELPFUL FUNCTIONS */
@@ -94,6 +133,21 @@
 function onlyUnique(value, index, self) { 
   return self.indexOf(value) === index;
 }
+
+// from: http://bl.ocks.org/eesur/4e0a69d57d3bfc8a82c2
+d3.selection.prototype.moveToFront = function() {  
+  return this.each(function(){
+    this.parentNode.appendChild(this);
+  });
+};
+d3.selection.prototype.moveToBack = function() {  
+  return this.each(function() { 
+    var firstChild = this.parentNode.firstChild; 
+    if (firstChild) { 
+      this.parentNode.insertBefore(this, firstChild); 
+    } 
+  });
+};
 
 
 /* VARIABLES AND CONFIGURATION */
@@ -178,7 +232,12 @@ $.when(
     $("h3").html(mapList);
 
     /* set up the svg size */
-    $("svg").attr({width: data.svgConfig.width, height: data.svgConfig.height});
+    $("svg").attr({
+        width: data.svgConfig.width,
+        // width: window.innerWidth,
+        height: data.svgConfig.height
+        // height: window.innerHeight
+      });
     
     /* END CONFIG SETUP */
 
@@ -186,6 +245,20 @@ $.when(
     data.nodes = [];
     data.links = [];
     data.nodesObject = {};
+    
+    // could be calculated on the fly, but nah.
+    var offsetMatrix = [
+      [0], // offset = 0
+      [1, -1],
+      [0, 2, -2],
+      [1, -1, 3, -3],
+      [0, 2, -2, 4, -4],
+      [1, -1, 3, -3, 5, -5],
+      [0, 2, -2, 4, -4, 6, -6],
+      [1, -1, 3, -3, 5, -5, 7, -7],
+      [0, 2, -2, 4, -4, 6, -6, 8, -8],
+      [1, -1, 3, -3, 5, -5, 7, -7, 9, -9] // offset = 9
+    ]
 
     // build nodes list
     for(var i in data.lines){
@@ -193,6 +266,48 @@ $.when(
         data.nodesObject[data.lines[i].stations[j].name] = data.lines[i].stations[j];
       }
     }
+
+    // build adjacent nodes list for each node
+    for(var i in data.lines){
+      for(j=0; j<data.lines[i].stations.length; j++){
+        if(!data.nodesObject[data.lines[i].stations[j].name].hasOwnProperty("adjacent")){
+          data.nodesObject[data.lines[i].stations[j].name].adjacent = {};
+        }
+        if(data.lines[i].stations[j-1]){
+          if(!data.nodesObject[data.lines[i].stations[j].name].adjacent.hasOwnProperty(data.lines[i].stations[j-1].name)){
+            data.nodesObject[data.lines[i].stations[j].name].adjacent[data.lines[i].stations[j-1].name] = [];
+          }
+          data.nodesObject[data.lines[i].stations[j].name].adjacent[data.lines[i].stations[j-1].name].push(data.lines[i].name);
+        }
+        if(data.lines[i].stations[j+1]){
+          if(!data.nodesObject[data.lines[i].stations[j].name].adjacent.hasOwnProperty(data.lines[i].stations[j+1].name)){
+            data.nodesObject[data.lines[i].stations[j].name].adjacent[data.lines[i].stations[j+1].name] = [];
+          }
+          data.nodesObject[data.lines[i].stations[j].name].adjacent[data.lines[i].stations[j+1].name].push(data.lines[i].name);
+        }
+      }
+    }
+    
+    // deduplicate adjacent matrices
+    for(var i in data.nodesObject){
+      for(var j in data.nodesObject[i].adjacent){
+        var uniqueLines = [];
+        uniqueLines = data.nodesObject[i].adjacent[j].filter(onlyUnique).sort();
+        data.nodesObject[i].adjacent[j] = uniqueLines;
+      }
+    }
+
+    // determine and store the offset
+    for(var i in data.nodesObject){
+      var max = 0;
+      for(var j in data.nodesObject[i].adjacent){
+        max = (data.nodesObject[i].adjacent[j].length > max) ? data.nodesObject[i].adjacent[j].length : max;
+      }
+      data.nodesObject[i].offset = max-1;
+    }
+  
+
+    console.log(data.nodesObject);
     // convert object to array
     data.nodes = Object.values(data.nodesObject);
 
@@ -206,15 +321,56 @@ $.when(
     // build edges list
     for(var i in data.lines){
       for(j=0; j<data.lines[i].stations.length-1; j++){
-        data.links.push({
-          // names of the connected stations
-          "source":data.lines[i].stations[j].name,
-          "target":data.lines[i].stations[j+1].name,
-          // add style information of the line
-          "color": data.lines[i].style.color,
-          "outline": data.lines[i].style.outline,
-          "stroke": data.lines[i].style.stroke
-        })
+        // get offset from the overlayMatrix
+        var offset = 0;
+        var n = data.nodesObject[data.lines[i].stations[j].name].adjacent[data.lines[i].stations[j+1].name].length-1; // overall offset for the node
+        var m = data.nodesObject[data.lines[i].stations[j].name].adjacent[data.lines[i].stations[j+1].name].indexOf(data.lines[i].name); // position of line in adjacent matrix
+        offset = offsetMatrix[n][m];
+
+        // if the outline is not none, then add an additional link with a class of "overlay"
+        if(data.lines[i].style.outline != "none"){
+          // separate links for underlay (outline) and overlay (fill) 
+          data.links.push({
+            // names of the connected stations
+            "source":data.lines[i].stations[j].name,
+            "target":data.lines[i].stations[j+1].name,
+            // display parameters
+            "offset": offset,
+            "group": data.lines[i].name,
+            "value": 1,
+            // style information of the line
+            "color": data.lines[i].style.outline,
+            "stroke": data.lines[i].style.stroke,
+            "class": "underlay"
+          })
+          data.links.push({
+            // names of the connected stations
+            "source":data.lines[i].stations[j].name,
+            "target":data.lines[i].stations[j+1].name,
+            // display parameters
+            "offset": offset,
+            "group": data.lines[i].name,
+            "value": 1,
+            // add style information of the line
+            "color": data.lines[i].style.color,
+            "stroke": data.lines[i].style.stroke,
+            "class": "overlay"
+          })
+        } else {
+          data.links.push({
+            // names of the connected stations
+            "source":data.lines[i].stations[j].name,
+            "target":data.lines[i].stations[j+1].name,
+            // display parameters
+            "offset": offset,
+            "group": data.lines[i].name,
+            "value": 1,
+            // add style information of the line
+            "color": data.lines[i].style.color,
+            "stroke": data.lines[i].style.stroke,
+            "class": "main"
+          })
+        }
       }
     }
 
@@ -222,6 +378,229 @@ $.when(
 
     /* BUILD THE VISUALIZATION */
 
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height"),
+    radius = 5;
+    spacing = 2;
+
+var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+var simulation = d3.forceSimulation()
+    .force("link", d3.forceLink()
+      .id(function(d) { return d.name; })
+      .strength(0.85)
+      .distance(20)
+    )
+    .force("collision", d3.forceCollide()
+      //.radius(radius)
+      .radius(function(d){
+        //return d.radius
+        //return radius*(d.offset)/2 + radius;
+        return radius*(d.offset+1);
+      })
+      // .strength()
+    )
+    .force("charge", d3.forceManyBody()
+      .strength(-13)
+      // .distanceMax(400)
+      // .distanceMin(0)
+    )
+    // .force("center", d3.forceCenter(width / 2, height / 2)
+    .force("x", d3.forceX(width/2)
+      .strength(0.015)
+    )
+    .force("y", d3.forceY(height/2)
+      .strength(0.015)
+    );
+
+  var link = 
+    //svg.append("g")
+      //.attr("class", "links")
+    svg.selectAll("line")
+    .data(data.links)
+    .enter().append("line")
+      .attr("stroke-width", radius-1)
+      .attr("stroke-opacity", 0.85)
+      .attr("class", function(d){
+        return d.class;
+      })
+      .attr("stroke", function(d){
+        return d.color;
+      });
+      // .attr("stroke-width", function(d) {
+      //   return Math.sqrt(d.value);
+      // });
+
+  var node = svg.append("g")
+      .attr("class", "nodes")
+    .selectAll("g")
+    .data(data.nodes)
+    .enter().append("g");
+
+  d3.selectAll('nodes').data(data.nodes).exit().remove();
+  
+  // JRL: <rect x="50" y="20" rx="20" ry="20" width="150" height="150" style="fill:red;stroke:black;stroke-width:5;opacity:0.5"/> - convert to rectangle with rounded corners? length based on offset and angle based on math below?
+  
+  /*var rects = node.append("rect")
+      .attr("width", function(d){
+        return radius*2*(d.offset+1); // change radius depending on offset
+      })
+      .attr("height", 2*radius)
+      .attr("rx", radius)
+      .attr("ry", radius)
+      .attr("class", function(d){
+        return d.symbol ? d.symbol : "default"
+      })
+      // .attr("fill", function(d) {
+      //   // return color(d.group);
+      //   return "#000";
+      // })
+      .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));*/
+
+
+  var circles = node.append("circle")
+      .attr("r", function(d){
+        return radius*(d.offset)/2 + radius; // change radius depending on offset
+      }) 
+      .attr("class", function(d){
+        return d.symbol ? d.symbol : "default"
+      })
+      // .attr("fill", function(d) {
+      //   // return color(d.group);
+      //   return "#000";
+      // })
+      .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
+
+  var labels = node.append("text")
+      .text(function(d) {
+        return d.name;
+      })
+      .attr('x', function(d){
+        return radius*(d.offset)/2 + 1.5*radius;
+      })
+      .attr('y', 3);
+
+  node.append("title")
+      .text(function(d) { return d.name; });
+
+  simulation
+      .nodes(data.nodes)
+      .on("tick", ticked);
+
+  simulation.force("link")
+      .links(data.links);
+
+  function ticked() {
+    link
+        //.attr("x1", function(d) { return d.source.x; })
+        // .attr("y1", function(d) { return d.source.y; })
+        // .attr("x2", function(d) { return d.target.x; })
+        // .attr("y2", function(d) { return d.target.y; });
+        .attr("x1", function(d) {
+          var hypotenuse = Math.sqrt(Math.pow(d.target.x-d.source.x,2) + Math.pow(d.target.y - d.source.y,2));
+          var sinangle = (d.target.y - d.source.y)/hypotenuse;
+          return d.source.x + d.offset * sinangle * radius/spacing;
+        })
+        .attr("y1", function(d) {
+          var hypotenuse = Math.sqrt(Math.pow(d.target.x-d.source.x,2) + Math.pow(d.target.y - d.source.y,2));
+          var cosangle = (d.target.x - d.source.x)/hypotenuse;
+          return d.source.y - d.offset * cosangle * radius/spacing;
+        })
+        .attr("x2", function(d) {
+          var hypotenuse = Math.sqrt(Math.pow(d.target.x-d.source.x,2) + Math.pow(d.target.y - d.source.y,2));
+          var sinangle = (d.target.y - d.source.y)/hypotenuse;
+          return d.target.x + d.offset * sinangle * radius/spacing;
+        })
+        .attr("y2", function(d) {
+          var hypotenuse = Math.sqrt(Math.pow(d.target.x-d.source.x,2) + Math.pow(d.target.y - d.source.y,2));
+          var cosangle = (d.target.x - d.source.x)/hypotenuse;
+          return d.target.y - d.offset * cosangle * radius/spacing;
+        });
+        
+
+    node
+        // .attr("cx", function(d) { return d.x = Math.max(radius, Math.min(width - radius, d.x)); })
+        // .attr("cy", function(d) { return d.y = Math.max(radius, Math.min(height - radius, d.y)); })
+
+        .attr("cx", function(d) { return d.x = Math.max(width/20, Math.min(0.95*width, d.x)); })
+        .attr("cy", function(d) { return d.y = Math.max(height/20, Math.min(0.95*height, d.y)); })
+        .attr("transform", function(d) {
+          return "translate(" + d.x + "," + d.y + ")";
+        })
+
+    d3.selectAll(".overlay").moveToFront();
+    d3.selectAll(".underlay").moveToBack();
+  }
+
+function dragstarted(d) {
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x;
+  d.fy = d.y;
+}
+
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
+
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+}
+
+
+
+
+
+
+
+//   /*node.append("image")
+//       .attr("xlink:href", "https://github.com/favicon.ico")
+//       .attr("x", -8)
+//       .attr("y", -8)
+//       .attr("width", 16)
+//       .attr("height", 16);*/
+
+//   node.append("text")
+//       .attr("dx", 12)
+//       .attr("dy", ".35em")
+//       .text(function(d) { return d.name });
+
+//   force.on("tick", function() {
+//     
+    
+//     link.attr("x1", function(d) {
+//           var hypotenuse = Math.sqrt(Math.pow(d.target.x-d.source.x,2) + Math.pow(d.target.y - d.source.y,2));
+//           var sinangle = (d.target.y - d.source.y)/hypotenuse;
+//           return d.source.x + d.offset * sinangle * 5/1.5;
+//         })
+//         .attr("y1", function(d) {
+//           var hypotenuse = Math.sqrt(Math.pow(d.target.x-d.source.x,2) + Math.pow(d.target.y - d.source.y,2));
+//           var cosangle = (d.target.x - d.source.x)/hypotenuse;
+//           return d.source.y - d.offset * cosangle * 5/1.5;
+//         })
+//         .attr("x2", function(d) {
+//           var hypotenuse = Math.sqrt(Math.pow(d.target.x-d.source.x,2) + Math.pow(d.target.y - d.source.y,2));
+//           var sinangle = (d.target.y - d.source.y)/hypotenuse;
+//           return d.target.x + d.offset * sinangle * 5/1.5;
+//         })
+//         .attr("y2", function(d) {
+//           var hypotenuse = Math.sqrt(Math.pow(d.target.x-d.source.x,2) + Math.pow(d.target.y - d.source.y,2));
+//           var cosangle = (d.target.x - d.source.x)/hypotenuse;
+//           return d.target.y - d.offset * cosangle * 5/1.5;
+//         });
+
+//     node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+//   });
+// });
 
 
     /* END BUILD THE VISUALIZATION */
@@ -232,6 +611,7 @@ $.when(
     $("h3 > span").click(function(){
       console.log($(this).html());
       console.log($(this).html().toLowerCase().replace(/\W+/g, '') + "Data");
+      $("svg").html("");
       drawMap(eval($(this).html().toLowerCase().replace(/\W+/g, '') + "Data"));
     });
 

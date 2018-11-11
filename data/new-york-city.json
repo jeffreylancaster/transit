@@ -2,8 +2,8 @@
 	"notes":"check interchanges (black lines) [decouple stations with /], confirm station consistency (hash all data and check for consistency)",
 	"map":"New York City Subway",
 	"svgConfig":{
-		"width":800,
-		"height":800
+		"width":1200,
+		"height":1200
 	},
 	"default":{
 		"label":"name",
